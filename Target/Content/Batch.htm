@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1>Batch</h1>
+        <p>Uses <a href="https://github.com/xv/ICSharpCode.TextEditor-Lexers">XSHD syntax files for ICSharpCode.TextEditor 3.2</a></p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Comments</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Batch;" xml:space="preserve" madcap-space-after-export="preserve">::
+:: Foo bar
+REM This is a comment too
+REM Multi-line ^
+comment</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Labels</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Batch;">:foobar
+GOTO :EOF</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Commands</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="True" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Batch;">@ECHO OFF
+FOR /l %%a in (5,-1,1) do (TITLE %title% -- closing in %%as)
+SET title=%~n0
+if /i "%InstSize:~0,1%"=="M" set maxcnt=3
+ping -n 2 -w 1 127.0.0.1</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Delete Everything in Downloads Folder</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Batch;" xml:space="preserve" madcap-space-after-export="preserve">C:
+del /q C:\Users\hmanes\Downloads\*
+for /d %%x in (C:\Users\hmanes\Downloads\*) do @rd /s /q "%%x"</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+    </body>
+</html>

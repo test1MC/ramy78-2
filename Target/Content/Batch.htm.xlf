@@ -5,14 +5,14 @@
   MadCap:translationStatus="untranslated">
   <file
     xml:space="preserve"
-    original="Bash.htm"
+    original="Batch.htm"
     source-language="en-us"
     MadCap:file-filter=""
     datatype="xhtml"
     target-language="es">
     <header>
       <skl><external-file
-          href="Bash.htm.skl" /></skl>
+          href="Batch.htm.skl" /></skl>
       <phase-group>
         <phase
           phase-name="translation"
@@ -31,10 +31,10 @@
         name="MadCap Statistics">
         <count
           count-type="total"
-          unit="segment">9</count>
+          unit="segment">6</count>
         <count
           count-type="x-subflow"
-          unit="trans-unit">7</count>
+          unit="trans-unit">4</count>
       </count-group>
       <tool
         tool-id="MadCap Lingo 11 r2"
@@ -45,9 +45,9 @@
     <body><trans-unit
         id="1"
         restype="x-xhtml-madcap:codesnippetcaption"
-        phase-name="pretrans"><source>Highlight.js Example</source><seg-source><mrk
+        phase-name="pretrans"><source>Comments</source><seg-source><mrk
             mtype="seg"
-            mid="1">Highlight.js Example</mrk></seg-source><target
+            mid="1">Comments</mrk></seg-source><target
           state="needs-translation"><mrk
             mtype="seg"
             mid="1"
@@ -55,9 +55,9 @@
             MadCap:matchPercent="0" /></target></trans-unit><trans-unit
         id="2"
         restype="x-xhtml-madcap:codesnippetcaption"
-        phase-name="pretrans"><source>Comment</source><seg-source><mrk
+        phase-name="pretrans"><source>Labels</source><seg-source><mrk
             mtype="seg"
-            mid="1">Comment</mrk></seg-source><target
+            mid="1">Labels</mrk></seg-source><target
           state="needs-translation"><mrk
             mtype="seg"
             mid="1"
@@ -65,9 +65,9 @@
             MadCap:matchPercent="0" /></target></trans-unit><trans-unit
         id="3"
         restype="x-xhtml-madcap:codesnippetcaption"
-        phase-name="pretrans"><source>Strings</source><seg-source><mrk
+        phase-name="pretrans"><source>Commands</source><seg-source><mrk
             mtype="seg"
-            mid="1">Strings</mrk></seg-source><target
+            mid="1">Commands</mrk></seg-source><target
           state="needs-translation"><mrk
             mtype="seg"
             mid="1"
@@ -75,59 +75,35 @@
             MadCap:matchPercent="0" /></target></trans-unit><trans-unit
         id="4"
         restype="x-xhtml-madcap:codesnippetcaption"
-        phase-name="pretrans"><source>Variables</source><seg-source><mrk
+        phase-name="pretrans"><source>Delete Everything in Downloads Folder</source><seg-source><mrk
             mtype="seg"
-            mid="1">Variables</mrk></seg-source><target
+            mid="1">Delete Everything in Downloads Folder</mrk></seg-source><target
           state="needs-translation"><mrk
             mtype="seg"
             mid="1"
             MadCap:segmentStatus="Untranslated"
             MadCap:matchPercent="0" /></target></trans-unit><trans-unit
         id="5"
-        restype="x-xhtml-madcap:codesnippetcaption"
-        phase-name="pretrans"><source>Keywords</source><seg-source><mrk
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Batch</source><seg-source><mrk
             mtype="seg"
-            mid="1">Keywords</mrk></seg-source><target
+            mid="1">Batch</mrk></seg-source><target
           state="needs-translation"><mrk
             mtype="seg"
             mid="1"
             MadCap:segmentStatus="Untranslated"
             MadCap:matchPercent="0" /></target></trans-unit><trans-unit
         id="6"
-        restype="x-xhtml-madcap:codesnippetcaption"
-        phase-name="pretrans"><source>Prism.js commands example</source><seg-source><mrk
-            mtype="seg"
-            mid="1">Prism.js commands example</mrk></seg-source><target
-          state="needs-translation"><mrk
-            mtype="seg"
-            mid="1"
-            MadCap:segmentStatus="Untranslated"
-            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
-        id="7"
-        restype="x-xhtml-madcap:codesnippetcaption"
-        phase-name="pretrans"><source>Hello World</source><seg-source><mrk
-            mtype="seg"
-            mid="1">Hello World</mrk></seg-source><target
-          state="needs-translation"><mrk
-            mtype="seg"
-            mid="1"
-            MadCap:segmentStatus="Untranslated"
-            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
-        id="8"
-        restype="x-xml-h1"
-        phase-name="pretrans"><source>Bash</source><seg-source><mrk
-            mtype="seg"
-            mid="1">Bash</mrk></seg-source><target
-          state="needs-translation"><mrk
-            mtype="seg"
-            mid="1"
-            MadCap:segmentStatus="Untranslated"
-            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
-        id="9"
         restype="x-xml-p"
-        phase-name="pretrans"><source>Uses HighlightJS.</source><seg-source><mrk
+        phase-name="pretrans"><source>Uses <bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://github.com/xv/ICSharpCode.TextEditor-Lexers"&gt;</bpt>XSHD syntax files for ICSharpCode.TextEditor 3.2<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept></source><seg-source><mrk
             mtype="seg"
-            mid="1">Uses HighlightJS.</mrk></seg-source><target
+            mid="1">Uses <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://github.com/xv/ICSharpCode.TextEditor-Lexers"&gt;</bpt>XSHD syntax files for ICSharpCode.TextEditor 3.2<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept></mrk></seg-source><target
           state="needs-translation"><mrk
             mtype="seg"
             mid="1"
