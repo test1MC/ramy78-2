@@ -62,7 +62,7 @@
             mtype="seg"
             mid="1"
             MadCap:segmentStatus="Untranslated"
-            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+            MadCap:matchPercent="0">hey</mrk></target></trans-unit><trans-unit
         id="3"
         restype="x-xml-madcap:codesnippetcaption"
         phase-name="pretrans"><source>Highlight.js Example</source><seg-source><mrk
