@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1>Scala</h1>
+        <p>Uses Hightlight.js.</p>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: "><MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Highlight.js Example</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="True" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Scala;">/**
+ * A person has a name and an age.
+ */
+case class Person(name: String, age: Int)
+
+abstract class Vertical extends CaseJeu
+case class Haut(a: Int) extends Vertical
+case class Bas(name: String, b: Double) extends Vertical
+
+sealed trait Ior[+A, +B]
+case class Left[A](a: A) extends Ior[A, Nothing]
+case class Right[B](b: B) extends Ior[Nothing, B]
+case class Both[A, B](a: A, b: B) extends Ior[A, B]
+
+trait Functor[F[_]] {
+  def map[A, B](fa: F[A], f: A =&gt; B): F[B]
+}
+
+// beware Int.MinValue
+def absoluteValue(n: Int): Int =
+  if (n &lt; 0) -n else n
+
+def interp(n: Int): String =
+  s"there are $n ${color} balloons.\n"
+
+type ξ[A] = (A, A)
+
+trait Hist { lhs =&gt;
+  def ⊕(rhs: Hist): Hist
+}
+
+def gsum[A: Ring](as: Seq[A]): A =
+  as.foldLeft(Ring[A].zero)(_ + _)
+
+val actions: List[Symbol] =
+  'init :: 'read :: 'write :: 'close :: Nil
+
+trait Cake {
+  type T;
+  type Q
+  val things: Seq[T]
+
+  abstract class Spindler
+
+  def spindle(s: Spindler, ts: Seq[T], reversed: Boolean = false): Seq[Q]
+}
+
+val colors = Map(
+  "red"       -&gt; 0xFF0000,
+  "turquoise" -&gt; 0x00FFFF,
+  "black"     -&gt; 0x000000,
+  "orange"    -&gt; 0xFF8040,
+  "brown"     -&gt; 0x804000)
+
+lazy val ns = for {
+  x &lt;- 0 until 100
+  y &lt;- 0 until 100
+} yield (x + y) * 33.33</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: "><MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Comments</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Scala;">// Single line comment
+/* Mutli-line
+comment */</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: "><MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Strings and characters</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Scala;">'a'
+"foo bar baz"
+"""Multi-line
+string"""</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: "><MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Numbers</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Scala;">0
+21
+0xFFFFFFFF
+-42L
+0.0
+1e30f
+3.14159f
+1.0e-100
+.1</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: "><MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Symbols</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Scala;">'x
+'identifier</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: "><MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Prism.js Example</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="True" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Scala;">// Contributed by John Williams
+package examples
+
+object lazyLib {
+
+  /** Delay the evaluation of an expression until it is needed. */
+  def delay[A](value: =&gt; A): Susp[A] = new SuspImpl[A](value)
+
+  /** Get the value of a delayed expression. */
+  implicit def force[A](s: Susp[A]): A = s()
+
+  /**
+   * Data type of suspended computations. (The name froms from ML.)
+   */
+  abstract class Susp[+A] extends Function0[A]
+
+  /**
+   * Implementation of suspended computations, separated from the
+   * abstract class so that the type parameter can be invariant.
+   */
+  class SuspImpl[A](lazyValue: =&gt; A) extends Susp[A] {
+    private var maybeValue: Option[A] = None
+
+    override def apply() = maybeValue match {
+      case None =&gt;
+        val value = lazyValue
+        maybeValue = Some(value)
+        value
+	  case Some(value) =&gt;
+        value
+    }
+
+    override def toString() = maybeValue match {
+      case None =&gt; "Susp(?)"
+      case Some(value) =&gt; "Susp(" + value + ")"
+    }
+  }
+}
+
+object lazyEvaluation {
+  import lazyLib._
+
+  def main(args: Array[String]) = {
+    val s: Susp[Int] = delay { println("evaluating..."); 3 }
+
+    println("s     = " + s)       // show that s is unevaluated
+    println("s()   = " + s())     // evaluate s
+    println("s     = " + s)       // show that the value is saved
+    println("2 + s = " + (2 + s)) // implicit call to force()
+
+    val sl = delay { Some(3) }
+    val sl1: Susp[Some[Int]] = sl
+    val sl2: Susp[Option[Int]] = sl1   // the type is covariant
+
+    println("sl2   = " + sl2)
+    println("sl2() = " + sl2())
+    println("sl2   = " + sl2)
+  }
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+    </body>
+</html>

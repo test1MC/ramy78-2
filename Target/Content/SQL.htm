@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1>SQL</h1>
+        <p>Uses <a href="https://github.com/xv/ICSharpCode.TextEditor-Lexers">XSHD syntax files for ICSharpCode.TextEditor 3.2</a></p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Comments</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: SQL;" xml:space="preserve" madcap-space-after-export="preserve"># Single line comment
+-- Single line comment
+// Single line comment
+/* Multi-line
+comment */</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Strings</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: SQL;">"foo \"bar\" baz"
+'foo \'bar\' baz'
+"Multi-line strings
+are supported"
+'Multi-line strings
+are supported'</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Variables</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: SQL;">SET @variable = 1;
+SET @$_ = 2;
+SET @"quoted-variable" = 3;
+SET @'quoted-variable' = 3;
+SET @`quoted-variable` = 3;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Operators</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: SQL;">SELECT 1 &amp;&amp; 1;
+SELECT 1 OR NULL;
+SELECT 5 &amp; 2*3;
+SELECT 2 BETWEEN 1 AND 3;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Functions and Keywords</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: SQL;">SELECT COUNT(*) AS cpt, MAX(t.pos) AS max_pos
+FROM `my_table`
+LEFT JOIN `other_table` AS t
+WHERE `somecol` IS NOT NULL
+ORDER BY t.other_col DESC</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="noCaption" xml:space="preserve" style="mc-code-lang: SQL;" madcap-space-after-export="preserve">#######  CREATE DATABASE ON W3SCHOOLS.COM ######
+
+CREATE TABLE Person(PID integer, PName varchar (20), PRanking integer, PAge integer);
+CREATE TABLE Car(CID integer, CName varchar(20), CColor varchar(20));
+CREATE TABLE Rental(PID integer, CID integer, Date datetime);
+
+INSERT INTO Person (PID, Pname, PRanking, Page)
+VALUES (1, "Henry", 1, 24);
+
+INSERT INTO Person (PID, Pname, PRanking, Page)
+VALUES (2, "Kamal", 2, 33);
+
+INSERT INTO Person (PID, Pname, PRanking, Page)
+VALUES (3, "Coyote", 3, 62);
+
+INSERT INTO Person (PID, PName, PRanking, PAge)
+VALUES (4, "Billy", 1, 14);
+
+INSERT INTO Person (PID, PName, PRanking, PAge)
+VALUES (5, "Timothy", 2, 2);
+
+INSERT INTO Person (PID, PName, PRanking, PAge)
+VALUES (6, "Daisy", 3, 13);
+
+INSERT INTO Car
+VALUES (1, "KIA RIO", "Silver");
+
+INSERT INTO Car
+VALUES (2, "VW Golf", "Black");
+
+INSERT INTO Rental
+VALUES (1, 1, '2009-01-01')
+
+INSERT INTO Rental
+VALUES (2, 2, '2012-08-01')
+
+######
+
+
+#### ANSWERS ####
+
+#QUESTION 1
+
+SELECT Person.PName FROM Rental
+INNER JOIN Person ON Rental.PID = Person.PID
+INNER JOIN Car ON Car.CID = Rental.CIDijij
+WHERE Car.CID = 15;
+
+#QUESTION 2
+
+SELECT Person.PName FROM Rental
+INNER JOIN Person ON Rental.PID = Person.PID
+INNER JOIN Car ON Car.CID = Rental.CID;
+
+#QUESTION 3
+
+SELECT Avg(Person.PAge) FROM Person
+WHERE Person.PAge &gt;= 16;
+
+#QUESTION 4
+
+SELECT Person.PName FROM Person
+WHERE Person.PName FROM â€œs%tâ€ and length(Person.PName) &gt;= 5;
+
+#QUESTION 5
+
+Select Person.PName from Person
+INNER JOIN Car on Car.CID = Rental.CID
+INNER JOIN Rental on Rental.PID = Person.PID
+WHERE Car.CColor IN (â€˜greenâ€™,â€™blueâ€™);
+
+#QUESTION 6
+
+SELECT Person.PName FROM Person
+FULL OUTER JOIN Car on Car.CID = Rental.CID
+FULL OUTER JOIN Rental on Rental.PID = Person.PID
+WHERE Car.CColor != â€˜redâ€™;
+
+#QUESTION 7
+
+SELECT Person.PName FROM Person
+WHERE Person.PAge &gt;
+(SELECT Person.PAge from Person WHERE Person.PID = 3);
+
+#QUESTION 8
+
+SELECT Person.PName, min(Person.PAge), Person.PRanking FROM Person
+GROUP BY Person.PRAnking;
+
+
+#QUESTION 9
+
+SELECT Person.PName, min(Person.PAge), Person.PRanking FROM Person
+WHERE Count(Person.PRanking) &gt;= 2
+GROUP BY Person.PRanking;
+
+#QUESTION 10
+
+SELECT Car.CName, count(Rental.PID) from Person
+INNER JOIN Car on Car.CID = Rental.CID
+INNER JOIN Rental on Rental.PID = Person.PID
+GROUP BY Car.CName</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="noCaption" xml:space="preserve" style="mc-code-lang: SQL;" madcap-space-after-export="preserve">CREATE TABLE "topic" (
+    "id" serial NOT NULL PRIMARY KEY,
+    "forum_id" integer NOT NULL,
+    "subject" varchar(255) NOT NULL
+);
+ALTER TABLE "topic"
+ADD CONSTRAINT forum_id FOREIGN KEY ("forum_id")
+REFERENCES "forum" ("id");
+
+-- Initials
+insert into "topic" ("forum_id", "subject")
+values (2, 'D''artagnian');</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <h1>TSQL</h1>
+        <p>Uses AvalonEdit.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="noCaption" style="mc-code-lang: TSQL;" xml:space="preserve" madcap-space-after-export="preserve">DECLARE @var1 NVARCHAR(30);
+SET @var1 = 'Some Name';
+SELECT @var1 = Name
+  FROM Sales.Store
+  WHERE CustomerID = 100;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <p>
+            <MadCap:relatedTopics>
+                <MadCap:relatedTopic src="TSQL.htm" />
+            </MadCap:relatedTopics>
+        </p>
+    </body>
+</html>

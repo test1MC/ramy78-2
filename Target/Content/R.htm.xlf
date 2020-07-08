@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="R.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="es">
+    <header>
+      <skl><external-file
+          href="R.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">32</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11"
+        tool-name="Lingo"
+        tool-version="11.0.7114.18563"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>R</source><seg-source><mrk
+            mtype="seg"
+            mid="1">R</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Uses Highlight.js</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Uses Highlight.js</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Comment</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Comment</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source># This is a comment</source><seg-source><mrk
+            mtype="seg"
+            mid="1"># This is a comment</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Strings</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Strings</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>"foo \"bar\" baz"<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>'foo \'bar\' baz'</source><seg-source><mrk
+            mtype="seg"
+            mid="1">"foo \"bar\" baz"<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">'foo \'bar\' baz'</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Prism.js Example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Prism.js Example</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source># Goal: To make a latex table with results of an OLS regression.<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph># Get an OLS --<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>x1 = runif(100)<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>x2 = runif(100, 0, 2)<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>y = 2 + 3*x1 + 4*x2 + rnorm(100)<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>m = lm(y ~ x1 + x2)<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph># and print it out prettily --<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>library(xtable)<ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># Bare --<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>xtable(m)<ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>xtable(anova(m))<ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph># Better --<ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>print.xtable(xtable(m, caption="My regression",<ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">                    </ph>label="t:mymodel",<ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">                    </ph>digits=c(0,3,2,2,3)),<ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>type="latex",<ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>file="xtable_demo_ols.tex",<ph
+            id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>table.placement = "tp",<ph
+            id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>latex.environments=c("center", "footnotesize"))<ph
+            id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>print.xtable(xtable(anova(m),<ph
+            id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">                    </ph>caption="ANOVA of my regression",<ph
+            id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">                    </ph>label="t:anova_mymodel"),<ph
+            id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>type="latex",<ph
+            id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>file="xtable_demo_anova.tex",<ph
+            id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>table.placement = "tp",<ph
+            id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>latex.environments=c("center", "footnotesize"))</source><seg-source><mrk
+            mtype="seg"
+            mid="1"># Goal: To make a latex table with results of an OLS regression.<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2"># Get an OLS --<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">x1 = runif(100)<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">x2 = runif(100, 0, 2)<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">y = 2 + 3*x1 + 4*x2 + rnorm(100)<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6">m = lm(y ~ x1 + x2)<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="7"># and print it out prettily --<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="8">library(xtable)<ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="9"># Bare --<ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="10">xtable(m)<ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="11">xtable(anova(m))<ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="12"># Better --<ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="13">print.xtable(xtable(m, caption="My regression",<ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">                    </ph>label="t:mymodel",<ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">                    </ph>digits=c(0,3,2,2,3)),<ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>type="latex",<ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>file="xtable_demo_ols.tex",<ph
+              id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>table.placement = "tp",<ph
+              id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>latex.environments=c("center", "footnotesize"))<ph
+              id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="14">print.xtable(xtable(anova(m),<ph
+              id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">                    </ph>caption="ANOVA of my regression",<ph
+              id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">                    </ph>label="t:anova_mymodel"),<ph
+              id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>type="latex",<ph
+              id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>file="xtable_demo_anova.tex",<ph
+              id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>table.placement = "tp",<ph
+              id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="15"><ph
+              id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>latex.environments=c("center", "footnotesize"))</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="14"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="15"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Logical Vectors</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Logical Vectors</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>&gt; c(TRUE, FALSE, TRUE, FALSE, FALSE)<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph>[1]<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>TRUE FALSE<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>TRUE FALSE FALSE</source><seg-source><mrk
+            mtype="seg"
+            mid="1">&gt; c(TRUE, FALSE, TRUE, FALSE, FALSE)<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">[1]<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>TRUE FALSE<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>TRUE FALSE FALSE</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Character Strings Vectors</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Character Strings Vectors</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>&gt; c("aa", "bb", "cc", "dd", "ee")<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph>[1] "aa" "bb" "cc" "dd" "ee"</source><seg-source><mrk
+            mtype="seg"
+            mid="1">&gt; c("aa", "bb", "cc", "dd", "ee")<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">[1] "aa" "bb" "cc" "dd" "ee"</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Numeric Vector</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Numeric Vector</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>&gt; c(2, 3, 5)<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph>[1] 2 3 5</source><seg-source><mrk
+            mtype="seg"
+            mid="1">&gt; c(2, 3, 5)<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">[1] 2 3 5</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

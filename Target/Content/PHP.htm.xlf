@@ -1,0 +1,748 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="PHP.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="es">
+    <header>
+      <skl><external-file
+          href="PHP.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">48</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11"
+        tool-name="Lingo"
+        tool-version="11.0.7114.18563"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>PHP</source><seg-source><mrk
+            mtype="seg"
+            mid="1">PHP</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Uses Highlight.js</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Uses Highlight.js</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>&lt;?php function add($x, $y) {<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>$total = $x + $y;<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>return $total;<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>echo "1 + 16 = " . add(1, 16);</source><seg-source><mrk
+            mtype="seg"
+            mid="1">&lt;?php function add($x, $y) {<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>$total = $x + $y;<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>return $total;<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">}<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">echo "1 + 16 = " . add(1, 16);</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Highlight.js Example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Highlight.js Example</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>require_once 'Zend/Uri/Http.php';<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>namespace Location\Web;<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>interface Factory<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>static function _factory();<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>abstract class URI extends BaseURI implements Factory<ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>abstract function test();<ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>public static $st1 = 1;<ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>const ME = "Yo";<ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>var $list = NULL;<ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>private $var;<ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>/**<ph
+            id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">     </ph>* Returns a URI<ph
+            id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">     </ph>*<ph
+            id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">     </ph>* @return URI<ph
+            id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">     </ph>*/<ph
+            id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>static public function _factory($stats = array(), $uri = 'http')<ph
+            id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>{<ph
+            id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>echo __METHOD__;<ph
+            id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>$uri = explode(':', $uri, 0b10);<ph
+            id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>$schemeSpecific = isset($uri[1]) ? $uri[1] : '';<ph
+            id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>$desc = 'Multi<ph
+            id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>line description';<ph
+            id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+            id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>// Security check<ph
+            id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>if (!ctype_alnum($scheme)) {<ph
+            id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>throw new Zend_Uri_Exception('Illegal scheme');<ph
+            id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>}<ph
+            id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+            id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>$this-&gt;var = 0 - self::$st;<ph
+            id="52" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="53" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>$this-&gt;list = list(Array("1"=&gt; 2, 2=&gt;self::ME, 3 =&gt; \Location\Web\URI::class));<ph
+            id="54" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+            id="55" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>return [<ph
+            id="56" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="57" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>'uri'<ph
+            id="58" xmlns="urn:oasis:names:tc:xliff:document:1.2">   </ph>=&gt; $uri,<ph
+            id="59" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="60" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>'value' =&gt; null,<ph
+            id="61" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="62" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>];<ph
+            id="63" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="64" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>}<ph
+            id="65" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="66" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>echo URI::ME . URI::$st1;<ph
+            id="67" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>__halt_compiler () ; datahere<ph
+            id="68" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>datahere<ph
+            id="69" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>datahere */<ph
+            id="70" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>datahere</source><seg-source><mrk
+            mtype="seg"
+            mid="1">require_once 'Zend/Uri/Http.php';<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">namespace Location\Web;<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">interface Factory<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">{<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>static function _factory();<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">}<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6">abstract class URI extends BaseURI implements Factory<ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="7">{<ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>abstract function test();<ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>public static $st1 = 1;<ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>const ME = "Yo";<ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>var $list = NULL;<ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>private $var;<ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>/**<ph
+              id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">     </ph>* Returns a URI<ph
+              id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">     </ph>*<ph
+              id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">     </ph>* @return URI<ph
+              id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">     </ph>*/<ph
+              id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>static public function _factory($stats = array(), $uri = 'http')<ph
+              id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>{<ph
+              id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>echo __METHOD__;<ph
+              id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>$uri = explode(':', $uri, 0b10);<ph
+              id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>$schemeSpecific = isset($uri[1]) ? $uri[1] : '';<ph
+              id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>$desc = 'Multi<ph
+              id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="8">line description';<ph
+              id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+              id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>// Security check<ph
+              id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>if (!ctype_alnum($scheme)) {<ph
+              id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>throw new Zend_Uri_Exception('Illegal scheme');<ph
+              id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>}<ph
+              id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+              id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>$this-&gt;var = 0 - self::$st;<ph
+              id="52" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="53" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>$this-&gt;list = list(Array("1"=&gt; 2, 2=&gt;self::ME, 3 =&gt; \Location\Web\URI::class));<ph
+              id="54" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+              id="55" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>return [<ph
+              id="56" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="9"><ph
+              id="57" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>'uri'<ph
+              id="58" xmlns="urn:oasis:names:tc:xliff:document:1.2">   </ph>=&gt; $uri,<ph
+              id="59" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="60" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>'value' =&gt; null,<ph
+              id="61" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="62" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>];<ph
+              id="63" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="64" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>}<ph
+              id="65" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="10">}<ph
+              id="66" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="11">echo URI::ME . URI::$st1;<ph
+              id="67" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="12">__halt_compiler () ; datahere<ph
+              id="68" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="13">datahere<ph
+              id="69" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="14">datahere */<ph
+              id="70" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="15">datahere</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="14"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="15"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Comments</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Comments</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>// Single line comment<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>/* Multi-line<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>comment */<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># Shell-like comment</source><seg-source><mrk
+            mtype="seg"
+            mid="1">// Single line comment<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">/* Multi-line<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">comment */<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4"># Shell-like comment</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Strings</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Strings</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>'foo \'bar\' baz'<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>"foo \"bar\" baz"<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>"a string # containing an hash"<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>$foo = &lt;&lt;&lt;FOO<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>Heredoc strings are supported too!<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>FOO;<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>$bar = &lt;&lt;&lt;'BAR'<ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>And also Nowdoc strings<ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>BAR;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">'foo \'bar\' baz'<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">"foo \"bar\" baz"<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">"a string # containing an hash"<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">$foo = &lt;&lt;&lt;FOO<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>Heredoc strings are supported too!<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">FOO;<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6">$bar = &lt;&lt;&lt;'BAR'<ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>And also Nowdoc strings<ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="7">BAR;</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Variables</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Variables</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>$some_var = 5;
+$otherVar = "Some text";
+$null = null;
+$false = false;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">$some_var = 5; $otherVar = "Some text"; $null = null; $false = false;</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Functions</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Functions</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>$json = json_encode($my_object);
+$array1 = array("a" =&gt; "green", "red", "blue", "red");
+$array2 = array("b" =&gt; "green", "yellow", "red");
+$result = array_diff($array1, $array2);</source><seg-source><mrk
+            mtype="seg"
+            mid="1">$json = json_encode($my_object); $array1 = array("a" =&gt; "green", "red", "blue", "red"); $array2 = array("b" =&gt; "green", "yellow", "red"); $result = array_diff($array1, $array2);</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Constants</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Constants</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>define('MAXSIZE', 42);
+echo MAXSIZE;
+json_decode($json, false, 512, JSON_BIGINT_AS_STRING)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">define('MAXSIZE', 42); echo MAXSIZE; json_decode($json, false, 512, JSON_BIGINT_AS_STRING)</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>PHP 5.3+ support</source><seg-source><mrk
+            mtype="seg"
+            mid="1">PHP 5.3+ support</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>namespace my\name;
+$c = new \my\name\MyClass;
+$arr = [1,2,3];
+trait ezcReflectionReturnInfo {
+    function getReturnType() { /*1*/ }
+    function getReturnDescription() { /*2*/ }
+}
+function gen_one_to_three() {
+    for ($i = 1; $i &lt;= 3; $i++) {
+        // Note that $i is preserved between yields.
+        yield $i;
+    }
+}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">namespace my\name; $c = new \my\name\MyClass; $arr = [1,2,3]; trait ezcReflectionReturnInfo { function getReturnType() { /*1*/ } function getReturnDescription() { /*2*/ } } function gen_one_to_three() { for ($i = 1; $i &lt;= 3; $i++) { // Note that $i is preserved between yields.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">yield $i; } }</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>String Interpolation</source><seg-source><mrk
+            mtype="seg"
+            mid="1">String Interpolation</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>$str = "This is $great!";
+$foobar = "Another example: {${$foo-&gt;bar()}}";
+$a = &lt;&lt;&lt;FOO
+    Hello $world!
+FOO;
+$b = &lt;&lt;&lt;"FOOBAR"
+    Interpolation inside Heredoc strings {$obj-&gt;values[3]-&gt;name}
+FOOBAR;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">$str = "This is $great!"; $foobar = "Another example: {${$foo-&gt;bar()}}"; $a = &lt;&lt;&lt;FOO Hello $world!</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">FOO; $b = &lt;&lt;&lt;"FOOBAR" Interpolation inside Heredoc strings {$obj-&gt;values[3]-&gt;name} FOOBAR;</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

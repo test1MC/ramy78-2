@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1>Erlang</h1>
+        <p>Uses HighlightJS.</p>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: "><MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Highlight.js Example</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Erlang;">-module(ssh_cli).
+
+-behaviour(ssh_channel).
+
+-include("ssh.hrl").
+%% backwards compatibility
+-export([listen/1, listen/2, listen/3, listen/4, stop/1]).
+
+if L =/= [] -&gt;      % If L is not empty
+    sum(L) / count(L);
+true -&gt;
+    error
+end.
+
+%% state
+-record(state, {
+    cm,
+    channel
+   }).
+
+-spec foo(integer()) -&gt; integer().
+foo(X) -&gt; 1 + X.
+
+test(Foo)-&gt;Foo.
+
+init([Shell, Exec]) -&gt;
+    {ok, #state{shell = Shell, exec = Exec}};
+init([Shell]) -&gt;
+    false = not true,
+    io:format("Hello, \"~p!~n", [atom_to_list('World')]),
+    {ok, #state{shell = Shell}}.
+
+concat([Single]) -&gt; Single;
+concat(RList) -&gt;
+    EpsilonFree = lists:filter(
+        fun (Element) -&gt;
+            case Element of
+                epsilon -&gt; false;
+                _ -&gt; true
+            end
+        end,
+        RList),
+    case EpsilonFree of
+        [Single] -&gt; Single;
+        Other -&gt; {concat, Other}
+    end.
+
+union_dot_union({union, _}=U1, {union, _}=U2) -&gt;
+    union(lists:flatten(
+        lists:map(
+            fun (X1) -&gt;
+                lists:map(
+                    fun (X2) -&gt;
+                        concat([X1, X2])
+                    end,
+                    union_to_list(U2)
+                )
+            end,
+            union_to_list(U1)
+        ))).</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: "><MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Hello World</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Erlang;">-module(hello_world).
+-compile(export_all).
+
+
+hello() -&gt;
+    io:format("hello world~n").</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: "><MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Distributed Process</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Erlang;"> % Create a process and invoke the function web:start_server(Port, MaxConnections)
+ ServerProcess = spawn(web, start_server, [Port, MaxConnections]),
+
+ % Create a remote process and invoke the function
+ % web:start_server(Port, MaxConnections) on machine RemoteNode
+ RemoteProcess = spawn(RemoteNode, web, start_server, [Port, MaxConnections]),
+
+ % Send a message to ServerProcess (asynchronously). The message consists of a tuple
+ % with the atom "pause" and the number "10".
+ ServerProcess ! {pause, 10},
+
+ % Receive messages sent to this process
+ receive
+         a_message -&gt; do_something;
+         {data, DataContent} -&gt; handle(DataContent);
+         {hello, Text} -&gt; io:format("Got hello message: ~s", [Text]);
+         {goodbye, Text} -&gt; io:format("Got goodbye message: ~s", [Text])
+ end.</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+    </body>
+</html>

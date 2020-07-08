@@ -1,0 +1,701 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="Python.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="es">
+    <header>
+      <skl><external-file
+          href="Python.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">47</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11"
+        tool-name="Lingo"
+        tool-version="11.0.7114.18563"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Python</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Python</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Uses AvalonEdit.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Uses AvalonEdit.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Highlight.js Example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Highlight.js Example</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>@requires_authorization
+def somefunc(param1='', param2=0):
+    r'''A docstring'''
+    if param1 &gt; param2: # interesting
+        print 'Gre\'ater'
+    return (param2 - param1 + 1 + 0b10l) or None
+
+class SomeClass:
+    pass
+
+&gt;&gt;&gt; message = '''interpreter
+... prompt'''</source><seg-source><mrk
+            mtype="seg"
+            mid="1">@requires_authorization def somefunc(param1='', param2=0): r'''A docstring''' if param1 &gt; param2: # interesting print 'Gre\'ater' return (param2 - param1 + 1 + 0b10l) or None class SomeClass: pass &gt;&gt;&gt; message = '''interpreter ... prompt'''</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Comments</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Comments</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source># This is a comment
+# -*- coding: &lt;encoding-name&gt; -*-</source><seg-source><mrk
+            mtype="seg"
+            mid="1"># This is a comment # -*- coding: &lt;encoding-name&gt; -*-</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Strings</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Strings</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>"foo \"bar\" baz"
+'foo \'bar\' baz'
+""" "Multi-line" strings
+are supported."""
+''' 'Multi-line' strings
+are supported.'''</source><seg-source><mrk
+            mtype="seg"
+            mid="1">"foo \"bar\" baz" 'foo \'bar\' baz' """ "Multi-line" strings are supported.""" ''' 'Multi-line' strings are supported.'''</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Numbers</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Numbers</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>7
+2147483647
+0o177
+0b100110111
+3
+79228162514264337593543950336
+0o377
+0x100000000
+0xdeadbeef
+3.14
+10.
+.001
+1e100
+3.14e-10
+0e0
+3.14j
+10.j
+10j
+.001j
+1e100j
+3.14e-10j</source><seg-source><mrk
+            mtype="seg"
+            mid="1">7 2147483647 0o177 0b100110111 3 79228162514264337593543950336 0o377 0x100000000 0xdeadbeef 3.14 10.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">.001 1e100 3.14e-10 0e0 3.14j 10.j 10j .001j 1e100j 3.14e-10j</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Prism.js Example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Prism.js Example</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>def median(pool):
+    '''Statistical median to demonstrate doctest.
+    &gt;&gt;&gt; median([2, 9, 9, 7, 9, 2, 4, 5, 8])
+    7
+    '''
+    copy = sorted(pool)
+    size = len(copy)
+    if size % 2 == 1:
+        return copy[(size - 1) / 2]
+    else:
+        return (copy[size/2 - 1] + copy[size/2]) / 2
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()</source><seg-source><mrk
+            mtype="seg"
+            mid="1">def median(pool): '''Statistical median to demonstrate doctest.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">&gt;&gt;&gt; median([2, 9, 9, 7, 9, 2, 4, 5, 8]) 7 ''' copy = sorted(pool) size = len(copy) if size % 2 == 1: return copy[(size - 1) / 2] else: return (copy[size/2 - 1] + copy[size/2]) / 2 if __name__ == '__main__': import doctest doctest.testmod()</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Report Logged-On Users By Name</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Report Logged-On Users By Name</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>#!/usr/bin/python3<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph># List the account and human names for each person who's logged on.<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># The information is taken from the password file, which is<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># read and loaded first.<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>The command line argument (if given) is<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># used in place of /etc/passwd.<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>from sys import argv<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>from string import *<ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>import os<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph># Dictionary of entries.<ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>iddict = { }<ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph># Get the file name.<ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>Note that argv[0] contains the name of the script,<ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># so we're getting argv[1], if there is one.<ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>infile = '/etc/passwd'<ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>if len(argv) &gt; 1:<ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>infile = argv[1]<ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph># Attempt to open the file.<ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>Will just let the program die on the exception<ph
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># if the open fails.<ph
+            id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>fin = open(infile, 'r')<ph
+            id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph># Read the password file and load the information.<ph
+            id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>for line in fin.readlines():<ph
+            id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph># Lines starting with # are comments.<ph
+            id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>Clean leading spaces, and<ph
+            id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph># skip comments.<ph
+            id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>line = str.lstrip(line)<ph
+            id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>if line == '' or line[0] == '#':<ph
+            id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>continue<ph
+            id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+            id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph># Split the line by the : delimeter, extract the appropriate fields,<ph
+            id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph># and get rid of any leading or trailing blanks.<ph
+            id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>parts = str.split(line, ':')<ph
+            id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>userid = str.strip(parts[0])<ph
+            id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>name = str.strip(parts[4])<ph
+            id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+            id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph># Trim the contents of the name following the first comma, if any.<ph
+            id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>compos = str.find(name, ',')<ph
+            id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>if compos != -1:<ph
+            id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="52" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>name = name[0:compos]<ph
+            id="53" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+            id="54" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph># If there is no human name, or if equals the login name, say [ none ]<ph
+            id="55" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="56" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>if name == '' or name == userid:<ph
+            id="57" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="58" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>name = '[ none ]'<ph
+            id="59" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+            id="60" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph># Enter into the dictionary list.<ph
+            id="61" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="62" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>iddict[userid] = name<ph
+            id="63" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph># Run who to see who is on, and print those users.<ph
+            id="64" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>When printed, take<ph
+            id="65" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># them out of the list so each user printed only once.<ph
+            id="66" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>for line in os.popen('who').readlines():<ph
+            id="67" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="68" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>user = str.split(line)[0]<ph
+            id="69" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="70" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>if user in iddict:<ph
+            id="71" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="72" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>print('%-14s %s' % (user + ':', iddict[user]))<ph
+            id="73" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="74" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>del iddict[user]</source><seg-source><mrk
+            mtype="seg"
+            mid="1">#!/usr/bin/python3<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2"># List the account and human names for each person who's logged on.<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3"># The information is taken from the password file, which is<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4"># read and loaded first.<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>The command line argument (if given) is<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5"># used in place of /etc/passwd.<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6">from sys import argv<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="7">from string import *<ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="8">import os<ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="9"># Dictionary of entries.<ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="10">iddict = { }<ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="11"># Get the file name.<ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>Note that argv[0] contains the name of the script,<ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="12"># so we're getting argv[1], if there is one.<ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="13">infile = '/etc/passwd'<ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="14">if len(argv) &gt; 1:<ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>infile = argv[1]<ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="15"># Attempt to open the file.<ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>Will just let the program die on the exception<ph
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="16"># if the open fails.<ph
+              id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="17">fin = open(infile, 'r')<ph
+              id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="18"># Read the password file and load the information.<ph
+              id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="19">for line in fin.readlines():<ph
+              id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="20"><ph
+              id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph># Lines starting with # are comments.<ph
+              id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>Clean leading spaces, and<ph
+              id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph># skip comments.</mrk><mrk
+            mtype="seg"
+            mid="21"><ph
+              id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>line = str.lstrip(line)<ph
+              id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>if line == '' or line[0] == '#':<ph
+              id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>continue<ph
+              id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+              id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph># Split the line by the : delimeter, extract the appropriate fields,<ph
+              id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph># and get rid of any leading or trailing blanks.</mrk><mrk
+            mtype="seg"
+            mid="22"><ph
+              id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>parts = str.split(line, ':')<ph
+              id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>userid = str.strip(parts[0])<ph
+              id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>name = str.strip(parts[4])<ph
+              id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+              id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph># Trim the contents of the name following the first comma, if any.</mrk><mrk
+            mtype="seg"
+            mid="23"><ph
+              id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>compos = str.find(name, ',')<ph
+              id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>if compos != -1:<ph
+              id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="52" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>name = name[0:compos]<ph
+              id="53" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+              id="54" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph># If there is no human name, or if equals the login name, say [ none ]<ph
+              id="55" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="56" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>if name == '' or name == userid:<ph
+              id="57" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="58" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>name = '[ none ]'<ph
+              id="59" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+              id="60" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph># Enter into the dictionary list.</mrk><mrk
+            mtype="seg"
+            mid="24"><ph
+              id="61" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="62" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>iddict[userid] = name<ph
+              id="63" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="25"># Run who to see who is on, and print those users.<ph
+              id="64" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>When printed, take<ph
+              id="65" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="26"># them out of the list so each user printed only once.<ph
+              id="66" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="27">for line in os.popen('who').readlines():<ph
+              id="67" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="68" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>user = str.split(line)[0]<ph
+              id="69" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="70" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>if user in iddict:<ph
+              id="71" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="72" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>print('%-14s %s' % (user + ':', iddict[user]))<ph
+              id="73" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="28"><ph
+              id="74" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>del iddict[user]</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="14"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="15"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="16"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="17"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="18"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="19"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="20"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="21"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="22"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="23"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="24"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="25"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="26"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="27"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="28"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Hello World</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Hello World</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>print("Hello World")</source><seg-source><mrk
+            mtype="seg"
+            mid="1">print("Hello World")</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

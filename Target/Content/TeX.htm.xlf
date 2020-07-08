@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="TeX.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="es">
+    <header>
+      <skl><external-file
+          href="TeX.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">28</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11"
+        tool-name="Lingo"
+        tool-version="11.0.7114.18563"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>TeX (LaTeX)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">TeX (LaTeX)</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Uses AvalonEdit.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Uses AvalonEdit.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>\documentclass{article}<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>\usepackage[koi8-r]{inputenc}<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>\hoffset=0pt<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>\voffset=.3em<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>\tolerance=400<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>\newcommand{\eTiX}{\TeX}<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>\begin{document}<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>\section*{Highlight.js}<ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>\begin{table}[c|c]<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>$\frac 12\, + \, \frac 1{x^3}\text{Hello \! world}$ &amp; \textbf{Goodbye\~ world} \\\eTiX $ \pi=400 $<ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>\end{table}<ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>Ch\'erie, \c{c}a ne me pla\^\i t pas! % comment \b<ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>G\"otterd\"ammerung~45\%=34.<ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>$$<ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>\int\limits_{0}^{\pi}\frac{4}{x-7}=3<ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>$$<ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>\end{document}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">\documentclass{article}<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">\usepackage[koi8-r]{inputenc}<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">\hoffset=0pt<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">\voffset=.3em<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">\tolerance=400<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6">\newcommand{\eTiX}{\TeX}<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="7">\begin{document}<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="8">\section*{Highlight.js}<ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="9">\begin{table}[c|c]<ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="10">$\frac 12\, + \, \frac 1{x^3}\text{Hello \!</mrk><mrk
+            mtype="protected"
+            mid="11"> </mrk><mrk
+            mtype="seg"
+            mid="12">world}$ &amp; \textbf{Goodbye\~ world} \\\eTiX $ \pi=400 $<ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="13">\end{table}<ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="14">Ch\'erie, \c{c}a ne me pla\^\i t pas!</mrk><mrk
+            mtype="protected"
+            mid="15"> </mrk><mrk
+            mtype="seg"
+            mid="16">% comment \b<ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="17">G\"otterd\"ammerung~45\%=34.<ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="18">$$<ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>\int\limits_{0}^{\pi}\frac{4}{x-7}=3<ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="19">$$<ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="20">\end{document}</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="14"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="15"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="16"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="17"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="18"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="19"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="20"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Comment</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Comment</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>% This is a comment</source><seg-source><mrk
+            mtype="seg"
+            mid="1">% This is a comment</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Commands</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Commands</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>\begin{document}
+\documentstyle[twoside,epsfig]{article}
+\usepackage{epsfig,multicol}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">\begin{document} \documentstyle[twoside,epsfig]{article} \usepackage{epsfig,multicol}</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Math mode</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Math mode</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>$\alpha$
+H$_{2}$O
+45$^{\circ}$C</source><seg-source><mrk
+            mtype="seg"
+            mid="1">$\alpha$ H$_{2}$O 45$^{\circ}$C</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

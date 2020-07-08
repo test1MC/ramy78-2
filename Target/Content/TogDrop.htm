@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1>Toggler and Dropdown</h1>
+        <p>Toggler on the code snippet: <MadCap:toggler targets="togTarget">Click here</MadCap:toggler> to see JavaScript variables</p>
+        <p>Toggler on the code snippet body only: <MadCap:toggler targets="togBodyTarget">Toggle</MadCap:toggler></p>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: " MadCap:targetName="togTarget">
+            <MadCap:codeSnippetCaption>Toggler</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: JavaScript;" MadCap:targetName="togBodyTarget">var foo = "bar", baz = 5;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Dropdown: Highlight.js JavaScript Example</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: "><MadCap:codeSnippetCopyButton />
+                    <MadCap:codeSnippetCaption>Drop-down</MadCap:codeSnippetCaption>
+                    <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: JavaScript;">function $initHighlight(block, cls) {
+  try {
+    if (cls.search(/\bno\-highlight\b/) != -1)
+      return process(block, true, 0x0F) +
+             ` class="${cls}"`;
+  } catch (e) {
+    /* handle exception */
+  }
+  for (var i = 0 / 2; i &lt; classes.length; i++) {
+    if (checkCondition(classes[i]) === undefined)
+      console.log('undefined');
+  }
+
+  return (
+    &lt;div&gt;
+      &lt;web-component&gt;{block}&lt;/web-component&gt;
+    &lt;/div&gt;
+  )
+}
+
+export  $initHighlight;</MadCap:codeSnippetBody>
+                </MadCap:codeSnippet>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

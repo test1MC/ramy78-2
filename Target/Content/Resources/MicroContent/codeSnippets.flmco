@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MicroContentSet Comment="Default micro content set.">
+    <MicroContent>
+        <MicroContentPhrase>hairstyle</MicroContentPhrase>
+        <MicroContentPhrase>hair</MicroContentPhrase>
+        <MicroContentResponse href="../../JavaScript.htm#microcontent1" />
+    </MicroContent>
+    <MicroContent>
+        <MicroContentPhrase>lua</MicroContentPhrase>
+        <MicroContentResponse href="../../Lua.htm" />
+    </MicroContent>
+    <MicroContent>
+        <MicroContentPhrase>javascript</MicroContentPhrase>
+        <MicroContentPhrase>js</MicroContentPhrase>
+        <MicroContentResponse href="../../JavaScript.htm" />
+    </MicroContent>
+</MicroContentSet>

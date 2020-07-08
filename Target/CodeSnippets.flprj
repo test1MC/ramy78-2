@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CatapultProject Version="1" MasterStylesheet="/Content/Resources/Stylesheets/Styles.css" MasterPageLayout="/Content/Resources/PageLayouts/Default.flpgl" MasterStylesheetOverride="False" xml:lang="en-us" SourceControlBound="false" Comment="This template contains a minimum number of content and project files, including a single topic. It is the best choice for those who want to begin with a skeleton project." ExcludePattern="*.css;*.flmsp;*.fltar;*.flmco" IncludePattern="*.htm;*.html" AutoExcludeNonTaggedFiles="false" IncludeLinkedFiles="false" DeleteStale="false" DeleteUnreferenced="false" LastImport="2019-12-03T10:16:45.5364717-08:00" xml:space="preserve">
+    <Files>
+        <Url Source="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Code Snippets.flprj" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Code Snippets.flprj" />
+    </Files>
+    <ExcludedFiles />
+    <CollectedSourceFiles>
+        <Url Source="../Code Snippets/Content/ActionScript.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/ActionScript.htm" />
+        <Url Source="../Code Snippets/Content/AppleScript.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/AppleScript.htm" />
+        <Url Source="../Code Snippets/Content/ASPX.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/ASPX.htm" />
+        <Url Source="../Code Snippets/Content/Bash.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/Bash.htm" />
+        <Url Source="../Code Snippets/Content/Batch.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/Batch.htm" />
+        <Url Source="../Code Snippets/Content/Coco.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/Coco.htm" />
+        <Url Source="../Code Snippets/Content/CPP.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/CPP.htm" />
+        <Url Source="../Code Snippets/Content/CSharp.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/CSharp.htm" />
+        <Url Source="../Code Snippets/Content/CSS.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/CSS.htm" />
+        <Url Source="../Code Snippets/Content/D.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/D.htm" />
+        <Url Source="../Code Snippets/Content/Erlang.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/Erlang.htm" />
+        <Url Source="../Code Snippets/Content/Go.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/Go.htm" />
+        <Url Source="../Code Snippets/Content/Haskell.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/Haskell.htm" />
+        <Url Source="../Code Snippets/Content/Java.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/Java.htm" />
+        <Url Source="../Code Snippets/Content/JavaScript.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/JavaScript.htm" />
+        <Url Source="../Code Snippets/Content/Lua.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/Lua.htm" />
+        <Url Source="../Code Snippets/Content/Makefile.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/Makefile.htm" />
+        <Url Source="../Code Snippets/Content/Markdown.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/Markdown.htm" />
+        <Url Source="../Code Snippets/Content/MATLAB.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/MATLAB.htm" />
+        <Url Source="../Code Snippets/Content/ObjectiveC.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/ObjectiveC.htm" />
+        <Url Source="../Code Snippets/Content/OCaml.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/OCaml.htm" />
+        <Url Source="../Code Snippets/Content/Patch.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/Patch.htm" />
+        <Url Source="../Code Snippets/Content/PHP.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/PHP.htm" />
+        <Url Source="../Code Snippets/Content/PowerShell.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/PowerShell.htm" />
+        <Url Source="../Code Snippets/Content/Proxies.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/Proxies.htm" />
+        <Url Source="../Code Snippets/Content/Python.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/Python.htm" />
+        <Url Source="../Code Snippets/Content/R.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/R.htm" />
+        <Url Source="../Code Snippets/Content/Responsive Content.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/Responsive Content.htm" />
+        <Url Source="../Code Snippets/Content/Ruby.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/Ruby.htm" />
+        <Url Source="../Code Snippets/Content/Scala.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/Scala.htm" />
+        <Url Source="../Code Snippets/Content/Snippets.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/Snippets.htm" />
+        <Url Source="../Code Snippets/Content/SQL.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/SQL.htm" />
+        <Url Source="../Code Snippets/Content/Table.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/Table.htm" />
+        <Url Source="../Code Snippets/Content/TeX.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/TeX.htm" />
+        <Url Source="../Code Snippets/Content/TogDrop.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/TogDrop.htm" />
+        <Url Source="../Code Snippets/Content/TSQL.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/TSQL.htm" />
+        <Url Source="../Code Snippets/Content/Visual Basic.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/Visual Basic.htm" />
+        <Url Source="../Code Snippets/Content/XML.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/XML.htm" />
+        <Url Source="../Code Snippets/Content/XmlDoc.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/XmlDoc.htm" />
+        <Url Source="../Code Snippets/Content/XSL.htm" AbsoluteSource="file:///C:/Users/hmanes/Documents/My Projects/Code Snippets/Content/XSL.htm" />
+    </CollectedSourceFiles>
+    <SkippedSourceFiles />
+    <GeneratedFiles>
+        <Url Source="Content/ActionScript.htm" TimeStamp="11/5/2019 1:00:10 PM" />
+        <Url Source="Content/AppleScript.htm" TimeStamp="12/3/2019 9:55:04 AM" />
+        <Url Source="Content/ASPX.htm" TimeStamp="11/1/2019 1:28:03 PM" />
+        <Url Source="Content/Bash.htm" TimeStamp="11/5/2019 1:30:02 PM" />
+        <Url Source="Content/Batch.htm" TimeStamp="12/2/2019 2:40:15 PM" />
+        <Url Source="Content/Coco.htm" TimeStamp="11/1/2019 1:29:14 PM" />
+        <Url Source="Content/CPP.htm" TimeStamp="11/5/2019 2:07:44 PM" />
+        <Url Source="Content/CSharp.htm" TimeStamp="11/12/2019 1:45:12 PM" />
+        <Url Source="Content/CSS.htm" TimeStamp="11/11/2019 10:30:19 AM" />
+        <Url Source="Content/D.htm" TimeStamp="11/1/2019 1:29:47 PM" />
+        <Url Source="Content/Erlang.htm" TimeStamp="11/1/2019 1:30:02 PM" />
+        <Url Source="Content/Go.htm" TimeStamp="11/1/2019 1:30:08 PM" />
+        <Url Source="Content/Haskell.htm" TimeStamp="11/1/2019 1:30:16 PM" />
+        <Url Source="Content/Java.htm" TimeStamp="11/1/2019 1:36:14 PM" />
+        <Url Source="Content/JavaScript.htm" TimeStamp="11/12/2019 2:05:51 PM" />
+        <Url Source="Content/Lua.htm" TimeStamp="11/4/2019 9:56:32 AM" />
+        <Url Source="Content/Makefile.htm" TimeStamp="11/4/2019 10:29:24 AM" />
+        <Url Source="Content/Markdown.htm" TimeStamp="11/4/2019 11:43:26 AM" />
+        <Url Source="Content/MATLAB.htm" TimeStamp="11/4/2019 12:19:54 PM" />
+        <Url Source="Content/ObjectiveC.htm" TimeStamp="11/6/2019 12:26:55 PM" />
+        <Url Source="Content/OCaml.htm" TimeStamp="11/4/2019 1:04:10 PM" />
+        <Url Source="Content/Patch.htm" TimeStamp="11/4/2019 1:42:31 PM" />
+        <Url Source="Content/PHP.htm" TimeStamp="11/4/2019 2:02:53 PM" />
+        <Url Source="Content/PowerShell.htm" TimeStamp="11/4/2019 2:51:45 PM" />
+        <Url Source="Content/Proxies.htm" TimeStamp="11/11/2019 3:19:21 PM" />
+        <Url Source="Content/Python.htm" TimeStamp="11/6/2019 10:07:13 AM" />
+        <Url Source="Content/R.htm" TimeStamp="11/4/2019 4:00:03 PM" />
+        <Url Source="Content/Responsive Content.htm" TimeStamp="11/6/2019 1:03:03 PM" />
+        <Url Source="Content/Ruby.htm" TimeStamp="11/5/2019 9:28:25 AM" />
+        <Url Source="Content/Scala.htm" TimeStamp="11/5/2019 9:37:51 AM" />
+        <Url Source="Content/Snippets.htm" TimeStamp="11/6/2019 10:29:54 AM" />
+        <Url Source="Content/SQL.htm" TimeStamp="11/5/2019 10:07:17 AM" />
+        <Url Source="Content/Table.htm" TimeStamp="11/12/2019 9:09:08 AM" />
+        <Url Source="Content/TeX.htm" TimeStamp="11/5/2019 9:43:29 AM" />
+        <Url Source="Content/TogDrop.htm" TimeStamp="11/6/2019 1:41:14 PM" />
+        <Url Source="Content/TSQL.htm" TimeStamp="11/5/2019 10:10:38 AM" />
+        <Url Source="Content/Visual Basic.htm" TimeStamp="11/5/2019 10:20:57 AM" />
+        <Url Source="Content/XML.htm" TimeStamp="11/8/2019 9:17:51 AM" />
+        <Url Source="Content/XmlDoc.htm" TimeStamp="11/5/2019 10:43:53 AM" />
+        <Url Source="Content/XSL.htm" TimeStamp="11/5/2019 12:54:49 PM" />
+    </GeneratedFiles>
+</CatapultProject>

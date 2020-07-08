@@ -1,0 +1,1047 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="XmlDoc.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="es">
+    <header>
+      <skl><external-file
+          href="XmlDoc.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">83</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11"
+        tool-name="Lingo"
+        tool-version="11.0.7114.18563"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>XmlDoc</source><seg-source><mrk
+            mtype="seg"
+            mid="1">XmlDoc</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Uses AvalonEdit.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Uses AvalonEdit.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Note from Henry: I am not entirely sure which code snippets below actually contain true XmlDoc code.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Note from Henry: I am not entirely sure which code snippets below actually contain true XmlDoc code.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>var str = xmldoc.getNodeText("//two"); // returns the first occurence of the node<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// str == "abcd1234"<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>str = xmldoc.getNodeText("//three");<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// str == "1234abcd"<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>str = xmldoc.getNodeText("/test/one/*");<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// str == "abcd1234"<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>str = xmldoc.getNodeInt("//number");<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// str == 1234</source><seg-source><mrk
+            mtype="seg"
+            mid="1">var str = xmldoc.getNodeText("//two"); // returns the first occurence of the node<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">// str == "abcd1234"<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">str = xmldoc.getNodeText("//three");<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">// str == "1234abcd"<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">str = xmldoc.getNodeText("/test/one/*");<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6">// str == "abcd1234"<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="7">str = xmldoc.getNodeInt("//number");<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="8">// str == 1234</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>var xmlString = "&lt;test&gt;" +<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">                </ph>"<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>&lt;one&gt;" +<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">                </ph>"<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;two att=\"xxx\"&gt;abcd1234&lt;/two&gt;" +<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">                </ph>"<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;three boo=\"yah\" att=\"yyy\"&gt;1234abcd&lt;/three&gt;" +<ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">                </ph>"<ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;two&gt;another&lt;/two&gt;" +<ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">                </ph>"<ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>&lt;/one&gt;" +<ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">                </ph>"<ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>&lt;number&gt;1234&lt;/number&gt;" +<ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">                </ph>"&lt;/test&gt;";<ph
+            id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>var xmlDoc = new XMLDocument2();<ph
+            id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>xmlDoc.parseXML(xmlString);<ph
+            id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>//returns the root node of the document tree.<ph
+            id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>var rootNode = xmlDoc.getDocumentElement(); //returns org.w3c.dom.Element<ph
+            id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// sets the root node as the current element<ph
+            id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>xmlDoc.setCurrentElement(rootNode);<ph
+            id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+
+</ph>&lt;!-- messing around --&gt;<ph
+            id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph>&lt;exception&gt;&lt;/exception&gt;<ph
+            id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>&lt;c&gt;&lt;/c&gt;<ph
+            id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>&lt;notknownword&gt;&lt;/notknownword&gt;<ph
+            id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>&lt;list&gt;<ph
+            id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>&lt;exception&gt;flfsdlfsdlfsd&lt;/exception&gt;<ph
+            id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>&lt;para&gt;ffsdf&lt;/para&gt;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">var xmlString = "&lt;test&gt;" +<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2"><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">                </ph>"<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>&lt;one&gt;" +<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3"><ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">                </ph>"<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;two att=\"xxx\"&gt;abcd1234&lt;/two&gt;" +<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4"><ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">                </ph>"<ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;three boo=\"yah\" att=\"yyy\"&gt;1234abcd&lt;/three&gt;" +<ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5"><ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">                </ph>"<ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;two&gt;another&lt;/two&gt;" +<ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6"><ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">                </ph>"<ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>&lt;/one&gt;" +<ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="7"><ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">                </ph>"<ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>&lt;number&gt;1234&lt;/number&gt;" +<ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">                </ph>"&lt;/test&gt;";<ph
+              id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="8">var xmlDoc = new XMLDocument2();<ph
+              id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="9">xmlDoc.parseXML(xmlString);<ph
+              id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="10">//returns the root node of the document tree.<ph
+              id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="11">var rootNode = xmlDoc.getDocumentElement(); //returns org.w3c.dom.Element<ph
+              id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="12">// sets the root node as the current element<ph
+              id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="13">xmlDoc.setCurrentElement(rootNode);<ph
+              id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="14">&lt;!-- messing around --&gt;<ph
+              id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="15">&lt;exception&gt;&lt;/exception&gt;<ph
+              id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="16">&lt;c&gt;&lt;/c&gt;<ph
+              id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="17">&lt;notknownword&gt;&lt;/notknownword&gt;<ph
+              id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="18">&lt;list&gt;<ph
+              id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="19">&lt;exception&gt;flfsdlfsdlfsd&lt;/exception&gt;<ph
+              id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="20">&lt;para&gt;ffsdf&lt;/para&gt;</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="14"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="15"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="16"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="17"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="18"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="19"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="20"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>var (<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>// ElementType is an xml element.<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>ElementType = XDType(0)<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>// CDataType is xml character data.<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>CDataType = XDType(1)<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>// CommentType is xml comment.<ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>CommentType = XDType(2)<ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>// DirectiveType is an xml directive.<ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>DirectiveType = XDType(3)<ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>// ProcessingInstructionType is an xml processing instruction &lt;!bang&gt;<ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>ProcessingInstructionType = XDType(4)<ph
+            id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>// DocumentType is the type from the whole document.<ph
+            id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>DocumentType = XDType(5)<ph
+            id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">var (<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>// ElementType is an xml element.</mrk><mrk
+            mtype="seg"
+            mid="2"><ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>ElementType = XDType(0)<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>// CDataType is xml character data.</mrk><mrk
+            mtype="seg"
+            mid="3"><ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>CDataType = XDType(1)<ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>// CommentType is xml comment.</mrk><mrk
+            mtype="seg"
+            mid="4"><ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>CommentType = XDType(2)<ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>// DirectiveType is an xml directive.</mrk><mrk
+            mtype="seg"
+            mid="5"><ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>DirectiveType = XDType(3)<ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>// ProcessingInstructionType is an xml processing instruction &lt;!bang&gt;<ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>ProcessingInstructionType = XDType(4)<ph
+              id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>// DocumentType is the type from the whole document.</mrk><mrk
+            mtype="seg"
+            mid="6"><ph
+              id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>DocumentType = XDType(5)<ph
+              id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="7">)</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>Local XmlDoc &amp;srcDoc, &amp;targetDoc;<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph>Local array of string &amp;srcPath, &amp;targetPath;<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+ 
+</ph>&amp;srcPath = CreateArrayRept("", 0);<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph>&amp;targetPath = CreateArrayRept("", 0);<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+ 
+ 
+</ph>&amp;srcDoc = CreateXmlDoc("");<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph>&amp;targetDoc = CreateXmlDoc("");<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph>&amp;ret = &amp;srcDoc.ParseXmlFromURL("c:/temp/source.xml");<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph>&amp;ret = &amp;targetDoc.ParseXmlFromURL("c:/temp/target.xml");<ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+ 
+</ph>&amp;srcPath.Push("QE_EMPLOYEE");<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph>&amp;srcPath.Push("QE_EMPLOYEE/QE_ACCOUNT_TBL");<ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph>&amp;srcPath.Push("QE_EMPLOYEE/QE_JOBCODE");<ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph>&amp;srcPath.Push("QE_EMPLOYEE/DEPTID");<ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph>&amp;srcPath.Push("EMAIL_MSG_RCD");<ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph>&amp;srcPath.Push("EMAIL_MSG_RCD/EMAIL_FILE_RCD");<ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+ 
+</ph>&amp;targetPath.Push("QE_EMPLOYEE_TG");<ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph>&amp;targetPath.Push("QE_EMPLOYEE_TG/QE_ACCOUNT_TBL_TG");<ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph>&amp;targetPath.Push("QE_EMPLOYEE_TG/QE_JOBCODE_TG");<ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph>&amp;targetPath.Push("QE_EMPLOYEE_TG/DEPTID_TG");<ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph>&amp;targetPath.Push("EMAIL_MSG_RCD_TG");<ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph>&amp;targetPath.Push("EMAIL_MSG_RCD/EMAIL_FILE_RCD_TG");<ph
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+ 
+</ph>&amp;ret = &amp;srcDoc.CopyToPSFTMessage(&amp;targetDoc, &amp;srcPath, &amp;targetPath);</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Local XmlDoc &amp;srcDoc, &amp;targetDoc;<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">Local array of string &amp;srcPath, &amp;targetPath;<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+ 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">&amp;srcPath = CreateArrayRept("", 0);<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">&amp;targetPath = CreateArrayRept("", 0);<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+ 
+ 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">&amp;srcDoc = CreateXmlDoc("");<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6">&amp;targetDoc = CreateXmlDoc("");<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="7">&amp;ret = &amp;srcDoc.ParseXmlFromURL("c:/temp/source.xml");<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="8">&amp;ret = &amp;targetDoc.ParseXmlFromURL("c:/temp/target.xml");<ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+ 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="9">&amp;srcPath.Push("QE_EMPLOYEE");<ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="10">&amp;srcPath.Push("QE_EMPLOYEE/QE_ACCOUNT_TBL");<ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="11">&amp;srcPath.Push("QE_EMPLOYEE/QE_JOBCODE");<ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="12">&amp;srcPath.Push("QE_EMPLOYEE/DEPTID");<ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="13">&amp;srcPath.Push("EMAIL_MSG_RCD");<ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="14">&amp;srcPath.Push("EMAIL_MSG_RCD/EMAIL_FILE_RCD");<ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+ 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="15">&amp;targetPath.Push("QE_EMPLOYEE_TG");<ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="16">&amp;targetPath.Push("QE_EMPLOYEE_TG/QE_ACCOUNT_TBL_TG");<ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="17">&amp;targetPath.Push("QE_EMPLOYEE_TG/QE_JOBCODE_TG");<ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="18">&amp;targetPath.Push("QE_EMPLOYEE_TG/DEPTID_TG");<ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="19">&amp;targetPath.Push("EMAIL_MSG_RCD_TG");<ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="20">&amp;targetPath.Push("EMAIL_MSG_RCD/EMAIL_FILE_RCD_TG");<ph
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+ 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="21">&amp;ret = &amp;srcDoc.CopyToPSFTMessage(&amp;targetDoc, &amp;srcPath, &amp;targetPath);</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="14"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="15"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="16"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="17"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="18"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="19"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="20"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="21"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>var xmldoc = require('xmldoc');<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph>var document = new xmldoc.XmlDocument("&lt;some&gt;xml&lt;/some&gt;");<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph>// do things<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>var authorName = bookNode.valueWithPath("author.name"); // return "George R. R. Martin"<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>var authorIsProper = bookNode.valueWithPath("author.name@isProper"); // return "true"<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>xml.toString({compressed:true}) // strips indents and linebreaks<ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>xml.toString({trimmed:true}) // trims long strings for easier debugging<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>xml.toString({preserveWhitespace:true}) // prevents whitespace being removed from around element values<ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>txt = xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">var xmldoc = require('xmldoc');<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">var document = new xmldoc.XmlDocument("&lt;some&gt;xml&lt;/some&gt;");<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">// do things<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">var authorName = bookNode.valueWithPath("author.name"); // return "George R. R. Martin"<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">var authorIsProper = bookNode.valueWithPath("author.name@isProper"); // return "true"<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6">xml.toString({compressed:true}) // strips indents and linebreaks<ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="7">xml.toString({trimmed:true}) // trims long strings for easier debugging<ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="8">xml.toString({preserveWhitespace:true}) // prevents whitespace being removed from around element values<ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="9">txt = xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>&lt;!DOCTYPE html&gt;<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>&lt;html&gt;<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>&lt;body&gt;<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>&lt;p id="demo"&gt;&lt;/p&gt;<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>&lt;script&gt;<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>var xhttp = new XMLHttpRequest();<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>xhttp.onreadystatechange = function() {<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>if (this.readyState == 4 &amp;&amp; this.status == 200) {<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>myFunction(this);<ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>}<ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>};<ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>xhttp.open("GET", "books.xml", true);<ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>xhttp.send();<ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>function myFunction(xml) {<ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>var xmlDoc = xml.responseXML;<ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>document.getElementById("demo").innerHTML =<ph
+            id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;<ph
+            id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>&lt;/script&gt;<ph
+            id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>&lt;/body&gt;<ph
+            id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>&lt;/html&gt;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">&lt;!DOCTYPE html&gt;<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">&lt;html&gt;<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">&lt;body&gt;<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">&lt;p id="demo"&gt;&lt;/p&gt;<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">&lt;script&gt;<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6">var xhttp = new XMLHttpRequest();<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="7">xhttp.onreadystatechange = function() {<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>if (this.readyState == 4 &amp;&amp; this.status == 200) {<ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>myFunction(this);<ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>}<ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="8">};<ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="9">xhttp.open("GET", "books.xml", true);<ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="10">xhttp.send();<ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="11">function myFunction(xml) {<ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>var xmlDoc = xml.responseXML;<ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>document.getElementById("demo").innerHTML =<ph
+              id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;<ph
+              id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="12">}<ph
+              id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="13">&lt;/script&gt;<ph
+              id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="14">&lt;/body&gt;<ph
+              id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="15">&lt;/html&gt;</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="14"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="15"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

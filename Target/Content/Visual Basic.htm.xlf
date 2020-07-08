@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="Visual Basic.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="es">
+    <header>
+      <skl><external-file
+          href="Visual Basic.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">28</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11"
+        tool-name="Lingo"
+        tool-version="11.0.7114.18563"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Visual Basic</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Visual Basic</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Uses AvalonEdit.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Uses AvalonEdit.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Hello World</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Hello World</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>Private Sub Form_Load()<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>MsgBox "Hello, World!"<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>End Sub</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Private Sub Form_Load()<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>MsgBox "Hello, World!"</mrk><mrk
+            mtype="seg"
+            mid="2"><ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">End Sub</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Comments</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Comments</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>' Comment
+REM This is a comment too</source><seg-source><mrk
+            mtype="seg"
+            mid="1">' Comment REM This is a comment too</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Strings and characters</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Strings and characters</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>"Foo""bar"
+“”
+"a"c</source><seg-source><mrk
+            mtype="seg"
+            mid="1">"Foo""bar" “” "a"c</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Dates and times</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Dates and times</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source># 8/23/1970 3:45:39AM #
+#8/23/1970 #
+# 3:45:39AM #
+# 3:45:39#
+# 13:45:39 #
+# 1AM #
+# 13:45:39PM #</source><seg-source><mrk
+            mtype="seg"
+            mid="1"># 8/23/1970 3:45:39AM # #8/23/1970 # # 3:45:39AM # # 3:45:39# # 13:45:39 # # 1AM # # 13:45:39PM #</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Numbers</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Numbers</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>42S
+.369E+14
+3.1415R</source><seg-source><mrk
+            mtype="seg"
+            mid="1">42S .369E+14 3.1415R</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Preprocessing directives</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Preprocessing directives</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>#ExternalChecksum("c:\wwwroot\inetpub\test.aspx", _
+    "{12345678-1234-1234-1234-123456789abc}", _
+    "1a2b3c4e5f617239a49b9a9c0391849d34950f923fab9484")</source><seg-source><mrk
+            mtype="seg"
+            mid="1">#ExternalChecksum("c:\wwwroot\inetpub\test.aspx", _ "{12345678-1234-1234-1234-123456789abc}", _ "1a2b3c4e5f617239a49b9a9c0391849d34950f923fab9484")</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Keywords</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Keywords</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>Function AddNumbers(ByVal X As Integer, ByVal Y As Integer)<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>AddNumbers = X + Y<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>End Function<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>Module Test<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>Sub Main()<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>End Sub<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>End Module</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Function AddNumbers(ByVal X As Integer, ByVal Y As Integer)<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>AddNumbers = X + Y<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">End Function<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">Module Test<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>Sub Main()<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>End Sub<ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">End Module</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>VB.NET</source><seg-source><mrk
+            mtype="seg"
+            mid="1">VB.NET</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Highlight.js Example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Highlight.js Example</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>Import System
+Import System.IO
+#Const DEBUG = True
+
+Namespace Highlighter.Test
+  ''' &lt;summary&gt;This is an example class.&lt;/summary&gt;
+  Public Class Program
+    Protected Shared hello As Integer = 3
+    Private Const ABC As Boolean = False
+
+#Region "Code"
+    ' Cheers!
+    &lt;STAThread()&gt; _
+    Public Shared Sub Main(ByVal args() As String, ParamArray arr As Object) Handles Form1.Click
+      On Error Resume Next
+      If ABC Then
+        While ABC : Console.WriteLine() : End While
+        For i As Long = 0 To 1000 Step 123
+          Try
+            System.Windows.Forms.MessageBox.Show(CInt("1").ToString())
+          Catch ex As Exception       ' What are you doing? Well...
+            Dim exp = CType(ex, IOException)
+            REM ORZ
+            Return
+          End Try
+        Next
+      Else
+        Dim l As New System.Collections.List&lt;String&gt;()
+        SyncLock l
+          If TypeOf l Is Decimal And l IsNot Nothing Then
+            RemoveHandler button1.Paint, delegate
+          End If
+          Dim d = New System.Threading.Thread(AddressOf ThreadProc)
+          Dim a = New Action(Sub(x, y) x + y)
+          Static u = From x As String In l Select x.Substring(2, 4) Where x.Length &gt; 0
+        End SyncLock
+        Do : Laugh() : Loop Until hello = 4
+      End If
+    End Sub
+#End Region
+  End Class
+End Namespace</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Import System Import System.IO #Const DEBUG = True Namespace Highlighter.Test ''' &lt;summary&gt;This is an example class.&lt;/summary&gt; Public Class Program Protected Shared hello As Integer = 3 Private Const ABC As Boolean = False #Region "Code" ' Cheers!</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">&lt;STAThread()&gt; _ Public Shared Sub Main(ByVal args() As String, ParamArray arr As Object) Handles Form1.Click On Error Resume Next If ABC Then While ABC : Console.WriteLine() : End While For i As Long = 0 To 1000 Step 123 Try System.Windows.Forms.MessageBox.Show(CInt("1").ToString()) Catch ex As Exception ' What are you doing?</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">Well... Dim exp = CType(ex, IOException) REM ORZ Return End Try Next Else Dim l As New System.Collections.List&lt;String&gt;() SyncLock l If TypeOf l Is Decimal And l IsNot Nothing Then RemoveHandler button1.Paint, delegate End If Dim d = New System.Threading.Thread(AddressOf ThreadProc) Dim a = New Action(Sub(x, y) x + y) Static u = From x As String In l Select x.Substring(2, 4) Where x.Length &gt; 0 End SyncLock Do : Laugh() : Loop Until hello = 4 End If End Sub #End Region End Class End Namespace</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

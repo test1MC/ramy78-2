@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="Scala.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="es">
+    <header>
+      <skl><external-file
+          href="Scala.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">24</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11"
+        tool-name="Lingo"
+        tool-version="11.0.7114.18563"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Scala</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Scala</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Uses Hightlight.js.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Uses Hightlight.js.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Highlight.js Example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Highlight.js Example</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>/**
+ * A person has a name and an age.
+ */
+case class Person(name: String, age: Int)
+
+abstract class Vertical extends CaseJeu
+case class Haut(a: Int) extends Vertical
+case class Bas(name: String, b: Double) extends Vertical
+
+sealed trait Ior[+A, +B]
+case class Left[A](a: A) extends Ior[A, Nothing]
+case class Right[B](b: B) extends Ior[Nothing, B]
+case class Both[A, B](a: A, b: B) extends Ior[A, B]
+
+trait Functor[F[_]] {
+  def map[A, B](fa: F[A], f: A =&gt; B): F[B]
+}
+
+// beware Int.MinValue
+def absoluteValue(n: Int): Int =
+  if (n &lt; 0) -n else n
+
+def interp(n: Int): String =
+  s"there are $n ${color} balloons.\n"
+
+type ξ[A] = (A, A)
+
+trait Hist { lhs =&gt;
+  def ⊕(rhs: Hist): Hist
+}
+
+def gsum[A: Ring](as: Seq[A]): A =
+  as.foldLeft(Ring[A].zero)(_ + _)
+
+val actions: List[Symbol] =
+  'init :: 'read :: 'write :: 'close :: Nil
+
+trait Cake {
+  type T;
+  type Q
+  val things: Seq[T]
+
+  abstract class Spindler
+
+  def spindle(s: Spindler, ts: Seq[T], reversed: Boolean = false): Seq[Q]
+}
+
+val colors = Map(
+  "red"       -&gt; 0xFF0000,
+  "turquoise" -&gt; 0x00FFFF,
+  "black"     -&gt; 0x000000,
+  "orange"    -&gt; 0xFF8040,
+  "brown"     -&gt; 0x804000)
+
+lazy val ns = for {
+  x &lt;- 0 until 100
+  y &lt;- 0 until 100
+} yield (x + y) * 33.33</source><seg-source><mrk
+            mtype="seg"
+            mid="1">/** * A person has a name and an age.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">*/ case class Person(name: String, age: Int) abstract class Vertical extends CaseJeu case class Haut(a: Int) extends Vertical case class Bas(name: String, b: Double) extends Vertical sealed trait Ior[+A, +B] case class Left[A](a: A) extends Ior[A, Nothing] case class Right[B](b: B) extends Ior[Nothing, B] case class Both[A, B](a: A, b: B) extends Ior[A, B] trait Functor[F[_]] { def map[A, B](fa: F[A], f: A =&gt; B): F[B] } // beware Int.MinValue def absoluteValue(n: Int): Int = if (n &lt; 0) -n else n def interp(n: Int): String = s"there are $n ${color} balloons.\n" type ξ[A] = (A, A) trait Hist { lhs =&gt; def ⊕(rhs: Hist): Hist } def gsum[A: Ring](as: Seq[A]): A = as.foldLeft(Ring[A].zero)(_ + _) val actions: List[Symbol] = 'init :: 'read :: 'write :: 'close :: Nil trait Cake { type T; type Q val things: Seq[T] abstract class Spindler def spindle(s: Spindler, ts: Seq[T], reversed: Boolean = false): Seq[Q] } val colors = Map( "red" -&gt; 0xFF0000, "turquoise" -&gt; 0x00FFFF, "black" -&gt; 0x000000, "orange" -&gt; 0xFF8040, "brown" -&gt; 0x804000) lazy val ns = for { x &lt;- 0 until 100 y &lt;- 0 until 100 } yield (x + y) * 33.33</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Comments</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Comments</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>// Single line comment
+/* Mutli-line
+comment */</source><seg-source><mrk
+            mtype="seg"
+            mid="1">// Single line comment /* Mutli-line comment */</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Strings and characters</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Strings and characters</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>'a'
+"foo bar baz"
+"""Multi-line
+string"""</source><seg-source><mrk
+            mtype="seg"
+            mid="1">'a' "foo bar baz" """Multi-line string"""</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Numbers</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Numbers</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>0
+21
+0xFFFFFFFF
+-42L
+0.0
+1e30f
+3.14159f
+1.0e-100
+.1</source><seg-source><mrk
+            mtype="seg"
+            mid="1">0 21 0xFFFFFFFF -42L 0.0 1e30f 3.14159f 1.0e-100 .1</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Symbols</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Symbols</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>'x
+'identifier</source><seg-source><mrk
+            mtype="seg"
+            mid="1">'x 'identifier</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Prism.js Example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Prism.js Example</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>// Contributed by John Williams
+package examples
+
+object lazyLib {
+
+  /** Delay the evaluation of an expression until it is needed. */
+  def delay[A](value: =&gt; A): Susp[A] = new SuspImpl[A](value)
+
+  /** Get the value of a delayed expression. */
+  implicit def force[A](s: Susp[A]): A = s()
+
+  /**
+   * Data type of suspended computations. (The name froms from ML.)
+   */
+  abstract class Susp[+A] extends Function0[A]
+
+  /**
+   * Implementation of suspended computations, separated from the
+   * abstract class so that the type parameter can be invariant.
+   */
+  class SuspImpl[A](lazyValue: =&gt; A) extends Susp[A] {
+    private var maybeValue: Option[A] = None
+
+    override def apply() = maybeValue match {
+      case None =&gt;
+        val value = lazyValue
+        maybeValue = Some(value)
+        value
+	  case Some(value) =&gt;
+        value
+    }
+
+    override def toString() = maybeValue match {
+      case None =&gt; "Susp(?)"
+      case Some(value) =&gt; "Susp(" + value + ")"
+    }
+  }
+}
+
+object lazyEvaluation {
+  import lazyLib._
+
+  def main(args: Array[String]) = {
+    val s: Susp[Int] = delay { println("evaluating..."); 3 }
+
+    println("s     = " + s)       // show that s is unevaluated
+    println("s()   = " + s())     // evaluate s
+    println("s     = " + s)       // show that the value is saved
+    println("2 + s = " + (2 + s)) // implicit call to force()
+
+    val sl = delay { Some(3) }
+    val sl1: Susp[Some[Int]] = sl
+    val sl2: Susp[Option[Int]] = sl1   // the type is covariant
+
+    println("sl2   = " + sl2)
+    println("sl2() = " + sl2())
+    println("sl2   = " + sl2)
+  }
+}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">// Contributed by John Williams package examples object lazyLib { /** Delay the evaluation of an expression until it is needed.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">*/ def delay[A](value: =&gt; A): Susp[A] = new SuspImpl[A](value) /** Get the value of a delayed expression.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">*/ implicit def force[A](s: Susp[A]): A = s() /** * Data type of suspended computations.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">(The name froms from ML.) */ abstract class Susp[+A] extends Function0[A] /** * Implementation of suspended computations, separated from the * abstract class so that the type parameter can be invariant.</mrk><mrk
+            mtype="protected"
+            mid="8"> </mrk><mrk
+            mtype="seg"
+            mid="9">*/ class SuspImpl[A](lazyValue: =&gt; A) extends Susp[A] { private var maybeValue: Option[A] = None override def apply() = maybeValue match { case None =&gt; val value = lazyValue maybeValue = Some(value) value case Some(value) =&gt; value } override def toString() = maybeValue match { case None =&gt; "Susp(?)" case Some(value) =&gt; "Susp(" + value + ")" } } } object lazyEvaluation { import lazyLib._ def main(args: Array[String]) = { val s: Susp[Int] = delay { println("evaluating..."); 3 } println("s = " + s) // show that s is unevaluated println("s() = " + s()) // evaluate s println("s = " + s) // show that the value is saved println("2 + s = " + (2 + s)) // implicit call to force() val sl = delay { Some(3) } val sl1: Susp[Some[Int]] = sl val sl2: Susp[Option[Int]] = sl1 // the type is covariant println("sl2 = " + sl2) println("sl2() = " + sl2()) println("sl2 = " + sl2) } }</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

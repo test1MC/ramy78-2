@@ -1,0 +1,2806 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="CSS.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="es">
+    <header>
+      <skl><external-file
+          href="CSS.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">295</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11"
+        tool-name="Lingo"
+        tool-version="11.0.7114.18563"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>CSS</source><seg-source><mrk
+            mtype="seg"
+            mid="1">CSS</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Uses AvalonEdit.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Uses AvalonEdit.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Highlight.js Example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Highlight.js Example</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>@font-face {<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>font-family: Chunkfive; src: url('Chunkfive.otf');<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>body, .usertext {<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>color: #F0F0F0; background: #600;<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>font-family: Chunkfive, sans;<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>--heading-1: 30px/32px Helvetica, sans-serif;<ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>a::before {<ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>content: 'Link: ';<ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>p.Note {<ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>padding: 10px;<ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>border: solid 1px black;<ph
+            id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>background-color: #e6e6e6;<ph
+            id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>@import url(print.css);<ph
+            id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>@media print {<ph
+            id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>a[href^=http]::after {<ph
+            id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>content: attr(href)<ph
+            id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>}<ph
+            id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">@font-face {<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>font-family: Chunkfive; src: url('Chunkfive.otf');<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">}<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">body, .usertext {<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>color: #F0F0F0; background: #600;<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>font-family: Chunkfive, sans;<ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>--heading-1: 30px/32px Helvetica, sans-serif;<ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">}<ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">a::before {<ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>content: 'Link: ';<ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6">}<ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="7">p.Note {<ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>padding: 10px;<ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>border: solid 1px black;<ph
+              id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>background-color: #e6e6e6;<ph
+              id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="8">}<ph
+              id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="9">@import url(print.css);<ph
+              id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="10">@media print {<ph
+              id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>a[href^=http]::after {<ph
+              id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>content: attr(href)<ph
+              id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>}<ph
+              id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="11">}</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Empty rules</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Empty rules</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>*{} * {} p {}
+
+ul,
+ol {}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">*{} * {} p {} ul, ol {}</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Simple rule</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Simple rule</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>p { color: red; }</source><seg-source><mrk
+            mtype="seg"
+            mid="1">p { color: red; }</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Important rules</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Important rules</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>p {
+    color: red !important;
+    line-height: normal!important;
+}
+
+p{position:absolute!important}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">p { color: red !important; line-height: normal!important; } p{position:absolute!important}</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>@rule</source><seg-source><mrk
+            mtype="seg"
+            mid="1">@rule</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>@media screen and (min-width: 100px) {}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">@media screen and (min-width: 100px) {}</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>LESS variable</source><seg-source><mrk
+            mtype="seg"
+            mid="1">LESS variable</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>@main-color: red;
+.foo {
+	background: @main-color;
+}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">@main-color: red; .foo { background: @main-color; }</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Comments</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Comments</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>/* Simple comment here */
+/* Multi-line /
+comment */</source><seg-source><mrk
+            mtype="seg"
+            mid="1">/* Simple comment here */ /* Multi-line / comment */</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>String</source><seg-source><mrk
+            mtype="seg"
+            mid="1">String</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>content: 'foo';</source><seg-source><mrk
+            mtype="seg"
+            mid="1">content: 'foo';</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>URL</source><seg-source><mrk
+            mtype="seg"
+            mid="1">URL</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>content: url(../Resources/Images/foo.png);</source><seg-source><mrk
+            mtype="seg"
+            mid="1">content: url(../Resources/Images/foo.png);</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="21"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Stylesheet</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Stylesheet</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="22"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>/*&lt;meta /&gt;*/<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>/*&lt;meta sourceDocument="C:\Users\hmanes\Documents\Word Test Documents\Page Breaks\Word Import Test Document.docx" /&gt;*/<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>@font-face {<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>font-family: Chunkfive; src: url('Chunkfive.otf');<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>body, .usertext {<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>color: #F0F0F0; background: #600;<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>font-family: Chunkfive, sans;<ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>--heading-1: 30px/32px Helvetica, sans-serif;<ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>@import url(print.css);<ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>@media print {<ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>a[href^=http]::after {<ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>content: attr(href)<ph
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>}<ph
+            id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>p<ph
+            id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-bottom: 8pt;<ph
+            id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-family: Calibri;<ph
+            id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-size: 11pt;<ph
+            id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-top: 0pt;<ph
+            id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>ol<ph
+            id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-bottom: 8pt;<ph
+            id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-family: Calibri;<ph
+            id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-size: 11pt;<ph
+            id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-top: 0pt;<ph
+            id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>ul<ph
+            id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-bottom: 8pt;<ph
+            id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-family: Calibri;<ph
+            id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-size: 11pt;<ph
+            id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-top: 0pt;<ph
+            id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>li<ph
+            id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-bottom: 8pt;<ph
+            id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-family: Calibri;<ph
+            id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-size: 11pt;<ph
+            id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-top: 0pt;<ph
+            id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>td<ph
+            id="52" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="53" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-bottom: 8pt;<ph
+            id="54" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-family: Calibri;<ph
+            id="55" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-size: 11pt;<ph
+            id="56" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	vertical-align: top;<ph
+            id="57" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="58" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>h1.Heading1<ph
+            id="59" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="60" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	page-break-after: avoid;<ph
+            id="61" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	page-break-inside: avoid;<ph
+            id="62" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-top: 12pt;<ph
+            id="63" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-bottom: 0pt;<ph
+            id="64" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	mc-heading-level: 1;<ph
+            id="65" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-family: 'Calibri Light';<ph
+            id="66" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	color: #2E74B5;<ph
+            id="67" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-size: 16pt;<ph
+            id="68" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-weight: normal;<ph
+            id="69" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="70" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>h2.Heading2<ph
+            id="71" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="72" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	page-break-after: avoid;<ph
+            id="73" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	page-break-inside: avoid;<ph
+            id="74" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-top: 2pt;<ph
+            id="75" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-bottom: 0pt;<ph
+            id="76" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	mc-heading-level: 2;<ph
+            id="77" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-family: 'Calibri Light';<ph
+            id="78" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	color: #2E74B5;<ph
+            id="79" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-size: 13pt;<ph
+            id="80" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-weight: normal;<ph
+            id="81" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="82" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>p.ListParagraph<ph
+            id="83" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="84" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-bottom: 8pt;<ph
+            id="85" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-size: 11pt;<ph
+            id="86" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-family: Calibri;<ph
+            id="87" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="88" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>h3.Heading3<ph
+            id="89" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="90" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	page-break-after: avoid;<ph
+            id="91" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	page-break-inside: avoid;<ph
+            id="92" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-top: 2pt;<ph
+            id="93" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-bottom: 0pt;<ph
+            id="94" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	mc-heading-level: 3;<ph
+            id="95" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-family: 'Calibri Light';<ph
+            id="96" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	color: #1F4D78;<ph
+            id="97" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-size: 12pt;<ph
+            id="98" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-weight: normal;<ph
+            id="99" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="100" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>p.BodyText<ph
+            id="101" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="102" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-size: 11pt;<ph
+            id="103" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-bottom: 6pt;<ph
+            id="104" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-family: Calibri;<ph
+            id="105" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="106" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>p.ListNumber<ph
+            id="107" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="108" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-top: 6pt;<ph
+            id="109" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-bottom: 11pt;<ph
+            id="110" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-family: Tahoma;<ph
+            id="111" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	letter-spacing: 0pt;<ph
+            id="112" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-size: 11pt;<ph
+            id="113" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="114" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>p.ListBullet2<ph
+            id="115" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="116" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-top: 6pt;<ph
+            id="117" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-bottom: 9pt;<ph
+            id="118" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-family: Tahoma;<ph
+            id="119" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-size: 11pt;<ph
+            id="120" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="121" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>p.C1SectionEnd<ph
+            id="122" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="123" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	page-break-inside: avoid;<ph
+            id="124" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-bottom: 0pt;<ph
+            id="125" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-family: 'Times New Roman';<ph
+            id="126" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-size: 10pt;<ph
+            id="127" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="128" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>ol.ol_1<ph
+            id="129" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="130" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	padding-left: 0px;<ph
+            id="131" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	list-style-type: lower-roman;<ph
+            id="132" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-left: 18pt;<ph
+            id="133" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="134" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>ol.ol_2<ph
+            id="135" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="136" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	padding-left: 0px;<ph
+            id="137" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	list-style-type: lower-alpha;<ph
+            id="138" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-left: 18pt;<ph
+            id="139" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="140" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>ol.ol_3<ph
+            id="141" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="142" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	padding-left: 0px;<ph
+            id="143" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	list-style-type: decimal;<ph
+            id="144" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-left: 18pt;<ph
+            id="145" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="146" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>ol.ol_4<ph
+            id="147" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="148" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	padding-left: 0px;<ph
+            id="149" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	list-style-type: decimal;<ph
+            id="150" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-left: 43pt;<ph
+            id="151" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="152" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>p.ListBullet2_1<ph
+            id="153" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="154" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-top: 6pt;<ph
+            id="155" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-bottom: 9pt;<ph
+            id="156" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-family: Tahoma;<ph
+            id="157" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-size: 11pt;<ph
+            id="158" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	list-style-type: disc;<ph
+            id="159" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="160" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>li.li_1<ph
+            id="161" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="162" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-left: 57pt;<ph
+            id="163" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-right: 32pt;<ph
+            id="164" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="165" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>ul.ul_1<ph
+            id="166" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="167" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	padding-left: 0px;<ph
+            id="168" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	list-style-type: disc;<ph
+            id="169" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-left: 43pt;<ph
+            id="170" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="171" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>li.li_2<ph
+            id="172" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="173" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-right: 18pt;<ph
+            id="174" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="175" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>span.span_1<ph
+            id="176" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="177" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-right: 0pt;<ph
+            id="178" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	font-family: 'Times New Roman';<ph
+            id="179" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="180" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>ol.ol_5<ph
+            id="181" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="182" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	padding-left: 0px;<ph
+            id="183" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	margin-left: 18pt;<ph
+            id="184" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">/*&lt;meta /&gt;*/<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">/*&lt;meta sourceDocument="C:\Users\hmanes\Documents\Word Test Documents\Page Breaks\Word Import Test Document.docx" /&gt;*/<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">@font-face {<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>font-family: Chunkfive; src: url('Chunkfive.otf');<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">}<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">body, .usertext {<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>color: #F0F0F0; background: #600;<ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>font-family: Chunkfive, sans;<ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>--heading-1: 30px/32px Helvetica, sans-serif;<ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6">}<ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="7">@import url(print.css);<ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="8">@media print {<ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>a[href^=http]::after {<ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>content: attr(href)<ph
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>}<ph
+              id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="9">}<ph
+              id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="10">p<ph
+              id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="11">{<ph
+              id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="12">	</mrk><mrk
+            mtype="seg"
+            mid="13">margin-bottom: 8pt;<ph
+              id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="14">	</mrk><mrk
+            mtype="seg"
+            mid="15">font-family: Calibri;<ph
+              id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="16">	</mrk><mrk
+            mtype="seg"
+            mid="17">font-size: 11pt;<ph
+              id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="18">	</mrk><mrk
+            mtype="seg"
+            mid="19">margin-top: 0pt;<ph
+              id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="20">}<ph
+              id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="21">ol<ph
+              id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="22">{<ph
+              id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="23">	</mrk><mrk
+            mtype="seg"
+            mid="24">margin-bottom: 8pt;<ph
+              id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="25">	</mrk><mrk
+            mtype="seg"
+            mid="26">font-family: Calibri;<ph
+              id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="27">	</mrk><mrk
+            mtype="seg"
+            mid="28">font-size: 11pt;<ph
+              id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="29">	</mrk><mrk
+            mtype="seg"
+            mid="30">margin-top: 0pt;<ph
+              id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="31">}<ph
+              id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="32">ul<ph
+              id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="33">{<ph
+              id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="34">	</mrk><mrk
+            mtype="seg"
+            mid="35">margin-bottom: 8pt;<ph
+              id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="36">	</mrk><mrk
+            mtype="seg"
+            mid="37">font-family: Calibri;<ph
+              id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="38">	</mrk><mrk
+            mtype="seg"
+            mid="39">font-size: 11pt;<ph
+              id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="40">	</mrk><mrk
+            mtype="seg"
+            mid="41">margin-top: 0pt;<ph
+              id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="42">}<ph
+              id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="43">li<ph
+              id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="44">{<ph
+              id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="45">	</mrk><mrk
+            mtype="seg"
+            mid="46">margin-bottom: 8pt;<ph
+              id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="47">	</mrk><mrk
+            mtype="seg"
+            mid="48">font-family: Calibri;<ph
+              id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="49">	</mrk><mrk
+            mtype="seg"
+            mid="50">font-size: 11pt;<ph
+              id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="51">	</mrk><mrk
+            mtype="seg"
+            mid="52">margin-top: 0pt;<ph
+              id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="53">}<ph
+              id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="54">td<ph
+              id="52" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="55">{<ph
+              id="53" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="56">	</mrk><mrk
+            mtype="seg"
+            mid="57">margin-bottom: 8pt;<ph
+              id="54" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="58">	</mrk><mrk
+            mtype="seg"
+            mid="59">font-family: Calibri;<ph
+              id="55" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="60">	</mrk><mrk
+            mtype="seg"
+            mid="61">font-size: 11pt;<ph
+              id="56" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="62">	</mrk><mrk
+            mtype="seg"
+            mid="63">vertical-align: top;<ph
+              id="57" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="64">}<ph
+              id="58" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="65">h1.Heading1<ph
+              id="59" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="66">{<ph
+              id="60" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="67">	</mrk><mrk
+            mtype="seg"
+            mid="68">page-break-after: avoid;<ph
+              id="61" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="69">	</mrk><mrk
+            mtype="seg"
+            mid="70">page-break-inside: avoid;<ph
+              id="62" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="71">	</mrk><mrk
+            mtype="seg"
+            mid="72">margin-top: 12pt;<ph
+              id="63" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="73">	</mrk><mrk
+            mtype="seg"
+            mid="74">margin-bottom: 0pt;<ph
+              id="64" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="75">	</mrk><mrk
+            mtype="seg"
+            mid="76">mc-heading-level: 1;<ph
+              id="65" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="77">	</mrk><mrk
+            mtype="seg"
+            mid="78">font-family: 'Calibri Light';<ph
+              id="66" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="79">	</mrk><mrk
+            mtype="seg"
+            mid="80">color: #2E74B5;<ph
+              id="67" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="81">	</mrk><mrk
+            mtype="seg"
+            mid="82">font-size: 16pt;<ph
+              id="68" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="83">	</mrk><mrk
+            mtype="seg"
+            mid="84">font-weight: normal;<ph
+              id="69" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="85">}<ph
+              id="70" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="86">h2.Heading2<ph
+              id="71" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="87">{<ph
+              id="72" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="88">	</mrk><mrk
+            mtype="seg"
+            mid="89">page-break-after: avoid;<ph
+              id="73" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="90">	</mrk><mrk
+            mtype="seg"
+            mid="91">page-break-inside: avoid;<ph
+              id="74" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="92">	</mrk><mrk
+            mtype="seg"
+            mid="93">margin-top: 2pt;<ph
+              id="75" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="94">	</mrk><mrk
+            mtype="seg"
+            mid="95">margin-bottom: 0pt;<ph
+              id="76" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="96">	</mrk><mrk
+            mtype="seg"
+            mid="97">mc-heading-level: 2;<ph
+              id="77" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="98">	</mrk><mrk
+            mtype="seg"
+            mid="99">font-family: 'Calibri Light';<ph
+              id="78" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="100">	</mrk><mrk
+            mtype="seg"
+            mid="101">color: #2E74B5;<ph
+              id="79" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="102">	</mrk><mrk
+            mtype="seg"
+            mid="103">font-size: 13pt;<ph
+              id="80" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="104">	</mrk><mrk
+            mtype="seg"
+            mid="105">font-weight: normal;<ph
+              id="81" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="106">}<ph
+              id="82" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="107">p.ListParagraph<ph
+              id="83" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="108">{<ph
+              id="84" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="109">	</mrk><mrk
+            mtype="seg"
+            mid="110">margin-bottom: 8pt;<ph
+              id="85" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="111">	</mrk><mrk
+            mtype="seg"
+            mid="112">font-size: 11pt;<ph
+              id="86" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="113">	</mrk><mrk
+            mtype="seg"
+            mid="114">font-family: Calibri;<ph
+              id="87" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="115">}<ph
+              id="88" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="116">h3.Heading3<ph
+              id="89" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="117">{<ph
+              id="90" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="118">	</mrk><mrk
+            mtype="seg"
+            mid="119">page-break-after: avoid;<ph
+              id="91" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="120">	</mrk><mrk
+            mtype="seg"
+            mid="121">page-break-inside: avoid;<ph
+              id="92" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="122">	</mrk><mrk
+            mtype="seg"
+            mid="123">margin-top: 2pt;<ph
+              id="93" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="124">	</mrk><mrk
+            mtype="seg"
+            mid="125">margin-bottom: 0pt;<ph
+              id="94" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="126">	</mrk><mrk
+            mtype="seg"
+            mid="127">mc-heading-level: 3;<ph
+              id="95" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="128">	</mrk><mrk
+            mtype="seg"
+            mid="129">font-family: 'Calibri Light';<ph
+              id="96" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="130">	</mrk><mrk
+            mtype="seg"
+            mid="131">color: #1F4D78;<ph
+              id="97" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="132">	</mrk><mrk
+            mtype="seg"
+            mid="133">font-size: 12pt;<ph
+              id="98" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="134">	</mrk><mrk
+            mtype="seg"
+            mid="135">font-weight: normal;<ph
+              id="99" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="136">}<ph
+              id="100" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="137">p.BodyText<ph
+              id="101" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="138">{<ph
+              id="102" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="139">	</mrk><mrk
+            mtype="seg"
+            mid="140">font-size: 11pt;<ph
+              id="103" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="141">	</mrk><mrk
+            mtype="seg"
+            mid="142">margin-bottom: 6pt;<ph
+              id="104" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="143">	</mrk><mrk
+            mtype="seg"
+            mid="144">font-family: Calibri;<ph
+              id="105" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="145">}<ph
+              id="106" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="146">p.ListNumber<ph
+              id="107" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="147">{<ph
+              id="108" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="148">	</mrk><mrk
+            mtype="seg"
+            mid="149">margin-top: 6pt;<ph
+              id="109" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="150">	</mrk><mrk
+            mtype="seg"
+            mid="151">margin-bottom: 11pt;<ph
+              id="110" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="152">	</mrk><mrk
+            mtype="seg"
+            mid="153">font-family: Tahoma;<ph
+              id="111" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="154">	</mrk><mrk
+            mtype="seg"
+            mid="155">letter-spacing: 0pt;<ph
+              id="112" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="156">	</mrk><mrk
+            mtype="seg"
+            mid="157">font-size: 11pt;<ph
+              id="113" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="158">}<ph
+              id="114" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="159">p.ListBullet2<ph
+              id="115" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="160">{<ph
+              id="116" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="161">	</mrk><mrk
+            mtype="seg"
+            mid="162">margin-top: 6pt;<ph
+              id="117" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="163">	</mrk><mrk
+            mtype="seg"
+            mid="164">margin-bottom: 9pt;<ph
+              id="118" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="165">	</mrk><mrk
+            mtype="seg"
+            mid="166">font-family: Tahoma;<ph
+              id="119" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="167">	</mrk><mrk
+            mtype="seg"
+            mid="168">font-size: 11pt;<ph
+              id="120" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="169">}<ph
+              id="121" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="170">p.C1SectionEnd<ph
+              id="122" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="171">{<ph
+              id="123" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="172">	</mrk><mrk
+            mtype="seg"
+            mid="173">page-break-inside: avoid;<ph
+              id="124" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="174">	</mrk><mrk
+            mtype="seg"
+            mid="175">margin-bottom: 0pt;<ph
+              id="125" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="176">	</mrk><mrk
+            mtype="seg"
+            mid="177">font-family: 'Times New Roman';<ph
+              id="126" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="178">	</mrk><mrk
+            mtype="seg"
+            mid="179">font-size: 10pt;<ph
+              id="127" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="180">}<ph
+              id="128" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="181">ol.ol_1<ph
+              id="129" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="182">{<ph
+              id="130" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="183">	</mrk><mrk
+            mtype="seg"
+            mid="184">padding-left: 0px;<ph
+              id="131" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="185">	</mrk><mrk
+            mtype="seg"
+            mid="186">list-style-type: lower-roman;<ph
+              id="132" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="187">	</mrk><mrk
+            mtype="seg"
+            mid="188">margin-left: 18pt;<ph
+              id="133" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="189">}<ph
+              id="134" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="190">ol.ol_2<ph
+              id="135" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="191">{<ph
+              id="136" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="192">	</mrk><mrk
+            mtype="seg"
+            mid="193">padding-left: 0px;<ph
+              id="137" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="194">	</mrk><mrk
+            mtype="seg"
+            mid="195">list-style-type: lower-alpha;<ph
+              id="138" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="196">	</mrk><mrk
+            mtype="seg"
+            mid="197">margin-left: 18pt;<ph
+              id="139" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="198">}<ph
+              id="140" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="199">ol.ol_3<ph
+              id="141" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="200">{<ph
+              id="142" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="201">	</mrk><mrk
+            mtype="seg"
+            mid="202">padding-left: 0px;<ph
+              id="143" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="203">	</mrk><mrk
+            mtype="seg"
+            mid="204">list-style-type: decimal;<ph
+              id="144" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="205">	</mrk><mrk
+            mtype="seg"
+            mid="206">margin-left: 18pt;<ph
+              id="145" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="207">}<ph
+              id="146" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="208">ol.ol_4<ph
+              id="147" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="209">{<ph
+              id="148" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="210">	</mrk><mrk
+            mtype="seg"
+            mid="211">padding-left: 0px;<ph
+              id="149" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="212">	</mrk><mrk
+            mtype="seg"
+            mid="213">list-style-type: decimal;<ph
+              id="150" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="214">	</mrk><mrk
+            mtype="seg"
+            mid="215">margin-left: 43pt;<ph
+              id="151" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="216">}<ph
+              id="152" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="217">p.ListBullet2_1<ph
+              id="153" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="218">{<ph
+              id="154" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="219">	</mrk><mrk
+            mtype="seg"
+            mid="220">margin-top: 6pt;<ph
+              id="155" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="221">	</mrk><mrk
+            mtype="seg"
+            mid="222">margin-bottom: 9pt;<ph
+              id="156" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="223">	</mrk><mrk
+            mtype="seg"
+            mid="224">font-family: Tahoma;<ph
+              id="157" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="225">	</mrk><mrk
+            mtype="seg"
+            mid="226">font-size: 11pt;<ph
+              id="158" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="227">	</mrk><mrk
+            mtype="seg"
+            mid="228">list-style-type: disc;<ph
+              id="159" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="229">}<ph
+              id="160" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="230">li.li_1<ph
+              id="161" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="231">{<ph
+              id="162" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="232">	</mrk><mrk
+            mtype="seg"
+            mid="233">margin-left: 57pt;<ph
+              id="163" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="234">	</mrk><mrk
+            mtype="seg"
+            mid="235">margin-right: 32pt;<ph
+              id="164" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="236">}<ph
+              id="165" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="237">ul.ul_1<ph
+              id="166" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="238">{<ph
+              id="167" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="239">	</mrk><mrk
+            mtype="seg"
+            mid="240">padding-left: 0px;<ph
+              id="168" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="241">	</mrk><mrk
+            mtype="seg"
+            mid="242">list-style-type: disc;<ph
+              id="169" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="243">	</mrk><mrk
+            mtype="seg"
+            mid="244">margin-left: 43pt;<ph
+              id="170" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="245">}<ph
+              id="171" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="246">li.li_2<ph
+              id="172" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="247">{<ph
+              id="173" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="248">	</mrk><mrk
+            mtype="seg"
+            mid="249">margin-right: 18pt;<ph
+              id="174" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="250">}<ph
+              id="175" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="251">span.span_1<ph
+              id="176" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="252">{<ph
+              id="177" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="253">	</mrk><mrk
+            mtype="seg"
+            mid="254">margin-right: 0pt;<ph
+              id="178" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="255">	</mrk><mrk
+            mtype="seg"
+            mid="256">font-family: 'Times New Roman';<ph
+              id="179" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="257">}<ph
+              id="180" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="258">ol.ol_5<ph
+              id="181" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="259">{<ph
+              id="182" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="260">	</mrk><mrk
+            mtype="seg"
+            mid="261">padding-left: 0px;<ph
+              id="183" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="262">	</mrk><mrk
+            mtype="seg"
+            mid="263">margin-left: 18pt;<ph
+              id="184" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="264">}</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="14"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="15"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="16"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="17"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="18"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="19"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="20"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="21"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="22"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="23"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="24"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="25"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="26"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="27"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="28"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="29"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="30"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="31"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="32"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="33"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="34"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="35"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="36"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="37"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="38"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="39"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="40"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="41"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="42"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="43"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="44"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="45"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="46"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="47"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="48"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="49"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="50"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="51"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="52"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="53"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="54"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="55"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="56"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="57"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="58"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="59"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="60"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="61"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="62"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="63"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="64"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="65"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="66"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="67"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="68"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="69"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="70"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="71"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="72"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="73"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="74"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="75"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="76"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="77"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="78"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="79"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="80"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="81"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="82"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="83"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="84"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="85"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="86"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="87"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="88"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="89"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="90"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="91"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="92"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="93"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="94"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="95"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="96"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="97"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="98"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="99"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="100"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="101"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="102"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="103"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="104"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="105"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="106"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="107"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="108"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="109"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="110"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="111"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="112"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="113"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="114"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="115"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="116"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="117"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="118"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="119"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="120"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="121"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="122"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="123"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="124"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="125"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="126"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="127"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="128"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="129"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="130"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="131"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="132"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="133"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="134"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="135"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="136"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="137"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="138"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="139"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="140"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="141"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="142"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="143"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="144"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="145"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="146"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="147"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="148"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="149"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="150"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="151"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="152"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="153"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="154"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="155"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="156"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="157"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="158"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="159"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="160"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="161"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="162"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="163"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="164"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="165"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="166"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="167"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="168"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="169"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="170"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="171"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="172"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="173"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="174"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="175"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="176"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="177"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="178"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="179"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="180"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="181"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="182"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="183"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="184"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="185"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="186"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="187"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="188"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="189"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="190"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="191"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="192"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="193"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="194"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="195"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="196"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="197"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="198"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="199"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="200"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="201"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="202"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="203"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="204"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="205"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="206"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="207"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="208"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="209"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="210"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="211"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="212"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="213"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="214"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="215"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="216"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="217"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="218"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="219"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="220"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="221"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="222"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="223"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="224"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="225"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="226"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="227"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="228"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="229"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="230"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="231"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="232"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="233"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="234"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="235"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="236"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="237"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="238"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="239"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="240"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="241"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="242"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="243"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="244"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="245"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="246"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="247"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="248"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="249"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="250"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="251"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="252"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="253"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="254"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="255"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="256"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="257"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="258"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="259"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="260"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="261"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="262"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="263"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="264"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

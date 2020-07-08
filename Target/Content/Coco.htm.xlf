@@ -1,0 +1,967 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="Coco.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="es">
+    <header>
+      <skl><external-file
+          href="Coco.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">62</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11"
+        tool-name="Lingo"
+        tool-version="11.0.7114.18563"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Coco</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Coco</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Uses AvalonEdit.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Uses AvalonEdit.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>Function: main/0<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>Function: g/1<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>Function: f/1<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>Constants: None, 0<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>Locals: x<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>FreeVars: aVal, lstInts<ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>BEGIN<ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>LOAD_DEREF<ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>0<ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>LOAD_DEREF<ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>1<ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>LOAD_CONST<ph
+            id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>1<ph
+            id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>BINARY_SUBSCR<ph
+            id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">            
+                  </ph>BINARY_ADD<ph
+            id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">               
+                  </ph>LOAD_FAST<ph
+            id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">                      </ph>0<ph
+            id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>BINARY_ADD<ph
+            id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">               
+                  </ph>RETURN_VALUE<ph
+            id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">             
+        </ph>END<ph
+            id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>Constants: None, code(f)<ph
+            id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>Locals: aVal, f<ph
+            id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>FreeVars: lstInts<ph
+            id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>CellVars: aVal<ph
+            id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>BEGIN<ph
+            id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">              </ph>LOAD_CLOSURE<ph
+            id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">                   </ph>0<ph
+            id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">              </ph>LOAD_CLOSURE<ph
+            id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">                   </ph>1<ph
+            id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">              </ph>BUILD_TUPLE<ph
+            id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">                    </ph>2<ph
+            id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">              </ph>LOAD_CONST<ph
+            id="52" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>1<ph
+            id="53" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="54" xmlns="urn:oasis:names:tc:xliff:document:1.2">              </ph>MAKE_CLOSURE<ph
+            id="55" xmlns="urn:oasis:names:tc:xliff:document:1.2">                   </ph>0<ph
+            id="56" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="57" xmlns="urn:oasis:names:tc:xliff:document:1.2">              </ph>STORE_FAST<ph
+            id="58" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>1<ph
+            id="59" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="60" xmlns="urn:oasis:names:tc:xliff:document:1.2">              </ph>LOAD_FAST<ph
+            id="61" xmlns="urn:oasis:names:tc:xliff:document:1.2">                      </ph>1<ph
+            id="62" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="63" xmlns="urn:oasis:names:tc:xliff:document:1.2">              </ph>RETURN_VALUE<ph
+            id="64" xmlns="urn:oasis:names:tc:xliff:document:1.2">             
+    </ph>END<ph
+            id="65" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>Constants: None, code(g), "Please enter a list of integers: ", 6, 2<ph
+            id="66" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>Locals: g, x, lst, y, myFun<ph
+            id="67" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>CellVars: lstInts<ph
+            id="68" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>Globals: input, split, append, int, print<ph
+            id="69" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>BEGIN<ph
+            id="70" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="71" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_CLOSURE<ph
+            id="72" xmlns="urn:oasis:names:tc:xliff:document:1.2">                   </ph>0<ph
+            id="73" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="74" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>BUILD_TUPLE<ph
+            id="75" xmlns="urn:oasis:names:tc:xliff:document:1.2">                    </ph>1<ph
+            id="76" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="77" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_CONST<ph
+            id="78" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>1<ph
+            id="79" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="80" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>MAKE_CLOSURE<ph
+            id="81" xmlns="urn:oasis:names:tc:xliff:document:1.2">                   </ph>0<ph
+            id="82" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="83" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>STORE_FAST<ph
+            id="84" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>0<ph
+            id="85" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="86" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_GLOBAL<ph
+            id="87" xmlns="urn:oasis:names:tc:xliff:document:1.2">                    </ph>0<ph
+            id="88" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="89" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_CONST<ph
+            id="90" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>2<ph
+            id="91" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="92" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>CALL_FUNCTION<ph
+            id="93" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>1<ph
+            id="94" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="95" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>STORE_FAST<ph
+            id="96" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>1<ph
+            id="97" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="98" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_FAST<ph
+            id="99" xmlns="urn:oasis:names:tc:xliff:document:1.2">                      </ph>1<ph
+            id="100" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="101" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_ATTR<ph
+            id="102" xmlns="urn:oasis:names:tc:xliff:document:1.2">                      </ph>1<ph
+            id="103" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="104" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>CALL_FUNCTION<ph
+            id="105" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>0<ph
+            id="106" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="107" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>STORE_FAST<ph
+            id="108" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>2<ph
+            id="109" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="110" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>BUILD_LIST<ph
+            id="111" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>0<ph
+            id="112" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="113" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>STORE_DEREF<ph
+            id="114" xmlns="urn:oasis:names:tc:xliff:document:1.2">                    </ph>0<ph
+            id="115" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="116" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>SETUP_LOOP<ph
+            id="117" xmlns="urn:oasis:names:tc:xliff:document:1.2">               </ph>label02<ph
+            id="118" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="119" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_FAST<ph
+            id="120" xmlns="urn:oasis:names:tc:xliff:document:1.2">                      </ph>2<ph
+            id="121" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="122" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>GET_ITER<ph
+            id="123" xmlns="urn:oasis:names:tc:xliff:document:1.2">                 
+</ph>label00:<ph
+            id="124" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>FOR_ITER<ph
+            id="125" xmlns="urn:oasis:names:tc:xliff:document:1.2">                 </ph>label01<ph
+            id="126" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="127" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>STORE_FAST<ph
+            id="128" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>3<ph
+            id="129" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="130" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_DEREF<ph
+            id="131" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>0<ph
+            id="132" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="133" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_ATTR<ph
+            id="134" xmlns="urn:oasis:names:tc:xliff:document:1.2">                      </ph>2<ph
+            id="135" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="136" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_GLOBAL<ph
+            id="137" xmlns="urn:oasis:names:tc:xliff:document:1.2">                    </ph>3<ph
+            id="138" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="139" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_FAST<ph
+            id="140" xmlns="urn:oasis:names:tc:xliff:document:1.2">                      </ph>3<ph
+            id="141" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="142" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>CALL_FUNCTION<ph
+            id="143" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>1<ph
+            id="144" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="145" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>CALL_FUNCTION<ph
+            id="146" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>1<ph
+            id="147" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="148" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>POP_TOP<ph
+            id="149" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  
+          </ph>JUMP_ABSOLUTE<ph
+            id="150" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>label00<ph
+            id="151" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>label01:<ph
+            id="152" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>POP_BLOCK<ph
+            id="153" xmlns="urn:oasis:names:tc:xliff:document:1.2">                
+</ph>label02:<ph
+            id="154" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>LOAD_FAST<ph
+            id="155" xmlns="urn:oasis:names:tc:xliff:document:1.2">                      </ph>0<ph
+            id="156" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="157" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_CONST<ph
+            id="158" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>3<ph
+            id="159" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="160" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>CALL_FUNCTION<ph
+            id="161" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>1<ph
+            id="162" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="163" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>STORE_FAST<ph
+            id="164" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>4<ph
+            id="165" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="166" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_GLOBAL<ph
+            id="167" xmlns="urn:oasis:names:tc:xliff:document:1.2">                    </ph>4<ph
+            id="168" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="169" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_FAST<ph
+            id="170" xmlns="urn:oasis:names:tc:xliff:document:1.2">                      </ph>4<ph
+            id="171" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="172" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_DEREF<ph
+            id="173" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>0<ph
+            id="174" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="175" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_CONST<ph
+            id="176" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>4<ph
+            id="177" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="178" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>BINARY_SUBSCR<ph
+            id="179" xmlns="urn:oasis:names:tc:xliff:document:1.2">            
+          </ph>CALL_FUNCTION<ph
+            id="180" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>1<ph
+            id="181" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="182" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>CALL_FUNCTION<ph
+            id="183" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>1<ph
+            id="184" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="185" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>POP_TOP<ph
+            id="186" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  
+          </ph>LOAD_CONST<ph
+            id="187" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>0<ph
+            id="188" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="189" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>RETURN_VALUE<ph
+            id="190" xmlns="urn:oasis:names:tc:xliff:document:1.2">             
+</ph>END</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Function: main/0<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>Function: g/1<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>Function: f/1<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>Constants: None, 0<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>Locals: x<ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>FreeVars: aVal, lstInts<ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>BEGIN<ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2"><ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>LOAD_DEREF<ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>0<ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3"><ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>LOAD_DEREF<ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>1<ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4"><ph
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>LOAD_CONST<ph
+              id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>1<ph
+              id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5"><ph
+              id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>BINARY_SUBSCR<ph
+              id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">            
+                  </ph>BINARY_ADD<ph
+              id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">               
+                  </ph>LOAD_FAST<ph
+              id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">                      </ph>0<ph
+              id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6"><ph
+              id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>BINARY_ADD<ph
+              id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">               
+                  </ph>RETURN_VALUE<ph
+              id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">             
+        </ph>END<ph
+              id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>Constants: None, code(f)<ph
+              id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>Locals: aVal, f<ph
+              id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>FreeVars: lstInts<ph
+              id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>CellVars: aVal<ph
+              id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>BEGIN<ph
+              id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="7"><ph
+              id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">              </ph>LOAD_CLOSURE<ph
+              id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">                   </ph>0<ph
+              id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="8"><ph
+              id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">              </ph>LOAD_CLOSURE<ph
+              id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">                   </ph>1<ph
+              id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="9"><ph
+              id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">              </ph>BUILD_TUPLE<ph
+              id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">                    </ph>2<ph
+              id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="10"><ph
+              id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">              </ph>LOAD_CONST<ph
+              id="52" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>1<ph
+              id="53" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="11"><ph
+              id="54" xmlns="urn:oasis:names:tc:xliff:document:1.2">              </ph>MAKE_CLOSURE<ph
+              id="55" xmlns="urn:oasis:names:tc:xliff:document:1.2">                   </ph>0<ph
+              id="56" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="12"><ph
+              id="57" xmlns="urn:oasis:names:tc:xliff:document:1.2">              </ph>STORE_FAST<ph
+              id="58" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>1<ph
+              id="59" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="13"><ph
+              id="60" xmlns="urn:oasis:names:tc:xliff:document:1.2">              </ph>LOAD_FAST<ph
+              id="61" xmlns="urn:oasis:names:tc:xliff:document:1.2">                      </ph>1<ph
+              id="62" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="14"><ph
+              id="63" xmlns="urn:oasis:names:tc:xliff:document:1.2">              </ph>RETURN_VALUE<ph
+              id="64" xmlns="urn:oasis:names:tc:xliff:document:1.2">             
+    </ph>END<ph
+              id="65" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="15">Constants: None, code(g), "Please enter a list of integers: ", 6, 2<ph
+              id="66" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="16">Locals: g, x, lst, y, myFun<ph
+              id="67" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="17">CellVars: lstInts<ph
+              id="68" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="18">Globals: input, split, append, int, print<ph
+              id="69" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="19">BEGIN<ph
+              id="70" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="20"><ph
+              id="71" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_CLOSURE<ph
+              id="72" xmlns="urn:oasis:names:tc:xliff:document:1.2">                   </ph>0<ph
+              id="73" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="21"><ph
+              id="74" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>BUILD_TUPLE<ph
+              id="75" xmlns="urn:oasis:names:tc:xliff:document:1.2">                    </ph>1<ph
+              id="76" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="22"><ph
+              id="77" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_CONST<ph
+              id="78" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>1<ph
+              id="79" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="23"><ph
+              id="80" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>MAKE_CLOSURE<ph
+              id="81" xmlns="urn:oasis:names:tc:xliff:document:1.2">                   </ph>0<ph
+              id="82" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="24"><ph
+              id="83" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>STORE_FAST<ph
+              id="84" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>0<ph
+              id="85" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="25"><ph
+              id="86" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_GLOBAL<ph
+              id="87" xmlns="urn:oasis:names:tc:xliff:document:1.2">                    </ph>0<ph
+              id="88" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="26"><ph
+              id="89" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_CONST<ph
+              id="90" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>2<ph
+              id="91" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="27"><ph
+              id="92" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>CALL_FUNCTION<ph
+              id="93" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>1<ph
+              id="94" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="28"><ph
+              id="95" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>STORE_FAST<ph
+              id="96" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>1<ph
+              id="97" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="29"><ph
+              id="98" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_FAST<ph
+              id="99" xmlns="urn:oasis:names:tc:xliff:document:1.2">                      </ph>1<ph
+              id="100" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="30"><ph
+              id="101" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_ATTR<ph
+              id="102" xmlns="urn:oasis:names:tc:xliff:document:1.2">                      </ph>1<ph
+              id="103" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="31"><ph
+              id="104" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>CALL_FUNCTION<ph
+              id="105" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>0<ph
+              id="106" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="32"><ph
+              id="107" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>STORE_FAST<ph
+              id="108" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>2<ph
+              id="109" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="33"><ph
+              id="110" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>BUILD_LIST<ph
+              id="111" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>0<ph
+              id="112" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="34"><ph
+              id="113" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>STORE_DEREF<ph
+              id="114" xmlns="urn:oasis:names:tc:xliff:document:1.2">                    </ph>0<ph
+              id="115" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="35"><ph
+              id="116" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>SETUP_LOOP<ph
+              id="117" xmlns="urn:oasis:names:tc:xliff:document:1.2">               </ph>label02<ph
+              id="118" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="36"><ph
+              id="119" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_FAST<ph
+              id="120" xmlns="urn:oasis:names:tc:xliff:document:1.2">                      </ph>2<ph
+              id="121" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="37"><ph
+              id="122" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>GET_ITER<ph
+              id="123" xmlns="urn:oasis:names:tc:xliff:document:1.2">                 
+</ph></mrk><mrk
+            mtype="seg"
+            mid="38">label00:<ph
+              id="124" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>FOR_ITER<ph
+              id="125" xmlns="urn:oasis:names:tc:xliff:document:1.2">                 </ph>label01<ph
+              id="126" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="39"><ph
+              id="127" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>STORE_FAST<ph
+              id="128" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>3<ph
+              id="129" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="40"><ph
+              id="130" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_DEREF<ph
+              id="131" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>0<ph
+              id="132" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="41"><ph
+              id="133" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_ATTR<ph
+              id="134" xmlns="urn:oasis:names:tc:xliff:document:1.2">                      </ph>2<ph
+              id="135" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="42"><ph
+              id="136" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_GLOBAL<ph
+              id="137" xmlns="urn:oasis:names:tc:xliff:document:1.2">                    </ph>3<ph
+              id="138" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="43"><ph
+              id="139" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_FAST<ph
+              id="140" xmlns="urn:oasis:names:tc:xliff:document:1.2">                      </ph>3<ph
+              id="141" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="44"><ph
+              id="142" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>CALL_FUNCTION<ph
+              id="143" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>1<ph
+              id="144" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="45"><ph
+              id="145" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>CALL_FUNCTION<ph
+              id="146" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>1<ph
+              id="147" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="46"><ph
+              id="148" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>POP_TOP<ph
+              id="149" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  
+          </ph>JUMP_ABSOLUTE<ph
+              id="150" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>label00<ph
+              id="151" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="47">label01:<ph
+              id="152" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>POP_BLOCK<ph
+              id="153" xmlns="urn:oasis:names:tc:xliff:document:1.2">                
+</ph></mrk><mrk
+            mtype="seg"
+            mid="48">label02:<ph
+              id="154" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>LOAD_FAST<ph
+              id="155" xmlns="urn:oasis:names:tc:xliff:document:1.2">                      </ph>0<ph
+              id="156" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="49"><ph
+              id="157" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_CONST<ph
+              id="158" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>3<ph
+              id="159" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="50"><ph
+              id="160" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>CALL_FUNCTION<ph
+              id="161" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>1<ph
+              id="162" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="51"><ph
+              id="163" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>STORE_FAST<ph
+              id="164" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>4<ph
+              id="165" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="52"><ph
+              id="166" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_GLOBAL<ph
+              id="167" xmlns="urn:oasis:names:tc:xliff:document:1.2">                    </ph>4<ph
+              id="168" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="53"><ph
+              id="169" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_FAST<ph
+              id="170" xmlns="urn:oasis:names:tc:xliff:document:1.2">                      </ph>4<ph
+              id="171" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="54"><ph
+              id="172" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_DEREF<ph
+              id="173" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>0<ph
+              id="174" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="55"><ph
+              id="175" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>LOAD_CONST<ph
+              id="176" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>4<ph
+              id="177" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="56"><ph
+              id="178" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>BINARY_SUBSCR<ph
+              id="179" xmlns="urn:oasis:names:tc:xliff:document:1.2">            
+          </ph>CALL_FUNCTION<ph
+              id="180" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>1<ph
+              id="181" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="57"><ph
+              id="182" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>CALL_FUNCTION<ph
+              id="183" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>1<ph
+              id="184" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="58"><ph
+              id="185" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>POP_TOP<ph
+              id="186" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  
+          </ph>LOAD_CONST<ph
+              id="187" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>0<ph
+              id="188" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="59"><ph
+              id="189" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>RETURN_VALUE<ph
+              id="190" xmlns="urn:oasis:names:tc:xliff:document:1.2">             
+</ph></mrk><mrk
+            mtype="seg"
+            mid="60">END</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="14"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="15"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="16"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="17"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="18"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="19"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="20"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="21"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="22"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="23"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="24"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="25"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="26"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="27"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="28"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="29"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="30"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="31"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="32"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="33"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="34"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="35"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="36"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="37"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="38"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="39"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="40"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="41"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="42"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="43"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="44"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="45"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="46"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="47"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="48"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="49"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="50"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="51"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="52"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="53"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="54"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="55"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="56"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="57"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="58"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="59"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="60"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

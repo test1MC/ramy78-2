@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1>TSQL</h1>
+        <p>Uses AvalonEdit.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="noCaption" style="mc-code-lang: TSQL;" xml:space="preserve" madcap-space-after-export="preserve">DECLARE @var1 NVARCHAR(30);
+SET @var1 = 'Some Name';
+SELECT @var1 = Name
+  FROM Sales.Store
+  WHERE CustomerID = 100;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="noCaption" style="mc-code-lang: TSQL;" xml:space="preserve" madcap-space-after-export="preserve">IF DATEPART(dw, GETDATE()) = 7 OR DATEPART(dw, GETDATE()) = 1
+   PRINT 'It is the weekend.';
+ELSE
+   PRINT 'It is a weekday.';</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="noCaption" style="mc-code-lang: TSQL;" xml:space="preserve" madcap-space-after-export="preserve">IF DATEPART(dw, GETDATE()) = 7 OR DATEPART(dw, GETDATE()) = 1
+BEGIN
+   PRINT 'It is the weekend.';
+   PRINT 'Get some rest on the weekend!';
+END;
+ELSE
+BEGIN
+   PRINT 'It is a weekday.';
+   PRINT 'Get to work on a weekday!';
+END;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="noCaption" style="mc-code-lang: TSQL;" xml:space="preserve" madcap-space-after-export="preserve">DECLARE @i INT;
+SET @i = 0;
+
+WHILE @i &lt; 5
+BEGIN
+   PRINT 'Hello world.';
+   SET @i = @i + 1;
+END;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <p>
+            <MadCap:relatedTopics>
+                <MadCap:relatedTopic src="SQL.htm" />
+            </MadCap:relatedTopics>
+        </p>
+    </body>
+</html>

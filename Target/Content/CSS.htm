@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1>CSS</h1>
+        <p>Uses AvalonEdit.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Highlight.js Example</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="CSS" xml:space="preserve" madcap-space-after-export="preserve">@font-face {
+  font-family: Chunkfive; src: url('Chunkfive.otf');
+}
+
+body, .usertext {
+  color: #F0F0F0; background: #600;
+  font-family: Chunkfive, sans;
+  --heading-1: 30px/32px Helvetica, sans-serif;
+}
+
+a::before {
+  content: 'Link: ';
+}
+
+p.Note {
+  padding: 10px;
+  border: solid 1px black;
+  background-color: #e6e6e6;
+}
+
+@import url(print.css);
+@media print {
+  a[href^=http]::after {
+    content: attr(href)
+  }
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Empty rules</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="CSS">*{} * {} p {}
+
+ul,
+ol {}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Simple rule</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="CSS">p { color: red; }</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Important rules</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="CSS">p {
+    color: red !important;
+    line-height: normal!important;
+}
+
+p{position:absolute!important}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>@rule</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="CSS">@media screen and (min-width: 100px) {}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>LESS variable</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="CSS">@main-color: red;
+.foo {
+	background: @main-color;
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Comments</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="CSS">/* Simple comment here */
+/* Multi-line /
+comment */</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>String</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="CSS">content: 'foo';</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>URL</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="CSS">content: url(../Resources/Images/foo.png);</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: top;mc-caption-repeat: true;">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Stylesheet</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="True" MadCap:lineNumberStart="1" MadCap:continue="False" class="CSS" xml:space="preserve" madcap-space-after-export="preserve">/*&lt;meta /&gt;*/
+
+/*&lt;meta sourceDocument="C:\Users\hmanes\Documents\Word Test Documents\Page Breaks\Word Import Test Document.docx" /&gt;*/
+@font-face {
+  font-family: Chunkfive; src: url('Chunkfive.otf');
+}
+
+body, .usertext {
+  color: #F0F0F0; background: #600;
+  font-family: Chunkfive, sans;
+  --heading-1: 30px/32px Helvetica, sans-serif;
+}
+
+@import url(print.css);
+@media print {
+  a[href^=http]::after {
+    content: attr(href)
+  }
+}
+
+p
+{
+	margin-bottom: 8pt;
+	font-family: Calibri;
+	font-size: 11pt;
+	margin-top: 0pt;
+}
+
+ol
+{
+	margin-bottom: 8pt;
+	font-family: Calibri;
+	font-size: 11pt;
+	margin-top: 0pt;
+}
+
+ul
+{
+	margin-bottom: 8pt;
+	font-family: Calibri;
+	font-size: 11pt;
+	margin-top: 0pt;
+}
+
+li
+{
+	margin-bottom: 8pt;
+	font-family: Calibri;
+	font-size: 11pt;
+	margin-top: 0pt;
+}
+
+td
+{
+	margin-bottom: 8pt;
+	font-family: Calibri;
+	font-size: 11pt;
+	vertical-align: top;
+}
+
+h1.Heading1
+{
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	margin-top: 12pt;
+	margin-bottom: 0pt;
+	mc-heading-level: 1;
+	font-family: 'Calibri Light';
+	color: #2E74B5;
+	font-size: 16pt;
+	font-weight: normal;
+}
+
+h2.Heading2
+{
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	margin-top: 2pt;
+	margin-bottom: 0pt;
+	mc-heading-level: 2;
+	font-family: 'Calibri Light';
+	color: #2E74B5;
+	font-size: 13pt;
+	font-weight: normal;
+}
+
+p.ListParagraph
+{
+	margin-bottom: 8pt;
+	font-size: 11pt;
+	font-family: Calibri;
+}
+
+h3.Heading3
+{
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	margin-top: 2pt;
+	margin-bottom: 0pt;
+	mc-heading-level: 3;
+	font-family: 'Calibri Light';
+	color: #1F4D78;
+	font-size: 12pt;
+	font-weight: normal;
+}
+
+p.BodyText
+{
+	font-size: 11pt;
+	margin-bottom: 6pt;
+	font-family: Calibri;
+}
+
+p.ListNumber
+{
+	margin-top: 6pt;
+	margin-bottom: 11pt;
+	font-family: Tahoma;
+	letter-spacing: 0pt;
+	font-size: 11pt;
+}
+
+p.ListBullet2
+{
+	margin-top: 6pt;
+	margin-bottom: 9pt;
+	font-family: Tahoma;
+	font-size: 11pt;
+}
+
+p.C1SectionEnd
+{
+	page-break-inside: avoid;
+	margin-bottom: 0pt;
+	font-family: 'Times New Roman';
+	font-size: 10pt;
+}
+
+ol.ol_1
+{
+	padding-left: 0px;
+	list-style-type: lower-roman;
+	margin-left: 18pt;
+}
+
+ol.ol_2
+{
+	padding-left: 0px;
+	list-style-type: lower-alpha;
+	margin-left: 18pt;
+}
+
+ol.ol_3
+{
+	padding-left: 0px;
+	list-style-type: decimal;
+	margin-left: 18pt;
+}
+
+ol.ol_4
+{
+	padding-left: 0px;
+	list-style-type: decimal;
+	margin-left: 43pt;
+}
+
+p.ListBullet2_1
+{
+	margin-top: 6pt;
+	margin-bottom: 9pt;
+	font-family: Tahoma;
+	font-size: 11pt;
+	list-style-type: disc;
+}
+
+li.li_1
+{
+	margin-left: 57pt;
+	margin-right: 32pt;
+}
+
+ul.ul_1
+{
+	padding-left: 0px;
+	list-style-type: disc;
+	margin-left: 43pt;
+}
+
+li.li_2
+{
+	margin-right: 18pt;
+}
+
+span.span_1
+{
+	margin-right: 0pt;
+	font-family: 'Times New Roman';
+}
+
+ol.ol_5
+{
+	padding-left: 0px;
+	margin-left: 18pt;
+}
+
+</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <p>
+            <MadCap:relatedTopics>
+                <MadCap:relatedTopic src="XSL.htm" />
+            </MadCap:relatedTopics>
+        </p>
+    </body>
+</html>

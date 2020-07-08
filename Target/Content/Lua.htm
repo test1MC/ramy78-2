@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <style>
+			MadCap|codeSnippetBody
+			{
+			mc-code-lang: Lua;
+			}
+		</style>
+    </head>
+    <body>
+        <h1>Lua</h1>
+        <p>Uses Highlight.js.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Highlight.js Example</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Lua;" madcap-space-after-export="preserve">--[[
+Simple signal/slot implementation
+]]
+local signal_mt = {
+    __index = {
+        register = table.insert
+    }
+}
+function signal_mt.__index:emit(... --[[ Comment in params ]])
+    for _, slot in ipairs(self) do
+        slot(self, ...)
+    end
+end
+local function create_signal()
+    return setmetatable({}, signal_mt)
+end
+
+-- Signal test
+local signal = create_signal()
+signal:register(function(signal, ...)
+    print(...)
+end)
+signal:emit('Answer to Life, the Universe, and Everything:', 42)
+
+--[==[ [=[ [[
+Nested ]]
+multi-line ]=]
+comment ]==]
+[==[ Nested
+[=[ multi-line
+[[ string
+]] ]=] ]==]</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Comments</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Lua;" madcap-space-after-export="preserve">#!/usr/local/bin/lua
+--
+-- Single line comment
+--[[ Multi line
+comment ]]
+--[====[ Multi line
+comment ]====]</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Strings</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Lua;" madcap-space-after-export="preserve">""
+"Foo\"bar"
+"Foo\
+bar \z
+baz"
+''
+'Foo\'bar'
+'Foo\
+bar \z
+baz'
+[[Multi "line"
+string]]
+[==[Multi [["line"]]
+string]==]</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Numbers</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Lua;" madcap-space-after-export="preserve">3
+345
+0xff
+0xBEBADA
+3, 3., 3.1, .3,
+3e12, 3.e-41, 3.1E+1, .3e1
+0x0.1E
+0xA23p-4
+0X1.921FB54442D18P+1</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Prism.js Example</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="True" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: Lua;" madcap-space-after-export="preserve">function To_Functable(t, fn)
+  return setmetatable(t,
+    {
+     __index = function(t, k) return fn(k) end,
+     __call = function(t, k) return t[k] end
+    })
+end
+
+-- Functable bottles of beer implementation
+
+spell_out = {
+  "One", "Two", "Three", "Four", "Five",
+  "Six", "Seven", "Eight", "Nine", "Ten",
+  [0] = "No more",
+  [-1] = "Lots more"
+}
+
+spell_out = To_Functable(spell_out, function(i) return i end)
+
+bottles = To_Functable({"Just one bottle of beer"},
+                       function(i)
+                         return spell_out(i) .. " bottles of beer"
+                       end)
+
+function line1(i)
+  return bottles(i) .. " on the wall, " .. bottles(i) .. "\n"
+end
+
+line2 = To_Functable({[0] = "Go to the store, Buy some more,\n"},
+                     function(i)
+                       return "Take one down and pass it around,\n"
+                     end)
+
+function line3(i)
+  return bottles(i) .. " on the wall.\n"
+end
+
+function song(n)
+  for i = n, 0, -1 do
+    io.write(line1(i), line2(i), line3(i - 1), "\n")
+  end
+end</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <h2>Sad Boy Indie Folk</h2>
+        <p>Listen to Conor Oberst - "Lua"</p>
+        <p>
+            <object src="https://www.youtube.com/watch?v=htB4lsoXfVI" style="width: 560px;height: 315px;">
+            </object>
+        </p>
+    </body>
+</html>

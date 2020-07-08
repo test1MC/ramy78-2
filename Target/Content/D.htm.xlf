@@ -1,0 +1,929 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="D.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="es">
+    <header>
+      <skl><external-file
+          href="D.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">74</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11"
+        tool-name="Lingo"
+        tool-version="11.0.7114.18563"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>D</source><seg-source><mrk
+            mtype="seg"
+            mid="1">D</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Uses HighlightJS.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Uses HighlightJS.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Highlight.js Example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Highlight.js Example</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>#!/usr/bin/rdmd
+// Computes average line length for standard input.
+import std.stdio;
+
+/+
+  this is a /+ nesting +/ comment
++/
+
+enum COMPILED_ON = __TIMESTAMP__;  // special token
+
+enum character = '©';
+enum copy_valid = '&amp;copy;';
+enum backslash_escaped = '\\';
+
+// string literals
+enum str = `hello "world"!`;
+enum multiline = r"lorem
+ipsum
+dolor";  // wysiwyg string, no escapes here allowed
+enum multiline2 = "sit
+amet
+\"adipiscing\"
+elit.";
+enum hex = x"66 6f 6f";   // same as "foo"
+
+#line 5
+
+// float literals
+enum f = [3.14f, .1, 1., 1e100, 0xc0de.01p+100];
+
+static if (something == true) {
+   import std.algorithm;
+}
+
+void main() pure nothrow @safe {
+    ulong lines = 0;
+    double sumLength = 0;
+    foreach (line; stdin.byLine()) {
+        ++lines;
+        sumLength += line.length;
+    }
+    writeln("Average line length: ",
+        lines ? sumLength / lines : 0);
+}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">#!/usr/bin/rdmd // Computes average line length for standard input.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">import std.stdio; /+ this is a /+ nesting +/ comment +/ enum COMPILED_ON = __TIMESTAMP__; // special token enum character = '©'; enum copy_valid = '&amp;copy;'; enum backslash_escaped = '\\'; // string literals enum str = `hello "world"!`; enum multiline = r"lorem ipsum dolor"; // wysiwyg string, no escapes here allowed enum multiline2 = "sit amet \"adipiscing\" elit."; enum hex = x"66 6f 6f"; // same as "foo" #line 5 // float literals enum f = [3.14f, .1, 1., 1e100, 0xc0de.01p+100]; static if (something == true) { import std.algorithm; } void main() pure nothrow @safe { ulong lines = 0; double sumLength = 0; foreach (line; stdin.byLine()) { ++lines; sumLength += line.length; } writeln("Average line length: ", lines ? sumLength / lines : 0); }</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Comments</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Comments</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>// Single line comment<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>/* Multi-line<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	comment */<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>/+ Mutli-line<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	/+ nestable +/<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	comment +/</source><seg-source><mrk
+            mtype="seg"
+            mid="1">// Single line comment<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">/* Multi-line<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="3">	</mrk><mrk
+            mtype="seg"
+            mid="4">comment */<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">/+ Mutli-line<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="6">	</mrk><mrk
+            mtype="seg"
+            mid="7">/+ nestable +/<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="8">	</mrk><mrk
+            mtype="seg"
+            mid="9">comment +/</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Numbers</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Numbers</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>0 .. 2_147_483_647
+2_147_483_648 .. 9_223_372_036_854_775_807
+0L .. 9_223_372_036_854_775_807L
+0U .. 4_294_967_296U
+4_294_967_296U .. 18_446_744_073_709_551_615U
+0UL .. 18_446_744_073_709_551_615UL
+0x0 .. 0x7FFF_FFFF
+0x8000_0000 .. 0xFFFF_FFFF
+0x1_0000_0000 .. 0x7FFF_FFFF_FFFF_FFFF
+0x8000_0000_0000_0000 .. 0xFFFF_FFFF_FFFF_FFFF
+0x0L .. 0x7FFF_FFFF_FFFF_FFFFL
+0x8000_0000_0000_0000L .. 0xFFFF_FFFF_FFFF_FFFFL
+0x0U .. 0xFFFF_FFFFU
+0x1_0000_0000U .. 0xFFFF_FFFF_FFFF_FFFFU
+0x0UL .. 0xFFFF_FFFF_FFFF_FFFFUL
+
+123_456.567_8          // 123456.5678
+1_2_3_4_5_6_.5_6_7_8   // 123456.5678
+1_2_3_4_5_6_.5e-6_     // 123456.5e-6
+0x1.FFFFFFFFFFFFFp1023 // double.max
+0x1p-52                // double.epsilon
+1.175494351e-38F       // float.min
+6.3i                   // idouble 6.3
+6.3fi                  // ifloat 6.3
+6.3Li                  // ireal 6.3
+4.5 + 6.2i             // complex number (phased out)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">0 .. 2_147_483_647 2_147_483_648 .. 9_223_372_036_854_775_807 0L .. 9_223_372_036_854_775_807L 0U .. 4_294_967_296U 4_294_967_296U .. 18_446_744_073_709_551_615U 0UL .. 18_446_744_073_709_551_615UL 0x0 .. 0x7FFF_FFFF 0x8000_0000 .. 0xFFFF_FFFF 0x1_0000_0000 .. 0x7FFF_FFFF_FFFF_FFFF 0x8000_0000_0000_0000 .. 0xFFFF_FFFF_FFFF_FFFF 0x0L .. 0x7FFF_FFFF_FFFF_FFFFL 0x8000_0000_0000_0000L .. 0xFFFF_FFFF_FFFF_FFFFL 0x0U .. 0xFFFF_FFFFU 0x1_0000_0000U .. 0xFFFF_FFFF_FFFF_FFFFU 0x0UL .. 0xFFFF_FFFF_FFFF_FFFFUL 123_456.567_8 // 123456.5678 1_2_3_4_5_6_.5_6_7_8 // 123456.5678 1_2_3_4_5_6_.5e-6_ // 123456.5e-6 0x1.FFFFFFFFFFFFFp1023 // double.max 0x1p-52 // double.epsilon 1.175494351e-38F // float.min 6.3i // idouble 6.3 6.3fi // ifloat 6.3 6.3Li // ireal 6.3 4.5 + 6.2i // complex number (phased out)</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Strings</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Strings</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>// WYSIWYG strings
+r"hello"
+r"c:\root\foo.exe"
+r"ab\n"
+`hello`
+`c:\root\foo.exe`
+`ab\n`
+
+// Double-quoted strings
+"hello"
+"c:\\root\\foo.exe"
+"ab\n"
+"ab
+"
+
+// Hex strings
+x"0A"
+x"00 FBCD 32FD 0A"
+
+// String postfix characters
+"hello"c  // string
+"hello"w  // wstring
+"hello"d  // dstring
+
+// Delimited strings
+q"(foo(xxx))"
+q"[foo{]"
+q"EOS
+This
+is a multi-line
+heredoc string
+EOS"
+q"/foo]/"
+
+// Token strings
+q{foo}
+q{/*}*/ }
+q{ foo(q{hello}); }
+q{ __TIME__ }
+
+// Character literals
+'a'
+'\u000A'</source><seg-source><mrk
+            mtype="seg"
+            mid="1">// WYSIWYG strings r"hello" r"c:\root\foo.exe" r"ab\n" `hello` `c:\root\foo.exe` `ab\n` // Double-quoted strings "hello" "c:\\root\\foo.exe" "ab\n" "ab " // Hex strings x"0A" x"00 FBCD 32FD 0A" // String postfix characters "hello"c // string "hello"w // wstring "hello"d // dstring // Delimited strings q"(foo(xxx))" q"[foo{]" q"EOS This is a multi-line heredoc string EOS" q"/foo]/" // Token strings q{foo} q{/*}*/ } q{ foo(q{hello}); } q{ __TIME__ } // Character literals 'a' '\u000A'</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Iasm registers</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Iasm registers</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>AL AH AX EAX
+BL BH BX EBX
+CL CH CX ECX
+DL DH DX EDX
+BP EBP
+SP ESP
+DI EDI
+SI ESI
+ES CS SS DS GS FS
+CR0 CR2 CR3 CR4
+DR0 DR1 DR2 DR3 DR6 DR7
+TR3 TR4 TR5 TR6 TR7
+ST
+ST(0) ST(1) ST(2) ST(3) ST(4) ST(5) ST(6) ST(7)
+MM0  MM1  MM2  MM3  MM4  MM5  MM6  MM7
+XMM0 XMM1 XMM2 XMM3 XMM4 XMM5 XMM6 XMM7
+
+RAX  RBX  RCX  RDX
+BPL  RBP
+SPL  RSP
+DIL  RDI
+SIL  RSI
+R8B  R8W  R8D  R8
+R9B  R9W  R9D  R9
+R10B R10W R10D R10
+R11B R11W R11D R11
+R12B R12W R12D R12
+R13B R13W R13D R13
+R14B R14W R14D R14
+R15B R15W R15D R15
+XMM8 XMM9 XMM10 XMM11 XMM12 XMM13 XMM14 XMM15
+YMM0 YMM1 YMM2  YMM3  YMM4  YMM5  YMM6  YMM7
+YMM8 YMM9 YMM10 YMM11 YMM12 YMM13 YMM14 YMM15</source><seg-source><mrk
+            mtype="seg"
+            mid="1">AL AH AX EAX BL BH BX EBX CL CH CX ECX DL DH DX EDX BP EBP SP ESP DI EDI SI ESI ES CS SS DS GS FS CR0 CR2 CR3 CR4 DR0 DR1 DR2 DR3 DR6 DR7 TR3 TR4 TR5 TR6 TR7 ST ST(0) ST(1) ST(2) ST(3) ST(4) ST(5) ST(6) ST(7) MM0 MM1 MM2 MM3 MM4 MM5 MM6 MM7 XMM0 XMM1 XMM2 XMM3 XMM4 XMM5 XMM6 XMM7 RAX RBX RCX RDX BPL RBP SPL RSP DIL RDI SIL RSI R8B R8W R8D R8 R9B R9W R9D R9 R10B R10W R10D R10 R11B R11W R11D R11 R12B R12W R12D R12 R13B R13W R13D R13 R14B R14W R14D R14 R15B R15W R15D R15 XMM8 XMM9 XMM10 XMM11 XMM12 XMM13 XMM14 XMM15 YMM0 YMM1 YMM2 YMM3 YMM4 YMM5 YMM6 YMM7 YMM8 YMM9 YMM10 YMM11 YMM12 YMM13 YMM14 YMM15</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Prism Example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Prism Example</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>#!/usr/bin/dmd -run
+/* sh style script syntax is supported! */
+/* Hello World in D
+   To compile:
+     dmd hello.d
+   or to optimize:
+     dmd -O -inline -release hello.d
+   or to get generated documentation:
+     dmd hello.d -D
+  */
+import std.stdio;  // References to  commonly used I/O routines.
+void main(char[][] args)   // 'void' here means return 0 by default.
+{
+    // Write-Formatted-Line
+     writefln("Hello World, "   // automatic concatenation of string literals
+              "Reloaded");
+     // Strings are denoted as a dynamic array of chars 'char[]'
+     // auto type inference and built-in foreach
+     foreach(argc, argv; args)
+    {
+        // OOP is supported, of course! And automatic type inference.
+         auto cl = new CmdLin(argc, argv);
+
+        // 'writefln' is the improved 'printf' !!
+         // user-defined class properties.
+         writefln(cl.argnum, cl.suffix, " arg: %s", cl.argv);
+        // Garbage Collection or explicit memory management - your choice!!!
+         delete cl;
+    }
+     // Nested structs, classes and functions!
+     struct specs
+    {
+        // all vars. automatically initialized
+         int count, allocated;
+    }
+
+    // Note that declarations read right-to-left.
+    // So that 'char[][]' reads as an array of an array of chars.
+
+    specs argspecs(char[][] args)
+    // Optional (built-in) function contracts.
+     in{
+        assert (args.length &gt; 0); // assert built in
+     }
+    out(result){
+        assert(result.count == CmdLin.total);
+        assert(result.allocated &gt; 0);
+    }
+    body{
+        specs* s = new specs;
+        // no need for '-&gt;'
+         s.count = args.length;  // The 'length' property is number of elements.
+         s.allocated = typeof(args).sizeof; // built-in properties for native types
+         foreach(argv; args)
+            s.allocated += argv.length * typeof(argv[0]).sizeof;
+        return *s;
+    }
+
+    // built-in string and common string operations, e.g. '~' is concatenate.
+     char[] argcmsg  = "argc = %d";
+    char[] allocmsg = "allocated = %d";
+    writefln(argcmsg ~ ", " ~ allocmsg,
+         argspecs(args).count,argspecs(args).allocated);
+}
+/**
+   Stores a single command line argument.
+ */
+ class CmdLin
+{
+    private {
+     int _argc;
+     char[] _argv;
+     static uint _totalc;
+    }
+
+ public:
+/************
+      Object constructor.
+      params:
+        argc = ordinal count of this argument.
+        argv = text of the parameter
+  *********/
+     this(int argc, char[] argv)
+    {
+        _argc = argc + 1;
+        _argv = argv;
+        _totalc++;
+    }
+
+    ~this() /// Object destructor
+     {
+        // Doesn't actually do anything for this example.
+     }
+
+     int argnum() /// A property that returns arg number
+     {
+        return _argc;
+    }
+     char[] argv() /// A property  that returns arg text
+     {
+        return _argv;
+    }
+     wchar[] suffix() /// A property  that returns ordinal suffix
+     {
+        wchar[] suffix;  // Built in  Unicode strings (utf8,utf16, utf32)
+         switch(_argc)
+        {
+        case 1:
+            suffix = "st";
+            break;
+        case 2:
+            suffix = "nd";
+            break;
+        case 3:
+            suffix = "rd";
+            break;
+        default:  // 'default' is mandatory with "-w" compile switch.
+             suffix = "th";
+        }
+        return suffix;
+    }
+
+/* **************
+      * A property of the whole class, not just an instance.
+      * returns: The total number of commandline args added.
+      *************/
+     static typeof(_totalc) total()
+    {
+        return _totalc;
+    }
+     // Class invariant, things that must be true after any method is run.
+     invariant
+     {
+         assert(_argc &gt; 0);
+         assert(_totalc &gt;= _argc);
+     }
+}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">#!/usr/bin/dmd -run /* sh style script syntax is supported!</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">*/ /* Hello World in D To compile: dmd hello.d or to optimize: dmd -O -inline -release hello.d or to get generated documentation: dmd hello.d -D */ import std.stdio; // References to commonly used I/O routines.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">void main(char[][] args) // 'void' here means return 0 by default.</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">{ // Write-Formatted-Line writefln("Hello World, " // automatic concatenation of string literals "Reloaded"); // Strings are denoted as a dynamic array of chars 'char[]' // auto type inference and built-in foreach foreach(argc, argv; args) { // OOP is supported, of course!</mrk><mrk
+            mtype="protected"
+            mid="8"> </mrk><mrk
+            mtype="seg"
+            mid="9">And automatic type inference.</mrk><mrk
+            mtype="protected"
+            mid="10"> </mrk><mrk
+            mtype="seg"
+            mid="11">auto cl = new CmdLin(argc, argv); // 'writefln' is the improved 'printf' !! // user-defined class properties.</mrk><mrk
+            mtype="protected"
+            mid="12"> </mrk><mrk
+            mtype="seg"
+            mid="13">writefln(cl.argnum, cl.suffix, " arg: %s", cl.argv); // Garbage Collection or explicit memory management - your choice!!!</mrk><mrk
+            mtype="protected"
+            mid="14"> </mrk><mrk
+            mtype="seg"
+            mid="15">delete cl; } // Nested structs, classes and functions!</mrk><mrk
+            mtype="protected"
+            mid="16"> </mrk><mrk
+            mtype="seg"
+            mid="17">struct specs { // all vars.</mrk><mrk
+            mtype="protected"
+            mid="18"> </mrk><mrk
+            mtype="seg"
+            mid="19">automatically initialized int count, allocated; } // Note that declarations read right-to-left.</mrk><mrk
+            mtype="protected"
+            mid="20"> </mrk><mrk
+            mtype="seg"
+            mid="21">// So that 'char[][]' reads as an array of an array of chars.</mrk><mrk
+            mtype="protected"
+            mid="22"> </mrk><mrk
+            mtype="seg"
+            mid="23">specs argspecs(char[][] args) // Optional (built-in) function contracts.</mrk><mrk
+            mtype="protected"
+            mid="24"> </mrk><mrk
+            mtype="seg"
+            mid="25">in{ assert (args.length &gt; 0); // assert built in } out(result){ assert(result.count == CmdLin.total); assert(result.allocated &gt; 0); } body{ specs* s = new specs; // no need for '-&gt;' s.count = args.length; // The 'length' property is number of elements.</mrk><mrk
+            mtype="protected"
+            mid="26"> </mrk><mrk
+            mtype="seg"
+            mid="27">s.allocated = typeof(args).sizeof; // built-in properties for native types foreach(argv; args) s.allocated += argv.length * typeof(argv[0]).sizeof; return *s; } // built-in string and common string operations, e.g. '~' is concatenate.</mrk><mrk
+            mtype="protected"
+            mid="28"> </mrk><mrk
+            mtype="seg"
+            mid="29">char[] argcmsg = "argc = %d"; char[] allocmsg = "allocated = %d"; writefln(argcmsg ~ ", " ~ allocmsg, argspecs(args).count,argspecs(args).allocated); } /** Stores a single command line argument.</mrk><mrk
+            mtype="protected"
+            mid="30"> </mrk><mrk
+            mtype="seg"
+            mid="31">*/ class CmdLin { private { int _argc; char[] _argv; static uint _totalc; } public: /************ Object constructor.</mrk><mrk
+            mtype="protected"
+            mid="32"> </mrk><mrk
+            mtype="seg"
+            mid="33">params: argc = ordinal count of this argument.</mrk><mrk
+            mtype="protected"
+            mid="34"> </mrk><mrk
+            mtype="seg"
+            mid="35">argv = text of the parameter *********/ this(int argc, char[] argv) { _argc = argc + 1; _argv = argv; _totalc++; } ~this() /// Object destructor { // Doesn't actually do anything for this example.</mrk><mrk
+            mtype="protected"
+            mid="36"> </mrk><mrk
+            mtype="seg"
+            mid="37">} int argnum() /// A property that returns arg number { return _argc; } char[] argv() /// A property that returns arg text { return _argv; } wchar[] suffix() /// A property that returns ordinal suffix { wchar[] suffix; // Built in Unicode strings (utf8,utf16, utf32) switch(_argc) { case 1: suffix = "st"; break; case 2: suffix = "nd"; break; case 3: suffix = "rd"; break; default: // 'default' is mandatory with "-w" compile switch.</mrk><mrk
+            mtype="protected"
+            mid="38"> </mrk><mrk
+            mtype="seg"
+            mid="39">suffix = "th"; } return suffix; } /* ************** * A property of the whole class, not just an instance.</mrk><mrk
+            mtype="protected"
+            mid="40"> </mrk><mrk
+            mtype="seg"
+            mid="41">* returns: The total number of commandline args added.</mrk><mrk
+            mtype="protected"
+            mid="42"> </mrk><mrk
+            mtype="seg"
+            mid="43">*************/ static typeof(_totalc) total() { return _totalc; } // Class invariant, things that must be true after any method is run.</mrk><mrk
+            mtype="protected"
+            mid="44"> </mrk><mrk
+            mtype="seg"
+            mid="45">invariant { assert(_argc &gt; 0); assert(_totalc &gt;= _argc); } }</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="14"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="15"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="16"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="17"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="18"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="19"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="20"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="21"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="22"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="23"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="24"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="25"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="26"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="27"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="28"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="29"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="30"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="31"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="32"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="33"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="34"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="35"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="36"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="37"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="38"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="39"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="40"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="41"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="42"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="43"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="44"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="45"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Sort an Array at Compile-Time</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Sort an Array at Compile-Time</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>void main()
+{
+    import std.algorithm, std.conv, std.stdio;
+
+    "Starting program".writeln;
+
+    // Sort a constant declaration at Compile-Time
+    enum a = [ 3, 1, 2, 4, 0 ];
+    static immutable b = sort(a);
+
+    // Print the result _during_ compilation
+    pragma(msg, text("Finished compilation: ", b));
+}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">void main() { import std.algorithm, std.conv, std.stdio; "Starting program".writeln; // Sort a constant declaration at Compile-Time enum a = [ 3, 1, 2, 4, 0 ]; static immutable b = sort(a); // Print the result _during_ compilation pragma(msg, text("Finished compilation: ", b)); }</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Count Frequencies of All 2-Tuples</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Count Frequencies of All 2-Tuples</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>void main()
+{
+    import std.stdio : writefln;
+    int[char[2]] aa;
+    auto arr = "ABBBA";
+
+    // Iterate over all pairs in the string and observe each pair
+    // ('A', 'B'), ('B', 'B'), ('B', 'A'), ...
+    // String slicing doesn't allocate a copy
+    foreach (i; 0 .. arr.length - 1)
+        aa[arr[i .. $][0 .. 2]]++;
+
+    foreach (key, value; aa)
+        writefln("key: %s, value: %d", key, value);
+}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">void main() { import std.stdio : writefln; int[char[2]] aa; auto arr = "ABBBA"; // Iterate over all pairs in the string and observe each pair // ('A', 'B'), ('B', 'B'), ('B', 'A'), ... // String slicing doesn't allocate a copy foreach (i; 0 .. arr.length - 1) aa[arr[i .. $][0 .. 2]]++; foreach (key, value; aa) writefln("key: %s, value: %d", key, value); }</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Sieve of Eratosthenes Prime Numbers</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Sieve of Eratosthenes Prime Numbers</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>import std.stdio;
+
+void main()
+{
+    size_t count;
+    bool[8191] flags;
+
+    writeln("10 iterations");
+
+    // using iter as a throwaway variable
+    foreach (iter; 1 .. 11)
+    {
+        count = 0;
+        flags[] = 1;
+
+        foreach (index, flag; flags)
+        {
+            if (flag)
+            {
+                size_t prime = index + index + 3;
+                size_t k = index + prime;
+
+                while (k &lt; flags.length)
+                {
+                    flags[k] = 0;
+                    k += prime;
+                }
+
+                count += 1;
+            }
+        }
+    }
+
+    writefln("%d primes", count);
+}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">import std.stdio; void main() { size_t count; bool[8191] flags; writeln("10 iterations"); // using iter as a throwaway variable foreach (iter; 1 .. 11) { count = 0; flags[] = 1; foreach (index, flag; flags) { if (flag) { size_t prime = index + index + 3; size_t k = index + prime; while (k &lt; flags.length) { flags[k] = 0; k += prime; } count += 1; } } } writefln("%d primes", count); }</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

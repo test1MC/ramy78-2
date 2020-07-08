@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1>XSL</h1>
+        <p>Removed from the list of languages. Use XML. (AvalonEdit)</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="noCaption" style="mc-code-lang: XML;" xml:space="preserve" madcap-space-after-export="preserve">&lt;xsl:template name="linkTitle"&gt;
+	&lt;xsl:param name="titleUri"/&gt;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>W3Schools Example</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="True" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: XML;" xml:space="preserve" madcap-space-after-export="preserve">&lt;?xml version="1.0"?&gt;
+
+&lt;xsl:stylesheet version="1.0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform"&gt;
+
+&lt;xsl:template match="/"&gt;
+  &lt;html&gt;
+  &lt;body&gt;
+    &lt;h2&gt;My CD Collection&lt;/h2&gt;
+    &lt;table border="1"&gt;
+      &lt;tr bgcolor="#9acd32"&gt;
+        &lt;th&gt;Title&lt;/th&gt;
+        &lt;th&gt;Artist&lt;/th&gt;
+      &lt;/tr&gt;
+      &lt;xsl:for-each select="catalog/cd"&gt;
+        &lt;tr&gt;
+          &lt;td&gt;&lt;xsl:value-of select="title"/&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;xsl:value-of select="artist"/&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/xsl:for-each&gt;
+    &lt;/table&gt;
+  &lt;/body&gt;
+  &lt;/html&gt;
+&lt;/xsl:template&gt;
+
+&lt;/xsl:stylesheet&gt;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" class="noCaption" style="mc-code-lang: XML;" madcap-space-after-export="preserve">&lt;?xml version="1.0" encoding="UTF-8"?&gt;                         (1)
+&lt;xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"&gt; (2)
+&lt;xsl:output encoding="iso-8859-1"/&gt;
+    &lt;xsl:template match="/"&gt;                                   (3)
+      &lt;html&gt;
+         &lt;body&gt;
+            &lt;h2&gt;&lt;xsl:apply-templates/&gt;&lt;/h2&gt;                    (4)
+         &lt;/body&gt;
+      &lt;/html&gt;
+    &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="noCaption" style="mc-code-lang: XML;" xml:space="preserve" madcap-space-after-export="preserve">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"&gt;
+    &lt;xsl:output encoding="iso-8859-1" /&gt;
+    &lt;xsl:template match="CollectionOfPoems"&gt;
+        &lt;html&gt;
+            &lt;body&gt;
+                &lt;xsl:apply-templates/&gt;       (1)
+            &lt;/body&gt;
+        &lt;/html&gt;
+    &lt;/xsl:template&gt;
+    &lt;xsl:template match="Author"&gt;
+        &lt;br/&gt;
+        &lt;h4&gt;
+            &lt;xsl:apply-templates/&gt;
+        &lt;/h4&gt;
+    &lt;/xsl:template&gt;
+    &lt;xsl:template match="FirstName"&gt;
+        &lt;xsl:apply-templates/&gt;
+        &lt;xsl:text&gt; &lt;/xsl:text&gt;               (2)
+    &lt;/xsl:template&gt;
+    &lt;xsl:template match="LastName"&gt;
+        &lt;xsl:apply-templates/&gt;
+    &lt;/xsl:template&gt;
+    &lt;xsl:template match="Title"&gt;
+        &lt;h2&gt;
+            &lt;xsl:apply-templates/&gt;
+        &lt;/h2&gt;
+    &lt;/xsl:template&gt;
+    &lt;xsl:template match="Strophe"&gt;
+        &lt;p&gt;
+            &lt;xsl:apply-templates/&gt;
+        &lt;/p&gt;
+    &lt;/xsl:template&gt;
+    &lt;xsl:template match="Verse"&gt;
+        &lt;xsl:apply-templates/&gt;
+        &lt;br/&gt;
+    &lt;/xsl:template&gt;
+&lt;/xsl:stylesheet&gt;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="noCaption" style="mc-code-lang: XML;" xml:space="preserve" madcap-space-after-export="preserve">&lt;?xml version="1.0"?&gt;
+
+&lt;xsl:stylesheet xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"&gt;
+
+&lt;xsl:output method="xml" version="1.0" doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"/&gt;
+
+&lt;xsl:template match="/ROOT"&gt;
+    &lt;html lang="en" xmlns="http://www.w3.org/1999/xhtml"&gt;
+        &lt;head&gt;
+            &lt;title&gt;JINI  &lt;xsl:value-of select="/ROOT/MYNODES/MYNODE/." /&gt; &lt;/title&gt;
+        &lt;link rel="stylesheet" type="text/css" href="jini.css" /&gt;
+        &lt;script language="JavaScript" src="commonHead.js" type="text/javascript" /&gt;
+        &lt;/head&gt;
+    &lt;body&gt;
+
+&lt;table style="font-size:11px" border="5" bgcolor="#FFFFFF" width="99%" align="center" cellpadding="5"&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;xsl:attribute  name="bgcolor"&gt; #FFAAAA &lt;/xsl:attribute&gt; &lt;xsl:attribute  name="onMouseover" &gt;displayColor(event, 'blue') &lt;/xsl:attribute&gt; &lt;xsl:attribute  name="onMouseout"&gt; backToOriginal(event, 'yellow') &lt;/xsl:attribute&gt; AA&lt;/td&gt;
+&lt;td&gt;BB &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+&lt;/xsl:stylesheet&gt;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <p>
+            <MadCap:relatedTopics>
+                <MadCap:relatedTopic src="CSS.htm" />
+                <MadCap:relatedTopic src="XML.htm" />
+            </MadCap:relatedTopics>
+        </p>
+    </body>
+</html>

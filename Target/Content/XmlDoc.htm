@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1>XmlDoc</h1>
+        <p>Uses AvalonEdit.</p>
+        <p>Note from Henry: I am not entirely sure which code snippets below actually contain true XmlDoc code.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="noCaption" xml:space="preserve" style="mc-code-lang: XmlDoc;" madcap-space-after-export="preserve">var str = xmldoc.getNodeText("//two"); // returns the first occurence of the node
+// str == "abcd1234"
+
+str = xmldoc.getNodeText("//three");
+// str == "1234abcd"
+
+str = xmldoc.getNodeText("/test/one/*");
+// str == "abcd1234"
+
+str = xmldoc.getNodeInt("//number");
+// str == 1234</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="noCaption" xml:space="preserve" style="mc-code-lang: XmlDoc;" madcap-space-after-export="preserve">var xmlString = "&lt;test&gt;" +
+                "  &lt;one&gt;" +
+                "    &lt;two att=\"xxx\"&gt;abcd1234&lt;/two&gt;" +
+                "    &lt;three boo=\"yah\" att=\"yyy\"&gt;1234abcd&lt;/three&gt;" +
+                "    &lt;two&gt;another&lt;/two&gt;" +
+                "  &lt;/one&gt;" +
+                "  &lt;number&gt;1234&lt;/number&gt;" +
+                "&lt;/test&gt;";
+var xmlDoc = new XMLDocument2();
+xmlDoc.parseXML(xmlString);
+//returns the root node of the document tree.
+var rootNode = xmlDoc.getDocumentElement(); //returns org.w3c.dom.Element
+// sets the root node as the current element
+xmlDoc.setCurrentElement(rootNode);
+
+
+&lt;!-- messing around --&gt;
+ 
+&lt;exception&gt;&lt;/exception&gt;
+&lt;c&gt;&lt;/c&gt;
+&lt;notknownword&gt;&lt;/notknownword&gt;
+&lt;list&gt;
+
+&lt;exception&gt;flfsdlfsdlfsd&lt;/exception&gt;
+&lt;para&gt;ffsdf&lt;/para&gt;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="noCaption" xml:space="preserve" style="mc-code-lang: XmlDoc;" madcap-space-after-export="preserve">var (
+    // ElementType is an xml element.
+    ElementType = XDType(0)
+    // CDataType is xml character data.
+    CDataType = XDType(1)
+    // CommentType is xml comment.
+    CommentType = XDType(2)
+    // DirectiveType is an xml directive.
+    DirectiveType = XDType(3)
+    // ProcessingInstructionType is an xml processing instruction &lt;!bang&gt;
+    ProcessingInstructionType = XDType(4)
+    // DocumentType is the type from the whole document.
+    DocumentType = XDType(5)
+)</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="noCaption" xml:space="preserve" style="mc-code-lang: XmlDoc;" madcap-space-after-export="preserve">Local XmlDoc &amp;srcDoc, &amp;targetDoc; 
+Local array of string &amp;srcPath, &amp;targetPath; 
+ 
+&amp;srcPath = CreateArrayRept("", 0); 
+&amp;targetPath = CreateArrayRept("", 0); 
+ 
+ 
+&amp;srcDoc = CreateXmlDoc(""); 
+&amp;targetDoc = CreateXmlDoc(""); 
+&amp;ret = &amp;srcDoc.ParseXmlFromURL("c:/temp/source.xml"); 
+&amp;ret = &amp;targetDoc.ParseXmlFromURL("c:/temp/target.xml"); 
+ 
+&amp;srcPath.Push("QE_EMPLOYEE"); 
+&amp;srcPath.Push("QE_EMPLOYEE/QE_ACCOUNT_TBL"); 
+&amp;srcPath.Push("QE_EMPLOYEE/QE_JOBCODE"); 
+&amp;srcPath.Push("QE_EMPLOYEE/DEPTID"); 
+&amp;srcPath.Push("EMAIL_MSG_RCD"); 
+&amp;srcPath.Push("EMAIL_MSG_RCD/EMAIL_FILE_RCD"); 
+ 
+&amp;targetPath.Push("QE_EMPLOYEE_TG"); 
+&amp;targetPath.Push("QE_EMPLOYEE_TG/QE_ACCOUNT_TBL_TG"); 
+&amp;targetPath.Push("QE_EMPLOYEE_TG/QE_JOBCODE_TG"); 
+&amp;targetPath.Push("QE_EMPLOYEE_TG/DEPTID_TG"); 
+&amp;targetPath.Push("EMAIL_MSG_RCD_TG"); 
+&amp;targetPath.Push("EMAIL_MSG_RCD/EMAIL_FILE_RCD_TG"); 
+ 
+&amp;ret = &amp;srcDoc.CopyToPSFTMessage(&amp;targetDoc, &amp;srcPath, &amp;targetPath);</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="noCaption" style="mc-code-lang: XmlDoc;" xml:space="preserve" madcap-space-after-export="preserve">var xmldoc = require('xmldoc');
+ 
+var document = new xmldoc.XmlDocument("&lt;some&gt;xml&lt;/some&gt;");
+ 
+// do things
+
+var authorName = bookNode.valueWithPath("author.name"); // return "George R. R. Martin"
+
+var authorIsProper = bookNode.valueWithPath("author.name@isProper"); // return "true"
+
+xml.toString({compressed:true}) // strips indents and linebreaks
+xml.toString({trimmed:true}) // trims long strings for easier debugging
+xml.toString({preserveWhitespace:true}) // prevents whitespace being removed from around element values
+
+txt = xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="noCaption" xml:space="preserve" style="mc-code-lang: XmlDoc;" madcap-space-after-export="preserve">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+&lt;p id="demo"&gt;&lt;/p&gt;
+
+&lt;script&gt;
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 &amp;&amp; this.status == 200) {
+    myFunction(this);
+    }
+};
+xhttp.open("GET", "books.xml", true);
+xhttp.send();
+
+function myFunction(xml) {
+    var xmlDoc = xml.responseXML;
+    document.getElementById("demo").innerHTML =
+    xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+}
+&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+    </body>
+</html>

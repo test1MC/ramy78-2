@@ -1,0 +1,867 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="XSL.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="es">
+    <header>
+      <skl><external-file
+          href="XSL.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">44</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11"
+        tool-name="Lingo"
+        tool-version="11.0.7114.18563"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>XSL</source><seg-source><mrk
+            mtype="seg"
+            mid="1">XSL</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Removed from the list of languages. Use XML. (AvalonEdit)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Removed from the list of languages.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">Use XML.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">(AvalonEdit)</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>&lt;xsl:template name="linkTitle"&gt;<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	&lt;xsl:param name="titleUri"/&gt;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">&lt;xsl:template name="linkTitle"&gt;<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="2">	</mrk><mrk
+            mtype="seg"
+            mid="3">&lt;xsl:param name="titleUri"/&gt;</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>W3Schools Example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">W3Schools Example</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>&lt;?xml version="1.0"?&gt;<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>&lt;xsl:stylesheet version="1.0"<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>xmlns:xsl="http://www.w3.org/1999/XSL/Transform"&gt;<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>&lt;xsl:template match="/"&gt;<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>&lt;html&gt;<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>&lt;body&gt;<ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;h2&gt;My CD Collection&lt;/h2&gt;<ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;table border="1"&gt;<ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>&lt;tr bgcolor="#9acd32"&gt;<ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;th&gt;Title&lt;/th&gt;<ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;th&gt;Artist&lt;/th&gt;<ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>&lt;/tr&gt;<ph
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>&lt;xsl:for-each select="catalog/cd"&gt;<ph
+            id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;tr&gt;<ph
+            id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>&lt;td&gt;&lt;xsl:value-of select="title"/&gt;&lt;/td&gt;<ph
+            id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>&lt;td&gt;&lt;xsl:value-of select="artist"/&gt;&lt;/td&gt;<ph
+            id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;/tr&gt;<ph
+            id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>&lt;/xsl:for-each&gt;<ph
+            id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;/table&gt;<ph
+            id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>&lt;/body&gt;<ph
+            id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>&lt;/html&gt;<ph
+            id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>&lt;/xsl:template&gt;<ph
+            id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>&lt;/xsl:stylesheet&gt;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">&lt;?xml version="1.0"?&gt;<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">&lt;xsl:stylesheet version="1.0"<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">xmlns:xsl="http://www.w3.org/1999/XSL/Transform"&gt;<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">&lt;xsl:template match="/"&gt;<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>&lt;html&gt;<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>&lt;body&gt;<ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;h2&gt;My CD Collection&lt;/h2&gt;<ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;table border="1"&gt;<ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>&lt;tr bgcolor="#9acd32"&gt;<ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;th&gt;Title&lt;/th&gt;<ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;th&gt;Artist&lt;/th&gt;<ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>&lt;/tr&gt;<ph
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>&lt;xsl:for-each select="catalog/cd"&gt;<ph
+              id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;tr&gt;<ph
+              id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>&lt;td&gt;&lt;xsl:value-of select="title"/&gt;&lt;/td&gt;<ph
+              id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>&lt;td&gt;&lt;xsl:value-of select="artist"/&gt;&lt;/td&gt;<ph
+              id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;/tr&gt;<ph
+              id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>&lt;/xsl:for-each&gt;<ph
+              id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;/table&gt;<ph
+              id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>&lt;/body&gt;<ph
+              id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>&lt;/html&gt;<ph
+              id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">&lt;/xsl:template&gt;<ph
+              id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6">&lt;/xsl:stylesheet&gt;</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>&lt;?xml version="1.0" encoding="UTF-8"?&gt;<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">                         </ph>(1)<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>&lt;xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"&gt; (2)<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>&lt;xsl:output encoding="iso-8859-1"/&gt;<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;xsl:template match="/"&gt;<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">                                   </ph>(3)<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>&lt;html&gt;<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">         </ph>&lt;body&gt;<ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>&lt;h2&gt;&lt;xsl:apply-templates/&gt;&lt;/h2&gt;<ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">                    </ph>(4)<ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">         </ph>&lt;/body&gt;<ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>&lt;/html&gt;<ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;/xsl:template&gt;<ph
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>&lt;/xsl:stylesheet&gt;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">&lt;?xml version="1.0" encoding="UTF-8"?&gt;<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">                         </ph>(1)<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">&lt;xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"&gt; (2)<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">&lt;xsl:output encoding="iso-8859-1"/&gt;<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4"><ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;xsl:template match="/"&gt;<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">                                   </ph>(3)<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>&lt;html&gt;<ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">         </ph>&lt;body&gt;<ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5"><ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>&lt;h2&gt;&lt;xsl:apply-templates/&gt;&lt;/h2&gt;<ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">                    </ph>(4)<ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">         </ph>&lt;/body&gt;<ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>&lt;/html&gt;<ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;/xsl:template&gt;<ph
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6">&lt;/xsl:stylesheet&gt;</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>&lt;?xml version="1.0" encoding="UTF-8"?&gt;<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>&lt;xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"&gt;<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;xsl:output encoding="iso-8859-1" /&gt;<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;xsl:template match="CollectionOfPoems"&gt;<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;html&gt;<ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>&lt;body&gt;<ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">                </ph>&lt;xsl:apply-templates/&gt;<ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">       </ph>(1)<ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>&lt;/body&gt;<ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;/html&gt;<ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;/xsl:template&gt;<ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;xsl:template match="Author"&gt;<ph
+            id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;br/&gt;<ph
+            id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;h4&gt;<ph
+            id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>&lt;xsl:apply-templates/&gt;<ph
+            id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;/h4&gt;<ph
+            id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;/xsl:template&gt;<ph
+            id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;xsl:template match="FirstName"&gt;<ph
+            id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;xsl:apply-templates/&gt;<ph
+            id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;xsl:text&gt; &lt;/xsl:text&gt;<ph
+            id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">               </ph>(2)<ph
+            id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;/xsl:template&gt;<ph
+            id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;xsl:template match="LastName"&gt;<ph
+            id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;xsl:apply-templates/&gt;<ph
+            id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;/xsl:template&gt;<ph
+            id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;xsl:template match="Title"&gt;<ph
+            id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;h2&gt;<ph
+            id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>&lt;xsl:apply-templates/&gt;<ph
+            id="52" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="53" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;/h2&gt;<ph
+            id="54" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="55" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;/xsl:template&gt;<ph
+            id="56" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="57" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;xsl:template match="Strophe"&gt;<ph
+            id="58" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="59" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;p&gt;<ph
+            id="60" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="61" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>&lt;xsl:apply-templates/&gt;<ph
+            id="62" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="63" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;/p&gt;<ph
+            id="64" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="65" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;/xsl:template&gt;<ph
+            id="66" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="67" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;xsl:template match="Verse"&gt;<ph
+            id="68" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="69" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;xsl:apply-templates/&gt;<ph
+            id="70" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="71" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;br/&gt;<ph
+            id="72" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="73" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;/xsl:template&gt;<ph
+            id="74" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>&lt;/xsl:stylesheet&gt;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">&lt;?xml version="1.0" encoding="UTF-8"?&gt;<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">&lt;xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"&gt;<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;xsl:output encoding="iso-8859-1" /&gt;<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;xsl:template match="CollectionOfPoems"&gt;<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;html&gt;<ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>&lt;body&gt;<ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3"><ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">                </ph>&lt;xsl:apply-templates/&gt;<ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">       </ph>(1)<ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>&lt;/body&gt;<ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;/html&gt;<ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;/xsl:template&gt;<ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;xsl:template match="Author"&gt;<ph
+              id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;br/&gt;<ph
+              id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;h4&gt;<ph
+              id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>&lt;xsl:apply-templates/&gt;<ph
+              id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;/h4&gt;<ph
+              id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;/xsl:template&gt;<ph
+              id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;xsl:template match="FirstName"&gt;<ph
+              id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;xsl:apply-templates/&gt;<ph
+              id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4"><ph
+              id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;xsl:text&gt; &lt;/xsl:text&gt;<ph
+              id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">               </ph>(2)<ph
+              id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;/xsl:template&gt;<ph
+              id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;xsl:template match="LastName"&gt;<ph
+              id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;xsl:apply-templates/&gt;<ph
+              id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;/xsl:template&gt;<ph
+              id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;xsl:template match="Title"&gt;<ph
+              id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;h2&gt;<ph
+              id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>&lt;xsl:apply-templates/&gt;<ph
+              id="52" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="53" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;/h2&gt;<ph
+              id="54" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="55" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;/xsl:template&gt;<ph
+              id="56" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="57" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;xsl:template match="Strophe"&gt;<ph
+              id="58" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="59" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;p&gt;<ph
+              id="60" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="61" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>&lt;xsl:apply-templates/&gt;<ph
+              id="62" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="63" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;/p&gt;<ph
+              id="64" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="65" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;/xsl:template&gt;<ph
+              id="66" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="67" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;xsl:template match="Verse"&gt;<ph
+              id="68" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="69" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;xsl:apply-templates/&gt;<ph
+              id="70" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="71" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;br/&gt;<ph
+              id="72" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="73" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;/xsl:template&gt;<ph
+              id="74" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">&lt;/xsl:stylesheet&gt;</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>&lt;?xml version="1.0"?&gt;<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>&lt;xsl:stylesheet xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"&gt;<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>&lt;xsl:output method="xml" version="1.0" doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"/&gt;<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>&lt;xsl:template match="/ROOT"&gt;<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;html lang="en" xmlns="http://www.w3.org/1999/xhtml"&gt;<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;head&gt;<ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>&lt;title&gt;JINI<ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>&lt;xsl:value-of select="/ROOT/MYNODES/MYNODE/." /&gt; &lt;/title&gt;<ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;link rel="stylesheet" type="text/css" href="jini.css" /&gt;<ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;script language="JavaScript" src="commonHead.js" type="text/javascript" /&gt;<ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;/head&gt;<ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;body&gt;<ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>&lt;table style="font-size:11px" border="5" bgcolor="#FFFFFF" width="99%" align="center" cellpadding="5"&gt;<ph
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>&lt;tr&gt;<ph
+            id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>&lt;td&gt;<ph
+            id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>&lt;xsl:attribute<ph
+            id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>name="bgcolor"&gt; #FFAAAA &lt;/xsl:attribute&gt; &lt;xsl:attribute<ph
+            id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>name="onMouseover" &gt;displayColor(event, 'blue') &lt;/xsl:attribute&gt; &lt;xsl:attribute<ph
+            id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>name="onMouseout"&gt; backToOriginal(event, 'yellow') &lt;/xsl:attribute&gt; AA&lt;/td&gt;<ph
+            id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>&lt;td&gt;BB &lt;/td&gt;<ph
+            id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>&lt;/tr&gt;<ph
+            id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>&lt;/table&gt;<ph
+            id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>&lt;/body&gt;<ph
+            id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>&lt;/html&gt;<ph
+            id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>&lt;/xsl:stylesheet&gt;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">&lt;?xml version="1.0"?&gt;<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">&lt;xsl:stylesheet xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"&gt;<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">&lt;xsl:output method="xml" version="1.0" doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"/&gt;<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">&lt;xsl:template match="/ROOT"&gt;<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;html lang="en" xmlns="http://www.w3.org/1999/xhtml"&gt;<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;head&gt;<ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5"><ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>&lt;title&gt;JINI<ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>&lt;xsl:value-of select="/ROOT/MYNODES/MYNODE/."</mrk><mrk
+            mtype="protected"
+            mid="6"> </mrk><mrk
+            mtype="seg"
+            mid="7">/&gt; &lt;/title&gt;<ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;link rel="stylesheet" type="text/css" href="jini.css" /&gt;<ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;script language="JavaScript" src="commonHead.js" type="text/javascript" /&gt;<ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>&lt;/head&gt;<ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;body&gt;<ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="8">&lt;table style="font-size:11px" border="5" bgcolor="#FFFFFF" width="99%" align="center" cellpadding="5"&gt;<ph
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="9">&lt;tr&gt;<ph
+              id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="10">&lt;td&gt;<ph
+              id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="11">&lt;xsl:attribute<ph
+              id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>name="bgcolor"&gt; #FFAAAA &lt;/xsl:attribute&gt; &lt;xsl:attribute<ph
+              id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>name="onMouseover" &gt;displayColor(event, 'blue') &lt;/xsl:attribute&gt; &lt;xsl:attribute<ph
+              id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>name="onMouseout"&gt; backToOriginal(event, 'yellow') &lt;/xsl:attribute&gt; AA&lt;/td&gt;<ph
+              id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="12">&lt;td&gt;BB &lt;/td&gt;<ph
+              id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="13">&lt;/tr&gt;<ph
+              id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="14">&lt;/table&gt;<ph
+              id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="15">&lt;/body&gt;<ph
+              id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="16">&lt;/html&gt;<ph
+              id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="17">&lt;/xsl:stylesheet&gt;</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="14"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="15"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="16"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="17"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

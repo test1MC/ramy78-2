@@ -1,0 +1,546 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="Haskell.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="es">
+    <header>
+      <skl><external-file
+          href="Haskell.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">37</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11"
+        tool-name="Lingo"
+        tool-version="11.0.7114.18563"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Haskell</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Haskell</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Uses HighlightJS.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Uses HighlightJS.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Highlight.js Example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Highlight.js Example</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>{-# LANGUAGE TypeSynonymInstances #-}<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>module Network.UDP<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>( DataPacket(..)<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>, openBoundUDPPort<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>, openListeningUDPPort<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>, pingUDPPort<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>, sendUDPPacketTo<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>, recvUDPPacket<ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>, recvUDPPacketFrom<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>) where<ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>import qualified Data.ByteString as Strict (ByteString, concat, singleton)<ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>import qualified Data.ByteString.Lazy as Lazy (ByteString, toChunks, fromChunks)<ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>import Data.ByteString.Char8 (pack, unpack)<ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>import Network.Socket hiding (sendTo, recv, recvFrom)<ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>import Network.Socket.ByteString (sendTo, recv, recvFrom)<ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>-- Type class for converting StringLike types to and from strict ByteStrings<ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>class DataPacket a where<ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>toStrictBS :: a -&gt; Strict.ByteString<ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>fromStrictBS :: Strict.ByteString -&gt; a<ph
+            id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>instance DataPacket Strict.ByteString where<ph
+            id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>toStrictBS = id<ph
+            id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>{-# INLINE toStrictBS #-}<ph
+            id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>fromStrictBS = id<ph
+            id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>{-# INLINE fromStrictBS #-}<ph
+            id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>openBoundUDPPort :: String -&gt; Int -&gt; IO Socket<ph
+            id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>openBoundUDPPort uri port = do<ph
+            id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>s &lt;- getUDPSocket<ph
+            id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>bindAddr &lt;- inet_addr uri<ph
+            id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>let a = SockAddrInet (toEnum port) bindAddr<ph
+            id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>bindSocket s a<ph
+            id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>return s<ph
+            id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>pingUDPPort :: Socket -&gt; SockAddr -&gt; IO ()<ph
+            id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>pingUDPPort s a = sendTo s (Strict.singleton 0) a &gt;&gt; return ()</source><seg-source><mrk
+            mtype="seg"
+            mid="1">{-# LANGUAGE TypeSynonymInstances #-}<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">module Network.UDP<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">( DataPacket(..)<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">, openBoundUDPPort<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">, openListeningUDPPort<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6">, pingUDPPort<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="7">, sendUDPPacketTo<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="8">, recvUDPPacket<ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="9">, recvUDPPacketFrom<ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="10">) where<ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="11">import qualified Data.ByteString as Strict (ByteString, concat, singleton)<ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="12">import qualified Data.ByteString.Lazy as Lazy (ByteString, toChunks, fromChunks)<ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="13">import Data.ByteString.Char8 (pack, unpack)<ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="14">import Network.Socket hiding (sendTo, recv, recvFrom)<ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="15">import Network.Socket.ByteString (sendTo, recv, recvFrom)<ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="16">-- Type class for converting StringLike types to and from strict ByteStrings<ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="17">class DataPacket a where<ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>toStrictBS :: a -&gt; Strict.ByteString<ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>fromStrictBS :: Strict.ByteString -&gt; a<ph
+              id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="18">instance DataPacket Strict.ByteString where<ph
+              id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>toStrictBS = id<ph
+              id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>{-# INLINE toStrictBS #-}<ph
+              id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>fromStrictBS = id<ph
+              id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>{-# INLINE fromStrictBS #-}<ph
+              id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="19">openBoundUDPPort :: String -&gt; Int -&gt; IO Socket<ph
+              id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="20">openBoundUDPPort uri port = do<ph
+              id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>s &lt;- getUDPSocket<ph
+              id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>bindAddr &lt;- inet_addr uri<ph
+              id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>let a = SockAddrInet (toEnum port) bindAddr<ph
+              id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>bindSocket s a<ph
+              id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>return s<ph
+              id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="21">pingUDPPort :: Socket -&gt; SockAddr -&gt; IO ()<ph
+              id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="22">pingUDPPort s a = sendTo s (Strict.singleton 0) a &gt;&gt; return ()</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="14"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="15"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="16"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="17"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="18"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="19"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="20"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="21"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="22"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Comments</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Comments</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>-- Single line comment
+{- Multi-line
+comment -}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">-- Single line comment {- Multi-line comment -}</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Strings and Characters</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Strings and Characters</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>'a'
+'\n'
+'\^A'
+'\^]'
+'\NUL'
+'\23'
+'\o75'
+'\xFE'
+"Here is a backslant \\ as well as \137, \
+    \a numeric escape character, and \^X, a control character."</source><seg-source><mrk
+            mtype="seg"
+            mid="1">'a' '\n' '\^A' '\^]' '\NUL' '\23' '\o75' '\xFE' "Here is a backslant \\ as well as \137, \ \a numeric escape character, and \^X, a control character."</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Numbers</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Numbers</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>42
+123.456
+123.456e-789
+1e+3
+0o74
+0XAF</source><seg-source><mrk
+            mtype="seg"
+            mid="1">42 123.456 123.456e-789 1e+3 0o74 0XAF</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Prism.js Example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Prism.js Example</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>hGetLine h =
+  wantReadableHandle_ "Data.ByteString.hGetLine" h $
+    \ h_@Handle__{haByteBuffer} -&gt; do
+      flushCharReadBuffer h_
+      buf &lt;- readIORef haByteBuffer
+      if isEmptyBuffer buf
+         then fill h_ buf 0 []
+         else haveBuf h_ buf 0 []
+ where
+
+  fill h_@Handle__{haByteBuffer,haDevice} buf len xss =
+    len `seq` do
+    (r,buf') &lt;- Buffered.fillReadBuffer haDevice buf
+    if r == 0
+       then do writeIORef haByteBuffer buf{ bufR=0, bufL=0 }
+               if len &gt; 0
+                  then mkBigPS len xss
+                  else ioe_EOF
+       else haveBuf h_ buf' len xss
+
+  haveBuf h_@Handle__{haByteBuffer}
+          buf@Buffer{ bufRaw=raw, bufR=w, bufL=r }
+          len xss =
+    do
+        off &lt;- findEOL r w raw
+        let new_len = len + off - r
+        xs &lt;- mkPS raw r off
+
+      -- if eol == True, then off is the offset of the '\n'
+      -- otherwise off == w and the buffer is now empty.
+        if off /= w
+            then do if (w == off + 1)
+                            then writeIORef haByteBuffer buf{ bufL=0, bufR=0 }
+                            else writeIORef haByteBuffer buf{ bufL = off + 1 }
+                    mkBigPS new_len (xs:xss)
+            else do
+                 fill h_ buf{ bufL=0, bufR=0 } new_len (xs:xss)
+
+  -- find the end-of-line character, if there is one
+  findEOL r w raw
+        | r == w = return w
+        | otherwise =  do
+            c &lt;- readWord8Buf raw r
+            if c == fromIntegral (ord '\n')
+                then return r -- NB. not r+1: don't include the '\n'
+                else findEOL (r+1) w raw
+
+mkPS :: RawBuffer Word8 -&gt; Int -&gt; Int -&gt; IO ByteString
+mkPS buf start end =
+ create len $ \p -&gt;
+   withRawBuffer buf $ \pbuf -&gt; do
+   copyBytes p (pbuf `plusPtr` start) len
+ where
+   len = end - start</source><seg-source><mrk
+            mtype="seg"
+            mid="1">hGetLine h = wantReadableHandle_ "Data.ByteString.hGetLine" h $ \ h_@Handle__{haByteBuffer} -&gt; do flushCharReadBuffer h_ buf &lt;- readIORef haByteBuffer if isEmptyBuffer buf then fill h_ buf 0 [] else haveBuf h_ buf 0 [] where fill h_@Handle__{haByteBuffer,haDevice} buf len xss = len `seq` do (r,buf') &lt;- Buffered.fillReadBuffer haDevice buf if r == 0 then do writeIORef haByteBuffer buf{ bufR=0, bufL=0 } if len &gt; 0 then mkBigPS len xss else ioe_EOF else haveBuf h_ buf' len xss haveBuf h_@Handle__{haByteBuffer} buf@Buffer{ bufRaw=raw, bufR=w, bufL=r } len xss = do off &lt;- findEOL r w raw let new_len = len + off - r xs &lt;- mkPS raw r off -- if eol == True, then off is the offset of the '\n' -- otherwise off == w and the buffer is now empty.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">if off /= w then do if (w == off + 1) then writeIORef haByteBuffer buf{ bufL=0, bufR=0 } else writeIORef haByteBuffer buf{ bufL = off + 1 } mkBigPS new_len (xs:xss) else do fill h_ buf{ bufL=0, bufR=0 } new_len (xs:xss) -- find the end-of-line character, if there is one findEOL r w raw | r == w = return w | otherwise = do c &lt;- readWord8Buf raw r if c == fromIntegral (ord '\n') then return r -- NB.</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">not r+1: don't include the '\n' else findEOL (r+1) w raw mkPS :: RawBuffer Word8 -&gt; Int -&gt; Int -&gt; IO ByteString mkPS buf start end = create len $ \p -&gt; withRawBuffer buf $ \pbuf -&gt; do copyBytes p (pbuf `plusPtr` start) len where len = end - start</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

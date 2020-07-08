@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1>R</h1>
+        <p>Uses Highlight.js</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Comment</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: R;" xml:space="preserve" madcap-space-after-export="preserve"># This is a comment</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Strings</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: R;" xml:space="preserve" madcap-space-after-export="preserve">"foo \"bar\" baz"
+'foo \'bar\' baz'</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Prism.js Example</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: R;" xml:space="preserve" madcap-space-after-export="preserve"># Goal: To make a latex table with results of an OLS regression.
+
+# Get an OLS --
+x1 = runif(100)
+x2 = runif(100, 0, 2)
+y = 2 + 3*x1 + 4*x2 + rnorm(100)
+m = lm(y ~ x1 + x2)
+
+# and print it out prettily --
+library(xtable)
+# Bare --
+xtable(m)
+xtable(anova(m))
+
+# Better --
+print.xtable(xtable(m, caption="My regression",
+                    label="t:mymodel",
+                    digits=c(0,3,2,2,3)),
+             type="latex",
+             file="xtable_demo_ols.tex",
+             table.placement = "tp",
+             latex.environments=c("center", "footnotesize"))
+
+print.xtable(xtable(anova(m),
+                    caption="ANOVA of my regression",
+                    label="t:anova_mymodel"),
+             type="latex",
+             file="xtable_demo_anova.tex",
+             table.placement = "tp",
+             latex.environments=c("center", "footnotesize"))</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>
+                <p xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Logical Vectors</p>
+            </MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: R;" madcap-space-after-export="preserve">&gt; c(TRUE, FALSE, TRUE, FALSE, FALSE) 
+[1]  TRUE FALSE  TRUE FALSE FALSE
+</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>
+                <p xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Character Strings Vectors</p>
+            </MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: R;" madcap-space-after-export="preserve">&gt; c("aa", "bb", "cc", "dd", "ee") 
+[1] "aa" "bb" "cc" "dd" "ee"</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>
+                <p xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Numeric Vector</p>
+            </MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" xml:space="preserve" style="mc-code-lang: R;" madcap-space-after-export="preserve">&gt; c(2, 3, 5) 
+[1] 2 3 5</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+    </body>
+</html>

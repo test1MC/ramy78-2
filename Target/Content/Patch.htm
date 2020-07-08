@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1>Patch</h1>
+        <p>Uses AvalonEdit.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="noCaption" xml:space="preserve" madcap-space-after-export="preserve">diff -rBNu src.orig/java/org/apache/nutch/analysis/NutchAnalysisConstants.java src/java/org/apache/nutch/analysis/NutchAnalysisConstants.java
+--- src.orig/java/org/apache/nutch/analysis/NutchAnalysisConstants.java 2009-03-10 11:34:01.000000000 -0700
++++ src/java/org/apache/nutch/analysis/NutchAnalysisConstants.java  2009-03-10 14:11:55.000000000 -0700
+@@ -4,9 +4,12 @@
+
++  int CJK = 21;
++  int DIGIT = 22;
+
+   int DEFAULT = 0;
+
+   String[] tokenImage = {
+     "&lt;EOF&gt;",
++    "\"OR\"",
+     "&lt;WORD&gt;",
+     "&lt;ACRONYM&gt;",
+     "&lt;SIGRAM&gt;",
+@@ -39,6 +42,8 @@
+     "\"\\\"\"",
+     "\":\"",
+     "\"/\"",
++    "\"(\"",
++    "\")\"",
+     "\".\"",
+     "\"@\"",
+     "\"\\\'\"",
+</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="noCaption" xml:space="preserve" madcap-space-after-export="preserve">@@ -4,9 +4,12 @@
+
++  int CJK = 21;
++  int DIGIT = 22;
+
+-  int DEFAULT = 0;
++  int DEFAULT = 42;
+
+   String[] tokenImage = {
+     "&lt;EOF&gt;",
++    "\"OR\"",
+     "&lt;WORD&gt;",
+     "&lt;ACRONYM&gt;",
+     "&lt;SIGRAM&gt;",</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+    </body>
+</html>

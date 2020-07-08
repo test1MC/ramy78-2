@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1>C++</h1>
+        <p>Uses AvalonEdit.</p>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Highlight.js Example</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: CPP;">#include &lt;iostream&gt;
+
+int main(int argc, char *argv[]) {
+
+  /* An annoying "Hello World" example */
+  for (auto i = 0; i &lt; 0xFFFF; i++)
+    cout &lt;&lt; "Hello, World!" &lt;&lt; endl;
+
+  char c = '\n';
+  unordered_map &lt;string, vector&lt;string&gt; &gt; m;
+  m["key"] = "\\\\"; // this is an error
+
+  return -2e3 + 12l;
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Strings</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: CPP;" xml:space="preserve" madcap-space-after-export="preserve">"foo \"bar\" baz"
+'foo \'bar\' baz'
+"Multi-line strings ending with a \
+are supported too."</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Hello World</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: CPP;">#include &lt;iostream&gt;
+
+int main()
+{
+    std::cout &lt;&lt; "Hello, world!\n";
+    return 0;
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Macro statements</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: CPP;"># include &lt;stdio.h&gt;
+#define PG_locked   0
+#define PG_error    1</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Booleans</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: CPP;">true;
+false;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Operators</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: CPP;">a and b;
+c bitand d;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Prism.js Example</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="True" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: CPP;">/*
+David Cary 2010-09-14
+quick demo for wikibooks
+public domain
+*/
+#include &lt;iostream&gt;
+#include &lt;vector&gt;
+using namespace std;
+
+vector&lt;int&gt; pick_vector_with_biggest_fifth_element(
+    vector&lt;int&gt; left,
+    vector&lt;int&gt; right
+){
+    if( (left[5]) &lt; (right[5]) ){
+        return( right );
+    };
+    // else
+    return( left );
+}
+
+int vector_demo(void){
+    cout &lt;&lt; "vector demo" &lt;&lt; endl;
+    vector&lt;int&gt; left(7);
+    vector&lt;int&gt; right(7);
+
+    left[5] = 7;
+    right[5] = 8;
+    cout &lt;&lt; left[5] &lt;&lt; endl;
+    cout &lt;&lt; right[5] &lt;&lt; endl;
+    vector&lt;int&gt; biggest(
+        pick_vector_with_biggest_fifth_element( left, right )
+    );
+    cout &lt;&lt; biggest[5] &lt;&lt; endl;
+
+    return 0;
+}
+
+int main(void){
+    vector_demo();
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Print Number Entered by User</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: CPP;">#include &lt;iostream&gt;
+using namespace std;
+int main()
+{    
+    int number;
+    cout &lt;&lt; "Enter an integer: ";
+    cin &gt;&gt; number;
+    cout &lt;&lt; "You entered " &lt;&lt; number;    
+    return 0;
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Program to Add Two Integers</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="True" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: CPP;" xml:space="preserve" madcap-space-after-export="preserve">#include &lt;iostream&gt;
+using namespace std;
+int main()
+{
+    int firstNumber, secondNumber, sumOfTwoNumbers;
+    
+    cout &lt;&lt; "Enter two integers: ";
+    cin &gt;&gt; firstNumber &gt;&gt; secondNumber;
+    // sum of two numbers in stored in variable sumOfTwoNumbers
+    sumOfTwoNumbers = firstNumber + secondNumber;
+    // Prints sum 
+    cout &lt;&lt; firstNumber &lt;&lt; " + " &lt;&lt;  secondNumber &lt;&lt; " = " &lt;&lt; sumOfTwoNumbers;     
+    return 0;
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="noCaption" xml:space="preserve" style="mc-code-lang: CPP;" madcap-space-after-export="preserve">/*
+David Cary 2010-09-14
+quick demo for wikibooks
+public domain
+*/
+#include &lt;iostream&gt;
+#include &lt;vector&gt;
+using namespace std;
+
+vector&lt;int&gt; pick_vector_with_biggest_fifth_element(
+    vector&lt;int&gt; left,
+    vector&lt;int&gt; right
+){
+    if( (left[5]) &lt; (right[5]) ){
+        return( right );
+    };
+    // else
+    return( left );
+}
+
+int vector_demo(void){
+    cout &lt;&lt; "vector demo" &lt;&lt; endl;
+    vector&lt;int&gt; left(7);
+    vector&lt;int&gt; right(7);
+
+    left[5] = 7;
+    right[5] = 8;
+    cout &lt;&lt; left[5] &lt;&lt; endl;
+    cout &lt;&lt; right[5] &lt;&lt; endl;
+    vector&lt;int&gt; biggest(
+        pick_vector_with_biggest_fifth_element( left, right )
+    );
+    cout &lt;&lt; biggest[5] &lt;&lt; endl;
+
+    return 0;
+}
+
+int main(void){
+    vector_demo();
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Concatenate Strings</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: CPP;"># include &lt; iostream&gt;
+# include &lt; string &gt;
+using namespace std;
+int main()
+
+{
+char str1[50], str2 [35];
+cout &lt;&lt; "Enter string str1;";
+cin &gt;&gt; str1;
+cout &lt;&lt; "Enter string str2:";
+cin &gt;&gt; str2;
+strcat(str1,str2);
+cout &lt;&lt; "strcat (str1, str2 ) : "&lt;&lt; str1;
+
+    system("pause");
+return 0;
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+    </body>
+</html>

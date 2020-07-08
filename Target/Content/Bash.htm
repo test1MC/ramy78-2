@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1>Bash</h1>
+        <p>Uses HighlightJS.</p>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: "><MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Highlight.js Example</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Bash;">#!/bin/bash
+
+###### CONFIG
+ACCEPTED_HOSTS="/root/.hag_accepted.conf"
+BE_VERBOSE=false
+
+if [ "$UID" -ne 0 ]
+then
+ echo "Superuser rights required"
+ exit 2
+fi
+
+genApacheConf(){
+ echo -e "# Host ${HOME_DIR}$1/$2 :"
+}
+
+echo '"quoted"' | tr -d \" &gt; text.txt</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: "><MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Comment</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Bash;"># This is a comment</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: "><MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Strings</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Bash;">STRING="Hello World"
+'Single and
+multi-line strings are supported.'
+"Single and
+multi-line strings are supported."
+cat &lt;&lt; EOF
+Here-Documents
+are also supported
+EOF</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: "><MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Variables</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Bash;">echo $STRING
+args=("$@")
+echo ${args[0]} ${args[1]} ${args[2]}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: "><MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Keywords</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Bash;">for (( i=0;i&lt;$ELEMENTS;i++)); do
+	echo ${ARRAY[${i}]}
+done
+while read LINE; do
+    ARRAY[$count]=$LINE
+    ((count++))
+done
+if [ -d $directory ]; then
+	echo "Directory exists"
+else
+	echo "Directory does not exists"
+fi</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: "><MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Prism.js commands example</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="True" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Bash;">crontab -l -u USER | grep -v 'YOUR JOB COMMAND or PATTERN' | crontab -u USER -
+
+groups user1 user2|cut -d: -f2|xargs -n1|sort|uniq -d
+
+wget -q -O - http://www.example.com/automation/remotescript.sh | bash /dev/stdin parameter1 parameter2
+
+sudo dpkg -i vagrant_1.7.2_x86_64.deb
+
+git pull origin master
+
+sudo gpg --refresh-keys; sudo apt-key update; sudo rm -rf /var/lib/apt/{lists,lists.old}; sudo mkdir -p /var/lib/apt/lists/partial; sudo apt-get clean all; sudo apt-get update</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: "><MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Hello World</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Bash;">#!/bin/bash
+STR="Hello World!"
+echo $STR</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+    </body>
+</html>

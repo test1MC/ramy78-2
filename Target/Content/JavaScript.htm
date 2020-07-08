@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+        <link href="Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>JavaScript</h1>
+        <p>Uses HighlightJS.</p>
+        <p><a href="#Hairstyle">Skip to hair style (bookmark in caption)</a>
+        </p>
+        <p><a href="#pHairstyle">Skip to hair style (bookmark in adjacent paragraph)</a>
+        </p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Highlight.js Example</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: JavaScript;" xml:space="preserve" madcap-space-after-export="preserve">function $initHighlight(block, cls) {
+  try {
+    if (cls.search(/\bno\-highlight\b/) != -1)
+      return process(block, true, 0x0F) +
+             ` class="${cls}"`;
+  } catch (e) {
+    /* handle exception */
+  }
+  for (var i = 0 / 2; i &lt; classes.length; i++) {
+    if (checkCondition(classes[i]) === undefined)
+      console.log('undefined');
+  }
+
+  return (
+    &lt;div&gt;
+      &lt;web-component&gt;{block}&lt;/web-component&gt;
+    &lt;/div&gt;
+  )
+}
+
+export  $initHighlight;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Variable assignment</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: JavaScript;" xml:space="preserve" madcap-space-after-export="preserve">var foo = "bar", baz = 5;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Operators</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: JavaScript;" xml:space="preserve" madcap-space-after-export="preserve">(1 + 2 * 3)/4 &gt;= 3 &amp;&amp; 4 &lt; 5 || 6 &gt; 7</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCaption>Indented Code</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: JavaScript;">if (true) {
+	while (true) {
+		doSomething();
+	}
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Regex with slashes</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: JavaScript;" xml:space="preserve" madcap-space-after-export="preserve">var foo = /([^/])\/(\\?.|\[.+?])+?\/[gim]{0,3}/g;
+// Regex inside single line comment
+// hey, /this doesn’t fail!/ :D</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Regex that ends with double slash</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: JavaScript;">var bar = /\/\*[\w\W]*?\*\//g;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Single line comments % regexes</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: JavaScript;" xml:space="preserve" madcap-space-after-export="preserve">// http://lea.verou.me
+var comment = /\/\*[\w\W]*?\*\//g;
+// http://lea.verou.me
+/* http://lea.verou.me */</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Nested strings</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: JavaScript;" xml:space="preserve" madcap-space-after-export="preserve">var foo = "foo", bar = "He \"said\" 'hi'!"
+// Strings in comments:
+// "foo"
+/* "foo" */
+// Strings with slashes
+env.content + '&lt;/' + env.tag + '&gt;'
+var foo = "/" + "/";
+var foo = "http://prismjs.com"; // Strings are strings and comments are comments ;)</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Two or more division operators on the same line</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: JavaScript;">var foo = 5 / 6 / 7;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>A division operator on the same line as a regex</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: JavaScript;">var foo = 1/2, bar = /a/g;
+var foo = /a/, bar = 3/4;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>ES6 features</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="True" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: JavaScript;">// Regex "y" and "u" flags
+var a = /[a-zA-Z]+/gimyu;
+
+// for..of loops
+for(let x of y) { }
+
+// Modules: import
+import { foo as bar } from "file.js"
+
+// Template strings
+`Only on ${y} one line`
+`This template string ${x} is on
+
+multiple lines.`
+`40 + 2 = ${ 40 + 2 }`
+`The squares of the first 3 natural integers are ${[for (x of [1,2,3]) x*x].join(', ')}`</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <p><a name="pHairstyle"></a>
+        </p>
+        <MadCap:microContent id="microcontent1">
+            <MadCap:codeSnippet>
+                <MadCap:codeSnippetCopyButton />
+                <MadCap:codeSnippetCaption><a name="Hairstyle"></a>Hair Style</MadCap:codeSnippetCaption>
+                <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: JavaScript;" xml:space="preserve" madcap-space-after-export="preserve">let style = "Ramen noodles"
+return "Hair look like" + style</MadCap:codeSnippetBody>
+            </MadCap:codeSnippet>
+        </MadCap:microContent>
+    </body>
+</html>

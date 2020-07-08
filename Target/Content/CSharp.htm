@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1>C#</h1>
+        <p>Uses AvalonEdit.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Highlight.js Example</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: CSharp;" xml:space="preserve" madcap-space-after-export="preserve">using System.IO.Compression;
+
+#pragma warning disable 414, 3021
+
+namespace MyApplication
+{
+    [Obsolete("...")]
+    class Program : IInterface
+    {
+        public static List&lt;int&gt; JustDoIt(int count)
+        {
+            Console.WriteLine($"Hello {Name}!");
+            return new List&lt;int&gt;(new int[] { 1, 2, 3 })
+        }
+    }
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Strings</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: CSharp;">"foo \"bar\" baz"
+'foo \'bar\' baz'
+@"Verbatim strings"
+@"Luis: ""Patrick, where did you get that overnight bag?""
+    Patrick: ""Jean Paul Gaultier.""";
+@'Luis: ''Patrick, where did you get that overnight bag?''
+    Patrick: ''Jean Paul Gaultier.''';</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Comments</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: CSharp;">// Single line comment
+/* Multi-line
+comment */</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Prism.js Example</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="True" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: CSharp;">using System.Windows.Forms;
+using System.Drawing;
+
+public static DialogResult InputBox(string title, string promptText, ref string value)
+{
+  Form form = new Form();
+  Label label = new Label();
+  TextBox textBox = new TextBox();
+  Button buttonOk = new Button();
+  Button buttonCancel = new Button();
+
+  form.Text = title;
+  label.Text = promptText;
+  textBox.Text = value;
+
+  buttonOk.Text = "OK";
+  buttonCancel.Text = "Cancel";
+  buttonOk.DialogResult = DialogResult.OK;
+  buttonCancel.DialogResult = DialogResult.Cancel;
+
+  label.SetBounds(9, 20, 372, 13);
+  textBox.SetBounds(12, 36, 372, 20);
+  buttonOk.SetBounds(228, 72, 75, 23);
+  buttonCancel.SetBounds(309, 72, 75, 23);
+
+  label.AutoSize = true;
+  textBox.Anchor = textBox.Anchor | AnchorStyles.Right;
+  buttonOk.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+  buttonCancel.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+
+  form.ClientSize = new Size(396, 107);
+  form.Controls.AddRange(new Control[] { label, textBox, buttonOk, buttonCancel });
+  form.ClientSize = new Size(Math.Max(300, label.Right + 10), form.ClientSize.Height);
+  form.FormBorderStyle = FormBorderStyle.FixedDialog;
+  form.StartPosition = FormStartPosition.CenterScreen;
+  form.MinimizeBox = false;
+  form.MaximizeBox = false;
+  form.AcceptButton = buttonOk;
+  form.CancelButton = buttonCancel;
+
+  DialogResult dialogResult = form.ShowDialog();
+  value = textBox.Text;
+  return dialogResult;
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="noCaption" style="mc-code-lang: CSharp;" xml:space="preserve" madcap-space-after-export="preserve">class Foo {
+    public int Value;
+    public static explicit operator Foo(int value) {
+        return new Foo(value);
+    }
+}
+Foo foo = (Foo)2;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="True" MadCap:lineNumberStart="1" MadCap:continue="False" class="noCaption" style="mc-code-lang: CSharp;" xml:space="preserve" madcap-space-after-export="preserve">using System;
+namespace B3.CommonInterfacesKit
+{
+	public interface ICodeEditor
+	{
+		string Language { get; }
+		bool UseLineNums { get; }
+		int StartLineNum { get; }
+		bool ContLineNums { get; }
+		string Code { get; }
+		string Caption { get; }
+		string CaptionPosition { get; }
+		/// &lt;summary&gt;
+		/// Opens Code Editor dialog
+		/// &lt;/summary&gt;
+		/// &lt;param name="code"&gt;code that we want to plug into the code editor&lt;/param&gt;
+		/// &lt;param name="language"&gt;language of the code&lt;/param&gt;
+		/// &lt;param name="caption"&gt;title for the code&lt;/param&gt;
+		/// &lt;param name="captionPosition"&gt;caption is below/above code block&lt;/param&gt;
+		/// &lt;param name="useLineNums"&gt;whether to use line numbers&lt;/param&gt;
+		/// &lt;param name="startLineNum"&gt;starting line number (default = 1)&lt;/param&gt;
+		/// &lt;param name="continueLineNums"&gt;whether to continue line numbers from prev block&lt;/param&gt;
+		/// &lt;returns&gt;Whether the user pressed Okay or Cancel in the dialog&lt;/returns
+		bool Present(string code, string language, string caption, string captionPosition,
+			bool useLineNums, int startLineNum, bool continueLineNums);
+	}
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Code Editor</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: CSharp;">using System.Windows;
+
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
+
+using B3.AvalonEditKit.Highlighting;
+
+namespace B3.CatapultCodeSnippetEditorKit
+{
+	/// &lt;summary&gt;
+	/// Interaction logic for Window1.xaml
+	/// &lt;/summary&gt;
+	public partial class CodeEditor : Window
+	{
+		private string mCode;
+		private string mLanguage;
+		private string mCodeCaption;
+		private bool mUseLineNumbers;
+		private bool mContinueLineNumbers;
+		private int mMinLineNumber;
+
+		public string CodeCaption
+		{
+			get { return mCodeCaption; }
+			set
+			{
+				if (value == mCodeCaption) { return; }
+				mCodeCaption = value;
+			}
+		}
+
+		public int MinLineNumber
+		{
+			get { return mMinLineNumber; }
+			set
+			{
+				if (value == mMinLineNumber || value &lt; 1) { return; }
+				mMinLineNumber = value;
+				AvalonEditKit.TextEditor.MinLineNumber = value;
+			}
+		}
+
+		public bool UseLineNumbers
+		{
+			get { return mUseLineNumbers; }
+			set
+			{
+				if (value == mUseLineNumbers) { return; }
+				mUseLineNumbers = value;
+			}
+		}
+	
+		public bool ContinueLineNumbers
+		{
+			get { return mContinueLineNumbers; }
+			set
+			{
+				if (value == mContinueLineNumbers) { return; }
+				mContinueLineNumbers = value;
+			}
+		}
+
+		public string Code
+		{
+			get
+			{
+				return mCode;
+			}
+		}
+
+		public string CodeLanguage
+		{
+			get
+			{
+				return mLanguage;
+			}
+		}
+
+		public CodeEditor(string code, string language, string title, bool useLineNums, int startLineNum, bool continueLineNums)
+		{
+			McCustomHighlighting.RegisterHighlighting();
+
+			InitializeComponent();
+
+			SortDescription sd = new SortDescription("Name", ListSortDirection.Ascending);
+			highlightingComboBox.Items.SortDescriptions.Add(sd);
+
+			mUseLineNumbers = false;
+			mMinLineNumber = 1;
+			mContinueLineNumbers = continueLineNums;
+			this.DataContext = this;
+
+			if (!string.IsNullOrEmpty(code))
+			{
+				textEditor.Text = code;
+			}
+
+			if (!string.IsNullOrEmpty(language))
+			{
+				textEditor.SyntaxHighlighting = HighlightingManager.Instance.GetDefinition(language);
+			}
+
+			UseLineNumbers = useLineNums;
+			MinLineNumber = startLineNum;
+			CodeCaption = title;
+
+		}
+
+		void OnPressOkay(object sender, RoutedEventArgs args)
+		{
+			mCode = textEditor.Text;
+			mLanguage = textEditor.SyntaxHighlighting.Name;
+			//savedHtml = McCustomHighlighter.HighlightForXmlEditor(textEditor.Text, textEditor.SyntaxHighlighting.Name);
+			this.Close();
+		}
+
+		void OnPressCancel(object sender, RoutedEventArgs args)
+		{
+			this.Close();
+		}
+	}
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+    </body>
+</html>

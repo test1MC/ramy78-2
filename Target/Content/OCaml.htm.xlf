@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="OCaml.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="es">
+    <header>
+      <skl><external-file
+          href="OCaml.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">20</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11"
+        tool-name="Lingo"
+        tool-version="11.0.7114.18563"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>OCaml</source><seg-source><mrk
+            mtype="seg"
+            mid="1">OCaml</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Uses Highlight.js.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Uses Highlight.js.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Highlight.js Example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Highlight.js Example</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>(* This is a
+multiline, (* nested *) comment *)
+type point = { x: float; y: float };;
+let some_string = "this is a string";;
+let rec length lst =
+    match lst with
+      [] -&gt; 0
+    | head :: tail -&gt; 1 + length tail
+  ;;
+exception Test;;
+type expression =
+      Const of float
+    | Var of string
+    | Sum of expression * expression    (* e1 + e2 *)
+    | Diff of expression * expression   (* e1 - e2 *)
+    | Prod of expression * expression   (* e1 * e2 *)
+    | Quot of expression * expression   (* e1 / e2 *)
+class point =
+    object
+      val mutable x = 0
+      method get_x = x
+      method private move d = x &lt;- x + d
+    end;;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">(* This is a multiline, (* nested *) comment *) type point = { x: float; y: float };; let some_string = "this is a string";; let rec length lst = match lst with [] -&gt; 0 | head :: tail -&gt; 1 + length tail ;; exception Test;; type expression = Const of float | Var of string | Sum of expression * expression (* e1 + e2 *) | Diff of expression * expression (* e1 - e2 *) | Prod of expression * expression (* e1 * e2 *) | Quot of expression * expression (* e1 / e2 *) class point = object val mutable x = 0 method get_x = x method private move d = x &lt;- x + d end;;</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Comments</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Comments</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>(* Simple comment *)
+(* Multi-line
+comment *)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">(* Simple comment *) (* Multi-line comment *)</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Numbers</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Numbers</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>42
+3.14159
+42.
+2.4E+2
+10_452_102
+0xf4 0xff_10_41
+0o427
+0b1100_1111_0000</source><seg-source><mrk
+            mtype="seg"
+            mid="1">42 3.14159 42.</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">2.4E+2 10_452_102 0xf4 0xff_10_41 0o427 0b1100_1111_0000</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Strings and characters</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Strings and characters</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>"Simple string."
+"String with \"quotes\" in it."
+'c' `c`
+'\'' `\``
+'\123' `\123`
+'\xf4'</source><seg-source><mrk
+            mtype="seg"
+            mid="1">"Simple string."</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">"String with \"quotes\" in it."</mrk><mrk
+            mtype="protected"
+            mid="4"> </mrk><mrk
+            mtype="seg"
+            mid="5">'c' `c` '\'' `\`` '\123' `\123` '\xf4'</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Prism.js Example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Prism.js Example</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>module Make_interval(Endpoint : Comparable) = struct
+
+    type t = | Interval of Endpoint.t * Endpoint.t
+             | Empty
+
+    (** [create low high] creates a new interval from [low] to
+        [high].  If [low &gt; high], then the interval is empty *)
+    let create low high =
+      if Endpoint.compare low high &gt; 0 then Empty
+      else Interval (low,high)
+
+    (** Returns true iff the interval is empty *)
+    let is_empty = function
+      | Empty -&gt; true
+      | Interval _ -&gt; false
+
+    (** [contains t x] returns true iff [x] is contained in the
+        interval [t] *)
+    let contains t x =
+      match t with
+      | Empty -&gt; false
+      | Interval (l,h) -&gt;
+        Endpoint.compare x l &gt;= 0 &amp;&amp; Endpoint.compare x h &lt;= 0
+
+    (** [intersect t1 t2] returns the intersection of the two input
+        intervals *)
+    let intersect t1 t2 =
+      let min x y = if Endpoint.compare x y &lt;= 0 then x else y in
+      let max x y = if Endpoint.compare x y &gt;= 0 then x else y in
+      match t1,t2 with
+      | Empty, _ | _, Empty -&gt; Empty
+      | Interval (l1,h1), Interval (l2,h2) -&gt;
+        create (max l1 l2) (min h1 h2)
+
+  end ;;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">module Make_interval(Endpoint : Comparable) = struct type t = | Interval of Endpoint.t * Endpoint.t | Empty (** [create low high] creates a new interval from [low] to [high].</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">If [low &gt; high], then the interval is empty *) let create low high = if Endpoint.compare low high &gt; 0 then Empty else Interval (low,high) (** Returns true iff the interval is empty *) let is_empty = function | Empty -&gt; true | Interval _ -&gt; false (** [contains t x] returns true iff [x] is contained in the interval [t] *) let contains t x = match t with | Empty -&gt; false | Interval (l,h) -&gt; Endpoint.compare x l &gt;= 0 &amp;&amp; Endpoint.compare x h &lt;= 0 (** [intersect t1 t2] returns the intersection of the two input intervals *) let intersect t1 t2 = let min x y = if Endpoint.compare x y &lt;= 0 then x else y in let max x y = if Endpoint.compare x y &gt;= 0 then x else y in match t1,t2 with | Empty, _ | _, Empty -&gt; Empty | Interval (l1,h1), Interval (l2,h2) -&gt; create (max l1 l2) (min h1 h2) end ;;</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

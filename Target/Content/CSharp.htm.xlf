@@ -1,0 +1,819 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="CSharp.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="es">
+    <header>
+      <skl><external-file
+          href="CSharp.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">49</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11"
+        tool-name="Lingo"
+        tool-version="11.0.7114.18563"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>C#</source><seg-source><mrk
+            mtype="seg"
+            mid="1">C#</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Uses AvalonEdit.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Uses AvalonEdit.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Highlight.js Example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Highlight.js Example</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>using System.IO.Compression;<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>#pragma warning disable 414, 3021<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>namespace MyApplication<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>[Obsolete("...")]<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>class Program : IInterface<ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>{<ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>public static List&lt;int&gt; JustDoIt(int count)<ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>{<ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>Console.WriteLine($"Hello {Name}!");<ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>return new List&lt;int&gt;(new int[] { 1, 2, 3 })<ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>}<ph
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>}<ph
+            id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">using System.IO.Compression;<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">#pragma warning disable 414, 3021<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">namespace MyApplication<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">{<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>[Obsolete("...")]<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>class Program : IInterface<ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>{<ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>public static List&lt;int&gt; JustDoIt(int count)<ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>{<ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>Console.WriteLine($"Hello {Name}!");<ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>return new List&lt;int&gt;(new int[] { 1, 2, 3 })<ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>}<ph
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>}<ph
+              id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">}</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Strings</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Strings</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>"foo \"bar\" baz"
+'foo \'bar\' baz'
+@"Verbatim strings"
+@"Luis: ""Patrick, where did you get that overnight bag?""
+    Patrick: ""Jean Paul Gaultier.""";
+@'Luis: ''Patrick, where did you get that overnight bag?''
+    Patrick: ''Jean Paul Gaultier.''';</source><seg-source><mrk
+            mtype="seg"
+            mid="1">"foo \"bar\" baz" 'foo \'bar\' baz' @"Verbatim strings" @"Luis: ""Patrick, where did you get that overnight bag?"" Patrick: ""Jean Paul Gaultier."""; @'Luis: ''Patrick, where did you get that overnight bag?'' Patrick: ''Jean Paul Gaultier.''';</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Comments</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Comments</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>// Single line comment
+/* Multi-line
+comment */</source><seg-source><mrk
+            mtype="seg"
+            mid="1">// Single line comment /* Multi-line comment */</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Prism.js Example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Prism.js Example</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>using System.Windows.Forms;
+using System.Drawing;
+
+public static DialogResult InputBox(string title, string promptText, ref string value)
+{
+  Form form = new Form();
+  Label label = new Label();
+  TextBox textBox = new TextBox();
+  Button buttonOk = new Button();
+  Button buttonCancel = new Button();
+
+  form.Text = title;
+  label.Text = promptText;
+  textBox.Text = value;
+
+  buttonOk.Text = "OK";
+  buttonCancel.Text = "Cancel";
+  buttonOk.DialogResult = DialogResult.OK;
+  buttonCancel.DialogResult = DialogResult.Cancel;
+
+  label.SetBounds(9, 20, 372, 13);
+  textBox.SetBounds(12, 36, 372, 20);
+  buttonOk.SetBounds(228, 72, 75, 23);
+  buttonCancel.SetBounds(309, 72, 75, 23);
+
+  label.AutoSize = true;
+  textBox.Anchor = textBox.Anchor | AnchorStyles.Right;
+  buttonOk.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+  buttonCancel.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+
+  form.ClientSize = new Size(396, 107);
+  form.Controls.AddRange(new Control[] { label, textBox, buttonOk, buttonCancel });
+  form.ClientSize = new Size(Math.Max(300, label.Right + 10), form.ClientSize.Height);
+  form.FormBorderStyle = FormBorderStyle.FixedDialog;
+  form.StartPosition = FormStartPosition.CenterScreen;
+  form.MinimizeBox = false;
+  form.MaximizeBox = false;
+  form.AcceptButton = buttonOk;
+  form.CancelButton = buttonCancel;
+
+  DialogResult dialogResult = form.ShowDialog();
+  value = textBox.Text;
+  return dialogResult;
+}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">using System.Windows.Forms; using System.Drawing; public static DialogResult InputBox(string title, string promptText, ref string value) { Form form = new Form(); Label label = new Label(); TextBox textBox = new TextBox(); Button buttonOk = new Button(); Button buttonCancel = new Button(); form.Text = title; label.Text = promptText; textBox.Text = value; buttonOk.Text = "OK"; buttonCancel.Text = "Cancel"; buttonOk.DialogResult = DialogResult.OK; buttonCancel.DialogResult = DialogResult.Cancel; label.SetBounds(9, 20, 372, 13); textBox.SetBounds(12, 36, 372, 20); buttonOk.SetBounds(228, 72, 75, 23); buttonCancel.SetBounds(309, 72, 75, 23); label.AutoSize = true; textBox.Anchor = textBox.Anchor | AnchorStyles.Right; buttonOk.Anchor = AnchorStyles.Bottom | AnchorStyles.Right; buttonCancel.Anchor = AnchorStyles.Bottom | AnchorStyles.Right; form.ClientSize = new Size(396, 107); form.Controls.AddRange(new Control[] { label, textBox, buttonOk, buttonCancel }); form.ClientSize = new Size(Math.Max(300, label.Right + 10), form.ClientSize.Height); form.FormBorderStyle = FormBorderStyle.FixedDialog; form.StartPosition = FormStartPosition.CenterScreen; form.MinimizeBox = false; form.MaximizeBox = false; form.AcceptButton = buttonOk; form.CancelButton = buttonCancel; DialogResult dialogResult = form.ShowDialog(); value = textBox.Text; return dialogResult; }</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>class Foo {<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>public int Value;<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>public static explicit operator Foo(int value) {<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>return new Foo(value);<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>}<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>Foo foo = (Foo)2;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">class Foo {<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>public int Value;<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>public static explicit operator Foo(int value) {<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>return new Foo(value);<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>}<ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">}<ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">Foo foo = (Foo)2;</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>using System;<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>namespace B3.CommonInterfacesKit<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	public interface ICodeEditor<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	{<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>string Language { get; }<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>bool UseLineNums { get; }<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>int StartLineNum { get; }<ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>bool ContLineNums { get; }<ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>string Code { get; }<ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>string Caption { get; }<ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>string CaptionPosition { get; }<ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>/// &lt;summary&gt;<ph
+            id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>/// Opens Code Editor dialog<ph
+            id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>/// &lt;/summary&gt;<ph
+            id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>/// &lt;param name="code"&gt;code that we want to plug into the code editor&lt;/param&gt;<ph
+            id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>/// &lt;param name="language"&gt;language of the code&lt;/param&gt;<ph
+            id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>/// &lt;param name="caption"&gt;title for the code&lt;/param&gt;<ph
+            id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>/// &lt;param name="captionPosition"&gt;caption is below/above code block&lt;/param&gt;<ph
+            id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>/// &lt;param name="useLineNums"&gt;whether to use line numbers&lt;/param&gt;<ph
+            id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>/// &lt;param name="startLineNum"&gt;starting line number (default = 1)&lt;/param&gt;<ph
+            id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>/// &lt;param name="continueLineNums"&gt;whether to continue line numbers from prev block&lt;/param&gt;<ph
+            id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>/// &lt;returns&gt;Whether the user pressed Okay or Cancel in the dialog&lt;/returns<ph
+            id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>bool Present(string code, string language, string caption, string captionPosition,<ph
+            id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">			</ph>bool useLineNums, int startLineNum, bool continueLineNums);<ph
+            id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	}<ph
+            id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">using System;<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">namespace B3.CommonInterfacesKit<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">{<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="4">	</mrk><mrk
+            mtype="seg"
+            mid="5">public interface ICodeEditor<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="6">	</mrk><mrk
+            mtype="seg"
+            mid="7">{</mrk><mrk
+            mtype="seg"
+            mid="8"><ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>string Language { get; }</mrk><mrk
+            mtype="seg"
+            mid="9"><ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>bool UseLineNums { get; }</mrk><mrk
+            mtype="seg"
+            mid="10"><ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>int StartLineNum { get; }</mrk><mrk
+            mtype="seg"
+            mid="11"><ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>bool ContLineNums { get; }</mrk><mrk
+            mtype="seg"
+            mid="12"><ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>string Code { get; }</mrk><mrk
+            mtype="seg"
+            mid="13"><ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>string Caption { get; }</mrk><mrk
+            mtype="seg"
+            mid="14"><ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>string CaptionPosition { get; }</mrk><mrk
+            mtype="seg"
+            mid="15"><ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>/// &lt;summary&gt;</mrk><mrk
+            mtype="seg"
+            mid="16"><ph
+              id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>/// Opens Code Editor dialog</mrk><mrk
+            mtype="seg"
+            mid="17"><ph
+              id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>/// &lt;/summary&gt;</mrk><mrk
+            mtype="seg"
+            mid="18"><ph
+              id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>/// &lt;param name="code"&gt;code that we want to plug into the code editor&lt;/param&gt;</mrk><mrk
+            mtype="seg"
+            mid="19"><ph
+              id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>/// &lt;param name="language"&gt;language of the code&lt;/param&gt;</mrk><mrk
+            mtype="seg"
+            mid="20"><ph
+              id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>/// &lt;param name="caption"&gt;title for the code&lt;/param&gt;</mrk><mrk
+            mtype="seg"
+            mid="21"><ph
+              id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>/// &lt;param name="captionPosition"&gt;caption is below/above code block&lt;/param&gt;</mrk><mrk
+            mtype="seg"
+            mid="22"><ph
+              id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>/// &lt;param name="useLineNums"&gt;whether to use line numbers&lt;/param&gt;</mrk><mrk
+            mtype="seg"
+            mid="23"><ph
+              id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>/// &lt;param name="startLineNum"&gt;starting line number (default = 1)&lt;/param&gt;</mrk><mrk
+            mtype="seg"
+            mid="24"><ph
+              id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>/// &lt;param name="continueLineNums"&gt;whether to continue line numbers from prev block&lt;/param&gt;</mrk><mrk
+            mtype="seg"
+            mid="25"><ph
+              id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>/// &lt;returns&gt;Whether the user pressed Okay or Cancel in the dialog&lt;/returns</mrk><mrk
+            mtype="seg"
+            mid="26"><ph
+              id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>bool Present(string code, string language, string caption, string captionPosition,</mrk><mrk
+            mtype="seg"
+            mid="27"><ph
+              id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">			</ph>bool useLineNums, int startLineNum, bool continueLineNums);<ph
+              id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="28">	</mrk><mrk
+            mtype="seg"
+            mid="29">}<ph
+              id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="30">}</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="14"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="15"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="16"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="17"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="18"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="19"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="20"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="21"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="22"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="23"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="24"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="25"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="26"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="27"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="28"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="29"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="30"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Code Editor</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Code Editor</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>using System.Windows;
+
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
+
+using B3.AvalonEditKit.Highlighting;
+
+namespace B3.CatapultCodeSnippetEditorKit
+{
+	/// &lt;summary&gt;
+	/// Interaction logic for Window1.xaml
+	/// &lt;/summary&gt;
+	public partial class CodeEditor : Window
+	{
+		private string mCode;
+		private string mLanguage;
+		private string mCodeCaption;
+		private bool mUseLineNumbers;
+		private bool mContinueLineNumbers;
+		private int mMinLineNumber;
+
+		public string CodeCaption
+		{
+			get { return mCodeCaption; }
+			set
+			{
+				if (value == mCodeCaption) { return; }
+				mCodeCaption = value;
+			}
+		}
+
+		public int MinLineNumber
+		{
+			get { return mMinLineNumber; }
+			set
+			{
+				if (value == mMinLineNumber || value &lt; 1) { return; }
+				mMinLineNumber = value;
+				AvalonEditKit.TextEditor.MinLineNumber = value;
+			}
+		}
+
+		public bool UseLineNumbers
+		{
+			get { return mUseLineNumbers; }
+			set
+			{
+				if (value == mUseLineNumbers) { return; }
+				mUseLineNumbers = value;
+			}
+		}
+	
+		public bool ContinueLineNumbers
+		{
+			get { return mContinueLineNumbers; }
+			set
+			{
+				if (value == mContinueLineNumbers) { return; }
+				mContinueLineNumbers = value;
+			}
+		}
+
+		public string Code
+		{
+			get
+			{
+				return mCode;
+			}
+		}
+
+		public string CodeLanguage
+		{
+			get
+			{
+				return mLanguage;
+			}
+		}
+
+		public CodeEditor(string code, string language, string title, bool useLineNums, int startLineNum, bool continueLineNums)
+		{
+			McCustomHighlighting.RegisterHighlighting();
+
+			InitializeComponent();
+
+			SortDescription sd = new SortDescription("Name", ListSortDirection.Ascending);
+			highlightingComboBox.Items.SortDescriptions.Add(sd);
+
+			mUseLineNumbers = false;
+			mMinLineNumber = 1;
+			mContinueLineNumbers = continueLineNums;
+			this.DataContext = this;
+
+			if (!string.IsNullOrEmpty(code))
+			{
+				textEditor.Text = code;
+			}
+
+			if (!string.IsNullOrEmpty(language))
+			{
+				textEditor.SyntaxHighlighting = HighlightingManager.Instance.GetDefinition(language);
+			}
+
+			UseLineNumbers = useLineNums;
+			MinLineNumber = startLineNum;
+			CodeCaption = title;
+
+		}
+
+		void OnPressOkay(object sender, RoutedEventArgs args)
+		{
+			mCode = textEditor.Text;
+			mLanguage = textEditor.SyntaxHighlighting.Name;
+			//savedHtml = McCustomHighlighter.HighlightForXmlEditor(textEditor.Text, textEditor.SyntaxHighlighting.Name);
+			this.Close();
+		}
+
+		void OnPressCancel(object sender, RoutedEventArgs args)
+		{
+			this.Close();
+		}
+	}
+}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">using System.Windows; using System.ComponentModel; using System.Runtime.CompilerServices; using B3.AvalonEditKit.Highlighting; namespace B3.CatapultCodeSnippetEditorKit { /// &lt;summary&gt; /// Interaction logic for Window1.xaml /// &lt;/summary&gt; public partial class CodeEditor : Window { private string mCode; private string mLanguage; private string mCodeCaption; private bool mUseLineNumbers; private bool mContinueLineNumbers; private int mMinLineNumber; public string CodeCaption { get { return mCodeCaption; } set { if (value == mCodeCaption) { return; } mCodeCaption = value; } } public int MinLineNumber { get { return mMinLineNumber; } set { if (value == mMinLineNumber || value &lt; 1) { return; } mMinLineNumber = value; AvalonEditKit.TextEditor.MinLineNumber = value; } } public bool UseLineNumbers { get { return mUseLineNumbers; } set { if (value == mUseLineNumbers) { return; } mUseLineNumbers = value; } } public bool ContinueLineNumbers { get { return mContinueLineNumbers; } set { if (value == mContinueLineNumbers) { return; } mContinueLineNumbers = value; } } public string Code { get { return mCode; } } public string CodeLanguage { get { return mLanguage; } } public CodeEditor(string code, string language, string title, bool useLineNums, int startLineNum, bool continueLineNums) { McCustomHighlighting.RegisterHighlighting(); InitializeComponent(); SortDescription sd = new SortDescription("Name", ListSortDirection.Ascending); highlightingComboBox.Items.SortDescriptions.Add(sd); mUseLineNumbers = false; mMinLineNumber = 1; mContinueLineNumbers = continueLineNums; this.DataContext = this; if (!string.IsNullOrEmpty(code)) { textEditor.Text = code; } if (!string.IsNullOrEmpty(language)) { textEditor.SyntaxHighlighting = HighlightingManager.Instance.GetDefinition(language); } UseLineNumbers = useLineNums; MinLineNumber = startLineNum; CodeCaption = title; } void OnPressOkay(object sender, RoutedEventArgs args) { mCode = textEditor.Text; mLanguage = textEditor.SyntaxHighlighting.Name; //savedHtml = McCustomHighlighter.HighlightForXmlEditor(textEditor.Text, textEditor.SyntaxHighlighting.Name); this.Close(); } void OnPressCancel(object sender, RoutedEventArgs args) { this.Close(); } } }</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

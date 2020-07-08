@@ -1,0 +1,141 @@
+/*<meta />*/
+
+:root
+{
+	--codeBackground: #98fb98;
+}
+
+body
+{
+	font-family: Arial;
+}
+
+h1
+{
+	font-weight: bold;
+	font-size: 24.0pt;
+}
+
+h2
+{
+	font-weight: bold;
+	font-size: 18.0pt;
+}
+
+h3
+{
+	font-weight: bold;
+	font-size: 14.0pt;
+}
+
+h4
+{
+	font-weight: bold;
+	font-size: 12.0pt;
+}
+
+h5
+{
+	font-weight: bold;
+	font-size: 10.0pt;
+}
+
+h6
+{
+	font-weight: bold;
+	font-size: 8.0pt;
+}
+
+p
+{
+	font-size: 12.0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+ol,
+ul
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+img
+{
+	border: none;
+}
+
+a.Popup
+{
+	
+}
+
+MadCap|expandingHead
+{
+	font-style: italic;
+	font-weight: normal;
+	cursor: hand;
+	text-decoration: none;
+	color: #006600;
+}
+
+MadCap|expandingBody
+{
+	color: #777777;
+	font-style: italic;
+}
+
+MadCap|dropDownHotspot
+{
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+	color: #006600;
+}
+
+MadCap|codeSnippet
+{
+	padding-left: 1.5em;
+	border: outset 8px #98fb98;
+	background-color: #98fb98;
+	margin: 5px 0;
+}
+
+MadCap|codeSnippetBody
+{
+	mc-code-border: solid 10px #483d8b;
+	background-color: #f0fff0;
+	border: solid 1px #006400;
+}
+
+MadCap|codeSnippetCaption
+{
+	text-align: center;
+	padding-bottom: .5em;
+	padding-top: 1em;
+	background-color: #006400;
+	color: #f5f5f5;
+}
+
+MadCap|codeSnippetBody.noCaption
+{
+	
+}
+
+MadCap|codeSnippetCopyButton
+{
+	margin-right: 10px;
+	margin-top: 5px;
+	background-color: #32cd32;
+	border: outset 4px #32cd32;
+	padding-right: .25;
+	right: 10px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+MadCap|codeSnippetBody.CSS
+{
+	mc-code-lang: CSS;
+}
+

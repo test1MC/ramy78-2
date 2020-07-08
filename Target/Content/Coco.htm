@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1>Coco</h1>
+        <p>Uses AvalonEdit.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="noCaption" xml:space="preserve" style="mc-code-lang: Coco;" madcap-space-after-export="preserve">Function: main/0
+    Function: g/1
+        Function: f/1
+        Constants: None, 0
+        Locals: x
+        FreeVars: aVal, lstInts
+        BEGIN
+                  LOAD_DEREF                     0
+                  LOAD_DEREF                     1
+                  LOAD_CONST                     1
+                  BINARY_SUBSCR            
+                  BINARY_ADD               
+                  LOAD_FAST                      0
+                  BINARY_ADD               
+                  RETURN_VALUE             
+        END
+    Constants: None, code(f)
+    Locals: aVal, f
+    FreeVars: lstInts
+    CellVars: aVal
+    BEGIN
+              LOAD_CLOSURE                   0
+              LOAD_CLOSURE                   1
+              BUILD_TUPLE                    2
+              LOAD_CONST                     1
+              MAKE_CLOSURE                   0
+              STORE_FAST                     1
+              LOAD_FAST                      1
+              RETURN_VALUE             
+    END
+Constants: None, code(g), "Please enter a list of integers: ", 6, 2
+Locals: g, x, lst, y, myFun
+CellVars: lstInts
+Globals: input, split, append, int, print
+BEGIN
+          LOAD_CLOSURE                   0
+          BUILD_TUPLE                    1
+          LOAD_CONST                     1
+          MAKE_CLOSURE                   0
+          STORE_FAST                     0
+          LOAD_GLOBAL                    0
+          LOAD_CONST                     2
+          CALL_FUNCTION                  1
+          STORE_FAST                     1
+          LOAD_FAST                      1
+          LOAD_ATTR                      1
+          CALL_FUNCTION                  0
+          STORE_FAST                     2
+          BUILD_LIST                     0
+          STORE_DEREF                    0
+          SETUP_LOOP               label02
+          LOAD_FAST                      2
+          GET_ITER                 
+label00:  FOR_ITER                 label01
+          STORE_FAST                     3
+          LOAD_DEREF                     0
+          LOAD_ATTR                      2
+          LOAD_GLOBAL                    3
+          LOAD_FAST                      3
+          CALL_FUNCTION                  1
+          CALL_FUNCTION                  1
+          POP_TOP                  
+          JUMP_ABSOLUTE            label00
+label01:  POP_BLOCK                
+label02:  LOAD_FAST                      0
+          LOAD_CONST                     3
+          CALL_FUNCTION                  1
+          STORE_FAST                     4
+          LOAD_GLOBAL                    4
+          LOAD_FAST                      4
+          LOAD_DEREF                     0
+          LOAD_CONST                     4
+          BINARY_SUBSCR            
+          CALL_FUNCTION                  1
+          CALL_FUNCTION                  1
+          POP_TOP                  
+          LOAD_CONST                     0
+          RETURN_VALUE             
+END</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+    </body>
+</html>

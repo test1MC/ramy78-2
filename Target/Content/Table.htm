@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1>Table</h1>
+        <p><a href="#tableCaption">Link to bookmark in table caption</a>
+        </p>
+        <table style="width: 100%;border-left-style: solid;border-left-width: 1px;border-left-color: #f08080;border-right-style: solid;border-right-width: 1px;border-right-color: #f08080;border-top-style: solid;border-top-width: 1px;border-top-color: #f08080;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #f08080;caption-side: bottom;">
+            <caption><a name="tableCaption"></a>Here is the table caption</caption>
+            <col />
+            <col />
+            <col />
+            <col />
+            <tbody>
+                <tr>
+                    <td>
+                        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+                            <MadCap:codeSnippetCopyButton />
+                            <MadCap:codeSnippetCaption>Titles</MadCap:codeSnippetCaption>
+                            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: MarkDown;">Title 1
+==
+
+Title 2
+-------
+
+# Title 1
+## Title 2
+### Title 3
+#### Title 4
+##### Title 5
+###### Title 6</MadCap:codeSnippetBody>
+                        </MadCap:codeSnippet>
+                    </td>
+                    <td>
+                        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+                            <MadCap:codeSnippetCopyButton />
+                            <MadCap:codeSnippetCaption>Comments</MadCap:codeSnippetCaption>
+                            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Batch;">::
+:: Foo bar
+REM This is a comment too
+REM Multi-line ^
+comment</MadCap:codeSnippetBody>
+                        </MadCap:codeSnippet>
+                    </td>
+                    <td>
+                        <MadCap:codeSnippet>
+                            <MadCap:codeSnippetCopyButton />
+                            <MadCap:codeSnippetCaption>Highlight.js Example</MadCap:codeSnippetCaption>
+                            <MadCap:codeSnippetBody MadCap:useLineNumbers="True" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Markdown;" xml:space="preserve" madcap-space-after-export="preserve"># hello world
+
+you can write text [with links](http://example.com) inline or [link references][1].
+
+* one _thing_ has *em*phasis
+* two __things__ are **bold**
+
+[1]: http://example.com
+
+---
+
+hello world
+===========
+
+&lt;this_is inline="xml"&gt;&lt;/this_is&gt;
+
+&gt; markdown is so cool
+
+    so are code segments
+
+1. one thing (yeah!)
+2. two thing `i can write code`, and `more` wipee!</MadCap:codeSnippetBody>
+                        </MadCap:codeSnippet>
+                    </td>
+                    <td>
+                        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+                            <MadCap:codeSnippetCopyButton />
+                            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: R;"># Goal: To make a latex table with results of an OLS regression.
+
+# Get an OLS --
+x1 = runif(100)
+x2 = runif(100, 0, 2)
+y = 2 + 3*x1 + 4*x2 + rnorm(100)
+m = lm(y ~ x1 + x2)
+
+# and print it out prettily --
+library(xtable)
+# Bare --
+xtable(m)
+xtable(anova(m))
+
+# Better --
+print.xtable(xtable(m, caption="My regression",
+                    label="t:mymodel",
+                    digits=c(0,3,2,2,3)),
+             type="latex",
+             file="xtable_demo_ols.tex",
+             table.placement = "tp",
+             latex.environments=c("center", "footnotesize"))
+
+print.xtable(xtable(anova(m),
+                    caption="ANOVA of my regression",
+                    label="t:anova_mymodel"),
+             type="latex",
+             file="xtable_demo_anova.tex",
+             table.placement = "tp",
+             latex.environments=c("center", "footnotesize"))</MadCap:codeSnippetBody>
+                        </MadCap:codeSnippet>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+                            <MadCap:codeSnippetCopyButton />
+                            <MadCap:codeSnippetCaption>Titles</MadCap:codeSnippetCaption>
+                            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: MarkDown;">Title 1
+==
+
+Title 2
+-------
+
+# Title 1
+## Title 2
+### Title 3
+#### Title 4
+##### Title 5
+###### Title 6</MadCap:codeSnippetBody>
+                        </MadCap:codeSnippet>
+                    </td>
+                    <td>
+                        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+                            <MadCap:codeSnippetCopyButton />
+                            <MadCap:codeSnippetCaption>Prism.js Example</MadCap:codeSnippetCaption>
+                            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: R;"># Goal: To make a latex table with results of an OLS regression.
+
+# Get an OLS --
+x1 = runif(100)
+x2 = runif(100, 0, 2)
+y = 2 + 3*x1 + 4*x2 + rnorm(100)
+m = lm(y ~ x1 + x2)
+
+# and print it out prettily --
+library(xtable)
+# Bare --
+xtable(m)
+xtable(anova(m))
+
+# Better --
+print.xtable(xtable(m, caption="My regression",
+                    label="t:mymodel",
+                    digits=c(0,3,2,2,3)),
+             type="latex",
+             file="xtable_demo_ols.tex",
+             table.placement = "tp",
+             latex.environments=c("center", "footnotesize"))
+
+print.xtable(xtable(anova(m),
+                    caption="ANOVA of my regression",
+                    label="t:anova_mymodel"),
+             type="latex",
+             file="xtable_demo_anova.tex",
+             table.placement = "tp",
+             latex.environments=c("center", "footnotesize"))</MadCap:codeSnippetBody>
+                        </MadCap:codeSnippet>
+                    </td>
+                    <td>
+                        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+                            <MadCap:codeSnippetCopyButton />
+                            <MadCap:codeSnippetCaption>Prism.js Example</MadCap:codeSnippetCaption>
+                            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: R;"># Goal: To make a latex table with results of an OLS regression.
+
+# Get an OLS --
+x1 = runif(100)
+x2 = runif(100, 0, 2)
+y = 2 + 3*x1 + 4*x2 + rnorm(100)
+m = lm(y ~ x1 + x2)
+
+# and print it out prettily --
+library(xtable)
+# Bare --
+xtable(m)
+xtable(anova(m))
+
+# Better --
+print.xtable(xtable(m, caption="My regression",
+                    label="t:mymodel",
+                    digits=c(0,3,2,2,3)),
+             type="latex",
+             file="xtable_demo_ols.tex",
+             table.placement = "tp",
+             latex.environments=c("center", "footnotesize"))
+
+print.xtable(xtable(anova(m),
+                    caption="ANOVA of my regression",
+                    label="t:anova_mymodel"),
+             type="latex",
+             file="xtable_demo_anova.tex",
+             table.placement = "tp",
+             latex.environments=c("center", "footnotesize"))</MadCap:codeSnippetBody>
+                        </MadCap:codeSnippet>
+                    </td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p> </p>
+                    </td>
+                    <td>
+                        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+                            <MadCap:codeSnippetCopyButton />
+                            <MadCap:codeSnippetCaption>Prism.js Example</MadCap:codeSnippetCaption>
+                            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: R;"># Goal: To make a latex table with results of an OLS regression.
+
+# Get an OLS --
+x1 = runif(100)
+x2 = runif(100, 0, 2)
+y = 2 + 3*x1 + 4*x2 + rnorm(100)
+m = lm(y ~ x1 + x2)
+
+# and print it out prettily --
+library(xtable)
+# Bare --
+xtable(m)
+xtable(anova(m))
+
+# Better --
+print.xtable(xtable(m, caption="My regression",
+                    label="t:mymodel",
+                    digits=c(0,3,2,2,3)),
+             type="latex",
+             file="xtable_demo_ols.tex",
+             table.placement = "tp",
+             latex.environments=c("center", "footnotesize"))
+
+print.xtable(xtable(anova(m),
+                    caption="ANOVA of my regression",
+                    label="t:anova_mymodel"),
+             type="latex",
+             file="xtable_demo_anova.tex",
+             table.placement = "tp",
+             latex.environments=c("center", "footnotesize"))</MadCap:codeSnippetBody>
+                        </MadCap:codeSnippet>
+                    </td>
+                    <td> </td>
+                    <td> </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1>Objective-C</h1>
+        <p>Uses HighlightJS.</p>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Highlight.js Example</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: ObjectiveC;">#import &lt;UIKit/UIKit.h&gt;
+#import "Dependency.h"
+
+@protocol WorldDataSource
+@optional
+- (NSString*)worldName;
+@required
+- (BOOL)allowsToLive;
+@end
+
+@property (nonatomic, readonly) NSString *title;
+- (IBAction) show;
+@end</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Prism.js Example</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="True" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: ObjectiveC;">#import &lt;UIKit/UIKit.h&gt;
+#import "Dependency.h"
+
+@protocol WorldDataSource
+@optional
+- (NSString*)worldName;
+@required
+- (BOOL)allowsToLive;
+@end
+
+@interface Test : NSObject &lt;HelloDelegate, WorldDataSource&gt; {
+  NSString *_greeting;
+}
+
+@property (nonatomic, readonly) NSString *greeting;
+- (IBAction) show;
+@end
+
+@implementation Test
+
+@synthesize test=_test;
+
++ (id) test {
+  return [self testWithGreeting:@"Hello, world!\nFoo bar!"];
+}
+
++ (id) testWithGreeting:(NSString*)greeting {
+  return [[[self alloc] initWithGreeting:greeting] autorelease];
+}
+
+- (id) initWithGreeting:(NSString*)greeting {
+  if ( (self = [super init]) ) {
+    _greeting = [greeting retain];
+  }
+  return self;
+}
+
+- (void) dealloc {
+  [_greeting release];
+  [super dealloc];
+}
+
+@end</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" class="noCaption" xml:space="preserve" madcap-space-after-export="preserve">- (int)method:(int)i {
+    return [self square_root:i];
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+    </body>
+</html>

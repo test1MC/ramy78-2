@@ -1,0 +1,770 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="CPP.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="es">
+    <header>
+      <skl><external-file
+          href="CPP.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">47</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11"
+        tool-name="Lingo"
+        tool-version="11.0.7114.18563"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>C++</source><seg-source><mrk
+            mtype="seg"
+            mid="1">C++</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Uses AvalonEdit.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Uses AvalonEdit.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Highlight.js Example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Highlight.js Example</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>#include &lt;iostream&gt;
+
+int main(int argc, char *argv[]) {
+
+  /* An annoying "Hello World" example */
+  for (auto i = 0; i &lt; 0xFFFF; i++)
+    cout &lt;&lt; "Hello, World!" &lt;&lt; endl;
+
+  char c = '\n';
+  unordered_map &lt;string, vector&lt;string&gt; &gt; m;
+  m["key"] = "\\\\"; // this is an error
+
+  return -2e3 + 12l;
+}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">#include &lt;iostream&gt; int main(int argc, char *argv[]) { /* An annoying "Hello World" example */ for (auto i = 0; i &lt; 0xFFFF; i++) cout &lt;&lt; "Hello, World!"</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">&lt;&lt; endl; char c = '\n'; unordered_map &lt;string, vector&lt;string&gt; &gt; m; m["key"] = "\\\\"; // this is an error return -2e3 + 12l; }</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Strings</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Strings</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>"foo \"bar\" baz"<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>'foo \'bar\' baz'<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>"Multi-line strings ending with a \<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>are supported too."</source><seg-source><mrk
+            mtype="seg"
+            mid="1">"foo \"bar\" baz"<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">'foo \'bar\' baz'<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">"Multi-line strings ending with a \<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">are supported too."</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Hello World</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Hello World</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>#include &lt;iostream&gt;
+
+int main()
+{
+    std::cout &lt;&lt; "Hello, world!\n";
+    return 0;
+}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">#include &lt;iostream&gt; int main() { std::cout &lt;&lt; "Hello, world!\n"; return 0; }</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Macro statements</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Macro statements</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source># include &lt;stdio.h&gt;
+#define PG_locked   0
+#define PG_error    1</source><seg-source><mrk
+            mtype="seg"
+            mid="1"># include &lt;stdio.h&gt; #define PG_locked 0 #define PG_error 1</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Booleans</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Booleans</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>true;
+false;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">true; false;</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Operators</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Operators</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>a and b;
+c bitand d;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">a and b; c bitand d;</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Prism.js Example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Prism.js Example</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>/*
+David Cary 2010-09-14
+quick demo for wikibooks
+public domain
+*/
+#include &lt;iostream&gt;
+#include &lt;vector&gt;
+using namespace std;
+
+vector&lt;int&gt; pick_vector_with_biggest_fifth_element(
+    vector&lt;int&gt; left,
+    vector&lt;int&gt; right
+){
+    if( (left[5]) &lt; (right[5]) ){
+        return( right );
+    };
+    // else
+    return( left );
+}
+
+int vector_demo(void){
+    cout &lt;&lt; "vector demo" &lt;&lt; endl;
+    vector&lt;int&gt; left(7);
+    vector&lt;int&gt; right(7);
+
+    left[5] = 7;
+    right[5] = 8;
+    cout &lt;&lt; left[5] &lt;&lt; endl;
+    cout &lt;&lt; right[5] &lt;&lt; endl;
+    vector&lt;int&gt; biggest(
+        pick_vector_with_biggest_fifth_element( left, right )
+    );
+    cout &lt;&lt; biggest[5] &lt;&lt; endl;
+
+    return 0;
+}
+
+int main(void){
+    vector_demo();
+}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">/* David Cary 2010-09-14 quick demo for wikibooks public domain */ #include &lt;iostream&gt; #include &lt;vector&gt; using namespace std; vector&lt;int&gt; pick_vector_with_biggest_fifth_element( vector&lt;int&gt; left, vector&lt;int&gt; right ){ if( (left[5]) &lt; (right[5]) ){ return( right ); }; // else return( left ); } int vector_demo(void){ cout &lt;&lt; "vector demo" &lt;&lt; endl; vector&lt;int&gt; left(7); vector&lt;int&gt; right(7); left[5] = 7; right[5] = 8; cout &lt;&lt; left[5] &lt;&lt; endl; cout &lt;&lt; right[5] &lt;&lt; endl; vector&lt;int&gt; biggest( pick_vector_with_biggest_fifth_element( left, right ) ); cout &lt;&lt; biggest[5] &lt;&lt; endl; return 0; } int main(void){ vector_demo(); }</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Print Number Entered by User</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Print Number Entered by User</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>#include &lt;iostream&gt;
+using namespace std;
+int main()
+{    
+    int number;
+    cout &lt;&lt; "Enter an integer: ";
+    cin &gt;&gt; number;
+    cout &lt;&lt; "You entered " &lt;&lt; number;    
+    return 0;
+}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">#include &lt;iostream&gt; using namespace std; int main() { int number; cout &lt;&lt; "Enter an integer: "; cin &gt;&gt; number; cout &lt;&lt; "You entered " &lt;&lt; number; return 0; }</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Program to Add Two Integers</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Program to Add Two Integers</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>#include &lt;iostream&gt;<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>using namespace std;<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>int main()<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>{<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>int firstNumber, secondNumber, sumOfTwoNumbers;<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">    
+    </ph>cout &lt;&lt; "Enter two integers: ";<ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>cin &gt;&gt; firstNumber &gt;&gt; secondNumber;<ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>// sum of two numbers in stored in variable sumOfTwoNumbers<ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>sumOfTwoNumbers = firstNumber + secondNumber;<ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>// Prints sum<ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+    </ph>cout &lt;&lt; firstNumber &lt;&lt; " + " &lt;&lt;<ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>secondNumber &lt;&lt; " = " &lt;&lt; sumOfTwoNumbers;<ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">     
+    </ph>return 0;<ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">#include &lt;iostream&gt;<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">using namespace std;<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">int main()<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">{<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>int firstNumber, secondNumber, sumOfTwoNumbers;<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">    
+    </ph>cout &lt;&lt; "Enter two integers: ";<ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>cin &gt;&gt; firstNumber &gt;&gt; secondNumber;<ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>// sum of two numbers in stored in variable sumOfTwoNumbers<ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>sumOfTwoNumbers = firstNumber + secondNumber;<ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5"><ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>// Prints sum<ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 
+    </ph>cout &lt;&lt; firstNumber &lt;&lt; " + " &lt;&lt;<ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>secondNumber &lt;&lt; " = " &lt;&lt; sumOfTwoNumbers;<ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">     
+    </ph>return 0;<ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6">}</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="21"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>/*<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>David Cary 2010-09-14<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>quick demo for wikibooks<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>public domain<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>*/<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#include &lt;iostream&gt;<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#include &lt;vector&gt;<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>using namespace std;<ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>vector&lt;int&gt; pick_vector_with_biggest_fifth_element(<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>vector&lt;int&gt; left,<ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>vector&lt;int&gt; right<ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>){<ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>if( (left[5]) &lt; (right[5]) ){<ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>return( right );<ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>};<ph
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>// else<ph
+            id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>return( left );<ph
+            id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>int vector_demo(void){<ph
+            id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>cout &lt;&lt; "vector demo" &lt;&lt; endl;<ph
+            id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>vector&lt;int&gt; left(7);<ph
+            id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>vector&lt;int&gt; right(7);<ph
+            id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+            id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>left[5] = 7;<ph
+            id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>right[5] = 8;<ph
+            id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>cout &lt;&lt; left[5] &lt;&lt; endl;<ph
+            id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>cout &lt;&lt; right[5] &lt;&lt; endl;<ph
+            id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>vector&lt;int&gt; biggest(<ph
+            id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>pick_vector_with_biggest_fifth_element( left, right )<ph
+            id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>);<ph
+            id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>cout &lt;&lt; biggest[5] &lt;&lt; endl;<ph
+            id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+            id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>return 0;<ph
+            id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>int main(void){<ph
+            id="52" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="53" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>vector_demo();<ph
+            id="54" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">/*<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">David Cary 2010-09-14<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">quick demo for wikibooks<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">public domain<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">*/<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6">#include &lt;iostream&gt;<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="7">#include &lt;vector&gt;<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="8">using namespace std;<ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="9">vector&lt;int&gt; pick_vector_with_biggest_fifth_element(<ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>vector&lt;int&gt; left,<ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>vector&lt;int&gt; right<ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="10">){<ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>if( (left[5]) &lt; (right[5]) ){<ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>return( right );<ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>};<ph
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>// else<ph
+              id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>return( left );<ph
+              id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="11">}<ph
+              id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="12">int vector_demo(void){<ph
+              id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>cout &lt;&lt; "vector demo" &lt;&lt; endl;<ph
+              id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>vector&lt;int&gt; left(7);<ph
+              id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>vector&lt;int&gt; right(7);<ph
+              id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+              id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>left[5] = 7;<ph
+              id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>right[5] = 8;<ph
+              id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>cout &lt;&lt; left[5] &lt;&lt; endl;<ph
+              id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>cout &lt;&lt; right[5] &lt;&lt; endl;<ph
+              id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>vector&lt;int&gt; biggest(<ph
+              id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>pick_vector_with_biggest_fifth_element( left, right )<ph
+              id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>);<ph
+              id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>cout &lt;&lt; biggest[5] &lt;&lt; endl;<ph
+              id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+              id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>return 0;<ph
+              id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="13">}<ph
+              id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="14">int main(void){<ph
+              id="52" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="53" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>vector_demo();<ph
+              id="54" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="15">}</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="14"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="15"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="22"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Concatenate Strings</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Concatenate Strings</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="23"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source># include &lt; iostream&gt;
+# include &lt; string &gt;
+using namespace std;
+int main()
+
+{
+char str1[50], str2 [35];
+cout &lt;&lt; "Enter string str1;";
+cin &gt;&gt; str1;
+cout &lt;&lt; "Enter string str2:";
+cin &gt;&gt; str2;
+strcat(str1,str2);
+cout &lt;&lt; "strcat (str1, str2 ) : "&lt;&lt; str1;
+
+    system("pause");
+return 0;
+}</source><seg-source><mrk
+            mtype="seg"
+            mid="1"># include &lt; iostream&gt; # include &lt; string &gt; using namespace std; int main() { char str1[50], str2 [35]; cout &lt;&lt; "Enter string str1;"; cin &gt;&gt; str1; cout &lt;&lt; "Enter string str2:"; cin &gt;&gt; str2; strcat(str1,str2); cout &lt;&lt; "strcat (str1, str2 ) : "&lt;&lt; str1; system("pause"); return 0; }</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

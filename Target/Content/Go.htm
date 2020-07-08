@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1>Go</h1>
+        <p>Uses HighlightJS.</p>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Highlight.js Example</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Go;" xml:space="preserve" madcap-space-after-export="preserve">package main
+
+import "fmt"
+
+func main() {
+    ch := make(chan float64)
+    ch &lt;- 1.0e10    // magic number
+    x, ok := &lt;- ch
+    defer fmt.Println(`exitting now\`)
+    go println(len("hello world!"))
+    return
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Hello World</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Go;" xml:space="preserve" madcap-space-after-export="preserve">package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hello, 世界")
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>An implementation of Conway's Game of Life.</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="True" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Go;" xml:space="preserve" madcap-space-after-export="preserve">package main
+
+import (
+	"bytes"
+	"fmt"
+	"math/rand"
+	"time"
+)
+
+// Field represents a two-dimensional field of cells.
+type Field struct {
+	s    [][]bool
+	w, h int
+}
+
+// NewField returns an empty field of the specified width and height.
+func NewField(w, h int) *Field {
+	s := make([][]bool, h)
+	for i := range s {
+		s[i] = make([]bool, w)
+	}
+	return &amp;Field{s: s, w: w, h: h}
+}
+
+// Set sets the state of the specified cell to the given value.
+func (f *Field) Set(x, y int, b bool) {
+	f.s[y][x] = b
+}
+
+// Alive reports whether the specified cell is alive.
+// If the x or y coordinates are outside the field boundaries they are wrapped
+// toroidally. For instance, an x value of -1 is treated as width-1.
+func (f *Field) Alive(x, y int) bool {
+	x += f.w
+	x %= f.w
+	y += f.h
+	y %= f.h
+	return f.s[y][x]
+}
+
+// Next returns the state of the specified cell at the next time step.
+func (f *Field) Next(x, y int) bool {
+	// Count the adjacent cells that are alive.
+	alive := 0
+	for i := -1; i &lt;= 1; i++ {
+		for j := -1; j &lt;= 1; j++ {
+			if (j != 0 || i != 0) &amp;&amp; f.Alive(x+i, y+j) {
+				alive++
+			}
+		}
+	}
+	// Return next state according to the game rules:
+	//   exactly 3 neighbors: on,
+	//   exactly 2 neighbors: maintain current state,
+	//   otherwise: off.
+	return alive == 3 || alive == 2 &amp;&amp; f.Alive(x, y)
+}
+
+// Life stores the state of a round of Conway's Game of Life.
+type Life struct {
+	a, b *Field
+	w, h int
+}
+
+// NewLife returns a new Life game state with a random initial state.
+func NewLife(w, h int) *Life {
+	a := NewField(w, h)
+	for i := 0; i &lt; (w * h / 4); i++ {
+		a.Set(rand.Intn(w), rand.Intn(h), true)
+	}
+	return &amp;Life{
+		a: a, b: NewField(w, h),
+		w: w, h: h,
+	}
+}
+
+// Step advances the game by one instant, recomputing and updating all cells.
+func (l *Life) Step() {
+	// Update the state of the next field (b) from the current field (a).
+	for y := 0; y &lt; l.h; y++ {
+		for x := 0; x &lt; l.w; x++ {
+			l.b.Set(x, y, l.a.Next(x, y))
+		}
+	}
+	// Swap fields a and b.
+	l.a, l.b = l.b, l.a
+}
+
+// String returns the game board as a string.
+func (l *Life) String() string {
+	var buf bytes.Buffer
+	for y := 0; y &lt; l.h; y++ {
+		for x := 0; x &lt; l.w; x++ {
+			b := byte(' ')
+			if l.a.Alive(x, y) {
+				b = '*'
+			}
+			buf.WriteByte(b)
+		}
+		buf.WriteByte('\n')
+	}
+	return buf.String()
+}
+
+func main() {
+	l := NewLife(40, 15)
+	for i := 0; i &lt; 300; i++ {
+		l.Step()
+		fmt.Print("\x0c", l) // Clear screen and print field.
+		time.Sleep(time.Second / 30)
+	}
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Tree Comparison</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="True" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Go;" xml:space="preserve" madcap-space-after-export="preserve">// Go's concurrency primitives make it easy to
+// express concurrent concepts, such as
+// this binary tree comparison.
+//
+// Trees may be of different shapes,
+// but have the same contents. For example:
+//
+//        4               6
+//      2   6          4     7
+//     1 3 5 7       2   5
+//                  1 3
+//
+// This program compares a pair of trees by
+// walking each in its own goroutine,
+// sending their contents through a channel
+// to a third goroutine that compares them.
+
+package main
+
+import (
+	"fmt"
+	"math/rand"
+)
+
+// A Tree is a binary tree with integer values.
+type Tree struct {
+	Left  *Tree
+	Value int
+	Right *Tree
+}
+
+// Walk traverses a tree depth-first,
+// sending each Value on a channel.
+func Walk(t *Tree, ch chan int) {
+	if t == nil {
+		return
+	}
+	Walk(t.Left, ch)
+	ch &lt;- t.Value
+	Walk(t.Right, ch)
+}
+
+// Walker launches Walk in a new goroutine,
+// and returns a read-only channel of values.
+func Walker(t *Tree) &lt;-chan int {
+	ch := make(chan int)
+	go func() {
+		Walk(t, ch)
+		close(ch)
+	}()
+	return ch
+}
+
+// Compare reads values from two Walkers
+// that run simultaneously, and returns true
+// if t1 and t2 have the same contents.
+func Compare(t1, t2 *Tree) bool {
+	c1, c2 := Walker(t1), Walker(t2)
+	for {
+		v1, ok1 := &lt;-c1
+		v2, ok2 := &lt;-c2
+		if !ok1 || !ok2 {
+			return ok1 == ok2
+		}
+		if v1 != v2 {
+			break
+		}
+	}
+	return false
+}
+
+// New returns a new, random binary tree
+// holding the values 1k, 2k, ..., nk.
+func New(n, k int) *Tree {
+	var t *Tree
+	for _, v := range rand.Perm(n) {
+		t = insert(t, (1+v)*k)
+	}
+	return t
+}
+
+func insert(t *Tree, v int) *Tree {
+	if t == nil {
+		return &amp;Tree{nil, v, nil}
+	}
+	if v &lt; t.Value {
+		t.Left = insert(t.Left, v)
+		return t
+	}
+	t.Right = insert(t.Right, v)
+	return t
+}
+
+func main() {
+	t1 := New(100, 1)
+	fmt.Println(Compare(t1, New(100, 1)), "Same Contents")
+	fmt.Println(Compare(t1, New(99, 1)), "Differing Sizes")
+	fmt.Println(Compare(t1, New(100, 2)), "Differing Values")
+	fmt.Println(Compare(t1, New(101, 2)), "Dissimilar")
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Prism Example</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Go;">package main
+import "fmt"
+
+func sum(a []int, c chan int) {
+	sum := 0
+	for _, v := range a {
+		sum += v
+	}
+	c &lt;- sum // send sum to c
+}
+
+func main() {
+	a := []int{7, 2, 8, -9, 4, 0}
+
+	c := make(chan int)
+	go sum(a[:len(a)/2], c)
+	go sum(a[len(a)/2:], c)
+	x, y := &lt;-c, &lt;-c // receive from c
+
+	fmt.Println(x, y, x+y)
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="True" MadCap:lineNumberStart="1" MadCap:continue="False" class="noCaption" xml:space="preserve" madcap-space-after-export="preserve">/*
+********************************************************************************
+Golang - Asterisk and Ampersand Cheatsheet
+********************************************************************************
+Also available at: https://play.golang.org/p/lNpnS9j1ma
+Allowed:
+--------
+p := Person{"Steve", 28} 	stores the value
+p := &amp;Person{"Steve", 28} 	stores the pointer address (reference)
+PrintPerson(p) 			passes either the value or pointer address (reference)
+PrintPerson(*p) 		passes the value
+PrintPerson(&amp;p) 		passes the pointer address (reference)
+func PrintPerson(p Person)	ONLY receives the value
+func PrintPerson(p *Person)	ONLY receives the pointer address (reference)
+Not Allowed:
+--------
+p := *Person{"Steve", 28} 	illegal
+func PrintPerson(p &amp;Person)	illegal
+*/
+
+package main
+
+import (
+	"fmt"
+)
+
+type Person struct {
+	Name string
+	Age int
+}
+
+// This only works with *Person, does not work with Person
+// Only works with Test 2 and Test 3
+func (p *Person) String() string {
+	return fmt.Sprintf("%s is %d", p.Name, p.Age)
+}
+
+// This works with both *Person and Person, BUT you can't modiy the value and
+// it takes up more space
+// Works with Test 1, Test 2, Test 3, and Test 4
+/*func (p Person) String() string {
+	return fmt.Sprintf("%s is %d", p.Name, p.Age)
+}*/
+
+// *****************************************************************************
+// Test 1 - Pass by Value
+// *****************************************************************************
+
+func test1() {
+	p := Person{"Steve", 28}
+	printPerson1(p)
+	updatePerson1(p)
+	printPerson1(p)
+}
+
+func updatePerson1(p Person) {
+	p.Age = 32
+	printPerson1(p)
+}
+
+func printPerson1(p Person) {
+	fmt.Printf("String: %v | Name: %v | Age: %d\n",
+        p,
+        p.Name,
+        p.Age)
+}
+
+// *****************************************************************************
+// Test 2 - Pass by Reference
+// *****************************************************************************
+
+func test2() {
+	p := &amp;Person{"Steve", 28}
+	printPerson2(p)
+	updatePerson2(p)
+	printPerson2(p)
+}
+
+func updatePerson2(p *Person) {
+	p.Age = 32
+	printPerson2(p)
+}
+
+func printPerson2(p *Person) {
+	fmt.Printf("String: %v | Name: %v | Age: %d\n",
+        p,
+        p.Name,
+        p.Age)
+}
+
+// *****************************************************************************
+// Test 3 - Pass by Reference (requires more typing)
+// *****************************************************************************
+
+func test3() {
+	p := Person{"Steve", 28}
+	printPerson3(&amp;p)
+	updatePerson3(&amp;p)
+	printPerson3(&amp;p)
+}
+
+func updatePerson3(p *Person) {
+	p.Age = 32
+	printPerson3(p)
+}
+
+func printPerson3(p *Person) {
+	fmt.Printf("String: %v | Name: %v | Age: %d\n",
+        p,
+        p.Name,
+        p.Age)
+}
+
+// *****************************************************************************
+// Test 4 - Pass by Value (requires more typing)
+// *****************************************************************************
+
+func test4() {
+	p := &amp;Person{"Steve", 28}
+	printPerson4(*p)
+	updatePerson4(*p)
+	printPerson4(*p)
+}
+
+func updatePerson4(p Person) {
+	p.Age = 32
+	printPerson4(p)
+}
+
+func printPerson4(p Person) {
+	fmt.Printf("String: %v | Name: %v | Age: %d\n",
+        p,
+        p.Name,
+        p.Age)
+}
+
+// *****************************************************************************
+// Main
+// *****************************************************************************
+
+/*
+Outputs:
+String: {Steve 28} | Name: Steve | Age: 28
+String: {Steve 32} | Name: Steve | Age: 32
+String: {Steve 28} | Name: Steve | Age: 28
+String: Steve is 28 | Name: Steve | Age: 28
+String: Steve is 32 | Name: Steve | Age: 32
+String: Steve is 32 | Name: Steve | Age: 32
+String: Steve is 28 | Name: Steve | Age: 28
+String: Steve is 32 | Name: Steve | Age: 32
+String: Steve is 32 | Name: Steve | Age: 32
+String: {Steve 28} | Name: Steve | Age: 28
+String: {Steve 32} | Name: Steve | Age: 32
+String: {Steve 28} | Name: Steve | Age: 28
+*/
+func main() {	
+	test1()
+	test2()
+	test3()
+	test4()
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+    </body>
+</html>

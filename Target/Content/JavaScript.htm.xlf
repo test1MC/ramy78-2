@@ -1,0 +1,599 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="JavaScript.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="es">
+    <header>
+      <skl><external-file
+          href="JavaScript.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">43</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11"
+        tool-name="Lingo"
+        tool-version="11.0.7114.18563"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>JavaScript</source><seg-source><mrk
+            mtype="seg"
+            mid="1">JavaScript</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Uses HighlightJS.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Uses HighlightJS.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Skip to hair style (bookmark in caption)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Skip to hair style (bookmark in caption)</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Skip to hair style (bookmark in adjacent paragraph)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Skip to hair style (bookmark in adjacent paragraph)</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Highlight.js Example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Highlight.js Example</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>function $initHighlight(block, cls) {<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>try {<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>if (cls.search(/\bno\-highlight\b/) != -1)<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>return process(block, true, 0x0F) +<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>` class="${cls}"`;<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>} catch (e) {<ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>/* handle exception */<ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>}<ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>for (var i = 0 / 2; i &lt; classes.length; i++) {<ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>if (checkCondition(classes[i]) === undefined)<ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>console.log('undefined');<ph
+            id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>}<ph
+            id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+            id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>return (<ph
+            id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;div&gt;<ph
+            id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>&lt;web-component&gt;{block}&lt;/web-component&gt;<ph
+            id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;/div&gt;<ph
+            id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>)<ph
+            id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>export<ph
+            id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>$initHighlight;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">function $initHighlight(block, cls) {<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>try {<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>if (cls.search(/\bno\-highlight\b/) != -1)<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>return process(block, true, 0x0F) +<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>` class="${cls}"`;<ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>} catch (e) {<ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>/* handle exception */<ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>}<ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>for (var i = 0 / 2; i &lt; classes.length; i++) {<ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>if (checkCondition(classes[i]) === undefined)<ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>console.log('undefined');<ph
+              id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>}<ph
+              id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+              id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>return (<ph
+              id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;div&gt;<ph
+              id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>&lt;web-component&gt;{block}&lt;/web-component&gt;<ph
+              id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>&lt;/div&gt;<ph
+              id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>)<ph
+              id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">}<ph
+              id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">export<ph
+              id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>$initHighlight;</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Variable assignment</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Variable assignment</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>var foo = "bar", baz = 5;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">var foo = "bar", baz = 5;</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Operators</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Operators</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>(1 + 2 * 3)/4 &gt;= 3 &amp;&amp; 4 &lt; 5 || 6 &gt; 7</source><seg-source><mrk
+            mtype="seg"
+            mid="1">(1 + 2 * 3)/4 &gt;= 3 &amp;&amp; 4 &lt; 5 || 6 &gt; 7</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Indented Code</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Indented Code</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>if (true) {
+	while (true) {
+		doSomething();
+	}
+}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">if (true) { while (true) { doSomething(); } }</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Regex with slashes</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Regex with slashes</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>var foo = /([^/])\/(\\?.|\[.+?])+?\/[gim]{0,3}/g;<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// Regex inside single line comment<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// hey, /this doesn’t fail!/ :D</source><seg-source><mrk
+            mtype="seg"
+            mid="1">var foo = /([^/])\/(\\?.|\[.+?])+?\/[gim]{0,3}/g;<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">// Regex inside single line comment<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">// hey, /this doesn’t fail!/ :D</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Regex that ends with double slash</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Regex that ends with double slash</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>var bar = /\/\*[\w\W]*?\*\//g;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">var bar = /\/\*[\w\W]*?\*\//g;</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Single line comments % regexes</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Single line comments % regexes</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>// http://lea.verou.me<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>var comment = /\/\*[\w\W]*?\*\//g;<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// http://lea.verou.me<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>/* http://lea.verou.me */</source><seg-source><mrk
+            mtype="seg"
+            mid="1">// http://lea.verou.me<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">var comment = /\/\*[\w\W]*?\*\//g;<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">// http://lea.verou.me<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">/* http://lea.verou.me */</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="19"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Nested strings</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Nested strings</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="20"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>var foo = "foo", bar = "He \"said\" 'hi'!"<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// Strings in comments:<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// "foo"<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>/* "foo" */<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// Strings with slashes<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>env.content + '&lt;/' + env.tag + '&gt;'<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>var foo = "/" + "/";<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>var foo = "http://prismjs.com"; // Strings are strings and comments are comments ;)</source><seg-source><mrk
+            mtype="seg"
+            mid="1">var foo = "foo", bar = "He \"said\" 'hi'!"<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">// Strings in comments:<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">// "foo"<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">/* "foo" */<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">// Strings with slashes<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6">env.content + '&lt;/' + env.tag + '&gt;'<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="7">var foo = "/" + "/";<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="8">var foo = "http://prismjs.com"; // Strings are strings and comments are comments ;)</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="21"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Two or more division operators on the same line</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Two or more division operators on the same line</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="22"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>var foo = 5 / 6 / 7;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">var foo = 5 / 6 / 7;</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="23"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>A division operator on the same line as a regex</source><seg-source><mrk
+            mtype="seg"
+            mid="1">A division operator on the same line as a regex</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="24"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>var foo = 1/2, bar = /a/g;
+var foo = /a/, bar = 3/4;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">var foo = 1/2, bar = /a/g; var foo = /a/, bar = 3/4;</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="25"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>ES6 features</source><seg-source><mrk
+            mtype="seg"
+            mid="1">ES6 features</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="26"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>// Regex "y" and "u" flags
+var a = /[a-zA-Z]+/gimyu;
+
+// for..of loops
+for(let x of y) { }
+
+// Modules: import
+import { foo as bar } from "file.js"
+
+// Template strings
+`Only on ${y} one line`
+`This template string ${x} is on
+
+multiple lines.`
+`40 + 2 = ${ 40 + 2 }`
+`The squares of the first 3 natural integers are ${[for (x of [1,2,3]) x*x].join(', ')}`</source><seg-source><mrk
+            mtype="seg"
+            mid="1">// Regex "y" and "u" flags var a = /[a-zA-Z]+/gimyu; // for..of loops for(let x of y) { } // Modules: import import { foo as bar } from "file.js" // Template strings `Only on ${y} one line` `This template string ${x} is on multiple lines.` `40 + 2 = ${ 40 + 2 }` `The squares of the first 3 natural integers are ${[for (x of [1,2,3]) x*x].join(', ')}`</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="27"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Hair Style</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Hair Style</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="28"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>let style = "Ramen noodles"<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>return "Hair look like" + style</source><seg-source><mrk
+            mtype="seg"
+            mid="1">let style = "Ramen noodles"<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">return "Hair look like" + style</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

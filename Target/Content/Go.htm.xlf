@@ -1,0 +1,4489 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="Go.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="es">
+    <header>
+      <skl><external-file
+          href="Go.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">460</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11"
+        tool-name="Lingo"
+        tool-version="11.0.7114.18563"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Go</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Go</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Uses HighlightJS.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Uses HighlightJS.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Highlight.js Example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Highlight.js Example</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>package main<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>import "fmt"<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>func main() {<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>ch := make(chan float64)<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>ch &lt;- 1.0e10<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>// magic number<ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>x, ok := &lt;- ch<ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>defer fmt.Println(`exitting now\`)<ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>go println(len("hello world!"))<ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>return<ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">package main<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">import "fmt"<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">func main() {<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>ch := make(chan float64)<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4"><ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>ch &lt;- 1.0e10<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>// magic number<ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>x, ok := &lt;- ch<ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>defer fmt.Println(`exitting now\`)<ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>go println(len("hello world!"))<ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>return<ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">}</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Hello World</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Hello World</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>package main<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>import "fmt"<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>func main() {<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	fmt.Println("Hello, 世界")<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">package main<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">import "fmt"<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">func main() {<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="4">	</mrk><mrk
+            mtype="seg"
+            mid="5">fmt.Println("Hello, 世界")<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6">}</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>An implementation of Conway's Game of Life.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">An implementation of Conway's Game of Life.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>package main<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>import (<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	"bytes"<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	"fmt"<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	"math/rand"<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	"time"<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>)<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>// Field represents a two-dimensional field of cells.<ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>type Field struct {<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	s<ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>[][]bool<ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	w, h int<ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>// NewField returns an empty field of the specified width and height.<ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>func NewField(w, h int) *Field {<ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	s := make([][]bool, h)<ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	for i := range s {<ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>s[i] = make([]bool, w)<ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	}<ph
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	return &amp;Field{s: s, w: w, h: h}<ph
+            id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>// Set sets the state of the specified cell to the given value.<ph
+            id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>func (f *Field) Set(x, y int, b bool) {<ph
+            id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	f.s[y][x] = b<ph
+            id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>// Alive reports whether the specified cell is alive.<ph
+            id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// If the x or y coordinates are outside the field boundaries they are wrapped<ph
+            id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// toroidally. For instance, an x value of -1 is treated as width-1.<ph
+            id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>func (f *Field) Alive(x, y int) bool {<ph
+            id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	x += f.w<ph
+            id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	x %= f.w<ph
+            id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	y += f.h<ph
+            id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	y %= f.h<ph
+            id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	return f.s[y][x]<ph
+            id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>// Next returns the state of the specified cell at the next time step.<ph
+            id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>func (f *Field) Next(x, y int) bool {<ph
+            id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	// Count the adjacent cells that are alive.<ph
+            id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	alive := 0<ph
+            id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	for i := -1; i &lt;= 1; i++ {<ph
+            id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>for j := -1; j &lt;= 1; j++ {<ph
+            id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">			</ph>if (j != 0 || i != 0) &amp;&amp; f.Alive(x+i, y+j) {<ph
+            id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">				</ph>alive++<ph
+            id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">			</ph>}<ph
+            id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>}<ph
+            id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	}<ph
+            id="52" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	// Return next state according to the game rules:<ph
+            id="53" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	//<ph
+            id="54" xmlns="urn:oasis:names:tc:xliff:document:1.2">   </ph>exactly 3 neighbors: on,<ph
+            id="55" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	//<ph
+            id="56" xmlns="urn:oasis:names:tc:xliff:document:1.2">   </ph>exactly 2 neighbors: maintain current state,<ph
+            id="57" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	//<ph
+            id="58" xmlns="urn:oasis:names:tc:xliff:document:1.2">   </ph>otherwise: off.<ph
+            id="59" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	return alive == 3 || alive == 2 &amp;&amp; f.Alive(x, y)<ph
+            id="60" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="61" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>// Life stores the state of a round of Conway's Game of Life.<ph
+            id="62" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>type Life struct {<ph
+            id="63" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	a, b *Field<ph
+            id="64" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	w, h int<ph
+            id="65" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="66" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>// NewLife returns a new Life game state with a random initial state.<ph
+            id="67" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>func NewLife(w, h int) *Life {<ph
+            id="68" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	a := NewField(w, h)<ph
+            id="69" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	for i := 0; i &lt; (w * h / 4); i++ {<ph
+            id="70" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="71" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>a.Set(rand.Intn(w), rand.Intn(h), true)<ph
+            id="72" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	}<ph
+            id="73" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	return &amp;Life{<ph
+            id="74" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="75" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>a: a, b: NewField(w, h),<ph
+            id="76" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="77" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>w: w, h: h,<ph
+            id="78" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	}<ph
+            id="79" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="80" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>// Step advances the game by one instant, recomputing and updating all cells.<ph
+            id="81" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>func (l *Life) Step() {<ph
+            id="82" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	// Update the state of the next field (b) from the current field (a).<ph
+            id="83" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	for y := 0; y &lt; l.h; y++ {<ph
+            id="84" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="85" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>for x := 0; x &lt; l.w; x++ {<ph
+            id="86" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="87" xmlns="urn:oasis:names:tc:xliff:document:1.2">			</ph>l.b.Set(x, y, l.a.Next(x, y))<ph
+            id="88" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="89" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>}<ph
+            id="90" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	}<ph
+            id="91" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	// Swap fields a and b.<ph
+            id="92" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	l.a, l.b = l.b, l.a<ph
+            id="93" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="94" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>// String returns the game board as a string.<ph
+            id="95" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>func (l *Life) String() string {<ph
+            id="96" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	var buf bytes.Buffer<ph
+            id="97" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	for y := 0; y &lt; l.h; y++ {<ph
+            id="98" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="99" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>for x := 0; x &lt; l.w; x++ {<ph
+            id="100" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="101" xmlns="urn:oasis:names:tc:xliff:document:1.2">			</ph>b := byte(' ')<ph
+            id="102" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="103" xmlns="urn:oasis:names:tc:xliff:document:1.2">			</ph>if l.a.Alive(x, y) {<ph
+            id="104" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="105" xmlns="urn:oasis:names:tc:xliff:document:1.2">				</ph>b = '*'<ph
+            id="106" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="107" xmlns="urn:oasis:names:tc:xliff:document:1.2">			</ph>}<ph
+            id="108" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="109" xmlns="urn:oasis:names:tc:xliff:document:1.2">			</ph>buf.WriteByte(b)<ph
+            id="110" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="111" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>}<ph
+            id="112" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="113" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>buf.WriteByte('\n')<ph
+            id="114" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	}<ph
+            id="115" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	return buf.String()<ph
+            id="116" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="117" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>func main() {<ph
+            id="118" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	l := NewLife(40, 15)<ph
+            id="119" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	for i := 0; i &lt; 300; i++ {<ph
+            id="120" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="121" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>l.Step()<ph
+            id="122" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="123" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>fmt.Print("\x0c", l) // Clear screen and print field.<ph
+            id="124" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="125" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>time.Sleep(time.Second / 30)<ph
+            id="126" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	}<ph
+            id="127" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">package main<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">import (<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="3">	</mrk><mrk
+            mtype="seg"
+            mid="4">"bytes"<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="5">	</mrk><mrk
+            mtype="seg"
+            mid="6">"fmt"<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="7">	</mrk><mrk
+            mtype="seg"
+            mid="8">"math/rand"<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="9">	</mrk><mrk
+            mtype="seg"
+            mid="10">"time"<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="11">)<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="12">// Field represents a two-dimensional field of cells.<ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="13">type Field struct {<ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="14">	</mrk><mrk
+            mtype="seg"
+            mid="15">s<ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>[][]bool<ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="16">	</mrk><mrk
+            mtype="seg"
+            mid="17">w, h int<ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="18">}<ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="19">// NewField returns an empty field of the specified width and height.<ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="20">func NewField(w, h int) *Field {<ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="21">	</mrk><mrk
+            mtype="seg"
+            mid="22">s := make([][]bool, h)<ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="23">	</mrk><mrk
+            mtype="seg"
+            mid="24">for i := range s {</mrk><mrk
+            mtype="seg"
+            mid="25"><ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>s[i] = make([]bool, w)<ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="26">	</mrk><mrk
+            mtype="seg"
+            mid="27">}<ph
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="28">	</mrk><mrk
+            mtype="seg"
+            mid="29">return &amp;Field{s: s, w: w, h: h}<ph
+              id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="30">}<ph
+              id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="31">// Set sets the state of the specified cell to the given value.<ph
+              id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="32">func (f *Field) Set(x, y int, b bool) {<ph
+              id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="33">	</mrk><mrk
+            mtype="seg"
+            mid="34">f.s[y][x] = b<ph
+              id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="35">}<ph
+              id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="36">// Alive reports whether the specified cell is alive.<ph
+              id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="37">// If the x or y coordinates are outside the field boundaries they are wrapped<ph
+              id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="38">// toroidally.</mrk><mrk
+            mtype="protected"
+            mid="39"> </mrk><mrk
+            mtype="seg"
+            mid="40">For instance, an x value of -1 is treated as width-1.<ph
+              id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="41">func (f *Field) Alive(x, y int) bool {<ph
+              id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="42">	</mrk><mrk
+            mtype="seg"
+            mid="43">x += f.w<ph
+              id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="44">	</mrk><mrk
+            mtype="seg"
+            mid="45">x %= f.w<ph
+              id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="46">	</mrk><mrk
+            mtype="seg"
+            mid="47">y += f.h<ph
+              id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="48">	</mrk><mrk
+            mtype="seg"
+            mid="49">y %= f.h<ph
+              id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="50">	</mrk><mrk
+            mtype="seg"
+            mid="51">return f.s[y][x]<ph
+              id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="52">}<ph
+              id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="53">// Next returns the state of the specified cell at the next time step.<ph
+              id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="54">func (f *Field) Next(x, y int) bool {<ph
+              id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="55">	</mrk><mrk
+            mtype="seg"
+            mid="56">// Count the adjacent cells that are alive.<ph
+              id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="57">	</mrk><mrk
+            mtype="seg"
+            mid="58">alive := 0<ph
+              id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="59">	</mrk><mrk
+            mtype="seg"
+            mid="60">for i := -1; i &lt;= 1; i++ {</mrk><mrk
+            mtype="seg"
+            mid="61"><ph
+              id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>for j := -1; j &lt;= 1; j++ {</mrk><mrk
+            mtype="seg"
+            mid="62"><ph
+              id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">			</ph>if (j != 0 || i != 0) &amp;&amp; f.Alive(x+i, y+j) {</mrk><mrk
+            mtype="seg"
+            mid="63"><ph
+              id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">				</ph>alive++</mrk><mrk
+            mtype="seg"
+            mid="64"><ph
+              id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">			</ph>}</mrk><mrk
+            mtype="seg"
+            mid="65"><ph
+              id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>}<ph
+              id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="66">	</mrk><mrk
+            mtype="seg"
+            mid="67">}<ph
+              id="52" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="68">	</mrk><mrk
+            mtype="seg"
+            mid="69">// Return next state according to the game rules:<ph
+              id="53" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="70">	</mrk><mrk
+            mtype="seg"
+            mid="71">//<ph
+              id="54" xmlns="urn:oasis:names:tc:xliff:document:1.2">   </ph>exactly 3 neighbors: on,<ph
+              id="55" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="72">	</mrk><mrk
+            mtype="seg"
+            mid="73">//<ph
+              id="56" xmlns="urn:oasis:names:tc:xliff:document:1.2">   </ph>exactly 2 neighbors: maintain current state,<ph
+              id="57" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="74">	</mrk><mrk
+            mtype="seg"
+            mid="75">//<ph
+              id="58" xmlns="urn:oasis:names:tc:xliff:document:1.2">   </ph>otherwise: off.<ph
+              id="59" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="76">	</mrk><mrk
+            mtype="seg"
+            mid="77">return alive == 3 || alive == 2 &amp;&amp; f.Alive(x, y)<ph
+              id="60" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="78">}<ph
+              id="61" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="79">// Life stores the state of a round of Conway's Game of Life.<ph
+              id="62" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="80">type Life struct {<ph
+              id="63" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="81">	</mrk><mrk
+            mtype="seg"
+            mid="82">a, b *Field<ph
+              id="64" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="83">	</mrk><mrk
+            mtype="seg"
+            mid="84">w, h int<ph
+              id="65" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="85">}<ph
+              id="66" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="86">// NewLife returns a new Life game state with a random initial state.<ph
+              id="67" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="87">func NewLife(w, h int) *Life {<ph
+              id="68" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="88">	</mrk><mrk
+            mtype="seg"
+            mid="89">a := NewField(w, h)<ph
+              id="69" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="90">	</mrk><mrk
+            mtype="seg"
+            mid="91">for i := 0; i &lt; (w * h / 4); i++ {</mrk><mrk
+            mtype="seg"
+            mid="92"><ph
+              id="70" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="71" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>a.Set(rand.Intn(w), rand.Intn(h), true)<ph
+              id="72" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="93">	</mrk><mrk
+            mtype="seg"
+            mid="94">}<ph
+              id="73" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="95">	</mrk><mrk
+            mtype="seg"
+            mid="96">return &amp;Life{</mrk><mrk
+            mtype="seg"
+            mid="97"><ph
+              id="74" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="75" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>a: a, b: NewField(w, h),</mrk><mrk
+            mtype="seg"
+            mid="98"><ph
+              id="76" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="77" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>w: w, h: h,<ph
+              id="78" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="99">	</mrk><mrk
+            mtype="seg"
+            mid="100">}<ph
+              id="79" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="101">}<ph
+              id="80" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="102">// Step advances the game by one instant, recomputing and updating all cells.<ph
+              id="81" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="103">func (l *Life) Step() {<ph
+              id="82" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="104">	</mrk><mrk
+            mtype="seg"
+            mid="105">// Update the state of the next field (b) from the current field (a).<ph
+              id="83" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="106">	</mrk><mrk
+            mtype="seg"
+            mid="107">for y := 0; y &lt; l.h; y++ {</mrk><mrk
+            mtype="seg"
+            mid="108"><ph
+              id="84" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="85" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>for x := 0; x &lt; l.w; x++ {</mrk><mrk
+            mtype="seg"
+            mid="109"><ph
+              id="86" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="87" xmlns="urn:oasis:names:tc:xliff:document:1.2">			</ph>l.b.Set(x, y, l.a.Next(x, y))</mrk><mrk
+            mtype="seg"
+            mid="110"><ph
+              id="88" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="89" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>}<ph
+              id="90" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="111">	</mrk><mrk
+            mtype="seg"
+            mid="112">}<ph
+              id="91" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="113">	</mrk><mrk
+            mtype="seg"
+            mid="114">// Swap fields a and b.<ph
+              id="92" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="115">	</mrk><mrk
+            mtype="seg"
+            mid="116">l.a, l.b = l.b, l.a<ph
+              id="93" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="117">}<ph
+              id="94" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="118">// String returns the game board as a string.<ph
+              id="95" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="119">func (l *Life) String() string {<ph
+              id="96" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="120">	</mrk><mrk
+            mtype="seg"
+            mid="121">var buf bytes.Buffer<ph
+              id="97" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="122">	</mrk><mrk
+            mtype="seg"
+            mid="123">for y := 0; y &lt; l.h; y++ {</mrk><mrk
+            mtype="seg"
+            mid="124"><ph
+              id="98" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="99" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>for x := 0; x &lt; l.w; x++ {</mrk><mrk
+            mtype="seg"
+            mid="125"><ph
+              id="100" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="101" xmlns="urn:oasis:names:tc:xliff:document:1.2">			</ph>b := byte(' ')</mrk><mrk
+            mtype="seg"
+            mid="126"><ph
+              id="102" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="103" xmlns="urn:oasis:names:tc:xliff:document:1.2">			</ph>if l.a.Alive(x, y) {</mrk><mrk
+            mtype="seg"
+            mid="127"><ph
+              id="104" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="105" xmlns="urn:oasis:names:tc:xliff:document:1.2">				</ph>b = '*'</mrk><mrk
+            mtype="seg"
+            mid="128"><ph
+              id="106" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="107" xmlns="urn:oasis:names:tc:xliff:document:1.2">			</ph>}</mrk><mrk
+            mtype="seg"
+            mid="129"><ph
+              id="108" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="109" xmlns="urn:oasis:names:tc:xliff:document:1.2">			</ph>buf.WriteByte(b)</mrk><mrk
+            mtype="seg"
+            mid="130"><ph
+              id="110" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="111" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>}</mrk><mrk
+            mtype="seg"
+            mid="131"><ph
+              id="112" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="113" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>buf.WriteByte('\n')<ph
+              id="114" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="132">	</mrk><mrk
+            mtype="seg"
+            mid="133">}<ph
+              id="115" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="134">	</mrk><mrk
+            mtype="seg"
+            mid="135">return buf.String()<ph
+              id="116" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="136">}<ph
+              id="117" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="137">func main() {<ph
+              id="118" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="138">	</mrk><mrk
+            mtype="seg"
+            mid="139">l := NewLife(40, 15)<ph
+              id="119" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="140">	</mrk><mrk
+            mtype="seg"
+            mid="141">for i := 0; i &lt; 300; i++ {</mrk><mrk
+            mtype="seg"
+            mid="142"><ph
+              id="120" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="121" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>l.Step()</mrk><mrk
+            mtype="seg"
+            mid="143"><ph
+              id="122" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="123" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>fmt.Print("\x0c", l) // Clear screen and print field.</mrk><mrk
+            mtype="seg"
+            mid="144"><ph
+              id="124" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="125" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>time.Sleep(time.Second / 30)<ph
+              id="126" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="145">	</mrk><mrk
+            mtype="seg"
+            mid="146">}<ph
+              id="127" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="147">}</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="14"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="15"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="16"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="17"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="18"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="19"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="20"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="21"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="22"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="23"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="24"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="25"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="26"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="27"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="28"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="29"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="30"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="31"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="32"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="33"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="34"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="35"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="36"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="37"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="38"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="39"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="40"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="41"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="42"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="43"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="44"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="45"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="46"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="47"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="48"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="49"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="50"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="51"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="52"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="53"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="54"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="55"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="56"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="57"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="58"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="59"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="60"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="61"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="62"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="63"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="64"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="65"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="66"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="67"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="68"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="69"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="70"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="71"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="72"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="73"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="74"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="75"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="76"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="77"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="78"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="79"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="80"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="81"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="82"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="83"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="84"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="85"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="86"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="87"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="88"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="89"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="90"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="91"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="92"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="93"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="94"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="95"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="96"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="97"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="98"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="99"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="100"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="101"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="102"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="103"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="104"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="105"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="106"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="107"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="108"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="109"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="110"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="111"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="112"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="113"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="114"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="115"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="116"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="117"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="118"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="119"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="120"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="121"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="122"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="123"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="124"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="125"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="126"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="127"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="128"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="129"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="130"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="131"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="132"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="133"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="134"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="135"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="136"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="137"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="138"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="139"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="140"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="141"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="142"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="143"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="144"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="145"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="146"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="147"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Tree Comparison</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Tree Comparison</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>// Go's concurrency primitives make it easy to<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// express concurrent concepts, such as<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// this binary tree comparison.<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>//<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// Trees may be of different shapes,<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// but have the same contents. For example:<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>//<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>//<ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>4<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">               </ph>6<ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>//<ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>2<ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">   </ph>6<ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>4<ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">     </ph>7<ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>//<ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">     </ph>1 3 5 7<ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">       </ph>2<ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">   </ph>5<ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>//<ph
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>1 3<ph
+            id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>//<ph
+            id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// This program compares a pair of trees by<ph
+            id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// walking each in its own goroutine,<ph
+            id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// sending their contents through a channel<ph
+            id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// to a third goroutine that compares them.<ph
+            id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>package main<ph
+            id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>import (<ph
+            id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	"fmt"<ph
+            id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	"math/rand"<ph
+            id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>)<ph
+            id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>// A Tree is a binary tree with integer values.<ph
+            id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>type Tree struct {<ph
+            id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	Left<ph
+            id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>*Tree<ph
+            id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	Value int<ph
+            id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	Right *Tree<ph
+            id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>// Walk traverses a tree depth-first,<ph
+            id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// sending each Value on a channel.<ph
+            id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>func Walk(t *Tree, ch chan int) {<ph
+            id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	if t == nil {<ph
+            id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>return<ph
+            id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	}<ph
+            id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	Walk(t.Left, ch)<ph
+            id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	ch &lt;- t.Value<ph
+            id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	Walk(t.Right, ch)<ph
+            id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>// Walker launches Walk in a new goroutine,<ph
+            id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// and returns a read-only channel of values.<ph
+            id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>func Walker(t *Tree) &lt;-chan int {<ph
+            id="52" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	ch := make(chan int)<ph
+            id="53" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	go func() {<ph
+            id="54" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="55" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>Walk(t, ch)<ph
+            id="56" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="57" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>close(ch)<ph
+            id="58" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	}()<ph
+            id="59" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	return ch<ph
+            id="60" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="61" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>// Compare reads values from two Walkers<ph
+            id="62" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// that run simultaneously, and returns true<ph
+            id="63" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// if t1 and t2 have the same contents.<ph
+            id="64" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>func Compare(t1, t2 *Tree) bool {<ph
+            id="65" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	c1, c2 := Walker(t1), Walker(t2)<ph
+            id="66" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	for {<ph
+            id="67" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="68" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>v1, ok1 := &lt;-c1<ph
+            id="69" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="70" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>v2, ok2 := &lt;-c2<ph
+            id="71" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="72" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>if !ok1 || !ok2 {<ph
+            id="73" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="74" xmlns="urn:oasis:names:tc:xliff:document:1.2">			</ph>return ok1 == ok2<ph
+            id="75" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="76" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>}<ph
+            id="77" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="78" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>if v1 != v2 {<ph
+            id="79" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="80" xmlns="urn:oasis:names:tc:xliff:document:1.2">			</ph>break<ph
+            id="81" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="82" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>}<ph
+            id="83" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	}<ph
+            id="84" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	return false<ph
+            id="85" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="86" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>// New returns a new, random binary tree<ph
+            id="87" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// holding the values 1k, 2k, ..., nk.<ph
+            id="88" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>func New(n, k int) *Tree {<ph
+            id="89" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	var t *Tree<ph
+            id="90" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	for _, v := range rand.Perm(n) {<ph
+            id="91" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="92" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>t = insert(t, (1+v)*k)<ph
+            id="93" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	}<ph
+            id="94" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	return t<ph
+            id="95" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="96" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>func insert(t *Tree, v int) *Tree {<ph
+            id="97" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	if t == nil {<ph
+            id="98" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="99" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>return &amp;Tree{nil, v, nil}<ph
+            id="100" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	}<ph
+            id="101" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	if v &lt; t.Value {<ph
+            id="102" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="103" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>t.Left = insert(t.Left, v)<ph
+            id="104" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="105" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>return t<ph
+            id="106" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	}<ph
+            id="107" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	t.Right = insert(t.Right, v)<ph
+            id="108" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	return t<ph
+            id="109" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="110" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>func main() {<ph
+            id="111" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	t1 := New(100, 1)<ph
+            id="112" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	fmt.Println(Compare(t1, New(100, 1)), "Same Contents")<ph
+            id="113" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	fmt.Println(Compare(t1, New(99, 1)), "Differing Sizes")<ph
+            id="114" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	fmt.Println(Compare(t1, New(100, 2)), "Differing Values")<ph
+            id="115" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	fmt.Println(Compare(t1, New(101, 2)), "Dissimilar")<ph
+            id="116" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">// Go's concurrency primitives make it easy to<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">// express concurrent concepts, such as<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">// this binary tree comparison.<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">//<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">// Trees may be of different shapes,<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6">// but have the same contents.</mrk><mrk
+            mtype="protected"
+            mid="7"> </mrk><mrk
+            mtype="seg"
+            mid="8">For example:<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="9">//<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="10">//<ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>4<ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">               </ph>6<ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="11">//<ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>2<ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">   </ph>6<ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>4<ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">     </ph>7<ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="12">//<ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">     </ph>1 3 5 7<ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">       </ph>2<ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">   </ph>5<ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="13">//<ph
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>1 3<ph
+              id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="14">//<ph
+              id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="15">// This program compares a pair of trees by<ph
+              id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="16">// walking each in its own goroutine,<ph
+              id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="17">// sending their contents through a channel<ph
+              id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="18">// to a third goroutine that compares them.<ph
+              id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="19">package main<ph
+              id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="20">import (<ph
+              id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="21">	</mrk><mrk
+            mtype="seg"
+            mid="22">"fmt"<ph
+              id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="23">	</mrk><mrk
+            mtype="seg"
+            mid="24">"math/rand"<ph
+              id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="25">)<ph
+              id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="26">// A Tree is a binary tree with integer values.<ph
+              id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="27">type Tree struct {<ph
+              id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="28">	</mrk><mrk
+            mtype="seg"
+            mid="29">Left<ph
+              id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>*Tree<ph
+              id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="30">	</mrk><mrk
+            mtype="seg"
+            mid="31">Value int<ph
+              id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="32">	</mrk><mrk
+            mtype="seg"
+            mid="33">Right *Tree<ph
+              id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="34">}<ph
+              id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="35">// Walk traverses a tree depth-first,<ph
+              id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="36">// sending each Value on a channel.<ph
+              id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="37">func Walk(t *Tree, ch chan int) {<ph
+              id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="38">	</mrk><mrk
+            mtype="seg"
+            mid="39">if t == nil {</mrk><mrk
+            mtype="seg"
+            mid="40"><ph
+              id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>return<ph
+              id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="41">	</mrk><mrk
+            mtype="seg"
+            mid="42">}<ph
+              id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="43">	</mrk><mrk
+            mtype="seg"
+            mid="44">Walk(t.Left, ch)<ph
+              id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="45">	</mrk><mrk
+            mtype="seg"
+            mid="46">ch &lt;- t.Value<ph
+              id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="47">	</mrk><mrk
+            mtype="seg"
+            mid="48">Walk(t.Right, ch)<ph
+              id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="49">}<ph
+              id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="50">// Walker launches Walk in a new goroutine,<ph
+              id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="51">// and returns a read-only channel of values.<ph
+              id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="52">func Walker(t *Tree) &lt;-chan int {<ph
+              id="52" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="53">	</mrk><mrk
+            mtype="seg"
+            mid="54">ch := make(chan int)<ph
+              id="53" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="55">	</mrk><mrk
+            mtype="seg"
+            mid="56">go func() {</mrk><mrk
+            mtype="seg"
+            mid="57"><ph
+              id="54" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="55" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>Walk(t, ch)</mrk><mrk
+            mtype="seg"
+            mid="58"><ph
+              id="56" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="57" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>close(ch)<ph
+              id="58" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="59">	</mrk><mrk
+            mtype="seg"
+            mid="60">}()<ph
+              id="59" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="61">	</mrk><mrk
+            mtype="seg"
+            mid="62">return ch<ph
+              id="60" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="63">}<ph
+              id="61" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="64">// Compare reads values from two Walkers<ph
+              id="62" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="65">// that run simultaneously, and returns true<ph
+              id="63" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="66">// if t1 and t2 have the same contents.<ph
+              id="64" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="67">func Compare(t1, t2 *Tree) bool {<ph
+              id="65" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="68">	</mrk><mrk
+            mtype="seg"
+            mid="69">c1, c2 := Walker(t1), Walker(t2)<ph
+              id="66" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="70">	</mrk><mrk
+            mtype="seg"
+            mid="71">for {</mrk><mrk
+            mtype="seg"
+            mid="72"><ph
+              id="67" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="68" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>v1, ok1 := &lt;-c1</mrk><mrk
+            mtype="seg"
+            mid="73"><ph
+              id="69" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="70" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>v2, ok2 := &lt;-c2</mrk><mrk
+            mtype="seg"
+            mid="74"><ph
+              id="71" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="72" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>if !ok1 || !ok2 {</mrk><mrk
+            mtype="seg"
+            mid="75"><ph
+              id="73" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="74" xmlns="urn:oasis:names:tc:xliff:document:1.2">			</ph>return ok1 == ok2</mrk><mrk
+            mtype="seg"
+            mid="76"><ph
+              id="75" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="76" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>}</mrk><mrk
+            mtype="seg"
+            mid="77"><ph
+              id="77" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="78" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>if v1 != v2 {</mrk><mrk
+            mtype="seg"
+            mid="78"><ph
+              id="79" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="80" xmlns="urn:oasis:names:tc:xliff:document:1.2">			</ph>break</mrk><mrk
+            mtype="seg"
+            mid="79"><ph
+              id="81" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="82" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>}<ph
+              id="83" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="80">	</mrk><mrk
+            mtype="seg"
+            mid="81">}<ph
+              id="84" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="82">	</mrk><mrk
+            mtype="seg"
+            mid="83">return false<ph
+              id="85" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="84">}<ph
+              id="86" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="85">// New returns a new, random binary tree<ph
+              id="87" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="86">// holding the values 1k, 2k, ..., nk.<ph
+              id="88" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="87">func New(n, k int) *Tree {<ph
+              id="89" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="88">	</mrk><mrk
+            mtype="seg"
+            mid="89">var t *Tree<ph
+              id="90" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="90">	</mrk><mrk
+            mtype="seg"
+            mid="91">for _, v := range rand.Perm(n) {</mrk><mrk
+            mtype="seg"
+            mid="92"><ph
+              id="91" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="92" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>t = insert(t, (1+v)*k)<ph
+              id="93" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="93">	</mrk><mrk
+            mtype="seg"
+            mid="94">}<ph
+              id="94" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="95">	</mrk><mrk
+            mtype="seg"
+            mid="96">return t<ph
+              id="95" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="97">}<ph
+              id="96" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="98">func insert(t *Tree, v int) *Tree {<ph
+              id="97" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="99">	</mrk><mrk
+            mtype="seg"
+            mid="100">if t == nil {</mrk><mrk
+            mtype="seg"
+            mid="101"><ph
+              id="98" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="99" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>return &amp;Tree{nil, v, nil}<ph
+              id="100" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="102">	</mrk><mrk
+            mtype="seg"
+            mid="103">}<ph
+              id="101" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="104">	</mrk><mrk
+            mtype="seg"
+            mid="105">if v &lt; t.Value {</mrk><mrk
+            mtype="seg"
+            mid="106"><ph
+              id="102" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="103" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>t.Left = insert(t.Left, v)</mrk><mrk
+            mtype="seg"
+            mid="107"><ph
+              id="104" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="105" xmlns="urn:oasis:names:tc:xliff:document:1.2">		</ph>return t<ph
+              id="106" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="108">	</mrk><mrk
+            mtype="seg"
+            mid="109">}<ph
+              id="107" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="110">	</mrk><mrk
+            mtype="seg"
+            mid="111">t.Right = insert(t.Right, v)<ph
+              id="108" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="112">	</mrk><mrk
+            mtype="seg"
+            mid="113">return t<ph
+              id="109" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="114">}<ph
+              id="110" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="115">func main() {<ph
+              id="111" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="116">	</mrk><mrk
+            mtype="seg"
+            mid="117">t1 := New(100, 1)<ph
+              id="112" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="118">	</mrk><mrk
+            mtype="seg"
+            mid="119">fmt.Println(Compare(t1, New(100, 1)), "Same Contents")<ph
+              id="113" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="120">	</mrk><mrk
+            mtype="seg"
+            mid="121">fmt.Println(Compare(t1, New(99, 1)), "Differing Sizes")<ph
+              id="114" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="122">	</mrk><mrk
+            mtype="seg"
+            mid="123">fmt.Println(Compare(t1, New(100, 2)), "Differing Values")<ph
+              id="115" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="124">	</mrk><mrk
+            mtype="seg"
+            mid="125">fmt.Println(Compare(t1, New(101, 2)), "Dissimilar")<ph
+              id="116" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="126">}</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="14"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="15"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="16"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="17"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="18"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="19"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="20"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="21"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="22"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="23"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="24"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="25"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="26"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="27"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="28"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="29"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="30"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="31"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="32"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="33"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="34"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="35"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="36"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="37"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="38"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="39"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="40"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="41"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="42"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="43"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="44"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="45"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="46"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="47"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="48"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="49"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="50"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="51"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="52"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="53"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="54"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="55"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="56"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="57"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="58"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="59"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="60"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="61"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="62"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="63"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="64"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="65"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="66"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="67"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="68"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="69"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="70"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="71"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="72"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="73"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="74"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="75"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="76"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="77"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="78"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="79"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="80"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="81"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="82"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="83"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="84"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="85"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="86"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="87"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="88"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="89"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="90"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="91"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="92"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="93"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="94"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="95"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="96"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="97"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="98"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="99"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="100"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="101"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="102"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="103"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="104"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="105"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="106"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="107"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="108"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="109"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="110"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="111"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="112"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="113"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="114"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="115"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="116"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="117"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="118"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="119"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="120"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="121"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="122"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="123"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="124"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="125"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="126"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Prism Example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Prism Example</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>package main
+import "fmt"
+
+func sum(a []int, c chan int) {
+	sum := 0
+	for _, v := range a {
+		sum += v
+	}
+	c &lt;- sum // send sum to c
+}
+
+func main() {
+	a := []int{7, 2, 8, -9, 4, 0}
+
+	c := make(chan int)
+	go sum(a[:len(a)/2], c)
+	go sum(a[len(a)/2:], c)
+	x, y := &lt;-c, &lt;-c // receive from c
+
+	fmt.Println(x, y, x+y)
+}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">package main import "fmt" func sum(a []int, c chan int) { sum := 0 for _, v := range a { sum += v } c &lt;- sum // send sum to c } func main() { a := []int{7, 2, 8, -9, 4, 0} c := make(chan int) go sum(a[:len(a)/2], c) go sum(a[len(a)/2:], c) x, y := &lt;-c, &lt;-c // receive from c fmt.Println(x, y, x+y) }</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>/*<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>********************************************************************************<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>Golang - Asterisk and Ampersand Cheatsheet<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>********************************************************************************<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>Also available at: https://play.golang.org/p/lNpnS9j1ma<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>Allowed:<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>--------<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>p := Person{"Steve", 28}<ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 	</ph>stores the value<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>p := &amp;Person{"Steve", 28}<ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 	</ph>stores the pointer address (reference)<ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>PrintPerson(p)<ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 			</ph>passes either the value or pointer address (reference)<ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>PrintPerson(*p)<ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 		</ph>passes the value<ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>PrintPerson(&amp;p)<ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 		</ph>passes the pointer address (reference)<ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>func PrintPerson(p Person)	ONLY receives the value<ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>func PrintPerson(p *Person)	ONLY receives the pointer address (reference)<ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>Not Allowed:<ph
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>--------<ph
+            id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>p := *Person{"Steve", 28}<ph
+            id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 	</ph>illegal<ph
+            id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>func PrintPerson(p &amp;Person)	illegal<ph
+            id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>*/<ph
+            id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>package main<ph
+            id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>import (<ph
+            id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	"fmt"<ph
+            id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>)<ph
+            id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>type Person struct {<ph
+            id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	Name string<ph
+            id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	Age int<ph
+            id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>// This only works with *Person, does not work with Person<ph
+            id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// Only works with Test 2 and Test 3<ph
+            id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>func (p *Person) String() string {<ph
+            id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	return fmt.Sprintf("%s is %d", p.Name, p.Age)<ph
+            id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>// This works with both *Person and Person, BUT you can't modiy the value and<ph
+            id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// it takes up more space<ph
+            id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// Works with Test 1, Test 2, Test 3, and Test 4<ph
+            id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>/*func (p Person) String() string {<ph
+            id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	return fmt.Sprintf("%s is %d", p.Name, p.Age)<ph
+            id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}*/<ph
+            id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>// *****************************************************************************<ph
+            id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// Test 1 - Pass by Value<ph
+            id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// *****************************************************************************<ph
+            id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>func test1() {<ph
+            id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	p := Person{"Steve", 28}<ph
+            id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	printPerson1(p)<ph
+            id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	updatePerson1(p)<ph
+            id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	printPerson1(p)<ph
+            id="52" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="53" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>func updatePerson1(p Person) {<ph
+            id="54" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	p.Age = 32<ph
+            id="55" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	printPerson1(p)<ph
+            id="56" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="57" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>func printPerson1(p Person) {<ph
+            id="58" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	fmt.Printf("String: %v | Name: %v | Age: %d\n",<ph
+            id="59" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="60" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>p,<ph
+            id="61" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="62" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>p.Name,<ph
+            id="63" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="64" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>p.Age)<ph
+            id="65" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="66" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>// *****************************************************************************<ph
+            id="67" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// Test 2 - Pass by Reference<ph
+            id="68" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// *****************************************************************************<ph
+            id="69" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>func test2() {<ph
+            id="70" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	p := &amp;Person{"Steve", 28}<ph
+            id="71" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	printPerson2(p)<ph
+            id="72" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	updatePerson2(p)<ph
+            id="73" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	printPerson2(p)<ph
+            id="74" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="75" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>func updatePerson2(p *Person) {<ph
+            id="76" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	p.Age = 32<ph
+            id="77" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	printPerson2(p)<ph
+            id="78" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="79" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>func printPerson2(p *Person) {<ph
+            id="80" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	fmt.Printf("String: %v | Name: %v | Age: %d\n",<ph
+            id="81" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="82" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>p,<ph
+            id="83" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="84" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>p.Name,<ph
+            id="85" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="86" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>p.Age)<ph
+            id="87" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="88" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>// *****************************************************************************<ph
+            id="89" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// Test 3 - Pass by Reference (requires more typing)<ph
+            id="90" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// *****************************************************************************<ph
+            id="91" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>func test3() {<ph
+            id="92" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	p := Person{"Steve", 28}<ph
+            id="93" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	printPerson3(&amp;p)<ph
+            id="94" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	updatePerson3(&amp;p)<ph
+            id="95" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	printPerson3(&amp;p)<ph
+            id="96" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="97" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>func updatePerson3(p *Person) {<ph
+            id="98" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	p.Age = 32<ph
+            id="99" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	printPerson3(p)<ph
+            id="100" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="101" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>func printPerson3(p *Person) {<ph
+            id="102" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	fmt.Printf("String: %v | Name: %v | Age: %d\n",<ph
+            id="103" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="104" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>p,<ph
+            id="105" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="106" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>p.Name,<ph
+            id="107" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="108" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>p.Age)<ph
+            id="109" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="110" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>// *****************************************************************************<ph
+            id="111" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// Test 4 - Pass by Value (requires more typing)<ph
+            id="112" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// *****************************************************************************<ph
+            id="113" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>func test4() {<ph
+            id="114" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	p := &amp;Person{"Steve", 28}<ph
+            id="115" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	printPerson4(*p)<ph
+            id="116" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	updatePerson4(*p)<ph
+            id="117" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	printPerson4(*p)<ph
+            id="118" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="119" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>func updatePerson4(p Person) {<ph
+            id="120" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	p.Age = 32<ph
+            id="121" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	printPerson4(p)<ph
+            id="122" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="123" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>func printPerson4(p Person) {<ph
+            id="124" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	fmt.Printf("String: %v | Name: %v | Age: %d\n",<ph
+            id="125" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="126" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>p,<ph
+            id="127" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="128" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>p.Name,<ph
+            id="129" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="130" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>p.Age)<ph
+            id="131" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="132" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>// *****************************************************************************<ph
+            id="133" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// Main<ph
+            id="134" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// *****************************************************************************<ph
+            id="135" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>/*<ph
+            id="136" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>Outputs:<ph
+            id="137" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>String: {Steve 28} | Name: Steve | Age: 28<ph
+            id="138" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>String: {Steve 32} | Name: Steve | Age: 32<ph
+            id="139" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>String: {Steve 28} | Name: Steve | Age: 28<ph
+            id="140" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>String: Steve is 28 | Name: Steve | Age: 28<ph
+            id="141" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>String: Steve is 32 | Name: Steve | Age: 32<ph
+            id="142" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>String: Steve is 32 | Name: Steve | Age: 32<ph
+            id="143" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>String: Steve is 28 | Name: Steve | Age: 28<ph
+            id="144" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>String: Steve is 32 | Name: Steve | Age: 32<ph
+            id="145" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>String: Steve is 32 | Name: Steve | Age: 32<ph
+            id="146" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>String: {Steve 28} | Name: Steve | Age: 28<ph
+            id="147" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>String: {Steve 32} | Name: Steve | Age: 32<ph
+            id="148" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>String: {Steve 28} | Name: Steve | Age: 28<ph
+            id="149" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>*/<ph
+            id="150" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>func main() {<ph
+            id="151" xmlns="urn:oasis:names:tc:xliff:document:1.2">	
+	</ph>test1()<ph
+            id="152" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	test2()<ph
+            id="153" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	test3()<ph
+            id="154" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>	test4()<ph
+            id="155" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}</source><seg-source><mrk
+            mtype="seg"
+            mid="1">/*<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">********************************************************************************<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">Golang - Asterisk and Ampersand Cheatsheet<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">********************************************************************************<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">Also available at: https://play.golang.org/p/lNpnS9j1ma<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6">Allowed:<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="7">--------<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="8">p := Person{"Steve", 28}<ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 	</ph>stores the value<ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="9">p := &amp;Person{"Steve", 28}<ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 	</ph>stores the pointer address (reference)<ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="10">PrintPerson(p)<ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 			</ph>passes either the value or pointer address (reference)<ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="11">PrintPerson(*p)<ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 		</ph>passes the value<ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="12">PrintPerson(&amp;p)<ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 		</ph>passes the pointer address (reference)<ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="13">func PrintPerson(p Person)</mrk><mrk
+            mtype="protected"
+            mid="14">	</mrk><mrk
+            mtype="seg"
+            mid="15">ONLY receives the value<ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="16">func PrintPerson(p *Person)</mrk><mrk
+            mtype="protected"
+            mid="17">	</mrk><mrk
+            mtype="seg"
+            mid="18">ONLY receives the pointer address (reference)<ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="19">Not Allowed:<ph
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="20">--------<ph
+              id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="21">p := *Person{"Steve", 28}<ph
+              id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2"> 	</ph>illegal<ph
+              id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="22">func PrintPerson(p &amp;Person)</mrk><mrk
+            mtype="protected"
+            mid="23">	</mrk><mrk
+            mtype="seg"
+            mid="24">illegal<ph
+              id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="25">*/<ph
+              id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="26">package main<ph
+              id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="27">import (<ph
+              id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="28">	</mrk><mrk
+            mtype="seg"
+            mid="29">"fmt"<ph
+              id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="30">)<ph
+              id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="31">type Person struct {<ph
+              id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="32">	</mrk><mrk
+            mtype="seg"
+            mid="33">Name string<ph
+              id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="34">	</mrk><mrk
+            mtype="seg"
+            mid="35">Age int<ph
+              id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="36">}<ph
+              id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="37">// This only works with *Person, does not work with Person<ph
+              id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="38">// Only works with Test 2 and Test 3<ph
+              id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="39">func (p *Person) String() string {<ph
+              id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="40">	</mrk><mrk
+            mtype="seg"
+            mid="41">return fmt.Sprintf("%s is %d", p.Name, p.Age)<ph
+              id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="42">}<ph
+              id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="43">// This works with both *Person and Person, BUT you can't modiy the value and<ph
+              id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="44">// it takes up more space<ph
+              id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="45">// Works with Test 1, Test 2, Test 3, and Test 4<ph
+              id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="46">/*func (p Person) String() string {<ph
+              id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="47">	</mrk><mrk
+            mtype="seg"
+            mid="48">return fmt.Sprintf("%s is %d", p.Name, p.Age)<ph
+              id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="49">}*/<ph
+              id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="50">// *****************************************************************************<ph
+              id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="51">// Test 1 - Pass by Value<ph
+              id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="52">// *****************************************************************************<ph
+              id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="53">func test1() {<ph
+              id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="54">	</mrk><mrk
+            mtype="seg"
+            mid="55">p := Person{"Steve", 28}<ph
+              id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="56">	</mrk><mrk
+            mtype="seg"
+            mid="57">printPerson1(p)<ph
+              id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="58">	</mrk><mrk
+            mtype="seg"
+            mid="59">updatePerson1(p)<ph
+              id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="60">	</mrk><mrk
+            mtype="seg"
+            mid="61">printPerson1(p)<ph
+              id="52" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="62">}<ph
+              id="53" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="63">func updatePerson1(p Person) {<ph
+              id="54" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="64">	</mrk><mrk
+            mtype="seg"
+            mid="65">p.Age = 32<ph
+              id="55" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="66">	</mrk><mrk
+            mtype="seg"
+            mid="67">printPerson1(p)<ph
+              id="56" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="68">}<ph
+              id="57" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="69">func printPerson1(p Person) {<ph
+              id="58" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="70">	</mrk><mrk
+            mtype="seg"
+            mid="71">fmt.Printf("String: %v | Name: %v | Age: %d\n",<ph
+              id="59" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="60" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>p,<ph
+              id="61" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="62" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>p.Name,<ph
+              id="63" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="64" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>p.Age)<ph
+              id="65" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="72">}<ph
+              id="66" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="73">// *****************************************************************************<ph
+              id="67" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="74">// Test 2 - Pass by Reference<ph
+              id="68" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="75">// *****************************************************************************<ph
+              id="69" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="76">func test2() {<ph
+              id="70" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="77">	</mrk><mrk
+            mtype="seg"
+            mid="78">p := &amp;Person{"Steve", 28}<ph
+              id="71" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="79">	</mrk><mrk
+            mtype="seg"
+            mid="80">printPerson2(p)<ph
+              id="72" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="81">	</mrk><mrk
+            mtype="seg"
+            mid="82">updatePerson2(p)<ph
+              id="73" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="83">	</mrk><mrk
+            mtype="seg"
+            mid="84">printPerson2(p)<ph
+              id="74" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="85">}<ph
+              id="75" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="86">func updatePerson2(p *Person) {<ph
+              id="76" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="87">	</mrk><mrk
+            mtype="seg"
+            mid="88">p.Age = 32<ph
+              id="77" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="89">	</mrk><mrk
+            mtype="seg"
+            mid="90">printPerson2(p)<ph
+              id="78" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="91">}<ph
+              id="79" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="92">func printPerson2(p *Person) {<ph
+              id="80" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="93">	</mrk><mrk
+            mtype="seg"
+            mid="94">fmt.Printf("String: %v | Name: %v | Age: %d\n",<ph
+              id="81" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="82" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>p,<ph
+              id="83" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="84" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>p.Name,<ph
+              id="85" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="86" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>p.Age)<ph
+              id="87" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="95">}<ph
+              id="88" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="96">// *****************************************************************************<ph
+              id="89" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="97">// Test 3 - Pass by Reference (requires more typing)<ph
+              id="90" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="98">// *****************************************************************************<ph
+              id="91" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="99">func test3() {<ph
+              id="92" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="100">	</mrk><mrk
+            mtype="seg"
+            mid="101">p := Person{"Steve", 28}<ph
+              id="93" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="102">	</mrk><mrk
+            mtype="seg"
+            mid="103">printPerson3(&amp;p)<ph
+              id="94" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="104">	</mrk><mrk
+            mtype="seg"
+            mid="105">updatePerson3(&amp;p)<ph
+              id="95" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="106">	</mrk><mrk
+            mtype="seg"
+            mid="107">printPerson3(&amp;p)<ph
+              id="96" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="108">}<ph
+              id="97" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="109">func updatePerson3(p *Person) {<ph
+              id="98" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="110">	</mrk><mrk
+            mtype="seg"
+            mid="111">p.Age = 32<ph
+              id="99" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="112">	</mrk><mrk
+            mtype="seg"
+            mid="113">printPerson3(p)<ph
+              id="100" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="114">}<ph
+              id="101" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="115">func printPerson3(p *Person) {<ph
+              id="102" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="116">	</mrk><mrk
+            mtype="seg"
+            mid="117">fmt.Printf("String: %v | Name: %v | Age: %d\n",<ph
+              id="103" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="104" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>p,<ph
+              id="105" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="106" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>p.Name,<ph
+              id="107" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="108" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>p.Age)<ph
+              id="109" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="118">}<ph
+              id="110" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="119">// *****************************************************************************<ph
+              id="111" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="120">// Test 4 - Pass by Value (requires more typing)<ph
+              id="112" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="121">// *****************************************************************************<ph
+              id="113" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="122">func test4() {<ph
+              id="114" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="123">	</mrk><mrk
+            mtype="seg"
+            mid="124">p := &amp;Person{"Steve", 28}<ph
+              id="115" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="125">	</mrk><mrk
+            mtype="seg"
+            mid="126">printPerson4(*p)<ph
+              id="116" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="127">	</mrk><mrk
+            mtype="seg"
+            mid="128">updatePerson4(*p)<ph
+              id="117" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="129">	</mrk><mrk
+            mtype="seg"
+            mid="130">printPerson4(*p)<ph
+              id="118" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="131">}<ph
+              id="119" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="132">func updatePerson4(p Person) {<ph
+              id="120" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="133">	</mrk><mrk
+            mtype="seg"
+            mid="134">p.Age = 32<ph
+              id="121" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="135">	</mrk><mrk
+            mtype="seg"
+            mid="136">printPerson4(p)<ph
+              id="122" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="137">}<ph
+              id="123" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="138">func printPerson4(p Person) {<ph
+              id="124" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="139">	</mrk><mrk
+            mtype="seg"
+            mid="140">fmt.Printf("String: %v | Name: %v | Age: %d\n",<ph
+              id="125" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="126" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>p,<ph
+              id="127" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="128" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>p.Name,<ph
+              id="129" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="130" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>p.Age)<ph
+              id="131" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="141">}<ph
+              id="132" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="142">// *****************************************************************************<ph
+              id="133" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="143">// Main<ph
+              id="134" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="144">// *****************************************************************************<ph
+              id="135" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="145">/*<ph
+              id="136" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="146">Outputs:<ph
+              id="137" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="147">String: {Steve 28} | Name: Steve | Age: 28<ph
+              id="138" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="148">String: {Steve 32} | Name: Steve | Age: 32<ph
+              id="139" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="149">String: {Steve 28} | Name: Steve | Age: 28<ph
+              id="140" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="150">String: Steve is 28 | Name: Steve | Age: 28<ph
+              id="141" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="151">String: Steve is 32 | Name: Steve | Age: 32<ph
+              id="142" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="152">String: Steve is 32 | Name: Steve | Age: 32<ph
+              id="143" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="153">String: Steve is 28 | Name: Steve | Age: 28<ph
+              id="144" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="154">String: Steve is 32 | Name: Steve | Age: 32<ph
+              id="145" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="155">String: Steve is 32 | Name: Steve | Age: 32<ph
+              id="146" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="156">String: {Steve 28} | Name: Steve | Age: 28<ph
+              id="147" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="157">String: {Steve 32} | Name: Steve | Age: 32<ph
+              id="148" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="158">String: {Steve 28} | Name: Steve | Age: 28<ph
+              id="149" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="159">*/</mrk><mrk
+            mtype="seg"
+            mid="160"><ph
+              id="150" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="161">func main() {<ph
+              id="151" xmlns="urn:oasis:names:tc:xliff:document:1.2">	
+	</ph>test1()<ph
+              id="152" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="162">	</mrk><mrk
+            mtype="seg"
+            mid="163">test2()<ph
+              id="153" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="164">	</mrk><mrk
+            mtype="seg"
+            mid="165">test3()<ph
+              id="154" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="166">	</mrk><mrk
+            mtype="seg"
+            mid="167">test4()<ph
+              id="155" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="168">}</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="14"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="15"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="16"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="17"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="18"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="19"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="20"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="21"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="22"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="23"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="24"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="25"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="26"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="27"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="28"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="29"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="30"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="31"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="32"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="33"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="34"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="35"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="36"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="37"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="38"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="39"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="40"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="41"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="42"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="43"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="44"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="45"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="46"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="47"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="48"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="49"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="50"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="51"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="52"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="53"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="54"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="55"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="56"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="57"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="58"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="59"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="60"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="61"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="62"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="63"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="64"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="65"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="66"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="67"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="68"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="69"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="70"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="71"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="72"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="73"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="74"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="75"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="76"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="77"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="78"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="79"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="80"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="81"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="82"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="83"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="84"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="85"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="86"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="87"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="88"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="89"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="90"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="91"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="92"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="93"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="94"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="95"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="96"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="97"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="98"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="99"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="100"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="101"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="102"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="103"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="104"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="105"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="106"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="107"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="108"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="109"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="110"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="111"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="112"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="113"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="114"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="115"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="116"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="117"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="118"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="119"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="120"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="121"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="122"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="123"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="124"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="125"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="126"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="127"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="128"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="129"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="130"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="131"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="132"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="133"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="134"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="135"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="136"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="137"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="138"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="139"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="140"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="141"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="142"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="143"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="144"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="145"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="146"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="147"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="148"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="149"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="150"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="151"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="152"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="153"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="154"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="155"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="156"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="157"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="158"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="159"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="160"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="161"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="162"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="163"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="164"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="165"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="166"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="167"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="168"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

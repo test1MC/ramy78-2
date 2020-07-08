@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1>D</h1>
+        <p>Uses HighlightJS.</p>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Highlight.js Example</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="True" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: D;">#!/usr/bin/rdmd
+// Computes average line length for standard input.
+import std.stdio;
+
+/+
+  this is a /+ nesting +/ comment
++/
+
+enum COMPILED_ON = __TIMESTAMP__;  // special token
+
+enum character = '©';
+enum copy_valid = '&amp;copy;';
+enum backslash_escaped = '\\';
+
+// string literals
+enum str = `hello "world"!`;
+enum multiline = r"lorem
+ipsum
+dolor";  // wysiwyg string, no escapes here allowed
+enum multiline2 = "sit
+amet
+\"adipiscing\"
+elit.";
+enum hex = x"66 6f 6f";   // same as "foo"
+
+#line 5
+
+// float literals
+enum f = [3.14f, .1, 1., 1e100, 0xc0de.01p+100];
+
+static if (something == true) {
+   import std.algorithm;
+}
+
+void main() pure nothrow @safe {
+    ulong lines = 0;
+    double sumLength = 0;
+    foreach (line; stdin.byLine()) {
+        ++lines;
+        sumLength += line.length;
+    }
+    writeln("Average line length: ",
+        lines ? sumLength / lines : 0);
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet>
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Comments</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: D;" xml:space="preserve" madcap-space-after-export="preserve">// Single line comment
+/* Multi-line
+	comment */
+/+ Mutli-line
+	/+ nestable +/
+	comment +/</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Numbers</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: D;">0 .. 2_147_483_647
+2_147_483_648 .. 9_223_372_036_854_775_807
+0L .. 9_223_372_036_854_775_807L
+0U .. 4_294_967_296U
+4_294_967_296U .. 18_446_744_073_709_551_615U
+0UL .. 18_446_744_073_709_551_615UL
+0x0 .. 0x7FFF_FFFF
+0x8000_0000 .. 0xFFFF_FFFF
+0x1_0000_0000 .. 0x7FFF_FFFF_FFFF_FFFF
+0x8000_0000_0000_0000 .. 0xFFFF_FFFF_FFFF_FFFF
+0x0L .. 0x7FFF_FFFF_FFFF_FFFFL
+0x8000_0000_0000_0000L .. 0xFFFF_FFFF_FFFF_FFFFL
+0x0U .. 0xFFFF_FFFFU
+0x1_0000_0000U .. 0xFFFF_FFFF_FFFF_FFFFU
+0x0UL .. 0xFFFF_FFFF_FFFF_FFFFUL
+
+123_456.567_8          // 123456.5678
+1_2_3_4_5_6_.5_6_7_8   // 123456.5678
+1_2_3_4_5_6_.5e-6_     // 123456.5e-6
+0x1.FFFFFFFFFFFFFp1023 // double.max
+0x1p-52                // double.epsilon
+1.175494351e-38F       // float.min
+6.3i                   // idouble 6.3
+6.3fi                  // ifloat 6.3
+6.3Li                  // ireal 6.3
+4.5 + 6.2i             // complex number (phased out)</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Strings</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: D;">// WYSIWYG strings
+r"hello"
+r"c:\root\foo.exe"
+r"ab\n"
+`hello`
+`c:\root\foo.exe`
+`ab\n`
+
+// Double-quoted strings
+"hello"
+"c:\\root\\foo.exe"
+"ab\n"
+"ab
+"
+
+// Hex strings
+x"0A"
+x"00 FBCD 32FD 0A"
+
+// String postfix characters
+"hello"c  // string
+"hello"w  // wstring
+"hello"d  // dstring
+
+// Delimited strings
+q"(foo(xxx))"
+q"[foo{]"
+q"EOS
+This
+is a multi-line
+heredoc string
+EOS"
+q"/foo]/"
+
+// Token strings
+q{foo}
+q{/*}*/ }
+q{ foo(q{hello}); }
+q{ __TIME__ }
+
+// Character literals
+'a'
+'\u000A'</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Iasm registers</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: D;">AL AH AX EAX
+BL BH BX EBX
+CL CH CX ECX
+DL DH DX EDX
+BP EBP
+SP ESP
+DI EDI
+SI ESI
+ES CS SS DS GS FS
+CR0 CR2 CR3 CR4
+DR0 DR1 DR2 DR3 DR6 DR7
+TR3 TR4 TR5 TR6 TR7
+ST
+ST(0) ST(1) ST(2) ST(3) ST(4) ST(5) ST(6) ST(7)
+MM0  MM1  MM2  MM3  MM4  MM5  MM6  MM7
+XMM0 XMM1 XMM2 XMM3 XMM4 XMM5 XMM6 XMM7
+
+RAX  RBX  RCX  RDX
+BPL  RBP
+SPL  RSP
+DIL  RDI
+SIL  RSI
+R8B  R8W  R8D  R8
+R9B  R9W  R9D  R9
+R10B R10W R10D R10
+R11B R11W R11D R11
+R12B R12W R12D R12
+R13B R13W R13D R13
+R14B R14W R14D R14
+R15B R15W R15D R15
+XMM8 XMM9 XMM10 XMM11 XMM12 XMM13 XMM14 XMM15
+YMM0 YMM1 YMM2  YMM3  YMM4  YMM5  YMM6  YMM7
+YMM8 YMM9 YMM10 YMM11 YMM12 YMM13 YMM14 YMM15</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Prism Example</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="True" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: D;">#!/usr/bin/dmd -run
+/* sh style script syntax is supported! */
+/* Hello World in D
+   To compile:
+     dmd hello.d
+   or to optimize:
+     dmd -O -inline -release hello.d
+   or to get generated documentation:
+     dmd hello.d -D
+  */
+import std.stdio;  // References to  commonly used I/O routines.
+void main(char[][] args)   // 'void' here means return 0 by default.
+{
+    // Write-Formatted-Line
+     writefln("Hello World, "   // automatic concatenation of string literals
+              "Reloaded");
+     // Strings are denoted as a dynamic array of chars 'char[]'
+     // auto type inference and built-in foreach
+     foreach(argc, argv; args)
+    {
+        // OOP is supported, of course! And automatic type inference.
+         auto cl = new CmdLin(argc, argv);
+
+        // 'writefln' is the improved 'printf' !!
+         // user-defined class properties.
+         writefln(cl.argnum, cl.suffix, " arg: %s", cl.argv);
+        // Garbage Collection or explicit memory management - your choice!!!
+         delete cl;
+    }
+     // Nested structs, classes and functions!
+     struct specs
+    {
+        // all vars. automatically initialized
+         int count, allocated;
+    }
+
+    // Note that declarations read right-to-left.
+    // So that 'char[][]' reads as an array of an array of chars.
+
+    specs argspecs(char[][] args)
+    // Optional (built-in) function contracts.
+     in{
+        assert (args.length &gt; 0); // assert built in
+     }
+    out(result){
+        assert(result.count == CmdLin.total);
+        assert(result.allocated &gt; 0);
+    }
+    body{
+        specs* s = new specs;
+        // no need for '-&gt;'
+         s.count = args.length;  // The 'length' property is number of elements.
+         s.allocated = typeof(args).sizeof; // built-in properties for native types
+         foreach(argv; args)
+            s.allocated += argv.length * typeof(argv[0]).sizeof;
+        return *s;
+    }
+
+    // built-in string and common string operations, e.g. '~' is concatenate.
+     char[] argcmsg  = "argc = %d";
+    char[] allocmsg = "allocated = %d";
+    writefln(argcmsg ~ ", " ~ allocmsg,
+         argspecs(args).count,argspecs(args).allocated);
+}
+/**
+   Stores a single command line argument.
+ */
+ class CmdLin
+{
+    private {
+     int _argc;
+     char[] _argv;
+     static uint _totalc;
+    }
+
+ public:
+/************
+      Object constructor.
+      params:
+        argc = ordinal count of this argument.
+        argv = text of the parameter
+  *********/
+     this(int argc, char[] argv)
+    {
+        _argc = argc + 1;
+        _argv = argv;
+        _totalc++;
+    }
+
+    ~this() /// Object destructor
+     {
+        // Doesn't actually do anything for this example.
+     }
+
+     int argnum() /// A property that returns arg number
+     {
+        return _argc;
+    }
+     char[] argv() /// A property  that returns arg text
+     {
+        return _argv;
+    }
+     wchar[] suffix() /// A property  that returns ordinal suffix
+     {
+        wchar[] suffix;  // Built in  Unicode strings (utf8,utf16, utf32)
+         switch(_argc)
+        {
+        case 1:
+            suffix = "st";
+            break;
+        case 2:
+            suffix = "nd";
+            break;
+        case 3:
+            suffix = "rd";
+            break;
+        default:  // 'default' is mandatory with "-w" compile switch.
+             suffix = "th";
+        }
+        return suffix;
+    }
+
+/* **************
+      * A property of the whole class, not just an instance.
+      * returns: The total number of commandline args added.
+      *************/
+     static typeof(_totalc) total()
+    {
+        return _totalc;
+    }
+     // Class invariant, things that must be true after any method is run.
+     invariant
+     {
+         assert(_argc &gt; 0);
+         assert(_totalc &gt;= _argc);
+     }
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Sort an Array at Compile-Time</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: D;">void main()
+{
+    import std.algorithm, std.conv, std.stdio;
+
+    "Starting program".writeln;
+
+    // Sort a constant declaration at Compile-Time
+    enum a = [ 3, 1, 2, 4, 0 ];
+    static immutable b = sort(a);
+
+    // Print the result _during_ compilation
+    pragma(msg, text("Finished compilation: ", b));
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Count Frequencies of All 2-Tuples</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: D;">void main()
+{
+    import std.stdio : writefln;
+    int[char[2]] aa;
+    auto arr = "ABBBA";
+
+    // Iterate over all pairs in the string and observe each pair
+    // ('A', 'B'), ('B', 'B'), ('B', 'A'), ...
+    // String slicing doesn't allocate a copy
+    foreach (i; 0 .. arr.length - 1)
+        aa[arr[i .. $][0 .. 2]]++;
+
+    foreach (key, value; aa)
+        writefln("key: %s, value: %d", key, value);
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Sieve of Eratosthenes Prime Numbers</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: D;">import std.stdio;
+
+void main()
+{
+    size_t count;
+    bool[8191] flags;
+
+    writeln("10 iterations");
+
+    // using iter as a throwaway variable
+    foreach (iter; 1 .. 11)
+    {
+        count = 0;
+        flags[] = 1;
+
+        foreach (index, flag; flags)
+        {
+            if (flag)
+            {
+                size_t prime = index + index + 3;
+                size_t k = index + prime;
+
+                while (k &lt; flags.length)
+                {
+                    flags[k] = 0;
+                    k += prime;
+                }
+
+                count += 1;
+            }
+        }
+    }
+
+    writefln("%d primes", count);
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+    </body>
+</html>

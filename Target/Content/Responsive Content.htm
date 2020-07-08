@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1>Responsive Content</h1>
+        <MadCap:codeSnippet MadCap:conditions="Default.Web">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Online</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: ActionScript;" xml:space="preserve" madcap-space-after-export="preserve">/*Online output code snippet*/
+package org.example.dummy {
+    import org.dummy.*;
+
+    /*define package inline interface*/
+    public interface IFooBarzable {
+        public function foo(... pairs):Array;
+    }
+
+    public class FooBar implements IFooBarzable {
+        static private var cnt:uint = 0;
+        private var bar:String;
+
+        //constructor
+        public function TestBar(bar:String):void {
+            bar = bar;
+            ++cnt;
+        }
+
+        public function foo(... pairs):Array {
+            pairs.push(bar);
+            return pairs;
+        }
+    }
+}</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet MadCap:conditions="Default.Tablet">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Online Tablet</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Batch;" xml:space="preserve" madcap-space-after-export="preserve">:: Tablet medium code snippet
+:: Foo bar
+REM This is a comment too
+REM Multi-line ^
+comment</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet MadCap:conditions="Default.Mobile">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Online Mobile</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Batch;" xml:space="preserve" madcap-space-after-export="preserve">:: Mobile medium code snippet
+:: Foo bar
+REM This is a comment too
+REM Multi-line ^
+comment</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet MadCap:conditions="Default.PrintOnly">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Print</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Bash;" xml:space="preserve" madcap-space-after-export="preserve"># Print output code snippet
+#!/bin/bash
+
+###### CONFIG
+ACCEPTED_HOSTS="/root/.hag_accepted.conf"
+BE_VERBOSE=false
+
+if [ "$UID" -ne 0 ]
+then
+ echo "Superuser rights required"
+ exit 2
+fi
+
+genApacheConf(){
+ echo -e "# Host ${HOME_DIR}$1/$2 :"
+}
+
+echo '"quoted"' | tr -d \" &gt; text.txt</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+    </body>
+</html>

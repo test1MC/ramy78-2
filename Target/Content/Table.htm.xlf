@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="Table.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="es">
+    <header>
+      <skl><external-file
+          href="Table.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">42</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11"
+        tool-name="Lingo"
+        tool-version="11.0.7114.18563"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Table</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Table</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Link to bookmark in table caption</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Link to bookmark in table caption</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-caption"
+        phase-name="pretrans"><source>Here is the table caption</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Here is the table caption</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>
+                            <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetCaption&gt;</bpt>Titles<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetCaption&gt;</ept>
+                            <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: MarkDown;"&gt;</bpt>Title 1
+==
+
+Title 2
+-------
+
+# Title 1
+## Title 2
+### Title 3
+#### Title 4
+##### Title 5
+###### Title 6<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetBody&gt;</ept>
+                        </source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetCaption&gt;</bpt>Titles<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetCaption&gt;</ept> <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: MarkDown;"&gt;</bpt>Title 1 == Title 2 ------- # Title 1 ## Title 2 ### Title 3 #### Title 4 ##### Title 5 ###### Title 6<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetBody&gt;</ept></mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>
+                            <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetCaption&gt;</bpt>Comments<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetCaption&gt;</ept>
+                            <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Batch;"&gt;</bpt>::
+:: Foo bar
+REM This is a comment too
+REM Multi-line ^
+comment<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetBody&gt;</ept>
+                        </source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetCaption&gt;</bpt>Comments<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetCaption&gt;</ept> <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Batch;"&gt;</bpt>:: :: Foo bar REM This is a comment too REM Multi-line ^ comment<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetBody&gt;</ept></mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>
+                            <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetCaption&gt;</bpt>Highlight.js Example<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetCaption&gt;</ept>
+                            <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetBody MadCap:useLineNumbers="True" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Markdown;" xml:space="preserve" madcap-space-after-export="preserve"&gt;</bpt># hello world
+
+you can write text [with links](http://example.com) inline or [link references][1].
+
+* one _thing_ has *em*phasis
+* two __things__ are **bold**
+
+[1]: http://example.com
+
+---
+
+hello world
+===========
+
+&lt;this_is inline="xml"&gt;&lt;/this_is&gt;
+
+&gt; markdown is so cool
+
+    so are code segments
+
+1. one thing (yeah!)
+2. two thing `i can write code`, and `more` wipee!<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetBody&gt;</ept>
+                        </source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetCaption&gt;</bpt>Highlight.js Example<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetCaption&gt;</ept> <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetBody MadCap:useLineNumbers="True" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Markdown;" xml:space="preserve" madcap-space-after-export="preserve"&gt;</bpt># hello world you can write text [with links](http://example.com) inline or [link references][1].</mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk><mrk
+            mtype="seg"
+            mid="4">* one _thing_ has *em*phasis * two __things__ are **bold** [1]: http://example.com --- hello world =========== &lt;this_is inline="xml"&gt;&lt;/this_is&gt; &gt; markdown is so cool so are code segments 1.</mrk><mrk
+            mtype="protected"
+            mid="5"> </mrk><mrk
+            mtype="seg"
+            mid="6">one thing (yeah!) 2.</mrk><mrk
+            mtype="protected"
+            mid="7"> </mrk><mrk
+            mtype="seg"
+            mid="8">two thing `i can write code`, and `more` wipee!<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetBody&gt;</ept></mrk><mrk
+            mtype="protected"
+            mid="9"> </mrk><mrk
+            mtype="protected"
+            mid="10" /></seg-source><target
+          state="needs-translation"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>
+                            <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: R;"&gt;</bpt># Goal: To make a latex table with results of an OLS regression.
+
+# Get an OLS --
+x1 = runif(100)
+x2 = runif(100, 0, 2)
+y = 2 + 3*x1 + 4*x2 + rnorm(100)
+m = lm(y ~ x1 + x2)
+
+# and print it out prettily --
+library(xtable)
+# Bare --
+xtable(m)
+xtable(anova(m))
+
+# Better --
+print.xtable(xtable(m, caption="My regression",
+                    label="t:mymodel",
+                    digits=c(0,3,2,2,3)),
+             type="latex",
+             file="xtable_demo_ols.tex",
+             table.placement = "tp",
+             latex.environments=c("center", "footnotesize"))
+
+print.xtable(xtable(anova(m),
+                    caption="ANOVA of my regression",
+                    label="t:anova_mymodel"),
+             type="latex",
+             file="xtable_demo_anova.tex",
+             table.placement = "tp",
+             latex.environments=c("center", "footnotesize"))<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetBody&gt;</ept>
+                        </source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: R;"&gt;</bpt># Goal: To make a latex table with results of an OLS regression.</mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk><mrk
+            mtype="seg"
+            mid="4"># Get an OLS -- x1 = runif(100) x2 = runif(100, 0, 2) y = 2 + 3*x1 + 4*x2 + rnorm(100) m = lm(y ~ x1 + x2) # and print it out prettily -- library(xtable) # Bare -- xtable(m) xtable(anova(m)) # Better -- print.xtable(xtable(m, caption="My regression", label="t:mymodel", digits=c(0,3,2,2,3)), type="latex", file="xtable_demo_ols.tex", table.placement = "tp", latex.environments=c("center", "footnotesize")) print.xtable(xtable(anova(m), caption="ANOVA of my regression", label="t:anova_mymodel"), type="latex", file="xtable_demo_anova.tex", table.placement = "tp", latex.environments=c("center", "footnotesize"))<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetBody&gt;</ept></mrk><mrk
+            mtype="protected"
+            mid="5"> </mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>
+                            <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetCaption&gt;</bpt>Titles<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetCaption&gt;</ept>
+                            <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: MarkDown;"&gt;</bpt>Title 1
+==
+
+Title 2
+-------
+
+# Title 1
+## Title 2
+### Title 3
+#### Title 4
+##### Title 5
+###### Title 6<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetBody&gt;</ept>
+                        </source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetCaption&gt;</bpt>Titles<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetCaption&gt;</ept> <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: MarkDown;"&gt;</bpt>Title 1 == Title 2 ------- # Title 1 ## Title 2 ### Title 3 #### Title 4 ##### Title 5 ###### Title 6<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetBody&gt;</ept></mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>
+                            <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetCaption&gt;</bpt>Prism.js Example<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetCaption&gt;</ept>
+                            <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: R;"&gt;</bpt># Goal: To make a latex table with results of an OLS regression.
+
+# Get an OLS --
+x1 = runif(100)
+x2 = runif(100, 0, 2)
+y = 2 + 3*x1 + 4*x2 + rnorm(100)
+m = lm(y ~ x1 + x2)
+
+# and print it out prettily --
+library(xtable)
+# Bare --
+xtable(m)
+xtable(anova(m))
+
+# Better --
+print.xtable(xtable(m, caption="My regression",
+                    label="t:mymodel",
+                    digits=c(0,3,2,2,3)),
+             type="latex",
+             file="xtable_demo_ols.tex",
+             table.placement = "tp",
+             latex.environments=c("center", "footnotesize"))
+
+print.xtable(xtable(anova(m),
+                    caption="ANOVA of my regression",
+                    label="t:anova_mymodel"),
+             type="latex",
+             file="xtable_demo_anova.tex",
+             table.placement = "tp",
+             latex.environments=c("center", "footnotesize"))<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetBody&gt;</ept>
+                        </source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetCaption&gt;</bpt>Prism.js Example<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetCaption&gt;</ept> <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: R;"&gt;</bpt># Goal: To make a latex table with results of an OLS regression.</mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk><mrk
+            mtype="seg"
+            mid="4"># Get an OLS -- x1 = runif(100) x2 = runif(100, 0, 2) y = 2 + 3*x1 + 4*x2 + rnorm(100) m = lm(y ~ x1 + x2) # and print it out prettily -- library(xtable) # Bare -- xtable(m) xtable(anova(m)) # Better -- print.xtable(xtable(m, caption="My regression", label="t:mymodel", digits=c(0,3,2,2,3)), type="latex", file="xtable_demo_ols.tex", table.placement = "tp", latex.environments=c("center", "footnotesize")) print.xtable(xtable(anova(m), caption="ANOVA of my regression", label="t:anova_mymodel"), type="latex", file="xtable_demo_anova.tex", table.placement = "tp", latex.environments=c("center", "footnotesize"))<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetBody&gt;</ept></mrk><mrk
+            mtype="protected"
+            mid="5"> </mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>
+                            <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetCaption&gt;</bpt>Prism.js Example<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetCaption&gt;</ept>
+                            <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: R;"&gt;</bpt># Goal: To make a latex table with results of an OLS regression.
+
+# Get an OLS --
+x1 = runif(100)
+x2 = runif(100, 0, 2)
+y = 2 + 3*x1 + 4*x2 + rnorm(100)
+m = lm(y ~ x1 + x2)
+
+# and print it out prettily --
+library(xtable)
+# Bare --
+xtable(m)
+xtable(anova(m))
+
+# Better --
+print.xtable(xtable(m, caption="My regression",
+                    label="t:mymodel",
+                    digits=c(0,3,2,2,3)),
+             type="latex",
+             file="xtable_demo_ols.tex",
+             table.placement = "tp",
+             latex.environments=c("center", "footnotesize"))
+
+print.xtable(xtable(anova(m),
+                    caption="ANOVA of my regression",
+                    label="t:anova_mymodel"),
+             type="latex",
+             file="xtable_demo_anova.tex",
+             table.placement = "tp",
+             latex.environments=c("center", "footnotesize"))<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetBody&gt;</ept>
+                        </source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetCaption&gt;</bpt>Prism.js Example<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetCaption&gt;</ept> <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: R;"&gt;</bpt># Goal: To make a latex table with results of an OLS regression.</mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk><mrk
+            mtype="seg"
+            mid="4"># Get an OLS -- x1 = runif(100) x2 = runif(100, 0, 2) y = 2 + 3*x1 + 4*x2 + rnorm(100) m = lm(y ~ x1 + x2) # and print it out prettily -- library(xtable) # Bare -- xtable(m) xtable(anova(m)) # Better -- print.xtable(xtable(m, caption="My regression", label="t:mymodel", digits=c(0,3,2,2,3)), type="latex", file="xtable_demo_ols.tex", table.placement = "tp", latex.environments=c("center", "footnotesize")) print.xtable(xtable(anova(m), caption="ANOVA of my regression", label="t:anova_mymodel"), type="latex", file="xtable_demo_anova.tex", table.placement = "tp", latex.environments=c("center", "footnotesize"))<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetBody&gt;</ept></mrk><mrk
+            mtype="protected"
+            mid="5"> </mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-td"
+        phase-name="pretrans"><source>
+                            <bpt
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetCaption&gt;</bpt>Prism.js Example<ept
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetCaption&gt;</ept>
+                            <bpt
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: R;"&gt;</bpt># Goal: To make a latex table with results of an OLS regression.
+
+# Get an OLS --
+x1 = runif(100)
+x2 = runif(100, 0, 2)
+y = 2 + 3*x1 + 4*x2 + rnorm(100)
+m = lm(y ~ x1 + x2)
+
+# and print it out prettily --
+library(xtable)
+# Bare --
+xtable(m)
+xtable(anova(m))
+
+# Better --
+print.xtable(xtable(m, caption="My regression",
+                    label="t:mymodel",
+                    digits=c(0,3,2,2,3)),
+             type="latex",
+             file="xtable_demo_ols.tex",
+             table.placement = "tp",
+             latex.environments=c("center", "footnotesize"))
+
+print.xtable(xtable(anova(m),
+                    caption="ANOVA of my regression",
+                    label="t:anova_mymodel"),
+             type="latex",
+             file="xtable_demo_anova.tex",
+             table.placement = "tp",
+             latex.environments=c("center", "footnotesize"))<ept
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetBody&gt;</ept>
+                        </source><seg-source><mrk
+            mtype="protected"
+            mid="1"> </mrk><mrk
+            mtype="seg"
+            mid="2"><bpt
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetCaption&gt;</bpt>Prism.js Example<ept
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetCaption&gt;</ept> <bpt
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: R;"&gt;</bpt># Goal: To make a latex table with results of an OLS regression.</mrk><mrk
+            mtype="protected"
+            mid="3"> </mrk><mrk
+            mtype="seg"
+            mid="4"># Get an OLS -- x1 = runif(100) x2 = runif(100, 0, 2) y = 2 + 3*x1 + 4*x2 + rnorm(100) m = lm(y ~ x1 + x2) # and print it out prettily -- library(xtable) # Bare -- xtable(m) xtable(anova(m)) # Better -- print.xtable(xtable(m, caption="My regression", label="t:mymodel", digits=c(0,3,2,2,3)), type="latex", file="xtable_demo_ols.tex", table.placement = "tp", latex.environments=c("center", "footnotesize")) print.xtable(xtable(anova(m), caption="ANOVA of my regression", label="t:anova_mymodel"), type="latex", file="xtable_demo_anova.tex", table.placement = "tp", latex.environments=c("center", "footnotesize"))<ept
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/MadCap:codeSnippetBody&gt;</ept></mrk><mrk
+            mtype="protected"
+            mid="5"> </mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="protected"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

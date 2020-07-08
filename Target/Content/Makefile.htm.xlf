@@ -1,0 +1,2121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="Makefile.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="es">
+    <header>
+      <skl><external-file
+          href="Makefile.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">166</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11"
+        tool-name="Lingo"
+        tool-version="11.0.7114.18563"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Makefile</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Makefile</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Uses Highlight.js.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Uses Highlight.js.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Highlight.js Example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Highlight.js Example</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source># Makefile
+
+BUILDDIR      = _build
+EXTRAS       ?= $(BUILDDIR)/extras
+
+.PHONY: main clean
+
+main:
+	@echo "Building main facility..."
+	build_main $(BUILDDIR)
+
+clean:
+	rm -rf $(BUILDDIR)/*</source><seg-source><mrk
+            mtype="seg"
+            mid="1"># Makefile BUILDDIR = _build EXTRAS ?= $(BUILDDIR)/extras .PHONY: main clean main: @echo "Building main facility..."</mrk><mrk
+            mtype="protected"
+            mid="2"> </mrk><mrk
+            mtype="seg"
+            mid="3">build_main $(BUILDDIR) clean: rm -rf $(BUILDDIR)/*</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Comments</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Comments</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source># This is a comment<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>include foo # This is another comment</source><seg-source><mrk
+            mtype="seg"
+            mid="1"># This is a comment<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">include foo # This is another comment</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Targets</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Targets</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>kbd.o command.o files.o : command.h
+display.o insert.o search.o files.o : buffer.h
+
+.PHONY: clean
+clean:
+        rm *.o temp</source><seg-source><mrk
+            mtype="seg"
+            mid="1">kbd.o command.o files.o : command.h display.o insert.o search.o files.o : buffer.h .PHONY: clean clean: rm *.o temp</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Variables</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Variables</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>objects = main.o kbd.o command.o display.o \
+          insert.o search.o files.o utils.o
+
+edit : $(objects)
+        cc -o edit $(objects)
+
+$(objects) : defs.h
+
+%oo: $$&lt; $$^ $$+ $$*
+
+foo : bar/lose
+        cd $(@D) &amp;&amp; gobble $(@F) &gt; ../$@</source><seg-source><mrk
+            mtype="seg"
+            mid="1">objects = main.o kbd.o command.o display.o \ insert.o search.o files.o utils.o edit : $(objects) cc -o edit $(objects) $(objects) : defs.h %oo: $$&lt; $$^ $$+ $$* foo : bar/lose cd $(@D) &amp;&amp; gobble $(@F) &gt; ../$@</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Strings</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Strings</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>STR = 'A string!'
+
+HELLO = 'hello \
+world'
+
+HELLO2 = "hello \
+world"</source><seg-source><mrk
+            mtype="seg"
+            mid="1">STR = 'A string!' HELLO = 'hello \ world' HELLO2 = "hello \ world"</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Directives</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Directives</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>include foo *.mk $(bar)
+
+vpath %.c foo
+
+override define two-lines =
+foo
+$(bar)
+endef
+
+ifeq ($(CC),gcc)
+  libs=$(libs_for_gcc)
+else
+  libs=$(normal_libs)
+endif</source><seg-source><mrk
+            mtype="seg"
+            mid="1">include foo *.mk $(bar) vpath %.c foo override define two-lines = foo $(bar) endef ifeq ($(CC),gcc) libs=$(libs_for_gcc) else libs=$(normal_libs) endif</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Functions</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Functions</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>whoami    := $(shell whoami)
+host-type := $(shell arch)
+
+y = $(subst 1,2,$(x))
+
+dirs := a b c d
+files := $(foreach dir,$(dirs),$(wildcard $(dir)/*))
+
+reverse = $(2) $(1)
+foo = $(call reverse,a,b)
+
+$(foreach prog,$(PROGRAMS),$(eval $(call PROGRAM_template,$(prog))))</source><seg-source><mrk
+            mtype="seg"
+            mid="1">whoami := $(shell whoami) host-type := $(shell arch) y = $(subst 1,2,$(x)) dirs := a b c d files := $(foreach dir,$(dirs),$(wildcard $(dir)/*)) reverse = $(2) $(1) foo = $(call reverse,a,b) $(foreach prog,$(PROGRAMS),$(eval $(call PROGRAM_template,$(prog))))</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Prism.js Example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Prism.js Example</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="18"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>#!/usr/bin/make -f<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># Generated automatically from Makefile.in by configure.<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># Un*x Makefile for GNU tar program.<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># Copyright (C) 1991 Free Software Foundation, Inc.<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph># This program is free software; you can redistribute<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># it and/or modify it under the terms of the GNU<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># General Public License …<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>…<ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>…<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>SHELL = /bin/sh<ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>#### Start of system configuration section. ####<ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>srcdir = .<ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph># If you use gcc, you should either run the<ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># fixincludes script that comes with it or else use<ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># gcc with the -traditional option.<ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>Otherwise ioctl<ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># calls will be compiled incorrectly on some systems.<ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>CC = gcc -O<ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>YACC = bison -y<ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>INSTALL = /usr/local/bin/install -c<ph
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>INSTALLDATA = /usr/local/bin/install -c -m 644<ph
+            id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph># Things you might add to DEFS:<ph
+            id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># -DSTDC_HEADERS<ph
+            id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>If you have ANSI C headers and<ph
+            id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#<ph
+            id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>libraries.<ph
+            id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># -DPOSIX<ph
+            id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">               </ph>If you have POSIX.1 headers and<ph
+            id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#<ph
+            id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>libraries.<ph
+            id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># -DBSD42<ph
+            id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">               </ph>If you have sys/dir.h (unless<ph
+            id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#<ph
+            id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>you use -DPOSIX), sys/file.h,<ph
+            id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#<ph
+            id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>and st_blocks in `struct stat'.<ph
+            id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># -DUSG<ph
+            id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">                 </ph>If you have System V/ANSI C<ph
+            id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#<ph
+            id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>string and memory functions<ph
+            id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#<ph
+            id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>and headers, sys/sysmacros.h,<ph
+            id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#<ph
+            id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>fcntl.h, getcwd, no valloc,<ph
+            id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#<ph
+            id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>and ndir.h (unless<ph
+            id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#<ph
+            id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>you use -DDIRENT).<ph
+            id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># -DNO_MEMORY_H<ph
+            id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">         </ph>If USG or STDC_HEADERS but do not<ph
+            id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#<ph
+            id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>include memory.h.<ph
+            id="52" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># -DDIRENT<ph
+            id="53" xmlns="urn:oasis:names:tc:xliff:document:1.2">              </ph>If USG and you have dirent.h<ph
+            id="54" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#<ph
+            id="55" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>instead of ndir.h.<ph
+            id="56" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># -DSIGTYPE=int<ph
+            id="57" xmlns="urn:oasis:names:tc:xliff:document:1.2">         </ph>If your signal handlers<ph
+            id="58" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#<ph
+            id="59" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>return int, not void.<ph
+            id="60" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># -DNO_MTIO<ph
+            id="61" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>If you lack sys/mtio.h<ph
+            id="62" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#<ph
+            id="63" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>(magtape ioctls).<ph
+            id="64" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># -DNO_REMOTE<ph
+            id="65" xmlns="urn:oasis:names:tc:xliff:document:1.2">           </ph>If you do not have a remote shell<ph
+            id="66" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#<ph
+            id="67" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>or rexec.<ph
+            id="68" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># -DUSE_REXEC<ph
+            id="69" xmlns="urn:oasis:names:tc:xliff:document:1.2">           </ph>To use rexec for remote tape<ph
+            id="70" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#<ph
+            id="71" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>operations instead of<ph
+            id="72" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#<ph
+            id="73" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>forking rsh or remsh.<ph
+            id="74" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># -DVPRINTF_MISSING<ph
+            id="75" xmlns="urn:oasis:names:tc:xliff:document:1.2">     </ph>If you lack vprintf function<ph
+            id="76" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#<ph
+            id="77" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>(but have _doprnt).<ph
+            id="78" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># -DDOPRNT_MISSING<ph
+            id="79" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>If you lack _doprnt function.<ph
+            id="80" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#<ph
+            id="81" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>Also need to define<ph
+            id="82" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#<ph
+            id="83" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>-DVPRINTF_MISSING.<ph
+            id="84" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># -DFTIME_MISSING<ph
+            id="85" xmlns="urn:oasis:names:tc:xliff:document:1.2">       </ph>If you lack ftime system call.<ph
+            id="86" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># -DSTRSTR_MISSING<ph
+            id="87" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>If you lack strstr function.<ph
+            id="88" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># -DVALLOC_MISSING<ph
+            id="89" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>If you lack valloc function.<ph
+            id="90" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># -DMKDIR_MISSING<ph
+            id="91" xmlns="urn:oasis:names:tc:xliff:document:1.2">       </ph>If you lack mkdir and<ph
+            id="92" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#<ph
+            id="93" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>rmdir system calls.<ph
+            id="94" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># -DRENAME_MISSING<ph
+            id="95" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>If you lack rename system call.<ph
+            id="96" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># -DFTRUNCATE_MISSING<ph
+            id="97" xmlns="urn:oasis:names:tc:xliff:document:1.2">   </ph>If you lack ftruncate<ph
+            id="98" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#<ph
+            id="99" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>system call.<ph
+            id="100" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># -DV7<ph
+            id="101" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>On Version 7 Unix (not<ph
+            id="102" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#<ph
+            id="103" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>tested in a long time).<ph
+            id="104" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># -DEMUL_OPEN3<ph
+            id="105" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>If you lack a 3-argument version<ph
+            id="106" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#<ph
+            id="107" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>of open, and want to emulate it<ph
+            id="108" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#<ph
+            id="109" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>with system calls you do have.<ph
+            id="110" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># -DNO_OPEN3<ph
+            id="111" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>If you lack the 3-argument open<ph
+            id="112" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#<ph
+            id="113" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>and want to disable the tar -k<ph
+            id="114" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#<ph
+            id="115" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>option instead of emulating open.<ph
+            id="116" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># -DXENIX<ph
+            id="117" xmlns="urn:oasis:names:tc:xliff:document:1.2">               </ph>If you have sys/inode.h<ph
+            id="118" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#<ph
+            id="119" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>and need it 94 to be included.<ph
+            id="120" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>DEFS =<ph
+            id="121" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>-DSIGTYPE=int -DDIRENT -DSTRSTR_MISSING \<ph
+            id="122" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="123" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>-DVPRINTF_MISSING -DBSD42<ph
+            id="124" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># Set this to rtapelib.o unless you defined NO_REMOTE,<ph
+            id="125" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># in which case make it empty.<ph
+            id="126" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>RTAPELIB = rtapelib.o<ph
+            id="127" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>LIBS =<ph
+            id="128" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>DEF_AR_FILE = /dev/rmt8<ph
+            id="129" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>DEFBLOCKING = 20<ph
+            id="130" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>CDEBUG = -g<ph
+            id="131" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>CFLAGS = $(CDEBUG) -I. -I$(srcdir) $(DEFS) \<ph
+            id="132" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="133" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>-DDEF_AR_FILE=\"$(DEF_AR_FILE)\" \<ph
+            id="134" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="135" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>-DDEFBLOCKING=$(DEFBLOCKING)<ph
+            id="136" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>LDFLAGS = -g<ph
+            id="137" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>prefix = /usr/local<ph
+            id="138" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># Prefix for each installed program,<ph
+            id="139" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># normally empty or `g'.<ph
+            id="140" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>binprefix =<ph
+            id="141" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph># The directory to install tar in.<ph
+            id="142" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>bindir = $(prefix)/bin<ph
+            id="143" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph># The directory to install the info files in.<ph
+            id="144" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>infodir = $(prefix)/info<ph
+            id="145" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>#### End of system configuration section. ####<ph
+            id="146" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>SRCS_C<ph
+            id="147" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>= tar.c create.c extract.c buffer.c<ph
+            id="148" xmlns="urn:oasis:names:tc:xliff:document:1.2">   </ph>\<ph
+            id="149" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="150" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>getoldopt.c update.c gnu.c mangle.c \<ph
+            id="151" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="152" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>version.c list.c names.c diffarch.c \<ph
+            id="153" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="154" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>port.c wildmat.c getopt.c getopt1.c \<ph
+            id="155" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="156" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>regex.c<ph
+            id="157" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>SRCS_Y<ph
+            id="158" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>= getdate.y<ph
+            id="159" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>SRCS<ph
+            id="160" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>= $(SRCS_C) $(SRCS_Y)<ph
+            id="161" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>OBJS<ph
+            id="162" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>= $(SRCS_C:.c=.o) $(SRCS_Y:.y=.o) $(RTAPELIB)<ph
+            id="163" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>AUX =<ph
+            id="164" xmlns="urn:oasis:names:tc:xliff:document:1.2">   </ph>README COPYING ChangeLog Makefile.in<ph
+            id="165" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>\<ph
+            id="166" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="167" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>makefile.pc configure configure.in \<ph
+            id="168" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="169" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>tar.texinfo tar.info* texinfo.tex \<ph
+            id="170" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="171" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>tar.h port.h open3.h getopt.h regex.h \<ph
+            id="172" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="173" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>rmt.h rmt.c rtapelib.c alloca.c \<ph
+            id="174" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="175" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>msd_dir.h msd_dir.c tcexparg.c \<ph
+            id="176" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="177" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>level-0 level-1 backup-specs testpad.c<ph
+            id="178" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>.PHONY: all<ph
+            id="179" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>all:<ph
+            id="180" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>tar rmt tar.info<ph
+            id="181" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>tar:<ph
+            id="182" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>$(OBJS)<ph
+            id="183" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="184" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>$(CC) $(LDFLAGS) -o $@ $(OBJS) $(LIBS)<ph
+            id="185" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>rmt:<ph
+            id="186" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>rmt.c<ph
+            id="187" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="188" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>$(CC) $(CFLAGS) $(LDFLAGS) -o $@ rmt.c<ph
+            id="189" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>tar.info: tar.texinfo<ph
+            id="190" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="191" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>makeinfo tar.texinfo<ph
+            id="192" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>.PHONY: install<ph
+            id="193" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>install: all<ph
+            id="194" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="195" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>$(INSTALL) tar $(bindir)/$(binprefix)tar<ph
+            id="196" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="197" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>-test ! -f rmt || $(INSTALL) rmt /etc/rmt<ph
+            id="198" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="199" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>$(INSTALLDATA) $(srcdir)/tar.info* $(infodir)<ph
+            id="200" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>$(OBJS): tar.h port.h testpad.h<ph
+            id="201" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>regex.o buffer.o tar.o: regex.h<ph
+            id="202" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph># getdate.y has 8 shift/reduce conflicts.<ph
+            id="203" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>testpad.h: testpad<ph
+            id="204" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="205" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>./testpad<ph
+            id="206" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>testpad: testpad.o<ph
+            id="207" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="208" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>$(CC) -o $@ testpad.o<ph
+            id="209" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>TAGS:<ph
+            id="210" xmlns="urn:oasis:names:tc:xliff:document:1.2">   </ph>$(SRCS)<ph
+            id="211" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="212" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>etags $(SRCS)<ph
+            id="213" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>.PHONY: clean<ph
+            id="214" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>clean:<ph
+            id="215" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="216" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>rm -f *.o tar rmt testpad testpad.h core<ph
+            id="217" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>.PHONY: distclean<ph
+            id="218" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>distclean: clean<ph
+            id="219" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="220" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>rm -f TAGS Makefile config.status<ph
+            id="221" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>.PHONY: realclean<ph
+            id="222" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>realclean: distclean<ph
+            id="223" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="224" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>rm -f tar.info*<ph
+            id="225" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>.PHONY: shar<ph
+            id="226" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>shar: $(SRCS) $(AUX)<ph
+            id="227" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="228" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>shar $(SRCS) $(AUX) | compress \<ph
+            id="229" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="230" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>&gt; tar-`sed -e '/version_string/!d' \<ph
+            id="231" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="232" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>-e 's/[^0-9.]*\([0-9.]*\).*/\1/' \<ph
+            id="233" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="234" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>-e q<ph
+            id="235" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="236" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>version.c`.shar.Z<ph
+            id="237" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>.PHONY: dist<ph
+            id="238" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>dist: $(SRCS) $(AUX)<ph
+            id="239" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="240" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>echo tar-`sed \<ph
+            id="241" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="242" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>-e '/version_string/!d' \<ph
+            id="243" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="244" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>-e 's/[^0-9.]*\([0-9.]*\).*/\1/' \<ph
+            id="245" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="246" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>-e q<ph
+            id="247" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="248" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>version.c` &gt; .fname<ph
+            id="249" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="250" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>-rm -rf `cat .fname`<ph
+            id="251" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="252" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>mkdir `cat .fname`<ph
+            id="253" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="254" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>ln $(SRCS) $(AUX) `cat .fname`<ph
+            id="255" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="256" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>tar chZf `cat .fname`.tar.Z `cat .fname`<ph
+            id="257" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="258" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>-rm -rf `cat .fname` .fname<ph
+            id="259" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>tar.zoo: $(SRCS) $(AUX)<ph
+            id="260" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="261" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>-rm -rf tmp.dir<ph
+            id="262" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="263" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>-mkdir tmp.dir<ph
+            id="264" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="265" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>-rm tar.zoo<ph
+            id="266" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="267" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>for X in $(SRCS) $(AUX) ; do \<ph
+            id="268" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="269" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>echo $$X ; \<ph
+            id="270" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="271" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>sed 's/$$/^M/' $$X \<ph
+            id="272" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="273" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>&gt; tmp.dir/$$X ; done<ph
+            id="274" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="275" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>cd tmp.dir ; zoo aM ../tar.zoo *<ph
+            id="276" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="277" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>-rm -rf tmp.dir</source><seg-source><mrk
+            mtype="seg"
+            mid="1">#!/usr/bin/make -f<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2"># Generated automatically from Makefile.in by configure.<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3"># Un*x Makefile for GNU tar program.<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4"># Copyright (C) 1991 Free Software Foundation, Inc.<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5"># This program is free software; you can redistribute<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6"># it and/or modify it under the terms of the GNU<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="7"># General Public License …<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="8">…<ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="9">…<ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="10">SHELL = /bin/sh<ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="11">#### Start of system configuration section.</mrk><mrk
+            mtype="protected"
+            mid="12"> </mrk><mrk
+            mtype="seg"
+            mid="13">####<ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="14">srcdir = .<ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="15"># If you use gcc, you should either run the<ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="16"># fixincludes script that comes with it or else use<ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="17"># gcc with the -traditional option.<ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>Otherwise ioctl<ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="18"># calls will be compiled incorrectly on some systems.<ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="19">CC = gcc -O<ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="20">YACC = bison -y<ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="21">INSTALL = /usr/local/bin/install -c<ph
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="22">INSTALLDATA = /usr/local/bin/install -c -m 644<ph
+              id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="23"># Things you might add to DEFS:<ph
+              id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="24"># -DSTDC_HEADERS<ph
+              id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>If you have ANSI C headers and<ph
+              id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="25">#<ph
+              id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>libraries.</mrk><mrk
+            mtype="seg"
+            mid="26"><ph
+              id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="27"># -DPOSIX<ph
+              id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">               </ph>If you have POSIX.1 headers and<ph
+              id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="28">#<ph
+              id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>libraries.</mrk><mrk
+            mtype="seg"
+            mid="29"><ph
+              id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="30"># -DBSD42<ph
+              id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">               </ph>If you have sys/dir.h (unless<ph
+              id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="31">#<ph
+              id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>you use -DPOSIX), sys/file.h,<ph
+              id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="32">#<ph
+              id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>and st_blocks in `struct stat'.</mrk><mrk
+            mtype="seg"
+            mid="33"><ph
+              id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="34"># -DUSG<ph
+              id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">                 </ph>If you have System V/ANSI C<ph
+              id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="35">#<ph
+              id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>string and memory functions<ph
+              id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="36">#<ph
+              id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>and headers, sys/sysmacros.h,<ph
+              id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="37">#<ph
+              id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>fcntl.h, getcwd, no valloc,<ph
+              id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="38">#<ph
+              id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>and ndir.h (unless<ph
+              id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="39">#<ph
+              id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>you use -DDIRENT).</mrk><mrk
+            mtype="seg"
+            mid="40"><ph
+              id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="41"># -DNO_MEMORY_H<ph
+              id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">         </ph>If USG or STDC_HEADERS but do not<ph
+              id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="42">#<ph
+              id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>include memory.h.</mrk><mrk
+            mtype="seg"
+            mid="43"><ph
+              id="52" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="44"># -DDIRENT<ph
+              id="53" xmlns="urn:oasis:names:tc:xliff:document:1.2">              </ph>If USG and you have dirent.h<ph
+              id="54" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="45">#<ph
+              id="55" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>instead of ndir.h.</mrk><mrk
+            mtype="seg"
+            mid="46"><ph
+              id="56" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="47"># -DSIGTYPE=int<ph
+              id="57" xmlns="urn:oasis:names:tc:xliff:document:1.2">         </ph>If your signal handlers<ph
+              id="58" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="48">#<ph
+              id="59" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>return int, not void.</mrk><mrk
+            mtype="seg"
+            mid="49"><ph
+              id="60" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="50"># -DNO_MTIO<ph
+              id="61" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>If you lack sys/mtio.h<ph
+              id="62" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="51">#<ph
+              id="63" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>(magtape ioctls).</mrk><mrk
+            mtype="seg"
+            mid="52"><ph
+              id="64" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="53"># -DNO_REMOTE<ph
+              id="65" xmlns="urn:oasis:names:tc:xliff:document:1.2">           </ph>If you do not have a remote shell<ph
+              id="66" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="54">#<ph
+              id="67" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>or rexec.</mrk><mrk
+            mtype="seg"
+            mid="55"><ph
+              id="68" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="56"># -DUSE_REXEC<ph
+              id="69" xmlns="urn:oasis:names:tc:xliff:document:1.2">           </ph>To use rexec for remote tape<ph
+              id="70" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="57">#<ph
+              id="71" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>operations instead of<ph
+              id="72" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="58">#<ph
+              id="73" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>forking rsh or remsh.</mrk><mrk
+            mtype="seg"
+            mid="59"><ph
+              id="74" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="60"># -DVPRINTF_MISSING<ph
+              id="75" xmlns="urn:oasis:names:tc:xliff:document:1.2">     </ph>If you lack vprintf function<ph
+              id="76" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="61">#<ph
+              id="77" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>(but have _doprnt).</mrk><mrk
+            mtype="seg"
+            mid="62"><ph
+              id="78" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="63"># -DDOPRNT_MISSING<ph
+              id="79" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>If you lack _doprnt function.</mrk><mrk
+            mtype="seg"
+            mid="64"><ph
+              id="80" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="65">#<ph
+              id="81" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>Also need to define<ph
+              id="82" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="66">#<ph
+              id="83" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>-DVPRINTF_MISSING.</mrk><mrk
+            mtype="seg"
+            mid="67"><ph
+              id="84" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="68"># -DFTIME_MISSING<ph
+              id="85" xmlns="urn:oasis:names:tc:xliff:document:1.2">       </ph>If you lack ftime system call.</mrk><mrk
+            mtype="seg"
+            mid="69"><ph
+              id="86" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="70"># -DSTRSTR_MISSING<ph
+              id="87" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>If you lack strstr function.</mrk><mrk
+            mtype="seg"
+            mid="71"><ph
+              id="88" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="72"># -DVALLOC_MISSING<ph
+              id="89" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>If you lack valloc function.</mrk><mrk
+            mtype="seg"
+            mid="73"><ph
+              id="90" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="74"># -DMKDIR_MISSING<ph
+              id="91" xmlns="urn:oasis:names:tc:xliff:document:1.2">       </ph>If you lack mkdir and<ph
+              id="92" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="75">#<ph
+              id="93" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>rmdir system calls.</mrk><mrk
+            mtype="seg"
+            mid="76"><ph
+              id="94" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="77"># -DRENAME_MISSING<ph
+              id="95" xmlns="urn:oasis:names:tc:xliff:document:1.2">      </ph>If you lack rename system call.</mrk><mrk
+            mtype="seg"
+            mid="78"><ph
+              id="96" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="79"># -DFTRUNCATE_MISSING<ph
+              id="97" xmlns="urn:oasis:names:tc:xliff:document:1.2">   </ph>If you lack ftruncate<ph
+              id="98" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="80">#<ph
+              id="99" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>system call.</mrk><mrk
+            mtype="seg"
+            mid="81"><ph
+              id="100" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="82"># -DV7<ph
+              id="101" xmlns="urn:oasis:names:tc:xliff:document:1.2">                  </ph>On Version 7 Unix (not<ph
+              id="102" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="83">#<ph
+              id="103" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>tested in a long time).</mrk><mrk
+            mtype="seg"
+            mid="84"><ph
+              id="104" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="85"># -DEMUL_OPEN3<ph
+              id="105" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>If you lack a 3-argument version<ph
+              id="106" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="86">#<ph
+              id="107" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>of open, and want to emulate it<ph
+              id="108" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="87">#<ph
+              id="109" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>with system calls you do have.</mrk><mrk
+            mtype="seg"
+            mid="88"><ph
+              id="110" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="89"># -DNO_OPEN3<ph
+              id="111" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>If you lack the 3-argument open<ph
+              id="112" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="90">#<ph
+              id="113" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>and want to disable the tar -k<ph
+              id="114" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="91">#<ph
+              id="115" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>option instead of emulating open.</mrk><mrk
+            mtype="seg"
+            mid="92"><ph
+              id="116" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="93"># -DXENIX<ph
+              id="117" xmlns="urn:oasis:names:tc:xliff:document:1.2">               </ph>If you have sys/inode.h<ph
+              id="118" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="94">#<ph
+              id="119" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>and need it 94 to be included.</mrk><mrk
+            mtype="seg"
+            mid="95"><ph
+              id="120" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="96">DEFS =<ph
+              id="121" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>-DSIGTYPE=int -DDIRENT -DSTRSTR_MISSING \<ph
+              id="122" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="123" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>-DVPRINTF_MISSING -DBSD42<ph
+              id="124" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="97"># Set this to rtapelib.o unless you defined NO_REMOTE,<ph
+              id="125" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="98"># in which case make it empty.<ph
+              id="126" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="99">RTAPELIB = rtapelib.o<ph
+              id="127" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="100">LIBS =<ph
+              id="128" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="101">DEF_AR_FILE = /dev/rmt8<ph
+              id="129" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="102">DEFBLOCKING = 20<ph
+              id="130" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="103">CDEBUG = -g<ph
+              id="131" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="104">CFLAGS = $(CDEBUG) -I. -I$(srcdir) $(DEFS) \<ph
+              id="132" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="133" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>-DDEF_AR_FILE=\"$(DEF_AR_FILE)\" \<ph
+              id="134" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="135" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>-DDEFBLOCKING=$(DEFBLOCKING)<ph
+              id="136" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="105">LDFLAGS = -g<ph
+              id="137" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="106">prefix = /usr/local<ph
+              id="138" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="107"># Prefix for each installed program,<ph
+              id="139" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="108"># normally empty or `g'.<ph
+              id="140" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="109">binprefix =<ph
+              id="141" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="110"># The directory to install tar in.<ph
+              id="142" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="111">bindir = $(prefix)/bin<ph
+              id="143" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="112"># The directory to install the info files in.<ph
+              id="144" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="113">infodir = $(prefix)/info<ph
+              id="145" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="114">#### End of system configuration section.</mrk><mrk
+            mtype="protected"
+            mid="115"> </mrk><mrk
+            mtype="seg"
+            mid="116">####<ph
+              id="146" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="117">SRCS_C<ph
+              id="147" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>= tar.c create.c extract.c buffer.c<ph
+              id="148" xmlns="urn:oasis:names:tc:xliff:document:1.2">   </ph>\<ph
+              id="149" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="150" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>getoldopt.c update.c gnu.c mangle.c \<ph
+              id="151" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="152" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>version.c list.c names.c diffarch.c \<ph
+              id="153" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="154" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>port.c wildmat.c getopt.c getopt1.c \<ph
+              id="155" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="156" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>regex.c<ph
+              id="157" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="118">SRCS_Y<ph
+              id="158" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>= getdate.y<ph
+              id="159" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="119">SRCS<ph
+              id="160" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>= $(SRCS_C) $(SRCS_Y)<ph
+              id="161" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="120">OBJS<ph
+              id="162" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>= $(SRCS_C:.c=.o) $(SRCS_Y:.y=.o) $(RTAPELIB)<ph
+              id="163" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="121">AUX =<ph
+              id="164" xmlns="urn:oasis:names:tc:xliff:document:1.2">   </ph>README COPYING ChangeLog Makefile.in<ph
+              id="165" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>\<ph
+              id="166" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="167" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>makefile.pc configure configure.in \<ph
+              id="168" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="169" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>tar.texinfo tar.info* texinfo.tex \<ph
+              id="170" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="171" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>tar.h port.h open3.h getopt.h regex.h \<ph
+              id="172" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="173" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>rmt.h rmt.c rtapelib.c alloca.c \<ph
+              id="174" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="175" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>msd_dir.h msd_dir.c tcexparg.c \<ph
+              id="176" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="177" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>level-0 level-1 backup-specs testpad.c<ph
+              id="178" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="122">.PHONY: all<ph
+              id="179" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="123">all:<ph
+              id="180" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>tar rmt tar.info<ph
+              id="181" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="124">tar:<ph
+              id="182" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>$(OBJS)<ph
+              id="183" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="184" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>$(CC) $(LDFLAGS) -o $@ $(OBJS) $(LIBS)<ph
+              id="185" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="125">rmt:<ph
+              id="186" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>rmt.c<ph
+              id="187" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="188" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>$(CC) $(CFLAGS) $(LDFLAGS) -o $@ rmt.c<ph
+              id="189" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="126">tar.info: tar.texinfo<ph
+              id="190" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="191" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>makeinfo tar.texinfo<ph
+              id="192" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="127">.PHONY: install<ph
+              id="193" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="128">install: all<ph
+              id="194" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="195" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>$(INSTALL) tar $(bindir)/$(binprefix)tar<ph
+              id="196" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="197" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>-test ! -f rmt || $(INSTALL) rmt /etc/rmt<ph
+              id="198" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="199" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>$(INSTALLDATA) $(srcdir)/tar.info* $(infodir)<ph
+              id="200" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="129">$(OBJS): tar.h port.h testpad.h<ph
+              id="201" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="130">regex.o buffer.o tar.o: regex.h<ph
+              id="202" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="131"># getdate.y has 8 shift/reduce conflicts.<ph
+              id="203" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="132">testpad.h: testpad<ph
+              id="204" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="205" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>./testpad<ph
+              id="206" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="133">testpad: testpad.o<ph
+              id="207" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="208" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>$(CC) -o $@ testpad.o<ph
+              id="209" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="134">TAGS:<ph
+              id="210" xmlns="urn:oasis:names:tc:xliff:document:1.2">   </ph>$(SRCS)<ph
+              id="211" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="212" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>etags $(SRCS)<ph
+              id="213" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="135">.PHONY: clean<ph
+              id="214" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="136">clean:<ph
+              id="215" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="216" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>rm -f *.o tar rmt testpad testpad.h core<ph
+              id="217" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="137">.PHONY: distclean<ph
+              id="218" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="138">distclean: clean<ph
+              id="219" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="220" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>rm -f TAGS Makefile config.status<ph
+              id="221" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="139">.PHONY: realclean<ph
+              id="222" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="140">realclean: distclean<ph
+              id="223" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="224" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>rm -f tar.info*<ph
+              id="225" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="141">.PHONY: shar<ph
+              id="226" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="142">shar: $(SRCS) $(AUX)<ph
+              id="227" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="228" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>shar $(SRCS) $(AUX) | compress \<ph
+              id="229" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="230" xmlns="urn:oasis:names:tc:xliff:document:1.2">          </ph>&gt; tar-`sed -e '/version_string/!d' \<ph
+              id="231" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="232" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>-e 's/[^0-9.]*\([0-9.]*\).*/\1/' \<ph
+              id="233" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="234" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>-e q<ph
+              id="235" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="236" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>version.c`.shar.Z<ph
+              id="237" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="143">.PHONY: dist<ph
+              id="238" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="144">dist: $(SRCS) $(AUX)<ph
+              id="239" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="240" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>echo tar-`sed \<ph
+              id="241" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="242" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>-e '/version_string/!d' \<ph
+              id="243" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="244" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>-e 's/[^0-9.]*\([0-9.]*\).*/\1/' \<ph
+              id="245" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="246" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>-e q<ph
+              id="247" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="248" xmlns="urn:oasis:names:tc:xliff:document:1.2">             </ph>version.c` &gt; .fname<ph
+              id="249" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="250" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>-rm -rf `cat .fname`<ph
+              id="251" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="252" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>mkdir `cat .fname`<ph
+              id="253" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="254" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>ln $(SRCS) $(AUX) `cat .fname`<ph
+              id="255" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="256" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>tar chZf `cat .fname`.tar.Z `cat .fname`<ph
+              id="257" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="258" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>-rm -rf `cat .fname` .fname<ph
+              id="259" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="145">tar.zoo: $(SRCS) $(AUX)<ph
+              id="260" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="261" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>-rm -rf tmp.dir<ph
+              id="262" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="263" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>-mkdir tmp.dir<ph
+              id="264" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="265" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>-rm tar.zoo<ph
+              id="266" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="267" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>for X in $(SRCS) $(AUX) ; do \<ph
+              id="268" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="269" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>echo $$X ; \<ph
+              id="270" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="271" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>sed 's/$$/^M/' $$X \<ph
+              id="272" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="273" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>&gt; tmp.dir/$$X ; done<ph
+              id="274" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="275" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>cd tmp.dir ; zoo aM ../tar.zoo *<ph
+              id="276" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="146"><ph
+              id="277" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>-rm -rf tmp.dir</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="14"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="15"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="16"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="17"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="18"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="19"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="20"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="21"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="22"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="23"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="24"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="25"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="26"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="27"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="28"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="29"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="30"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="31"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="32"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="33"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="34"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="35"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="36"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="37"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="38"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="39"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="40"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="41"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="42"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="43"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="44"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="45"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="46"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="47"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="48"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="49"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="50"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="51"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="52"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="53"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="54"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="55"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="56"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="57"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="58"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="59"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="60"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="61"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="62"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="63"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="64"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="65"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="66"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="67"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="68"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="69"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="70"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="71"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="72"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="73"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="74"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="75"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="76"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="77"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="78"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="79"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="80"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="81"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="82"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="83"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="84"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="85"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="86"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="87"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="88"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="89"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="90"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="91"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="92"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="93"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="94"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="95"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="96"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="97"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="98"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="99"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="100"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="101"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="102"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="103"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="104"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="105"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="106"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="107"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="108"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="109"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="110"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="111"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="112"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="113"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="114"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="115"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="116"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="117"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="118"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="119"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="120"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="121"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="122"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="123"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="124"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="125"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="126"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="127"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="128"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="129"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="130"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="131"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="132"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="133"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="134"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="135"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="136"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="137"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="138"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="139"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="140"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="141"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="142"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="143"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="144"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="145"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="146"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

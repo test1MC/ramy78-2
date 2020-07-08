@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1>Python</h1>
+        <p>Uses AvalonEdit.</p>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Highlight.js Example</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Python;">@requires_authorization
+def somefunc(param1='', param2=0):
+    r'''A docstring'''
+    if param1 &gt; param2: # interesting
+        print 'Gre\'ater'
+    return (param2 - param1 + 1 + 0b10l) or None
+
+class SomeClass:
+    pass
+
+&gt;&gt;&gt; message = '''interpreter
+... prompt'''</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Comments</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Python;"># This is a comment
+# -*- coding: &lt;encoding-name&gt; -*-</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Strings</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Python;">"foo \"bar\" baz"
+'foo \'bar\' baz'
+""" "Multi-line" strings
+are supported."""
+''' 'Multi-line' strings
+are supported.'''</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Numbers</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Python;">7
+2147483647
+0o177
+0b100110111
+3
+79228162514264337593543950336
+0o377
+0x100000000
+0xdeadbeef
+3.14
+10.
+.001
+1e100
+3.14e-10
+0e0
+3.14j
+10.j
+10j
+.001j
+1e100j
+3.14e-10j</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Prism.js Example</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Python;">def median(pool):
+    '''Statistical median to demonstrate doctest.
+    &gt;&gt;&gt; median([2, 9, 9, 7, 9, 2, 4, 5, 8])
+    7
+    '''
+    copy = sorted(pool)
+    size = len(copy)
+    if size % 2 == 1:
+        return copy[(size - 1) / 2]
+    else:
+        return (copy[size/2 - 1] + copy[size/2]) / 2
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="mc-caption-repeat: true;">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Report Logged-On Users By Name</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="True" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Python;" xml:space="preserve" madcap-space-after-export="preserve">#!/usr/bin/python3
+
+# List the account and human names for each person who's logged on.
+# The information is taken from the password file, which is
+# read and loaded first.  The command line argument (if given) is
+# used in place of /etc/passwd.
+from sys import argv
+from string import *
+import os
+
+# Dictionary of entries.
+iddict = { }
+
+# Get the file name.  Note that argv[0] contains the name of the script,
+# so we're getting argv[1], if there is one.
+infile = '/etc/passwd'
+if len(argv) &gt; 1:
+    infile = argv[1]
+
+# Attempt to open the file.  Will just let the program die on the exception
+# if the open fails.
+fin = open(infile, 'r')
+
+# Read the password file and load the information.
+for line in fin.readlines():
+    # Lines starting with # are comments.  Clean leading spaces, and
+    # skip comments.
+    line = str.lstrip(line)
+    if line == '' or line[0] == '#':
+        continue
+
+    # Split the line by the : delimeter, extract the appropriate fields,
+    # and get rid of any leading or trailing blanks.
+    parts = str.split(line, ':')
+    userid = str.strip(parts[0])
+    name = str.strip(parts[4])
+
+    # Trim the contents of the name following the first comma, if any.
+    compos = str.find(name, ',')
+    if compos != -1:
+        name = name[0:compos]
+
+    # If there is no human name, or if equals the login name, say [ none ]
+    if name == '' or name == userid:
+        name = '[ none ]'
+
+    # Enter into the dictionary list.
+    iddict[userid] = name
+
+# Run who to see who is on, and print those users.  When printed, take
+# them out of the list so each user printed only once.
+for line in os.popen('who').readlines():
+    user = str.split(line)[0]
+    if user in iddict:
+        print('%-14s %s' % (user + ':', iddict[user]))
+        del iddict[user]
+</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: ">
+            <MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Hello World</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: Python;">print("Hello World")</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+    </body>
+</html>

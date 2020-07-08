@@ -1,0 +1,985 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="Lua.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="es">
+    <header>
+      <skl><external-file
+          href="Lua.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">75</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11"
+        tool-name="Lingo"
+        tool-version="11.0.7114.18563"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Lua</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Lua</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Uses Highlight.js.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Uses Highlight.js.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Highlight.js Example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Highlight.js Example</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>--[[<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>Simple signal/slot implementation<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>]]<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>local signal_mt = {<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>__index = {<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>register = table.insert<ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>}<ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>function signal_mt.__index:emit(... --[[ Comment in params ]])<ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>for _, slot in ipairs(self) do<ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>slot(self, ...)<ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>end<ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>end<ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>local function create_signal()<ph
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>return setmetatable({}, signal_mt)<ph
+            id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>end<ph
+            id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>-- Signal test<ph
+            id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>local signal = create_signal()<ph
+            id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>signal:register(function(signal, ...)<ph
+            id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>print(...)<ph
+            id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>end)<ph
+            id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>signal:emit('Answer to Life, the Universe, and Everything:', 42)<ph
+            id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>--[==[ [=[ [[<ph
+            id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>Nested ]]<ph
+            id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>multi-line ]=]<ph
+            id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>comment ]==]<ph
+            id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>[==[ Nested<ph
+            id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>[=[ multi-line<ph
+            id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>[[ string<ph
+            id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>]] ]=] ]==]</source><seg-source><mrk
+            mtype="seg"
+            mid="1">--[[<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">Simple signal/slot implementation<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">]]<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">local signal_mt = {<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>__index = {<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>register = table.insert<ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>}<ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">}<ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6">function signal_mt.__index:emit(... --[[ Comment in params ]])<ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>for _, slot in ipairs(self) do<ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>slot(self, ...)<ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>end<ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="7">end<ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="8">local function create_signal()<ph
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>return setmetatable({}, signal_mt)<ph
+              id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="9">end<ph
+              id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="10">-- Signal test<ph
+              id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="11">local signal = create_signal()<ph
+              id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="12">signal:register(function(signal, ...)<ph
+              id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>print(...)<ph
+              id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="13">end)<ph
+              id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="14">signal:emit('Answer to Life, the Universe, and Everything:', 42)<ph
+              id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="15">--[==[ [=[ [[<ph
+              id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="16">Nested ]]<ph
+              id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="17">multi-line ]=]<ph
+              id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="18">comment ]==]<ph
+              id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="19">[==[ Nested<ph
+              id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="20">[=[ multi-line<ph
+              id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="21">[[ string<ph
+              id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="22">]] ]=] ]==]</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="14"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="15"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="16"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="17"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="18"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="19"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="20"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="21"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="22"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Comments</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Comments</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>#!/usr/local/bin/lua<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>--<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>-- Single line comment<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>--[[ Multi line<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>comment ]]<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>--[====[ Multi line<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>comment ]====]</source><seg-source><mrk
+            mtype="seg"
+            mid="1">#!/usr/local/bin/lua<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">--<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">-- Single line comment<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">--[[ Multi line<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">comment ]]<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6">--[====[ Multi line<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="7">comment ]====]</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Strings</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Strings</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>""<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>"Foo\"bar"<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>"Foo\<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>bar \z<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>baz"<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>''<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>'Foo\'bar'<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>'Foo\<ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>bar \z<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>baz'<ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>[[Multi "line"<ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>string]]<ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>[==[Multi [["line"]]<ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>string]==]</source><seg-source><mrk
+            mtype="seg"
+            mid="1">""<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">"Foo\"bar"<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">"Foo\<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">bar \z<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">baz"<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6">''<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="7">'Foo\'bar'<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="8">'Foo\<ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="9">bar \z<ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="10">baz'<ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="11">[[Multi "line"<ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="12">string]]<ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="13">[==[Multi [["line"]]<ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="14">string]==]</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="14"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Numbers</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Numbers</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>3<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>345<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>0xff<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>0xBEBADA<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>3, 3., 3.1, .3,<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>3e12, 3.e-41, 3.1E+1, .3e1<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>0x0.1E<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>0xA23p-4<ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>0X1.921FB54442D18P+1</source><seg-source><mrk
+            mtype="seg"
+            mid="1">3<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">345<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">0xff<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">0xBEBADA<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">3, 3., 3.1, .3,<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6">3e12, 3.e-41, 3.1E+1, .3e1<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="7">0x0.1E<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="8">0xA23p-4<ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="9">0X1.921FB54442D18P+1</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Prism.js Example</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Prism.js Example</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>function To_Functable(t, fn)<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>return setmetatable(t,<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>{<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">     </ph>__index = function(t, k) return fn(k) end,<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">     </ph>__call = function(t, k) return t[k] end<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>})<ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>end<ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>-- Functable bottles of beer implementation<ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>spell_out = {<ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>"One", "Two", "Three", "Four", "Five",<ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>"Six", "Seven", "Eight", "Nine", "Ten",<ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>[0] = "No more",<ph
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>[-1] = "Lots more"<ph
+            id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>spell_out = To_Functable(spell_out, function(i) return i end)<ph
+            id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>bottles = To_Functable({"Just one bottle of beer"},<ph
+            id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>function(i)<ph
+            id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">                         </ph>return spell_out(i) .. " bottles of beer"<ph
+            id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>end)<ph
+            id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>function line1(i)<ph
+            id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>return bottles(i) .. " on the wall, " .. bottles(i) .. "\n"<ph
+            id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>end<ph
+            id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>line2 = To_Functable({[0] = "Go to the store, Buy some more,\n"},<ph
+            id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>function(i)<ph
+            id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>return "Take one down and pass it around,\n"<ph
+            id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>end)<ph
+            id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>function line3(i)<ph
+            id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>return bottles(i) .. " on the wall.\n"<ph
+            id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>end<ph
+            id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>function song(n)<ph
+            id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>for i = n, 0, -1 do<ph
+            id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>io.write(line1(i), line2(i), line3(i - 1), "\n")<ph
+            id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="52" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>end<ph
+            id="53" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>end</source><seg-source><mrk
+            mtype="seg"
+            mid="1">function To_Functable(t, fn)<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>return setmetatable(t,<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>{<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">     </ph>__index = function(t, k) return fn(k) end,<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">     </ph>__call = function(t, k) return t[k] end<ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>})<ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">end<ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">-- Functable bottles of beer implementation<ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">spell_out = {<ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>"One", "Two", "Three", "Four", "Five",<ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>"Six", "Seven", "Eight", "Nine", "Ten",<ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>[0] = "No more",<ph
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>[-1] = "Lots more"<ph
+              id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">}<ph
+              id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6">spell_out = To_Functable(spell_out, function(i) return i end)<ph
+              id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="7">bottles = To_Functable({"Just one bottle of beer"},<ph
+              id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>function(i)<ph
+              id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">                         </ph>return spell_out(i) .. " bottles of beer"<ph
+              id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>end)<ph
+              id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="8">function line1(i)<ph
+              id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>return bottles(i) .. " on the wall, " .. bottles(i) .. "\n"<ph
+              id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="9">end<ph
+              id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="10">line2 = To_Functable({[0] = "Go to the store, Buy some more,\n"},<ph
+              id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>function(i)<ph
+              id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">                       </ph>return "Take one down and pass it around,\n"<ph
+              id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">                     </ph>end)<ph
+              id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="11">function line3(i)<ph
+              id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>return bottles(i) .. " on the wall.\n"<ph
+              id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="12">end<ph
+              id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="13">function song(n)<ph
+              id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>for i = n, 0, -1 do<ph
+              id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>io.write(line1(i), line2(i), line3(i - 1), "\n")<ph
+              id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="52" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>end<ph
+              id="53" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="14">end</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="14"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-h2"
+        phase-name="pretrans"><source>Sad Boy Indie Folk</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Sad Boy Indie Folk</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Listen to Conor Oberst - "Lua"</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Listen to Conor Oberst - "Lua"</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

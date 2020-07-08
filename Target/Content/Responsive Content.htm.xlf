@@ -1,0 +1,543 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="Responsive Content.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="es">
+    <header>
+      <skl><external-file
+          href="Responsive Content.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">35</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11"
+        tool-name="Lingo"
+        tool-version="11.0.7114.18563"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>Responsive Content</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Responsive Content</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Online</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:parentConditions="Default.Web">Online</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>/*Online output code snippet*/<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>package org.example.dummy {<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>import org.dummy.*;<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>/*define package inline interface*/<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>public interface IFooBarzable {<ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>public function foo(... pairs):Array;<ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>}<ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>public class FooBar implements IFooBarzable {<ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>static private var cnt:uint = 0;<ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>private var bar:String;<ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>//constructor<ph
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>public function TestBar(bar:String):void {<ph
+            id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>bar = bar;<ph
+            id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>++cnt;<ph
+            id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>}<ph
+            id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+            id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>public function foo(... pairs):Array {<ph
+            id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>pairs.push(bar);<ph
+            id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>return pairs;<ph
+            id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>}<ph
+            id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>}<ph
+            id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:parentConditions="Default.Web">/*Online output code snippet*/<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:parentConditions="Default.Web">package org.example.dummy {<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>import org.dummy.*;<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>/*define package inline interface*/<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>public interface IFooBarzable {<ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>public function foo(... pairs):Array;<ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>}<ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>public class FooBar implements IFooBarzable {<ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>static private var cnt:uint = 0;<ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>private var bar:String;<ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>//constructor<ph
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>public function TestBar(bar:String):void {<ph
+              id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>bar = bar;<ph
+              id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>++cnt;<ph
+              id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>}<ph
+              id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph><ph
+              id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>public function foo(... pairs):Array {<ph
+              id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>pairs.push(bar);<ph
+              id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">            </ph>return pairs;<ph
+              id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">        </ph>}<ph
+              id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>}<ph
+              id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:parentConditions="Default.Web">}</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Online Tablet</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:parentConditions="Default.Tablet">Online Tablet</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>:: Tablet medium code snippet<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>:: Foo bar<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>REM This is a comment too<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>REM Multi-line ^<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>comment</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:parentConditions="Default.Tablet">:: Tablet medium code snippet<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:parentConditions="Default.Tablet">:: Foo bar<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:parentConditions="Default.Tablet">REM This is a comment too<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:parentConditions="Default.Tablet">REM Multi-line ^<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:parentConditions="Default.Tablet">comment</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Online Mobile</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:parentConditions="Default.Mobile">Online Mobile</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>:: Mobile medium code snippet<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>:: Foo bar<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>REM This is a comment too<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>REM Multi-line ^<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>comment</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:parentConditions="Default.Mobile">:: Mobile medium code snippet<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:parentConditions="Default.Mobile">:: Foo bar<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:parentConditions="Default.Mobile">REM This is a comment too<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:parentConditions="Default.Mobile">REM Multi-line ^<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:parentConditions="Default.Mobile">comment</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Print</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:parentConditions="Default.PrintOnly">Print</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source># Print output code snippet<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>#!/bin/bash<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>###### CONFIG<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>ACCEPTED_HOSTS="/root/.hag_accepted.conf"<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>BE_VERBOSE=false<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>if [ "$UID" -ne 0 ]<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>then<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph> echo "Superuser rights required"<ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph> exit 2<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>fi<ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>genApacheConf(){<ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph> echo -e "# Host ${HOME_DIR}$1/$2 :"<ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>}<ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>echo '"quoted"' | tr -d \" &gt; text.txt</source><seg-source><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:parentConditions="Default.PrintOnly"># Print output code snippet<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:parentConditions="Default.PrintOnly">#!/bin/bash<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:parentConditions="Default.PrintOnly">###### CONFIG<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:parentConditions="Default.PrintOnly">ACCEPTED_HOSTS="/root/.hag_accepted.conf"<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:parentConditions="Default.PrintOnly">BE_VERBOSE=false<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:parentConditions="Default.PrintOnly">if [ "$UID" -ne 0 ]<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:parentConditions="Default.PrintOnly">then<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:parentConditions="Default.PrintOnly"> </mrk><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:parentConditions="Default.PrintOnly">echo "Superuser rights required"<ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="10"
+            MadCap:parentConditions="Default.PrintOnly"> </mrk><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:parentConditions="Default.PrintOnly">exit 2<ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="12"
+            MadCap:parentConditions="Default.PrintOnly">fi<ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:parentConditions="Default.PrintOnly">genApacheConf(){<ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="protected"
+            mid="14"
+            MadCap:parentConditions="Default.PrintOnly"> </mrk><mrk
+            mtype="seg"
+            mid="15"
+            MadCap:parentConditions="Default.PrintOnly">echo -e "# Host ${HOME_DIR}$1/$2 :"<ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="16"
+            MadCap:parentConditions="Default.PrintOnly">}<ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="17"
+            MadCap:parentConditions="Default.PrintOnly">echo '"quoted"' | tr -d \" &gt; text.txt</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="protected"
+            mid="14"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="15"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="16"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="17"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

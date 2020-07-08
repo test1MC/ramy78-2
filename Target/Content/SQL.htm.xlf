@@ -1,0 +1,1139 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xliff
+  version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-strict.xsd" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+  MadCap:translationStatus="untranslated">
+  <file
+    xml:space="preserve"
+    original="SQL.htm"
+    source-language="en-us"
+    MadCap:file-filter=""
+    datatype="xhtml"
+    target-language="es">
+    <header>
+      <skl><external-file
+          href="SQL.htm.skl" /></skl>
+      <phase-group>
+        <phase
+          phase-name="translation"
+          process-name="translation" />
+        <phase
+          phase-name="completion"
+          process-name="translation" />
+        <phase
+          phase-name="approval"
+          process-name="review" />
+        <phase
+          phase-name="pretrans"
+          process-name="pre-translation" />
+      </phase-group>
+      <count-group
+        name="MadCap Statistics">
+        <count
+          count-type="total"
+          unit="segment">97</count>
+        <count
+          count-type="x-subflow"
+          unit="trans-unit">0</count>
+      </count-group>
+      <tool
+        tool-id="MadCap Lingo 11"
+        tool-name="Lingo"
+        tool-version="11.0.7114.18563"
+        tool-company="MadCap Software" />
+    </header>
+    <body><trans-unit
+        id="1"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>SQL</source><seg-source><mrk
+            mtype="seg"
+            mid="1">SQL</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="2"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Uses <bpt
+            id="1"
+            ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://github.com/xv/ICSharpCode.TextEditor-Lexers"&gt;</bpt>XSHD syntax files for ICSharpCode.TextEditor 3.2<ept
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept></source><seg-source><mrk
+            mtype="seg"
+            mid="1">Uses <bpt
+              id="1"
+              ctype="link" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;a href="https://github.com/xv/ICSharpCode.TextEditor-Lexers"&gt;</bpt>XSHD syntax files for ICSharpCode.TextEditor 3.2<ept
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">&lt;/a&gt;</ept></mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="3"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Comments</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Comments</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="4"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source># Single line comment<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>-- Single line comment<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>// Single line comment<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>/* Multi-line<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>comment */</source><seg-source><mrk
+            mtype="seg"
+            mid="1"># Single line comment<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">-- Single line comment<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">// Single line comment<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">/* Multi-line<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">comment */</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="5"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Strings</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Strings</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="6"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>"foo \"bar\" baz"
+'foo \'bar\' baz'
+"Multi-line strings
+are supported"
+'Multi-line strings
+are supported'</source><seg-source><mrk
+            mtype="seg"
+            mid="1">"foo \"bar\" baz" 'foo \'bar\' baz' "Multi-line strings are supported" 'Multi-line strings are supported'</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="7"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Variables</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Variables</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="8"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>SET @variable = 1;
+SET @$_ = 2;
+SET @"quoted-variable" = 3;
+SET @'quoted-variable' = 3;
+SET @`quoted-variable` = 3;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">SET @variable = 1; SET @$_ = 2; SET @"quoted-variable" = 3; SET @'quoted-variable' = 3; SET @`quoted-variable` = 3;</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="9"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Operators</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Operators</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="10"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>SELECT 1 &amp;&amp; 1;
+SELECT 1 OR NULL;
+SELECT 5 &amp; 2*3;
+SELECT 2 BETWEEN 1 AND 3;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">SELECT 1 &amp;&amp; 1; SELECT 1 OR NULL; SELECT 5 &amp; 2*3; SELECT 2 BETWEEN 1 AND 3;</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="11"
+        restype="x-xml-madcap:codesnippetcaption"
+        phase-name="pretrans"><source>Functions and Keywords</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Functions and Keywords</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="12"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>SELECT COUNT(*) AS cpt, MAX(t.pos) AS max_pos
+FROM `my_table`
+LEFT JOIN `other_table` AS t
+WHERE `somecol` IS NOT NULL
+ORDER BY t.other_col DESC</source><seg-source><mrk
+            mtype="seg"
+            mid="1">SELECT COUNT(*) AS cpt, MAX(t.pos) AS max_pos FROM `my_table` LEFT JOIN `other_table` AS t WHERE `somecol` IS NOT NULL ORDER BY t.other_col DESC</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="13"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>#######<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>CREATE DATABASE ON W3SCHOOLS.COM ######<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>CREATE TABLE Person(PID integer, PName varchar (20), PRanking integer, PAge integer);<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>CREATE TABLE Car(CID integer, CName varchar(20), CColor varchar(20));<ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>CREATE TABLE Rental(PID integer, CID integer, Date datetime);<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>INSERT INTO Person (PID, Pname, PRanking, Page)<ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>VALUES (1, "Henry", 1, 24);<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>INSERT INTO Person (PID, Pname, PRanking, Page)<ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>VALUES (2, "Kamal", 2, 33);<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>INSERT INTO Person (PID, Pname, PRanking, Page)<ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>VALUES (3, "Coyote", 3, 62);<ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>INSERT INTO Person (PID, PName, PRanking, PAge)<ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>VALUES (4, "Billy", 1, 14);<ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>INSERT INTO Person (PID, PName, PRanking, PAge)<ph
+            id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>VALUES (5, "Timothy", 2, 2);<ph
+            id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>INSERT INTO Person (PID, PName, PRanking, PAge)<ph
+            id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>VALUES (6, "Daisy", 3, 13);<ph
+            id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>INSERT INTO Car<ph
+            id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>VALUES (1, "KIA RIO", "Silver");<ph
+            id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>INSERT INTO Car<ph
+            id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>VALUES (2, "VW Golf", "Black");<ph
+            id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>INSERT INTO Rental<ph
+            id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>VALUES (1, 1, '2009-01-01')<ph
+            id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>INSERT INTO Rental<ph
+            id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>VALUES (2, 2, '2012-08-01')<ph
+            id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>######<ph
+            id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+
+</ph>#### ANSWERS ####<ph
+            id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>#QUESTION 1<ph
+            id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>SELECT Person.PName FROM Rental<ph
+            id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>INNER JOIN Person ON Rental.PID = Person.PID<ph
+            id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>INNER JOIN Car ON Car.CID = Rental.CIDijij<ph
+            id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>WHERE Car.CID = 15;<ph
+            id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>#QUESTION 2<ph
+            id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>SELECT Person.PName FROM Rental<ph
+            id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>INNER JOIN Person ON Rental.PID = Person.PID<ph
+            id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>INNER JOIN Car ON Car.CID = Rental.CID;<ph
+            id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>#QUESTION 3<ph
+            id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>SELECT Avg(Person.PAge) FROM Person<ph
+            id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>WHERE Person.PAge &gt;= 16;<ph
+            id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>#QUESTION 4<ph
+            id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>SELECT Person.PName FROM Person<ph
+            id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>WHERE Person.PName FROM â€œs%tâ€ and length(Person.PName) &gt;= 5;<ph
+            id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>#QUESTION 5<ph
+            id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>Select Person.PName from Person<ph
+            id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>INNER JOIN Car on Car.CID = Rental.CID<ph
+            id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>INNER JOIN Rental on Rental.PID = Person.PID<ph
+            id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>WHERE Car.CColor IN (â€˜greenâ€™,â€™blueâ€™);<ph
+            id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>#QUESTION 6<ph
+            id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>SELECT Person.PName FROM Person<ph
+            id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>FULL OUTER JOIN Car on Car.CID = Rental.CID<ph
+            id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>FULL OUTER JOIN Rental on Rental.PID = Person.PID<ph
+            id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>WHERE Car.CColor != â€˜redâ€™;<ph
+            id="52" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>#QUESTION 7<ph
+            id="53" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>SELECT Person.PName FROM Person<ph
+            id="54" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>WHERE Person.PAge &gt;<ph
+            id="55" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>(SELECT Person.PAge from Person WHERE Person.PID = 3);<ph
+            id="56" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>#QUESTION 8<ph
+            id="57" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>SELECT Person.PName, min(Person.PAge), Person.PRanking FROM Person<ph
+            id="58" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>GROUP BY Person.PRAnking;<ph
+            id="59" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+
+</ph>#QUESTION 9<ph
+            id="60" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>SELECT Person.PName, min(Person.PAge), Person.PRanking FROM Person<ph
+            id="61" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>WHERE Count(Person.PRanking) &gt;= 2<ph
+            id="62" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>GROUP BY Person.PRanking;<ph
+            id="63" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>#QUESTION 10<ph
+            id="64" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>SELECT Car.CName, count(Rental.PID) from Person<ph
+            id="65" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>INNER JOIN Car on Car.CID = Rental.CID<ph
+            id="66" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>INNER JOIN Rental on Rental.PID = Person.PID<ph
+            id="67" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>GROUP BY Car.CName</source><seg-source><mrk
+            mtype="seg"
+            mid="1">#######<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>CREATE DATABASE ON W3SCHOOLS.COM ######<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">CREATE TABLE Person(PID integer, PName varchar (20), PRanking integer, PAge integer);<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">CREATE TABLE Car(CID integer, CName varchar(20), CColor varchar(20));<ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">CREATE TABLE Rental(PID integer, CID integer, Date datetime);<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">INSERT INTO Person (PID, Pname, PRanking, Page)<ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6">VALUES (1, "Henry", 1, 24);<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="7">INSERT INTO Person (PID, Pname, PRanking, Page)<ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="8">VALUES (2, "Kamal", 2, 33);<ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="9">INSERT INTO Person (PID, Pname, PRanking, Page)<ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="10">VALUES (3, "Coyote", 3, 62);<ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="11">INSERT INTO Person (PID, PName, PRanking, PAge)<ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="12">VALUES (4, "Billy", 1, 14);<ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="13">INSERT INTO Person (PID, PName, PRanking, PAge)<ph
+              id="14" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="14">VALUES (5, "Timothy", 2, 2);<ph
+              id="15" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="15">INSERT INTO Person (PID, PName, PRanking, PAge)<ph
+              id="16" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="16">VALUES (6, "Daisy", 3, 13);<ph
+              id="17" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="17">INSERT INTO Car<ph
+              id="18" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="18">VALUES (1, "KIA RIO", "Silver");<ph
+              id="19" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="19">INSERT INTO Car<ph
+              id="20" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="20">VALUES (2, "VW Golf", "Black");<ph
+              id="21" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="21">INSERT INTO Rental<ph
+              id="22" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="22">VALUES (1, 1, '2009-01-01')<ph
+              id="23" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="23">INSERT INTO Rental<ph
+              id="24" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="24">VALUES (2, 2, '2012-08-01')<ph
+              id="25" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="25">######<ph
+              id="26" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="26">#### ANSWERS ####<ph
+              id="27" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="27">#QUESTION 1<ph
+              id="28" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="28">SELECT Person.PName FROM Rental<ph
+              id="29" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="29">INNER JOIN Person ON Rental.PID = Person.PID<ph
+              id="30" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="30">INNER JOIN Car ON Car.CID = Rental.CIDijij<ph
+              id="31" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="31">WHERE Car.CID = 15;<ph
+              id="32" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="32">#QUESTION 2<ph
+              id="33" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="33">SELECT Person.PName FROM Rental<ph
+              id="34" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="34">INNER JOIN Person ON Rental.PID = Person.PID<ph
+              id="35" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="35">INNER JOIN Car ON Car.CID = Rental.CID;<ph
+              id="36" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="36">#QUESTION 3<ph
+              id="37" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="37">SELECT Avg(Person.PAge) FROM Person<ph
+              id="38" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="38">WHERE Person.PAge &gt;= 16;<ph
+              id="39" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="39">#QUESTION 4<ph
+              id="40" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="40">SELECT Person.PName FROM Person<ph
+              id="41" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="41">WHERE Person.PName FROM â€œs%tâ€ and length(Person.PName) &gt;= 5;<ph
+              id="42" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="42">#QUESTION 5<ph
+              id="43" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="43">Select Person.PName from Person<ph
+              id="44" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="44">INNER JOIN Car on Car.CID = Rental.CID<ph
+              id="45" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="45">INNER JOIN Rental on Rental.PID = Person.PID<ph
+              id="46" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="46">WHERE Car.CColor IN (â€˜greenâ€™,â€™blueâ€™);<ph
+              id="47" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="47">#QUESTION 6<ph
+              id="48" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="48">SELECT Person.PName FROM Person<ph
+              id="49" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="49">FULL OUTER JOIN Car on Car.CID = Rental.CID<ph
+              id="50" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="50">FULL OUTER JOIN Rental on Rental.PID = Person.PID<ph
+              id="51" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="51">WHERE Car.CColor != â€˜redâ€™;<ph
+              id="52" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="52">#QUESTION 7<ph
+              id="53" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="53">SELECT Person.PName FROM Person<ph
+              id="54" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="54">WHERE Person.PAge &gt;<ph
+              id="55" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="55">(SELECT Person.PAge from Person WHERE Person.PID = 3);<ph
+              id="56" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="56">#QUESTION 8<ph
+              id="57" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="57">SELECT Person.PName, min(Person.PAge), Person.PRanking FROM Person<ph
+              id="58" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="58">GROUP BY Person.PRAnking;<ph
+              id="59" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="59">#QUESTION 9<ph
+              id="60" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="60">SELECT Person.PName, min(Person.PAge), Person.PRanking FROM Person<ph
+              id="61" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="61">WHERE Count(Person.PRanking) &gt;= 2<ph
+              id="62" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="62">GROUP BY Person.PRanking;<ph
+              id="63" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="63">#QUESTION 10<ph
+              id="64" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="64">SELECT Car.CName, count(Rental.PID) from Person<ph
+              id="65" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="65">INNER JOIN Car on Car.CID = Rental.CID<ph
+              id="66" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="66">INNER JOIN Rental on Rental.PID = Person.PID<ph
+              id="67" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="67">GROUP BY Car.CName</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="9"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="10"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="11"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="12"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="13"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="14"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="15"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="16"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="17"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="18"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="19"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="20"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="21"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="22"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="23"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="24"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="25"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="26"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="27"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="28"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="29"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="30"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="31"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="32"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="33"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="34"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="35"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="36"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="37"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="38"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="39"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="40"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="41"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="42"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="43"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="44"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="45"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="46"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="47"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="48"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="49"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="50"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="51"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="52"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="53"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="54"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="55"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="56"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="57"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="58"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="59"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="60"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="61"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="62"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="63"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="64"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="65"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="66"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="67"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="14"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>CREATE TABLE "topic" (<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>"id" serial NOT NULL PRIMARY KEY,<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>"forum_id" integer NOT NULL,<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>"subject" varchar(255) NOT NULL<ph
+            id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>);<ph
+            id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>ALTER TABLE "topic"<ph
+            id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>ADD CONSTRAINT forum_id FOREIGN KEY ("forum_id")<ph
+            id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>REFERENCES "forum" ("id");<ph
+            id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph>-- Initials<ph
+            id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>insert into "topic" ("forum_id", "subject")<ph
+            id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>values (2, 'D''artagnian');</source><seg-source><mrk
+            mtype="seg"
+            mid="1">CREATE TABLE "topic" (<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>"id" serial NOT NULL PRIMARY KEY,<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>"forum_id" integer NOT NULL,<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">    </ph>"subject" varchar(255) NOT NULL<ph
+              id="7" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">);<ph
+              id="8" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">ALTER TABLE "topic"<ph
+              id="9" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4">ADD CONSTRAINT forum_id FOREIGN KEY ("forum_id")<ph
+              id="10" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="5">REFERENCES "forum" ("id");<ph
+              id="11" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+
+</ph></mrk><mrk
+            mtype="seg"
+            mid="6">-- Initials<ph
+              id="12" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="7">insert into "topic" ("forum_id", "subject")<ph
+              id="13" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="8">values (2, 'D''artagnian');</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="5"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="6"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="7"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="8"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="15"
+        restype="x-xml-h1"
+        phase-name="pretrans"><source>TSQL</source><seg-source><mrk
+            mtype="seg"
+            mid="1">TSQL</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="16"
+        restype="x-xml-p"
+        phase-name="pretrans"><source>Uses AvalonEdit.</source><seg-source><mrk
+            mtype="seg"
+            mid="1">Uses AvalonEdit.</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+        id="17"
+        restype="x-xml-madcap:codesnippetbody"
+        phase-name="pretrans"><source>DECLARE @var1 NVARCHAR(30);<ph
+            id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>SET @var1 = 'Some Name';<ph
+            id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph>SELECT @var1 = Name<ph
+            id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>FROM Sales.Store<ph
+            id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+            id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>WHERE CustomerID = 100;</source><seg-source><mrk
+            mtype="seg"
+            mid="1">DECLARE @var1 NVARCHAR(30);<ph
+              id="1" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="2">SET @var1 = 'Some Name';<ph
+              id="2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="3">SELECT @var1 = Name<ph
+              id="3" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph><ph
+              id="4" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>FROM Sales.Store<ph
+              id="5" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+</ph></mrk><mrk
+            mtype="seg"
+            mid="4"><ph
+              id="6" xmlns="urn:oasis:names:tc:xliff:document:1.2">  </ph>WHERE CustomerID = 100;</mrk></seg-source><target
+          state="needs-translation"><mrk
+            mtype="seg"
+            mid="1"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="2"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="3"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /><mrk
+            mtype="seg"
+            mid="4"
+            MadCap:segmentStatus="Untranslated"
+            MadCap:matchPercent="0" /></target></trans-unit></body>
+  </file>
+</xliff>

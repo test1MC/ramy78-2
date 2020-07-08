@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:space="preserve">
+    <head>
+    </head>
+    <body>
+        <h1>OCaml</h1>
+        <p>Uses Highlight.js.</p>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: "><MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Highlight.js Example</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: OCaml;">(* This is a
+multiline, (* nested *) comment *)
+type point = { x: float; y: float };;
+let some_string = "this is a string";;
+let rec length lst =
+    match lst with
+      [] -&gt; 0
+    | head :: tail -&gt; 1 + length tail
+  ;;
+exception Test;;
+type expression =
+      Const of float
+    | Var of string
+    | Sum of expression * expression    (* e1 + e2 *)
+    | Diff of expression * expression   (* e1 - e2 *)
+    | Prod of expression * expression   (* e1 * e2 *)
+    | Quot of expression * expression   (* e1 / e2 *)
+class point =
+    object
+      val mutable x = 0
+      method get_x = x
+      method private move d = x &lt;- x + d
+    end;;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: "><MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Comments</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: OCaml;">(* Simple comment *)
+(* Multi-line
+comment *)</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: "><MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Numbers</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: OCaml;">42
+3.14159
+42.
+2.4E+2
+10_452_102
+0xf4 0xff_10_41
+0o427
+0b1100_1111_0000</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: "><MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Strings and characters</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="False" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: OCaml;">"Simple string."
+"String with \"quotes\" in it."
+'c' `c`
+'\'' `\``
+'\123' `\123`
+'\xf4'</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+        <MadCap:codeSnippet style="caption-side: ; mc-caption-repeat: "><MadCap:codeSnippetCopyButton />
+            <MadCap:codeSnippetCaption>Prism.js Example</MadCap:codeSnippetCaption>
+            <MadCap:codeSnippetBody MadCap:useLineNumbers="True" MadCap:lineNumberStart="1" MadCap:continue="False" style="mc-code-lang: OCaml;">module Make_interval(Endpoint : Comparable) = struct
+
+    type t = | Interval of Endpoint.t * Endpoint.t
+             | Empty
+
+    (** [create low high] creates a new interval from [low] to
+        [high].  If [low &gt; high], then the interval is empty *)
+    let create low high =
+      if Endpoint.compare low high &gt; 0 then Empty
+      else Interval (low,high)
+
+    (** Returns true iff the interval is empty *)
+    let is_empty = function
+      | Empty -&gt; true
+      | Interval _ -&gt; false
+
+    (** [contains t x] returns true iff [x] is contained in the
+        interval [t] *)
+    let contains t x =
+      match t with
+      | Empty -&gt; false
+      | Interval (l,h) -&gt;
+        Endpoint.compare x l &gt;= 0 &amp;&amp; Endpoint.compare x h &lt;= 0
+
+    (** [intersect t1 t2] returns the intersection of the two input
+        intervals *)
+    let intersect t1 t2 =
+      let min x y = if Endpoint.compare x y &lt;= 0 then x else y in
+      let max x y = if Endpoint.compare x y &gt;= 0 then x else y in
+      match t1,t2 with
+      | Empty, _ | _, Empty -&gt; Empty
+      | Interval (l1,h1), Interval (l2,h2) -&gt;
+        create (max l1 l2) (min h1 h2)
+
+  end ;;</MadCap:codeSnippetBody>
+        </MadCap:codeSnippet>
+    </body>
+</html>
